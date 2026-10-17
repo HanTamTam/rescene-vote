@@ -754,6 +754,144 @@
       text-decoration: none;
       text-align: center;
     }
+  
+    /* 🔴 실시간 생방송 투표 스마트 배너 */
+    #live-broadcast-banner {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .live-banner-card {
+      border-radius: var(--radius);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    /* 1시간 전 예고 상태 (Disabled) */
+    .live-preview-mode {
+      background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%);
+      border: 2px dashed #f59e0b;
+      color: #92400e;
+    }
+
+    /* 실시간 생방송 투표 진행 중 상태 (Active) */
+    .live-active-mode {
+      background: linear-gradient(135deg, #ffe4e6 0%, #fff1f2 100%);
+      border: 2px solid #e11d48;
+      color: #9f1239;
+      animation: pulse-border 1.5s infinite;
+    }
+
+    @keyframes pulse-border {
+      0% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(225, 29, 72, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0); }
+    }
+
+    .live-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .live-badge.preview {
+      background: #fde68a;
+      color: #b45309;
+    }
+
+    .live-badge.active {
+      background: #e11d48;
+      color: #ffffff;
+    }
+
+    .live-badge.active .dot {
+      width: 8px;
+      height: 8px;
+      background: #ffffff;
+      border-radius: 50%;
+      display: inline-block;
+      animation: blink 0.8s infinite alternate;
+    }
+
+    @keyframes blink {
+      from { opacity: 1; }
+      to { opacity: 0.2; }
+    }
+
+    .live-timer {
+      font-size: 13px;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .live-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+
+    .live-desc {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.45;
+    }
+
+    /* 버튼 스타일 */
+    .btn-live-action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-live-action.disabled {
+      background: #e5e7eb;
+      color: #9ca3af;
+      cursor: not-allowed;
+      pointer-events: none;
+      box-shadow: none;
+    }
+
+    .btn-live-action.enabled {
+      background: #e11d48;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(225, 29, 72, 0.4);
+      animation: pulse-btn 1.2s infinite alternate;
+    }
+
+    @keyframes pulse-btn {
+      from { transform: scale(1); }
+      to { transform: scale(1.02); }
+    }
+
   </style>
 </head>
 <body>
@@ -773,6 +911,10 @@
   </header>
 
   <main class="content">
+
+    <!-- 🔴 실시간 생방송 투표 스마트 알림 (1시간 전 예고 -> 생방 중 활성화 -> 종료 시 자동 숨김) -->
+    <div id="live-broadcast-banner"></div>
+
 
     <!-- 1. Section: 4 Urgent Votes (가장 마감 빠른 순서로 정렬) -->
     <div class="section-head">
@@ -1282,6 +1424,106 @@
 
     container.innerHTML = html;
   }
+
+  
+  // 🔴 실시간 생방송 투표 스마트 타이머 시스템
+  const liveVoteSchedules = [
+    {
+      day: 2, // 화요일
+      name: "SBS M 더 쇼 (THE SHOW)",
+      app: "스타플래닛 (Star Planet)",
+      url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon",
+      previewStart: 17 * 60 + 5, // 17:05
+      liveStart: 18 * 60 + 5,    // 18:05
+      liveEnd: 19 * 60,          // 19:00
+      tip: "1위 후보 진입 시 스타플래닛 앱에서 실시간 투표에 참여해 주세요!"
+    },
+    {
+      day: 3, // 수요일
+      name: "MBC M 쇼! 챔피언",
+      app: "아이돌챔프",
+      url: "https://m.idolchamp.com/",
+      previewStart: 16 * 60,     // 16:00
+      liveStart: 17 * 60,        // 17:00
+      liveEnd: 18 * 60,          // 18:00
+      tip: "사전투표 점수가 반영된 생방송 1위 발표 및 실시간 무대 응원!"
+    },
+    {
+      day: 4, // 목요일
+      name: "Mnet 엠카운트다운",
+      app: "엠넷플러스 (Mnet Plus)",
+      url: "https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e",
+      previewStart: 17 * 60,     // 17:00
+      liveStart: 18 * 60,        // 18:00
+      liveEnd: 19 * 60,          // 19:00
+      tip: "1위 후보 진입 시 엠넷플러스 앱에서 1인 1회 실시간 투표 오픈!"
+    },
+    {
+      day: 6, // 토요일 (오늘!)
+      name: "MBC 쇼! 음악중심",
+      app: "뮤빗 (Mubeat) & 문자투표",
+      url: "https://mubeat.tv/",
+      previewStart: 14 * 60 + 15, // 14:15
+      liveStart: 15 * 60 + 15,    // 15:15
+      liveEnd: 16 * 60 + 15,      // 16:15
+      tip: "1위 후보 진입 시 뮤빗 앱 실시간 투표 + 문자투표(#0505) 동시 참여!"
+    },
+    {
+      day: 0, // 일요일
+      name: "SBS 인기가요",
+      app: "SuperStar X",
+      url: "https://superstarx.io/",
+      previewStart: 14 * 60 + 30, // 14:30
+      liveStart: 15 * 60 + 30,    // 15:30
+      liveEnd: 16 * 60 + 30,      // 16:30
+      tip: "1위 후보 진입 시 SuperStar X 앱 실시간 투표 참여!"
+    }
+  ];
+
+  function checkLiveBroadcastBanner() {
+    const bannerContainer = document.getElementById("live-broadcast-banner");
+    if (!bannerContainer) return;
+
+    const now = new Date();
+    const currentDayOfWeek = now.getDay();
+    const currentMinutes = now.getHours() * 60 + now.getMinutes();
+    const currentSeconds = now.getSeconds();
+
+    // 오늘 요일에 해당하는 생방송 찾기
+    const show = liveVoteSchedules.find(s => s.day === currentDayOfWeek);
+
+    if (!show) {
+      bannerContainer.innerHTML = "";
+      return;
+    }
+
+    // 1) 1시간 전 예고 상태 (previewStart <= now < liveStart)
+    if (currentMinutes >= show.previewStart && currentMinutes < show.liveStart) {
+      const remainingSec = (show.liveStart * 60) - (currentMinutes * 60 + currentSeconds);
+      const mins = Math.floor(remainingSec / 60);
+      const secs = remainingSec % 60;
+      const timeStr = ;
+
+      bannerContainer.innerHTML = ;
+    }
+    // 2) 실시간 생방송 투표 진행 중 상태 (liveStart <= now < liveEnd)
+    else if (currentMinutes >= show.liveStart && currentMinutes < show.liveEnd) {
+      const remainingSec = (show.liveEnd * 60) - (currentMinutes * 60 + currentSeconds);
+      const mins = Math.floor(remainingSec / 60);
+      const secs = remainingSec % 60;
+      const timeStr = ;
+
+      bannerContainer.innerHTML = ;
+    }
+    // 3) 그 외 시간대 (방송 전 또는 방송 종료 후) -> 완전히 숨김
+    else {
+      bannerContainer.innerHTML = "";
+    }
+  }
+
+  // 매초마다 실시간 타이머 및 상태 체크
+  setInterval(checkLiveBroadcastBanner, 1000);
+  checkLiveBroadcastBanner();
 
   // 초기 렌더링
   setDay(currentDay);
