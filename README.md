@@ -15,11 +15,9 @@
 ---
 
 ## 🏆 주요 투표 링크 업데이트 내역
-- **2026 MAMA 공식 이벤트 포털 링크 교체**:
-  - 기존 일반 커뮤니티 투표 링크에서 MAMA 2026 전용 공식 이벤트 페이지([https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=))로 전면 수정되었습니다.
-- **주요 투표 목록**:
-  1. **KGMA Berriz 글로벌 팬 초이스** (~10/20 23:59 마감 / D-3 초긴급)
-  2. **2026 MAMA 팬스초이스 1차 예선** (~10/22 23:59 마감 / 앱 90% + 트위터 RT 10%)
-  3. **제18회 멜론 MMA TOP10 투표** (~10/29 23:59 마감)
-  4. **카카오뱅크 MMA 모두의 스타상** (~10/30 마감 / 투표 반영률 80%)
-  5. **RESCENE 미니 4집 [PULSE] 케타포 공구** (~11/03 17:00 마감)
+- **아이돌챔프(IDOL CHAMP) 모바일 정상 링크 교체**:
+  - 기존 구형 홍보 페이지(`idolchamp.co.kr` - 다운로드 시 'data is not found' 에러 발생)에서 공식 모바일 웹 포털([https://m.idolchamp.com/](https://m.idolchamp.com/)) 및 모바일 앱스토어로 즉시 연결되도록 전면 수정되었습니다.
+- **2026 MAMA 공식 딥링크 교체**:
+  - 엠넷플러스 앱 1차 투표 템플릿 직행 딥링크([https://mnetplus.world/event/2026-mama?deeplink=...](https://mnetplus.world/event/2026-mama)) 적용 완료.
+- **멜론 MMA 2026 모바일 직행 링크 교체**:
+  - 모바일 전용 주소([https://m2.melon.com/mma/2026/vote/top10/](https://m2.melon.com/mma/2026/vote/top10/)) 적용 완료.
