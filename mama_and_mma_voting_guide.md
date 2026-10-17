@@ -10,7 +10,7 @@
 - **진출 기준**: **상위 20위(Top 20)** 내 진입 시 2차 본선 진출 확정!
 
 ### 1️⃣ 앱 투표 (90% 반영)
-- **플랫폼**: [엠넷플러스 MAMA 투표](https://www.mnetplus.world/community/vote)
+- **플랫폼**: [엠넷플러스 MAMA 투표](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=)
 - **빈도**: 1기기 1계정당 매일 1표
 - **선택 방법 (남3 / 여3)**:
   - 👦 **남자 3팀**: 알파드라이브원, 앤더블, 빅뱅

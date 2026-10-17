@@ -10,7 +10,7 @@
 ---
 
 ## 1️⃣ 앱 투표 (90% 반영)
-- **투표처**: [엠넷플러스(Mnet Plus) 모바일 앱 / 웹](https://www.mnetplus.world/community/vote)
+- **투표처**: [엠넷플러스(Mnet Plus) 모바일 앱 / 웹](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=)
 - **투표 한도**: 1기기 1계정당 매일 1표
 - **투표 방법**: 여성 부문 '리센느' 투표 및 상호 연합팀 투표 완료 후 인증
 - **추천 연합 조합 (남3 / 여3)**:

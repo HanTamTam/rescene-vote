@@ -16,7 +16,7 @@
 
 ## 🏆 주요 투표 링크 업데이트 내역
 - **2026 MAMA 공식 이벤트 포털 링크 교체**:
-  - 기존 일반 커뮤니티 투표 링크에서 MAMA 2026 전용 공식 이벤트 페이지([https://www.mnetplus.world/event/ko/2026-mama](https://www.mnetplus.world/event/ko/2026-mama))로 전면 수정되었습니다.
+  - 기존 일반 커뮤니티 투표 링크에서 MAMA 2026 전용 공식 이벤트 페이지([https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=))로 전면 수정되었습니다.
 - **주요 투표 목록**:
   1. **KGMA Berriz 글로벌 팬 초이스** (~10/20 23:59 마감 / D-3 초긴급)
   2. **2026 MAMA 팬스초이스 1차 예선** (~10/22 23:59 마감 / 앱 90% + 트위터 RT 10%)
