@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>RESCENE (리센느) 투표 & 간트 스케줄</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f4f5f9;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-sub: #4b5563;
+      --text-muted: #9ca3af;
+      --primary: #5c62ec;
+      --primary-light: #eef0ff;
+      --kgma-purple: #9333ea;
+      --kgma-bg: #faf5ff;
+      --mama-red: #e11d48;
+      --mama-bg: #fff1f2;
+      --melon-green: #00cd3c;
+      --melon-bg: #f0fdf4;
+      --kb-yellow: #fee500;
+      --kb-bg: #fefce8;
+      --border: #e5e7eb;
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: #e5e7eb;
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      line-height: 1.45;
+    }
+
+    /* Mobile Container */
+    .mobile-app {
+      width: 100%;
+      max-width: 480px;
+      background-color: var(--bg);
+      min-height: 100vh;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-bottom: 90px;
+    }
+
+    /* Sticky Mobile App Bar */
+    .app-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: #1e1b4b;
+      color: #ffffff;
+      padding: 16px 20px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .app-header-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .app-logo {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #ec4899, #8b5cf6);
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    .app-title-wrap h1 {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+    }
+
+    .app-title-wrap p {
+      font-size: 11px;
+      color: #c7d2fe;
+    }
+
+    .today-pill {
+      background: rgba(255, 255, 255, 0.16);
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    /* Content Area */
+    .content {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    /* Section Header */
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2px;
+      padding: 0 2px;
+    }
+
+    .section-head h2 {
+      font-size: 15px;
+      font-weight: 800;
+      color: #1f2937;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .section-head span {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Urgent Vote Cards */
+    .vote-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      position: relative;
+    }
+
+    .vote-card.kgma-border {
+      border-top: 4px solid var(--kgma-purple);
+      background: linear-gradient(180deg, #faf5ff 0%, #ffffff 25%);
+    }
+
+    .vote-card.mama-border {
+      border-top: 4px solid var(--mama-red);
+      background: linear-gradient(180deg, #fff8f8 0%, #ffffff 25%);
+    }
+
+    .vote-card.melon-border {
+      border-top: 4px solid var(--melon-green);
+      background: linear-gradient(180deg, #f7fdf9 0%, #ffffff 25%);
+    }
+
+    .vote-card.kb-border {
+      border-top: 4px solid #eab308;
+      background: linear-gradient(180deg, #fffef5 0%, #ffffff 25%);
+    }
+
+    .card-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .badge-tag {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    .badge-kgma {
+      background: #f3e8ff;
+      color: var(--kgma-purple);
+    }
+
+    .badge-mama {
+      background: #ffe4e6;
+      color: var(--mama-red);
+    }
+
+    .badge-melon {
+      background: #dcfce7;
+      color: #15803d;
+    }
+
+    .badge-kb {
+      background: #fef08a;
+      color: #854d0e;
+    }
+
+    .card-deadline {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .card-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.45;
+    }
+
+    /* MAMA Ratio Highlight */
+    .mama-ratio-banner {
+      background: rgba(225, 29, 72, 0.08);
+      border: 1px dashed rgba(225, 29, 72, 0.3);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: #9f1239;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+    }
+
+    /* MAMA Picks Box in Mobile */
+    .picks-pill-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 12px;
+    }
+
+    .picks-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .picks-label {
+      font-weight: 700;
+      color: #475569;
+      min-width: 44px;
+    }
+
+    .picks-names {
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .picks-names strong {
+      color: var(--mama-red);
+      background: #ffe4e6;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+
+    /* Full Width Touch Action Buttons */
+    .btn-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      height: 46px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.1s ease, filter 0.15s ease;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-mobile:active {
+      transform: scale(0.98);
+    }
+
+    .btn-kgma {
+      background: var(--kgma-purple);
+      color: #ffffff;
+      box-shadow: 0 3px 10px rgba(147, 51, 234, 0.3);
+    }
+
+    .btn-mama {
+      background: var(--mama-red);
+      color: #ffffff;
+      box-shadow: 0 3px 10px rgba(225, 29, 72, 0.3);
+    }
+
+    .btn-melon {
+      background: var(--melon-green);
+      color: #ffffff;
+      box-shadow: 0 3px 10px rgba(0, 205, 60, 0.3);
+    }
+
+    .btn-kb {
+      background: var(--kb-yellow);
+      color: #191600;
+      box-shadow: 0 3px 10px rgba(254, 229, 0, 0.3);
+    }
+
+    .btn-x-vote {
+      background: #0f172a;
+      color: #ffffff;
+      height: 40px;
+      font-size: 13px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-weight: 700;
+    }
+
+    .btn-ktown {
+      background: #0284c7;
+      color: #ffffff;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    /* 📊 GANTT CHART COMPONENT */
+    .gantt-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .gantt-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 11px;
+      font-weight: 700;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .legend-color {
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+    }
+
+    /* Gantt Timeline View */
+    .gantt-track-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .gantt-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .gantt-row-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 12px;
+    }
+
+    .gantt-row-title {
+      font-weight: 800;
+      color: #1f2937;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .gantt-row-dates {
+      font-weight: 600;
+      color: var(--text-muted);
+      font-size: 11px;
+    }
+
+    /* Visual Gantt Bar Track */
+    .gantt-bar-wrap {
+      height: 24px;
+      background: #f1f5f9;
+      border-radius: 6px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Today Indicator Line (10/17) */
+    .today-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 10%;
+      width: 2px;
+      background: #ef4444;
+      z-index: 10;
+    }
+
+    .gantt-bar {
+      height: 100%;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #ffffff;
+      white-space: nowrap;
+      position: relative;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .bar-kgma {
+      left: 0%;
+      width: 20%;
+      background: linear-gradient(90deg, #a855f7, #7e22ce);
+    }
+
+    .bar-mama {
+      left: 0%;
+      width: 28%;
+      background: linear-gradient(90deg, #f43f5e, #be123c);
+    }
+
+    .bar-melon {
+      left: 0%;
+      width: 50%;
+      background: linear-gradient(90deg, #10b981, #059669);
+    }
+
+    .bar-kb {
+      left: 0%;
+      width: 53%;
+      background: linear-gradient(90deg, #fbbf24, #d97706);
+      color: #191600;
+    }
+
+    .bar-mma-alliance {
+      left: 50%;
+      width: 50%;
+      background: linear-gradient(90deg, #6366f1, #4338ca);
+    }
+
+    .timeline-axis {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text-muted);
+      padding: 4px 2px 0;
+      border-top: 1px dashed var(--border);
+      margin-top: 2px;
+    }
+
+    /* Weekly Music Show Gantt Table */
+    .weekly-gantt-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      margin-top: 6px;
+    }
+
+    .weekly-gantt-table th, .weekly-gantt-table td {
+      padding: 6px 4px;
+      text-align: center;
+      border: 1px solid #f1f5f9;
+    }
+
+    .weekly-gantt-table th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 700;
+    }
+
+    .weekly-gantt-table td.show-name {
+      text-align: left;
+      font-weight: 700;
+      color: #1e293b;
+      background: #ffffff;
+      padding-left: 6px;
+      white-space: nowrap;
+    }
+
+    .cell-pre {
+      background: #e0e7ff;
+      color: #3730a3;
+      font-weight: 700;
+      border-radius: 3px;
+    }
+
+    .cell-live {
+      background: #ffe4e6;
+      color: #be123c;
+      font-weight: 800;
+      border-radius: 3px;
+    }
+
+    .cell-today {
+      border: 2px solid #5c62ec !important;
+    }
+
+    /* Day Selector Pills for Mobile */
+    .day-pills-scroll {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding: 4px 2px 8px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .day-pills-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .day-pill-btn {
+      flex: 0 0 calc(14.28% - 5px);
+      min-width: 48px;
+      height: 52px;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-sub);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .day-pill-btn span.today-dot {
+      font-size: 9px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 2px;
+    }
+
+    .day-pill-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(92, 98, 236, 0.3);
+    }
+
+    .day-pill-btn.active span.today-dot {
+      color: #ffffff;
+    }
+
+    /* Day Task Card */
+    .day-task-box {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .mini-task-item {
+      padding: 10px;
+      border-radius: var(--radius-sm);
+      background: #f8fafc;
+      border-left: 3px solid var(--primary);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .mini-task-item.urgent-kgma {
+      border-left-color: var(--kgma-purple);
+      background: #faf5ff;
+    }
+
+    .mini-task-item.urgent-mama {
+      border-left-color: var(--mama-red);
+      background: #fff5f5;
+    }
+
+    .mini-task-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .mini-task-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .mini-task-time {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .mini-task-desc {
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    /* Album Pre-order Box */
+    .album-box {
+      background: linear-gradient(135deg, #0369a1, #0284c7);
+      color: #ffffff;
+      border-radius: var(--radius);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 3px 12px rgba(2, 132, 199, 0.25);
+    }
+
+    .album-meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+    }
+
+    .album-title {
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .album-desc {
+      font-size: 12px;
+      color: #e0f2fe;
+      line-height: 1.5;
+    }
+
+    /* Mobile Quick Hub Links */
+    .hub-mobile-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .hub-btn {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: background 0.15s ease;
+    }
+
+    .hub-btn:active {
+      background: #f3f4f6;
+    }
+
+    .hub-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .hub-txt h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .hub-txt p {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Sticky Bottom Quick Bar */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-width: 480px;
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px 14px;
+      z-index: 50;
+      box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.05);
+      gap: 6px;
+    }
+
+    .nav-btn {
+      flex: 1;
+      height: 42px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="mobile-app">
+
+  <!-- Mobile Sticky App Bar -->
+  <header class="app-header">
+    <div class="app-header-left">
+      <div class="app-logo">RE</div>
+      <div class="app-title-wrap">
+        <h1>리센느 투표 스케줄</h1>
+        <p>REMINE VOTE DASHBOARD</p>
+      </div>
+    </div>
+    <div class="today-pill" id="today-badge">10월 17일(토)</div>
+  </header>
+
+  <main class="content">
+
+    <!-- 1. Section: 4 Urgent Votes (가장 마감 빠른 순서로 정렬) -->
+    <div class="section-head">
+      <h2>🔥 지금 진행 중인 핵심 투표</h2>
+      <span>마감 임박 순서</span>
+    </div>
+
+    <!-- 1-1. [가장 빠름!] KGMA Berriz 투표 (10/20 마감 D-3) -->
+    <div class="vote-card kgma-border">
+      <div class="card-meta-row">
+        <span class="badge-tag badge-kgma">🚨 마감 초비상 (~10/20 23:59)</span>
+        <span class="card-deadline" style="color:var(--kgma-purple);">D-3 남음</span>
+      </div>
+      <div>
+        <h3 class="card-title">KGMA Berriz 글로벌 팬 초이스</h3>
+        <p class="card-desc">베리즈(Berriz) 플랫폼에서 매일 1표 행사 필수!</p>
+      </div>
+      <a href="https://link.berriz.in/ko/web/main/vote/2026kgma/" target="_blank" class="btn-mobile btn-kgma">
+        베리즈(Berriz) 투표창 바로열기 ↗
+      </a>
+    </div>
+
+    <!-- 1-2. MAMA 1차 투표 (10/22 마감 D-5) -->
+    <div class="vote-card mama-border">
+      <div class="card-meta-row">
+        <span class="badge-tag badge-mama">🚨 마감 임박 (~10/22 23:59)</span>
+        <span class="card-deadline" style="color:var(--mama-red);">D-5 (Top20 컷)</span>
+      </div>
+      <div>
+        <h3 class="card-title">2026 MAMA 1차 투표</h3>
+        <p class="card-desc">엠넷플러스 앱 투표 90% + X 해시태그 투표 10%</p>
+      </div>
+
+      <div class="mama-ratio-banner">
+        <span>📱 엠넷플러스 앱 <strong>90%</strong></span>
+        <span>𝕏 트위터 해시태그 <strong>10%</strong></span>
+      </div>
+
+      <div class="picks-pill-box">
+        <div class="picks-row">
+          <span class="picks-label">👦 남자:</span>
+          <span class="picks-names">알파드라이브원 · 앤더블 · 빅뱅</span>
+        </div>
+        <div class="picks-row">
+          <span class="picks-label">👧 여자:</span>
+          <span class="picks-names"><strong>리센느</strong> · 하츠투하츠 · 베이비몬스터</span>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:8px;">
+        <a href="https://www.mnetplus.world/community/vote" target="_blank" class="btn-mobile btn-mama">
+          📱 엠넷플러스 MAMA 앱 투표 (90%) ↗
+        </a>
+        <a href="https://x.com/search?q=%232026MAMAVOTE%20%23rescene&f=live" target="_blank" class="btn-x-vote">
+          𝕏 RT만 해도 완료! #2026MAMAVOTE (10%) ↗
+        </a>
+      </div>
+    </div>
+
+    <!-- 1-3. KakaoBank Special Award (~10/30) -->
+    <div class="vote-card kb-border">
+      <div class="card-meta-row">
+        <span class="badge-tag badge-kb">💛 카카오뱅크 (~10/30)</span>
+        <span style="font-size:12px; font-weight:700; color:#b45309;">투표 80% 반영!</span>
+      </div>
+      <div>
+        <h3 class="card-title">MMA 2026 모두의 스타상</h3>
+        <p class="card-desc">매일 1회 투표 / 만 14세 이상 카뱅 계좌 보유자</p>
+      </div>
+      <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="btn-mobile btn-kb">
+        카카오뱅크 원링크 바로가기 ↗
+      </a>
+    </div>
+
+    <!-- 1-4. Melon MMA TOP 10 (~10/29) -->
+    <div class="vote-card melon-border">
+      <div class="card-meta-row">
+        <span class="badge-tag badge-melon">🍈 멜론 앱 (~10/29 23:59)</span>
+        <span style="font-size:12px; font-weight:700; color:#15803d;">유료 3표 / 무료 1표</span>
+      </div>
+      <div>
+        <h3 class="card-title">제18회 MMA TOP10 투표</h3>
+        <p class="card-desc">멜론 앱 [...] 바로가기 ➔ ★ MMA ➔ [투표하기]</p>
+      </div>
+      <a href="https://www.melon.com/mma/" target="_blank" class="btn-mobile btn-melon">
+        멜론 MMA 투표 열기 ↗
+      </a>
+    </div>
+
+    <!-- 2. 📊 GANTT CHART TIMELINE -->
+    <div class="section-head">
+      <h2>📊 투표 일정 간트 차트 (Gantt)</h2>
+      <span>10월 중순 ~ 11월 중순</span>
+    </div>
+
+    <div class="gantt-card">
+      <div class="gantt-legend">
+        <div class="legend-item"><div class="legend-color" style="background:#a855f7;"></div> KGMA (D-3)</div>
+        <div class="legend-item"><div class="legend-color" style="background:#e11d48;"></div> MAMA 1차</div>
+        <div class="legend-item"><div class="legend-color" style="background:#10b981;"></div> 멜론 TOP10</div>
+        <div class="legend-item"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상</div>
+        <div class="legend-item"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합</div>
+        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/17)</div>
+      </div>
+
+      <div class="gantt-track-list">
+        <!-- Row 0: KGMA (가장 빠름) -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">🚨 KGMA Berriz</span>
+            <span class="gantt-row-dates">10/15 ~ 10/20 마감 (D-3)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="gantt-bar bar-kgma">D-3 마감</div>
+          </div>
+        </div>
+
+        <!-- Row 1: MAMA 1차 -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">🔴 MAMA 1차 예선</span>
+            <span class="gantt-row-dates">10/15 ~ 10/22 마감 (D-5)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="gantt-bar bar-mama">D-5 마감임박</div>
+          </div>
+        </div>
+
+        <!-- Row 2: 멜론 MMA TOP 10 -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">🍈 멜론 MMA TOP10</span>
+            <span class="gantt-row-dates">10/15 ~ 10/29 (매일 투표)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="gantt-bar bar-melon">진행 중 (~10/29)</div>
+          </div>
+        </div>
+
+        <!-- Row 3: 카카오뱅크 모두의 스타상 -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">💛 카뱅 모두의 스타상</span>
+            <span class="gantt-row-dates">10/15 ~ 10/30 (반영 80%)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="gantt-bar bar-kb">매일 1회 (~10/30)</div>
+          </div>
+        </div>
+
+        <!-- Row 4: MMA 알디원 연합 (예정) -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">🏎️ MMA 알디원 연합</span>
+            <span class="gantt-row-dates">10/30 ~ 11/13 (오픈 예정)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="gantt-bar bar-mma-alliance">10/30 오픈</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline Axis Dates -->
+      <div class="timeline-axis">
+        <span>10/15</span>
+        <span style="color:#ef4444; font-weight:800;">10/17(오늘)</span>
+        <span style="color:var(--kgma-purple); font-weight:800;">10/20(KGMA)</span>
+        <span>10/22(MAMA)</span>
+        <span>10/29</span>
+        <span>10/30</span>
+        <span>11/13</span>
+      </div>
+    </div>
+
+    <!-- 3. 💿 ALBUM PRE-ORDER (케타포 공구 안내) -->
+    <div class="section-head">
+      <h2>💿 음반 판매량 총공 (음방 점수 직결)</h2>
+      <span>케타포 음총팀 특전 공구</span>
+    </div>
+
+    <div class="album-box">
+      <div class="album-meta-row">
+        <span style="background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:999px; font-weight:700;">한터·써클차트 100% 반영</span>
+        <span>~11/03(화) 17:00 KST</span>
+      </div>
+      <div>
+        <div class="album-title">RESCENE 4th Mini Album [PULSE] 공구</div>
+        <p class="album-desc">음총팀 전용 할인가 + 팬클럽 명의 판매증명서 + 자체제작 핀버튼 증정</p>
+      </div>
+      <a href="https://kr.ktown4u.com/eventinfo?eve_no=44545722&biz_no=967" target="_blank" class="btn-ktown">
+        케타포 [PULSE] 공구 페이지 바로가기 ↗
+      </a>
+    </div>
+
+    <!-- 4. 📊 WEEKLY MUSIC SHOW GANTT TABLE -->
+    <div class="section-head">
+      <h2>📺 주간 음악방송 간트 사이클</h2>
+      <span>요일별 사전·생방 타임블록</span>
+    </div>
+
+    <div class="gantt-card" style="padding: 12px;">
+      <table class="weekly-gantt-table">
+        <thead>
+          <tr>
+            <th>음방</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+            <th class="cell-today">토(오늘)</th>
+            <th>일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="show-name">더쇼 (스타플래닛)</td>
+            <td class="cell-pre">~14시</td>
+            <td class="cell-live">생방</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="cell-pre">20시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">사전</td>
+          </tr>
+          <tr>
+            <td class="show-name">쇼챔 (아이돌챔프)</td>
+            <td class="cell-pre">~14시</td>
+            <td>-</td>
+            <td class="cell-live">생방</td>
+            <td>-</td>
+            <td class="cell-pre">20시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">사전</td>
+          </tr>
+          <tr>
+            <td class="show-name">엠카 (엠넷플러스)</td>
+            <td class="cell-pre">~10시</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="cell-live">생방</td>
+            <td class="cell-pre">14시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">사전</td>
+          </tr>
+          <tr>
+            <td class="show-name">뮤뱅 (올차트/뮤빗)</td>
+            <td class="cell-pre">11시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">~11시</td>
+            <td>-</td>
+            <td class="cell-live">생방</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="show-name">음중 (뮤빗)</td>
+            <td>-</td>
+            <td class="cell-pre">18시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">~11시</td>
+            <td>-</td>
+            <td class="cell-live">생방</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="show-name">인가 (SuperStarX)</td>
+            <td class="cell-pre">12시~</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">사전</td>
+            <td class="cell-pre">~자정</td>
+            <td>-</td>
+            <td class="cell-live">생방</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="font-size:11px; color:var(--text-muted); display:flex; justify-content:space-between; margin-top:8px;">
+        <span><span style="background:#e0e7ff; padding:2px 5px; border-radius:3px; color:#3730a3; font-weight:700;">사전</span> 사전투표</span>
+        <span><span style="background:#ffe4e6; padding:2px 5px; border-radius:3px; color:#be123c; font-weight:700;">생방</span> 실시간투표</span>
+        <span><span style="border:1.5px solid #5c62ec; padding:1px 4px; border-radius:3px;">토</span> 오늘 요일</span>
+      </div>
+    </div>
+
+    <!-- 5. Section: Today's Tasks & Weekly Rhythm -->
+    <div class="section-head">
+      <h2>📅 요일별 투표 일정 & 오늘 할 일</h2>
+      <span>터치하여 요일 전환</span>
+    </div>
+
+    <div class="day-pills-scroll">
+      <button class="day-pill-btn" onclick="setDay(1)">
+        <span class="today-dot" id="dot-1"></span>월
+      </button>
+      <button class="day-pill-btn" onclick="setDay(2)">
+        <span class="today-dot" id="dot-2"></span>화
+      </button>
+      <button class="day-pill-btn" onclick="setDay(3)">
+        <span class="today-dot" id="dot-3"></span>수
+      </button>
+      <button class="day-pill-btn" onclick="setDay(4)">
+        <span class="today-dot" id="dot-4"></span>목
+      </button>
+      <button class="day-pill-btn" onclick="setDay(5)">
+        <span class="today-dot" id="dot-5"></span>금
+      </button>
+      <button class="day-pill-btn" onclick="setDay(6)">
+        <span class="today-dot" id="dot-6"></span>토
+      </button>
+      <button class="day-pill-btn" onclick="setDay(0)">
+        <span class="today-dot" id="dot-0"></span>일
+      </button>
+    </div>
+
+    <!-- Day Tasks Container -->
+    <div class="day-task-box" id="day-tasks-container">
+      <!-- Injected by JS -->
+    </div>
+
+    <!-- 6. Section: Mobile Link Hub -->
+    <div class="section-head">
+      <h2>🔗 투표 플랫폼 바로가기</h2>
+      <span>탭하여 이동</span>
+    </div>
+
+    <div class="hub-mobile-grid">
+      <a href="https://link.berriz.in/ko/web/main/vote/2026kgma/" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#f3e8ff; color:#9333ea;">베</div>
+        <div class="hub-txt">
+          <h4>베리즈 (Berriz)</h4>
+          <p>KGMA 투표 (~10/20)</p>
+        </div>
+      </a>
+
+      <a href="https://www.mnetplus.world/community/vote" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#ffe4e6; color:#e11d48;">M</div>
+        <div class="hub-txt">
+          <h4>엠넷플러스</h4>
+          <p>MAMA 앱 투표 90%</p>
+        </div>
+      </a>
+
+      <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#fef9c3; color:#a16207;">카</div>
+        <div class="hub-txt">
+          <h4>카카오뱅크</h4>
+          <p>모두의 스타상 투표</p>
+        </div>
+      </a>
+
+      <a href="https://www.melon.com/mma/" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#dcfce7; color:#15803d;">멜</div>
+        <div class="hub-txt">
+          <h4>멜론 MMA</h4>
+          <p>TOP10 투표하기</p>
+        </div>
+      </a>
+
+      <a href="https://kr.ktown4u.com/eventinfo?eve_no=44545722&biz_no=967" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#e0f2fe; color:#0284c7;">앨</div>
+        <div class="hub-txt">
+          <h4>케타포 공구</h4>
+          <p>[PULSE] 앨범 공구</p>
+        </div>
+      </a>
+
+      <a href="http://pf.kakao.com/_WxcxowX/chat" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#fef08a; color:#191600;">톡</div>
+        <div class="hub-txt">
+          <h4>총공팀 카톡</h4>
+          <p>투표 인증 전송</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=inc.rowem.passicon" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#ede9fe; color:#6d28d9;">스</div>
+        <div class="hub-txt">
+          <h4>스타플래닛</h4>
+          <p>더 쇼 사전/생방</p>
+        </div>
+      </a>
+
+      <a href="https://idolchamp.co.kr/" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#e0e7ff; color:#4338ca;">아</div>
+        <div class="hub-txt">
+          <h4>아이돌챔프</h4>
+          <p>쇼챔피언 사전투표</p>
+        </div>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Sticky Bottom Quick Action Bar (4대 핵심 버튼) -->
+  <nav class="bottom-nav">
+    <a href="https://link.berriz.in/ko/web/main/vote/2026kgma/" target="_blank" class="nav-btn btn-kgma">
+      KGMA(D-3) ↗
+    </a>
+    <a href="https://www.mnetplus.world/community/vote" target="_blank" class="nav-btn btn-mama">
+      MAMA(D-5) ↗
+    </a>
+    <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="nav-btn btn-kb">
+      카뱅 특별상 ↗
+    </a>
+    <a href="https://www.melon.com/mma/" target="_blank" class="nav-btn btn-melon">
+      멜론 TOP10 ↗
+    </a>
+  </nav>
+
+</div>
+
+<script>
+  // 요일별 일정 데이터
+  const daySchedules = {
+    0: [ // 일
+      { title: "🚨 KGMA 베리즈 투표 (마감 D-2)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
+      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 #2026MAMAVOTE 글 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://www.melon.com/mma/" },
+      { title: "SBS 인기가요 생방송 투표", time: "15:30 ~ 16:30", desc: "SuperStar X 앱 실시간 투표", urgent: "", url: "https://superstarx.io/" }
+    ],
+    1: [ // 월
+      { title: "🚨 KGMA 베리즈 투표 (마감 D-1)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
+      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://www.melon.com/mma/" },
+      { title: "엠카운트다운 사전투표 마감", time: "오전 10:00 마감", desc: "엠넷플러스 보유 표 전량 투표", urgent: "", url: "https://www.mnetplus.world/community/vote" },
+      { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", urgent: "", url: "https://idolchamp.co.kr/" }
+    ],
+    2: [ // 화
+      { title: "🚨 KGMA 베리즈 투표 오늘 최종 마감!!", time: "오늘 23:59 마감", desc: "오늘 밤 마감됩니다! 베리즈 매일 1표 필수", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
+      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "더 쇼 생방송 실시간 투표", time: "18:05 ~ 19:00", desc: "스타플래닛 실시간 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon" },
+      { title: "음악중심 사전투표 오픈", time: "18:00 오픈", desc: "뮤빗 앱에서 음중 사전투표 시작", urgent: "", url: "https://mubeat.tv/" }
+    ],
+    3: [ // 수
+      { title: "MAMA 앱 90% + 트위터 RT 10% (내일 마감)", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 무대 응원", urgent: "", url: "https://idolchamp.co.kr/" },
+      { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트/뮤빗 마감 전 확인", urgent: "", url: "https://mubeat.tv/" }
+    ],
+    4: [ // 목
+      { title: "🚨 MAMA 1차 투표 오늘 최종 마감!", time: "오늘 밤 23:59 마감", desc: "오늘 밤 11시 59분에 마감됩니다! 앱+트위터 모두 완료", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", urgent: "", url: "https://mubeat.tv/" },
+      { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표", urgent: "", url: "https://www.mnetplus.world/community/vote" }
+    ],
+    5: [ // 금
+      { title: "카카오뱅크 모두의 스타상 마감일!", time: "~10/30 최종마감", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", urgent: "", url: "https://www.mnetplus.world/community/vote" },
+      { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", urgent: "", url: "https://idolchamp.co.kr/" }
+    ],
+    6: [ // 토
+      { title: "🚨 KGMA 베리즈 투표 (마감 D-3)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
+      { title: "MAMA 1차 투표 (마감 D-5)", time: "~10/22 마감", desc: "엠넷플러스 앱 투표 90% + 트위터 RT 10%!", urgent: "urgent-mama", url: "https://www.mnetplus.world/community/vote" },
+      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 참여 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
+      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://www.melon.com/mma/" },
+      { title: "쇼! 음악중심 생방 실시간", time: "15:15 ~ 16:15", desc: "뮤빗 앱 + 문자투표(#0505)", urgent: "", url: "https://mubeat.tv/" }
+    ]
+  };
+
+  const today = new Date();
+  const currentDay = today.getDay();
+  const dayNames = ["일", "월", "화", "수", "목", "금", "토"];
+
+  document.getElementById("today-badge").innerText = 
+    `${today.getMonth() + 1}월 ${today.getDate()}일(${dayNames[currentDay]})`;
+
+  document.getElementById(`dot-${currentDay}`).innerText = "●오늘";
+
+  function setDay(dayIdx) {
+    const buttons = document.querySelectorAll(".day-pill-btn");
+    buttons.forEach((btn, idx) => {
+      const bDay = [1, 2, 3, 4, 5, 6, 0][idx];
+      if (bDay === dayIdx) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+
+    renderTasks(dayIdx);
+  }
+
+  function renderTasks(dayIdx) {
+    const container = document.getElementById("day-tasks-container");
+    const list = daySchedules[dayIdx] || [];
+    let html = "";
+
+    list.forEach(item => {
+      html += `
+        <div class="mini-task-item ${item.urgent || ''}">
+          <div class="mini-task-header">
+            <span class="mini-task-title">${item.title}</span>
+            <span class="mini-task-time">${item.time}</span>
+          </div>
+          <p class="mini-task-desc">${item.desc}</p>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  }
+
+  // 초기 렌더링
+  setDay(currentDay);
+</script>
+
+</body>
+</html>
