@@ -1302,7 +1302,7 @@
         </div>
       </a>
 
-      <a href="https://m.idolchamp.com/" target="_blank" class="hub-btn">
+      <a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" onclick="openIdolChamp(event)" target="_blank" class="hub-btn">
         <div class="hub-icon" style="background:#e0e7ff; color:#4338ca;">아</div>
         <div class="hub-txt">
           <h4>아이돌챔프</h4>
@@ -1347,7 +1347,7 @@
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
       { title: "엠카운트다운 사전투표 마감", time: "오전 10:00 마감", desc: "엠넷플러스 보유 표 전량 투표", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", urgent: "", url: "https://m.idolchamp.com/" }
+      { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
     2: [ // 화
       { title: "🚨 KGMA 베리즈 투표 오늘 최종 마감!!", time: "오늘 23:59 마감", desc: "오늘 밤 마감됩니다! 베리즈 매일 1표 필수", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
@@ -1359,7 +1359,7 @@
     3: [ // 수
       { title: "MAMA 앱 90% + 트위터 RT 10% (내일 마감)", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 무대 응원", urgent: "", url: "https://m.idolchamp.com/" },
+      { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 무대 응원", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" },
       { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트/뮤빗 마감 전 확인", urgent: "", url: "https://mubeat.tv/" }
     ],
     4: [ // 목
@@ -1371,7 +1371,7 @@
     5: [ // 금
       { title: "카카오뱅크 모두의 스타상 마감일!", time: "~10/30 최종마감", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", urgent: "", url: "https://m.idolchamp.com/" }
+      { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
     6: [ // 토
       { title: "🚨 KGMA 베리즈 투표 (마감 D-3)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
@@ -1448,7 +1448,7 @@ const liveVoteSchedules = [
     day: 3, // 수요일
     name: "MBC M 쇼! 챔피언",
     app: "아이돌챔프",
-    url: "https://m.idolchamp.com/",
+    url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient",
     previewStart: 16 * 60,     // 16:00
     liveStart: 17 * 60,        // 17:00
     liveEnd: 18 * 60,          // 18:00
@@ -1560,6 +1560,31 @@ setInterval(checkLiveBroadcastBanner, 1000);
 
 
   // 초기 렌더링
+  
+  // 📱 아이돌챔프 스마트 앱 실행 및 스토어 연결
+  function openIdolChamp(e) {
+    if (e) e.preventDefault();
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isAndroid = /Android/.test(navigator.userAgent);
+
+    if (isIOS) {
+      const start = Date.now();
+      window.location.href = "idolchamp://";
+      setTimeout(function() {
+        if (Date.now() - start < 1500) {
+          window.open("https://apps.apple.com/kr/app/idolchamp/id1185735018", "_blank");
+        }
+      }, 800);
+    } else if (isAndroid) {
+      window.location.href = "intent://#Intent;scheme=idolchamp;package=com.nwz.ichampclient;end";
+      setTimeout(function() {
+        window.open("https://play.google.com/store/apps/details?id=com.nwz.ichampclient", "_blank");
+      }, 800);
+    } else {
+      window.open("https://play.google.com/store/apps/details?id=com.nwz.ichampclient", "_blank");
+    }
+  }
+
   setDay(currentDay);
 </script>
 
