@@ -1126,20 +1126,20 @@
         <thead>
           <tr>
             <th>음방</th>
-            <th>월</th>
-            <th>화</th>
-            <th>수</th>
-            <th>목</th>
-            <th>금</th>
-            <th class="cell-today">토(오늘)</th>
-            <th>일</th>
+            <th id="th-day-1">월</th>
+            <th id="th-day-2">화</th>
+            <th id="th-day-3">수</th>
+            <th id="th-day-4">목</th>
+            <th id="th-day-5">금</th>
+            <th id="th-day-6">토</th>
+            <th id="th-day-0">일</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="show-name">더쇼 (스타플래닛)</td>
             <td class="cell-pre">~14시</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 18:05</td>
             <td>-</td>
             <td>-</td>
             <td class="cell-pre">20시~</td>
@@ -1150,7 +1150,7 @@
             <td class="show-name">쇼챔 (아이돌챔프)</td>
             <td class="cell-pre">~14시</td>
             <td>-</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 17:00</td>
             <td>-</td>
             <td class="cell-pre">20시~</td>
             <td class="cell-pre">사전</td>
@@ -1161,7 +1161,7 @@
             <td class="cell-pre">~10시</td>
             <td>-</td>
             <td>-</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 18:00</td>
             <td class="cell-pre">14시~</td>
             <td class="cell-pre">사전</td>
             <td class="cell-pre">사전</td>
@@ -1172,7 +1172,7 @@
             <td class="cell-pre">사전</td>
             <td class="cell-pre">~11시</td>
             <td>-</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 17:05</td>
             <td>-</td>
             <td>-</td>
           </tr>
@@ -1183,7 +1183,7 @@
             <td class="cell-pre">사전</td>
             <td class="cell-pre">~11시</td>
             <td>-</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 15:15</td>
             <td>-</td>
           </tr>
           <tr>
@@ -1194,7 +1194,7 @@
             <td class="cell-pre">사전</td>
             <td class="cell-pre">~자정</td>
             <td>-</td>
-            <td class="cell-live">생방</td>
+            <td class="cell-live">생방 15:30</td>
           </tr>
         </tbody>
       </table>
@@ -1587,22 +1587,14 @@ setInterval(checkLiveBroadcastBanner, 1000);
   }
 
   
-  // 📋 MAMA 투표 & 연합 해시태그 6종 원터치 복사
-  function copyAllAllianceTags() {
-    const tags = ;
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(tags).then(() => {
-        alert('연합 해시태그가 복사되었습니다! 트위터에 붙여넣어 인증하세요.');
-      });
-    } else {
-      const ta = document.createElement('textarea');
-      ta.value = tags;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      alert('연합 해시태그가 복사되었습니다! 트위터에 붙여넣어 인증하세요.');
-    }
+
+
+  
+  // 음방 간트 표의 오늘 요일 열 하이라이트
+  const todayTh = document.getElementById("th-day-" + currentDay);
+  if (todayTh) {
+    todayTh.classList.add('cell-today');
+    todayTh.innerText = todayTh.innerText + '(오늘)';
   }
 
   setDay(currentDay);
