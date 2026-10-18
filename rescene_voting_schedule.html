@@ -172,6 +172,33 @@
       background: linear-gradient(180deg, #f7fdf9 0%, #ffffff 25%);
     }
 
+        .vote-card.aaa-border {
+      border-top: 4px solid #06b6d4;
+      background: linear-gradient(180deg, #ecfeff 0%, #ffffff 25%);
+    }
+
+    .badge-aaa {
+      background: #cffafe;
+      color: #0891b2;
+    }
+
+    .btn-idolchamp {
+      background: linear-gradient(135deg, #06b6d4, #0284c7);
+      color: #ffffff;
+      box-shadow: 0 3px 10px rgba(6, 182, 212, 0.3);
+    }
+
+    .bar-aaa {
+      left: 0%;
+      width: 62%;
+      background: linear-gradient(90deg, #06b6d4, #3b82f6);
+    }
+
+    .mini-task-item.urgent-aaa {
+      border-left-color: #06b6d4;
+      background: #ecfeff;
+    }
+
     .vote-card.kb-border {
       border-top: 4px solid #eab308;
       background: linear-gradient(180deg, #fffef5 0%, #ffffff 25%);
@@ -1085,6 +1112,42 @@
         멜론 MMA 투표 열기 ↗
       </a>
     </div>
+    <!-- 1-5. [신규 연합!] 아이돌챔프 AAA 인기상 (~11/04) -->
+    <div class="vote-card aaa-border">
+      <div class="card-meta-row">
+        <span class="badge-tag badge-aaa">✨ 리마인 🤝🏻 이파리 연합 (~11/04)</span>
+        <span class="card-deadline" style="color:#0891b2;">D-17 (아챔 100%)</span>
+      </div>
+      <div>
+        <h3 class="card-title">[AAA 2026] 인기상 : 이세계아이돌 투표</h3>
+        <p class="card-desc">아이돌챔프 앱에서 <strong>이세계아이돌</strong>에게 1일 최대 100표 투표! (10/30부터 이파리가 멜론 MMA 리센느 전폭 지원)</p>
+      </div>
+
+      <div style="background: rgba(6, 182, 212, 0.08); border: 1px dashed rgba(6, 182, 212, 0.4); border-radius: 8px; padding: 8px 10px; font-size: 12px; color: #0e7490; font-weight: 700; line-height: 1.45;">
+        ⚡ <strong>6시간 분할 투표 룰렛 꿀팁:</strong> 투표 1회 시 룰렛(최대 100❤)이 열리며 쿨타임은 6시간! 하루 100표를 몰아서 쓰지 말고 <strong>6시간 간격으로 나누어 투표</strong> 시 루비 페이백 극대화!
+      </div>
+
+      <div class="picks-pill-box">
+        <div class="picks-row">
+          <span class="picks-label">🎁 투표:</span>
+          <span class="picks-names"><strong style="color:#0891b2; background:#cffafe;">이세계아이돌</strong> (아이돌챔프 앱 100%)</span>
+        </div>
+        <div class="picks-row">
+          <span class="picks-label">🤝 품앗이:</span>
+          <span class="picks-names"><strong>리센느</strong> (10/30~11/13 멜론 MMA TOP10)</span>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:8px;">
+        <a href="http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" target="_blank" class="btn-mobile btn-idolchamp">
+          📱 아이돌챔프 [이세계아이돌] 투표 바로가기 ↗
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%9D%B4%ED%8C%8C%EB%A6%AC_%EC%B0%A8%EC%9B%90%EC%9D%84_%EB%84%98%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%0A%23ISEGYEIDOL%20%23%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; font-size:13px;">
+          𝕏 연합 인증 트윗 작성 (#리마인과_이파리_차원을_넘어) ↗
+        </a>
+      </div>
+    </div>
+
 
     <!-- 2. 📊 GANTT CHART TIMELINE -->
     <div class="section-head">
@@ -1098,6 +1161,7 @@
         <div class="legend-item"><div class="legend-color" style="background:#e11d48;"></div> MAMA 1차</div>
         <div class="legend-item"><div class="legend-color" style="background:#10b981;"></div> 멜론 TOP10</div>
         <div class="legend-item"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상</div>
+        <div class="legend-item"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리</div>
         <div class="legend-item"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합</div>
         <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/18)</div>
       </div>
@@ -1151,15 +1215,27 @@
           </div>
         </div>
 
+                <!-- Row: AAA 이파리 연합 -->
+        <div class="gantt-row">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">✨ AAA 이파리 연합 (아챔)</span>
+            <span class="gantt-row-dates">10/08 ~ 11/04 마감 (D-17)</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" title="오늘(10/18)"></div>
+            <div class="gantt-bar bar-aaa">이세계아이돌 투표 (~11/04)</div>
+          </div>
+        </div>
+
         <!-- Row 4: MMA 알디원 연합 (예정) -->
         <div class="gantt-row">
           <div class="gantt-row-info">
-            <span class="gantt-row-title">🏎️ MMA 알디원 연합</span>
+            <span class="gantt-row-title">🏎️ MMA 연합 (이파리 & 앨리즈)</span>
             <span class="gantt-row-dates">10/30 ~ 11/13 (오픈 예정)</span>
           </div>
           <div class="gantt-bar-wrap">
             <div class="today-line" title="오늘(10/17)"></div>
-            <div class="gantt-bar bar-mma-alliance">10/30 오픈</div>
+            <div class="gantt-bar bar-mma-alliance">이파리+앨리즈 리센느 총공</div>
           </div>
         </div>
       </div>
@@ -1172,6 +1248,7 @@
         <span>10/22(MAMA)</span>
         <span>10/29</span>
         <span>10/30</span>
+        <span style="color:#0891b2; font-weight:800;">11/04(AAA)</span>
         <span>11/13</span>
       </div>
     </div>
@@ -1405,11 +1482,11 @@
         </div>
       </a>
 
-      <a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" onclick="openIdolChamp(event)" target="_blank" class="hub-btn">
-        <div class="hub-icon" style="background:#e0e7ff; color:#4338ca;">아</div>
+      <a href="http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#cffafe; color:#0891b2;">아</div>
         <div class="hub-txt">
           <h4>아이돌챔프</h4>
-          <p>쇼챔피언 사전투표</p>
+          <p>AAA 연합 / 쇼챔 사전</p>
         </div>
       </a>
     </div>
@@ -1437,14 +1514,16 @@
 <script>
   // 요일별 일정 데이터
   const daySchedules = {
-    0: [ // 일
+    0: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 일
       { title: "🚨 KGMA 베리즈 투표 (마감 D-2)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
       { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 #2026MAMAVOTE 글 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
       { title: "SBS 인기가요 (결방 - 야구 중계)", time: "10/18 생방없음", desc: "야구 포스트시즌 중계로 이번 주 생방송 및 실시간 투표는 쉽니다.", urgent: "", cancelled: true, url: "" }
     ],
-    1: [ // 월
+    1: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 월
       { title: "🚨 KGMA 베리즈 투표 (마감 D-1)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
       { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
@@ -1452,31 +1531,36 @@
       { title: "엠카운트다운 사전투표 마감", time: "오전 10:00 마감", desc: "엠넷플러스 보유 표 전량 투표", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
-    2: [ // 화
+    2: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 화
       { title: "🚨 KGMA 베리즈 투표 오늘 최종 마감!!", time: "오늘 23:59 마감", desc: "오늘 밤 마감됩니다! 베리즈 매일 1표 필수", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
       { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "더 쇼 생방송 실시간 투표", time: "18:05 ~ 19:00", desc: "스타플래닛 실시간 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon" },
       { title: "음악중심 사전투표 오픈", time: "18:00 오픈", desc: "뮤빗 앱에서 음중 사전투표 시작", urgent: "", url: "https://mubeat.tv/" }
     ],
-    3: [ // 수
+    3: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 수
       { title: "MAMA 앱 90% + 트위터 RT 10% (내일 마감)", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 무대 응원", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" },
       { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트/뮤빗 마감 전 확인", urgent: "", url: "https://mubeat.tv/" }
     ],
-    4: [ // 목
+    4: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 목
       { title: "🚨 MAMA 1차 투표 오늘 최종 마감!", time: "오늘 밤 23:59 마감", desc: "오늘 밤 11시 59분에 마감됩니다! 앱+트위터 모두 완료", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", urgent: "", url: "https://mubeat.tv/" },
       { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" }
     ],
-    5: [ // 금
+    5: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 금
       { title: "카카오뱅크 모두의 스타상 마감일!", time: "~10/30 최종마감", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
       { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
-    6: [ // 토
+    6: [
+      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 토
       { title: "🚨 KGMA 베리즈 투표 (마감 D-3)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
       { title: "MAMA 1차 투표 (마감 D-5)", time: "~10/22 마감", desc: "엠넷플러스 앱 투표 90% + 트위터 RT 10%!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
       { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 참여 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
