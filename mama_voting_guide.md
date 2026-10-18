@@ -10,33 +10,29 @@
 ---
 
 ## 1️⃣ 앱 투표 (90% 반영)
-- **투표처**: [엠넷플러스(Mnet Plus) 모바일 앱 / 웹](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_1ST_SHARE&refererCode=)
+- **투표처**: [엠넷플러스(Mnet Plus) 모바일 앱 / 웹](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e)
 - **투표 한도**: 1기기 1계정당 매일 1표
-- **투표 방법**: 여성 부문 '리센느' 투표 및 상호 연합팀 투표 완료 후 인증
-- **추천 연합 조합 (남3 / 여3)**:
+- **선택 방법 (남3 / 여3)**:
   - 👦 **남자 3팀**: 알파드라이브원, 앤더블, 빅뱅
   - 👧 **여자 3팀**: **리센느**, 하츠투하츠, 베이비몬스터 (또는 리센느 + 비경쟁 소신픽 2팀)
 
 ---
 
-## 2️⃣ X(트위터) 해시태그 투표 (10% 반영)
-- **투표 빈도**: 하루 X(트위터) 계정당 1팀 1회 투표 가능 (공개 계정만 인정)
-- **투표 방법**: 매일 1회 필수 해시태그를 모두 포함하여 트윗 작성
-  ```text
-  #2026MAMAVOTE #rescene
-  ```
-- **초간단 꿀팁**: **해당 해시태그가 달린 타인의 트윗을 리트윗(RT)만 해도 투표 완료로 인정!**
+## 2️⃣ X(트위터) 해시태그 투표 & 연합 인증 (10% 반영)
+- **원클릭 자동 작성 링크**: [트위터에서 바로 트윗 작성하기](https://twitter.com/intent/tweet?text=%232026MAMAVOTE%20%23rescene%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A8%EB%A6%AC%EC%A6%88%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A4%ED%81%B4%EB%A1%9C%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC%ED%95%A8%EA%BB%98_%EB%B8%A8%EC%95%84%ED%94%BC%0A%23REMINEXS2U%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EB%AA%AC%EC%8A%A4%ED%8B%B0%EC%A6%88)
 
----
+### 필수 해시태그 세트 (복사용)
+```text
+#2026MAMAVOTE #rescene
+#리마인X앨리즈
+#리마인X앤클로
+#리마인과함께_븨아피
+#REMINEXS2U
+#리마인X몬스티즈
+```
 
-## #️⃣ 연합 해시태그 모음 (인증용)
-인증 시 해당 해시태그를 복사하여 X, 총공팀 카카오톡 채널, 또는 디시 갤러리 중 1곳에 인증합니다.
-- `#리마인X앨리즈` (알파드라이브원 연합)
-- `#리마인X앤클로` (앤더블 연합)
-- `#리마인과함께_븨아피` (빅뱅 연합)
-- `#REMINEXS2U` (하츠투하츠 연합)
-- `#리마인X몬스티즈` (베이비몬스터 연합)
-
+- **투표 유의사항**: 하루 X 계정당 1회, 공개 계정만 인정
+- **초간단 꿀팁**: 위 태그가 달린 트윗을 리트윗(RT)하기만 해도 투표 완료로 인정!
 - **총공팀 카카오톡 인증 채널**: [http://pf.kakao.com/_WxcxowX/chat](http://pf.kakao.com/_WxcxowX/chat)
 
 ---

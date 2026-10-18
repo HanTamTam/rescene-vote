@@ -968,9 +968,12 @@
         <a href="https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" target="_blank" class="btn-mobile btn-mama">
           📱 엠넷플러스 MAMA 앱 투표 (90%) ↗
         </a>
-        <a href="https://x.com/search?q=%232026MAMAVOTE%20%23rescene&f=live" target="_blank" class="btn-x-vote">
-          𝕏 RT만 해도 완료! #2026MAMAVOTE (10%) ↗
+        <a href="https://twitter.com/intent/tweet?text=%232026MAMAVOTE%20%23rescene%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A8%EB%A6%AC%EC%A6%88%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A4%ED%81%B4%EB%A1%9C%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC%ED%95%A8%EA%BB%98_%EB%B8%A8%EC%95%84%ED%94%BC%0A%23REMINEXS2U%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EB%AA%AC%EC%8A%A4%ED%8B%B0%EC%A6%88" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; font-size:13px;">
+          𝕏 원클릭 투표 & 연합인증 트윗 작성 (10%) ↗
         </a>
+        <button onclick="copyAllAllianceTags()" class="btn-mobile btn-sub" style="height:38px; font-size:12px; font-weight:700;">
+          📋 연합 해시태그 6종 전체 복사하기
+        </button>
       </div>
     </div>
 
@@ -1582,6 +1585,25 @@ setInterval(checkLiveBroadcastBanner, 1000);
       }, 800);
     } else {
       window.open("https://play.google.com/store/apps/details?id=com.nwz.ichampclient", "_blank");
+    }
+  }
+
+  
+  // 📋 MAMA 투표 & 연합 해시태그 6종 원터치 복사
+  function copyAllAllianceTags() {
+    const tags = ;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(tags).then(() => {
+        alert('연합 해시태그가 복사되었습니다! 트위터에 붙여넣어 인증하세요.');
+      });
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = tags;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      alert('연합 해시태그가 복사되었습니다! 트위터에 붙여넣어 인증하세요.');
     }
   }
 
