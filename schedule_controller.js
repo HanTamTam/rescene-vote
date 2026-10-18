@@ -10,7 +10,7 @@ const daySchedules = {
     { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 #2026MAMAVOTE 글 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
     { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
     { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
-    { title: "SBS 인기가요 생방송 투표", time: "15:30 ~ 16:30", desc: "SuperStar X 앱 실시간 투표", urgent: "", url: "https://superstarx.io/" }
+    { title: "SBS 인기가요 (결방 - 야구 중계)", time: "10/18 생방없음", desc: "야구 포스트시즌 중계로 이번 주 생방송 및 실시간 투표는 쉽니다.", urgent: "", cancelled: true, url: "" }
   ],
   1: [ // 월요일
     { title: "🚨 KGMA 베리즈 투표 (마감 D-1)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
@@ -60,15 +60,27 @@ function renderDayTasks(dayIdx) {
   let html = "";
 
   list.forEach(item => {
-    html += `
-      <div class="mini-task-item ${item.urgent || ''}">
-        <div class="mini-task-header">
-          <span class="mini-task-title">${item.title}</span>
-          <span class="mini-task-time">${item.time}</span>
+    if (item.cancelled) {
+      html += `
+        <div class="mini-task-item" style="opacity: 0.7; background: #f1f5f9; border-left: 3px solid #94a3b8;">
+          <div class="mini-task-header">
+            <span class="mini-task-title" style="color: #64748b; text-decoration: line-through;">${item.title}</span>
+            <span class="mini-task-time" style="color: #ef4444; font-weight: 700; background: #fee2e2; padding: 2px 6px; border-radius: 4px;">결방</span>
+          </div>
+          <p class="mini-task-desc" style="color: #64748b;">${item.desc}</p>
         </div>
-        <p class="mini-task-desc">${item.desc}</p>
-      </div>
-    `;
+      `;
+    } else {
+      html += `
+        <div class="mini-task-item ${item.urgent || ''}">
+          <div class="mini-task-header">
+            <span class="mini-task-title">${item.title}</span>
+            <span class="mini-task-time">${item.time}</span>
+          </div>
+          <p class="mini-task-desc">${item.desc}</p>
+        </div>
+      `;
+    }
   });
 
   container.innerHTML = html;
