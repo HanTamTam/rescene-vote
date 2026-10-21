@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>RESCENE (리센느) 투표 & 간트 스케줄</title>
+  <link rel="icon" type="image/png" href="title_icon.png">
+  <link rel="apple-touch-icon" href="title_icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -80,16 +82,13 @@
     }
 
     .app-logo {
-      width: 32px;
-      height: 32px;
-      background: linear-gradient(135deg, #ec4899, #8b5cf6);
+      width: 34px;
+      height: 34px;
       border-radius: 9px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 900;
-      font-size: 14px;
-      color: #ffffff;
+      object-fit: cover;
+      display: block;
+      flex-shrink: 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
     }
 
     .app-title-wrap h1 {
@@ -1009,7 +1008,7 @@
   <!-- Mobile Sticky App Bar -->
   <header class="app-header">
     <div class="app-header-left">
-      <div class="app-logo">RE</div>
+      <img src="title_icon.png" alt="리센느" class="app-logo">
       <div class="app-title-wrap">
         <h1>리센느 투표 스케줄</h1>
         <p>REMINE VOTE DASHBOARD</p>
