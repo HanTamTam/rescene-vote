@@ -55,8 +55,8 @@ const liveVoteSchedules = [
     liveStart: 15 * 60 + 30,    // 15:30
     liveEnd: 16 * 60 + 30,      // 16:30
     tip: "1위 후보 진입 시 SuperStar X 앱 실시간 투표 참여!",
-    isCancelled: true,
-    cancelReason: "야구 포스트시즌 중계로 인한 결방 (10/18)"
+    cancelledDates: ["2026-10-18"],
+    cancelReason: "야구 포스트시즌 중계"
   }
 ];
 
@@ -68,6 +68,7 @@ function checkLiveBroadcastBanner() {
   const currentDayOfWeek = now.getDay();
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
   const currentSeconds = now.getSeconds();
+  const todayDateFormatted = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 
   const show = liveVoteSchedules.find(s => s.day === currentDayOfWeek);
 
@@ -76,18 +77,19 @@ function checkLiveBroadcastBanner() {
     return;
   }
 
-  // 0) 방송 결방(Cancelled) 상태인 경우 -> 비활성화(Disabled) 결방 배너 안내
-  if (show.isCancelled) {
+  // 0) 방송 특정일 1회성 결방(Cancelled) 상태인 경우 -> 당일에만 비활성화(Disabled) 결방 배너 안내
+  const isCancelledToday = show.cancelledDates && show.cancelledDates.includes(todayDateFormatted);
+  if (isCancelledToday) {
     if (currentMinutes >= show.previewStart && currentMinutes < (show.liveEnd + 60)) {
       bannerContainer.innerHTML = `
         <div class="live-banner-card" style="background: #f1f5f9; border: 2px dashed #94a3b8; color: #475569;">
           <div class="live-header-row">
             <span class="live-badge" style="background: #e2e8f0; color: #475569; font-weight: 800;">🚫 방송 결방 안내</span>
-            <span class="live-timer" style="color: #64748b; font-weight: 700;">10/18(일) 생방송 없음</span>
+            <span class="live-timer" style="color: #64748b; font-weight: 700;">오늘 생방송 없음</span>
           </div>
           <div>
             <h3 class="live-title" style="color: #334155; font-size: 17px; font-weight: 800;">📺 ${show.name} 결방 (${show.cancelReason || '중계 편성'})</h3>
-            <p class="live-desc" style="color: #64748b; font-size: 13px;">오늘(10/18) SBS 인기가요는 프로야구 포스트시즌 중계로 인해 결방되어 실시간 생방송 투표가 진행되지 않습니다.</p>
+            <p class="live-desc" style="color: #64748b; font-size: 13px;">오늘 ${show.name}는 ${show.cancelReason || '중계 편성'}으로 인해 결방되어 실시간 생방송 투표가 진행되지 않습니다.</p>
           </div>
           <button class="btn-live-action disabled" style="background: #e2e8f0; color: #94a3b8; cursor: not-allowed; border: none; font-weight: 800; pointer-events: none;">
             ⛔ 오늘 생방송 투표 미진행 (결방)

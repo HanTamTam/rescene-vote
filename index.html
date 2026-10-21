@@ -1023,6 +1023,27 @@
     <!-- 🔴 실시간 생방송 투표 스마트 알림 (1시간 전 예고 -> 생방 중 활성화 -> 종료 시 자동 숨김) -->
     <div id="live-broadcast-banner"></div>
 
+    <!-- 💛 총공팀 카카오톡 오픈채팅방 개설 알림 배너 -->
+    <a href="https://open.kakao.com/o/gIR1H4Ki" target="_blank" style="text-decoration: none; display: block;">
+      <div style="background: linear-gradient(135deg, #fee500 0%, #fef08a 100%); border-radius: 16px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; box-shadow: 0 3px 12px rgba(254, 229, 0, 0.35); border: 1px solid #facc15;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <div style="width: 40px; height: 40px; background: #191600; color: #fee500; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 900; flex-shrink: 0;">
+            톡
+          </div>
+          <div>
+            <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 2px;">
+              <span style="font-size: 14px; font-weight: 800; color: #191600;">총공팀 오픈채팅방이 개설되었어요!</span>
+              <span style="background: #191600; color: #fee500; font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 4px;">총공팀 소식</span>
+            </div>
+            <p style="font-size: 11.5px; color: #713f12; font-weight: 600; line-height: 1.35; margin: 0;">실시간 화력 집중 & 투표 인증 함께해요 💛</p>
+          </div>
+        </div>
+        <div style="background: #191600; color: #ffffff; font-size: 12px; font-weight: 800; padding: 8px 12px; border-radius: 8px; white-space: nowrap; flex-shrink: 0;">
+          공식방 가기 ↗
+        </div>
+      </div>
+    </a>
+
 
     <!-- 1. Section: 4 Urgent Votes (가장 마감 빠른 순서로 정렬) -->
     <div class="section-head">
@@ -1030,8 +1051,8 @@
       <span>마감 임박 순서</span>
     </div>
 
-    <!-- 1-1. [가장 빠름!] KGMA Berriz 투표 (10/20 마감 D-3) -->
-    <div class="vote-card kgma-border">
+    <!-- 1-1. [종료] KGMA Berriz 투표 (10/20 마감) - 자동 마감 감지 지원 -->
+    <div class="vote-card kgma-border" data-name="KGMA" data-start="2026-10-15T00:00:00" data-end="2026-10-20T23:59:59">
       <div class="card-meta-row">
         <span class="badge-tag badge-kgma">🚨 마감 초비상 (~10/20 23:59)</span>
         <span class="card-deadline" style="color:var(--kgma-purple);">D-2 남음</span>
@@ -1045,15 +1066,15 @@
       </a>
     </div>
 
-    <!-- 1-2. MAMA 1차 투표 (10/22 마감 D-5) -->
-    <div class="vote-card mama-border">
+    <!-- 1-2. MAMA 1차 투표 (10/22 마감) -->
+    <div class="vote-card mama-border" data-name="MAMA" data-start="2026-10-15T00:00:00" data-end="2026-10-22T23:59:59">
       <div class="card-meta-row">
         <span class="badge-tag badge-mama">🚨 마감 임박 (~10/22 23:59)</span>
-        <span class="card-deadline" style="color:var(--mama-red);">D-4 (Top20 컷)</span>
+        <span class="card-deadline" style="color:var(--mama-red);">D-1 (내일 마감! Top20 컷)</span>
       </div>
       <div>
         <h3 class="card-title">2026 MAMA 1차 투표</h3>
-        <p class="card-desc">엠넷플러스 앱 투표 90% + X 해시태그 투표 10%</p>
+        <p class="card-desc">엠넷플러스 앱 투표 90% + X 해시태그 투표 10% (1일 1계정 당 1표 / 기기 제한)</p>
       </div>
 
       <div class="mama-ratio-banner">
@@ -1073,8 +1094,8 @@
       </div>
 
       <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" target="_blank" class="btn-mobile btn-mama">
-          📱 엠넷플러스 MAMA 앱 투표 (90%) ↗
+        <a href="https://rescene.stream/go/mama" target="_blank" class="btn-mobile btn-mama">
+          📱 엠넷플러스 MAMA 직행 투표 (90%) ↗
         </a>
         <a href="https://twitter.com/intent/tweet?text=%232026MAMAVOTE%20%23rescene%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A8%EB%A6%AC%EC%A6%88%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EC%95%A4%ED%81%B4%EB%A1%9C%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC%ED%95%A8%EA%BB%98_%EB%B8%A8%EC%95%84%ED%94%BC%0A%23REMINEXS2U%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8X%EB%AA%AC%EC%8A%A4%ED%8B%B0%EC%A6%88" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; font-size:13px;">
           𝕏 원클릭 투표 & 연합인증 트윗 작성 (10%) ↗
@@ -1084,43 +1105,48 @@
     </div>
 
     <!-- 1-3. KakaoBank Special Award (~10/30) -->
-    <div class="vote-card kb-border">
+    <div class="vote-card kb-border" data-name="카카오뱅크" data-start="2026-10-15T00:00:00" data-end="2026-10-30T23:59:59">
       <div class="card-meta-row">
-        <span class="badge-tag badge-kb">💛 카카오뱅크 (~10/30)</span>
-        <span style="font-size:12px; font-weight:700; color:#b45309;">투표 80% 반영!</span>
+        <span class="badge-tag badge-kb">💛 카카오뱅크 (~10/30 23:59)</span>
+        <span class="card-deadline" style="color:#b45309;">투표 80% 반영 (D-9)</span>
       </div>
       <div>
         <h3 class="card-title">MMA 2026 모두의 스타상</h3>
-        <p class="card-desc">매일 1회 투표 / 만 14세 이상 카뱅 계좌 보유자</p>
+        <p class="card-desc">모두의 스타상 매일 1회 <strong>'리센느'</strong> 투표 (만 14세 이상 카뱅 계좌 보유자)</p>
       </div>
+
+      <div style="background: rgba(234, 179, 8, 0.08); border: 1px dashed rgba(234, 179, 8, 0.4); border-radius: 8px; padding: 6px 10px; font-size: 11.5px; color: #854d0e; font-weight: 700;">
+        📍 <strong>투표 배너 위치:</strong> 카카오뱅크 앱 [혜택] 메뉴 ➔ 아래로 스크롤하여 참여!
+      </div>
+
       <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="btn-mobile btn-kb">
         카카오뱅크 원링크 바로가기 ↗
       </a>
     </div>
 
     <!-- 1-4. Melon MMA TOP 10 (~10/29) -->
-    <div class="vote-card melon-border">
+    <div class="vote-card melon-border" data-name="멜론 MMA" data-start="2026-10-15T00:00:00" data-end="2026-10-29T23:59:59">
       <div class="card-meta-row">
         <span class="badge-tag badge-melon">🍈 멜론 앱 (~10/29 23:59)</span>
-        <span style="font-size:12px; font-weight:700; color:#15803d;">유료 3표 / 무료 1표</span>
+        <span class="card-deadline" style="color:#15803d;">스밍권 3표 / 미보유 1표 (D-8)</span>
       </div>
       <div>
         <h3 class="card-title">제18회 MMA TOP10 투표</h3>
-        <p class="card-desc">멜론 앱 [...] 바로가기 ➔ ★ MMA ➔ [투표하기]</p>
+        <p class="card-desc">본인 인증 완료 멜론 ID / TOP10 매일 1회 <strong>'리센느'</strong> 투표</p>
       </div>
-      <a href="https://m2.melon.com/mma/2026/vote/top10/" target="_blank" class="btn-mobile btn-melon">
-        멜론 MMA 투표 열기 ↗
+      <a href="https://kko.to/RFUMpSDfsk" target="_blank" class="btn-mobile btn-melon">
+        멜론 MMA 투표 열기 (원링크) ↗
       </a>
     </div>
     <!-- 1-5. [신규 연합!] 아이돌챔프 AAA 인기상 (~11/04) -->
-    <div class="vote-card aaa-border">
+    <div class="vote-card aaa-border" data-name="AAA 이세계아이돌" data-start="2026-10-08T00:00:00" data-end="2026-11-04T23:59:59">
       <div class="card-meta-row">
         <span class="badge-tag badge-aaa">✨ 리마인 🤝🏻 이파리 연합 (~11/04)</span>
-        <span class="card-deadline" style="color:#0891b2;">D-17 (아챔 100%)</span>
+        <span class="card-deadline" style="color:#0891b2;">D-14 (아챔 100%)</span>
       </div>
       <div>
         <h3 class="card-title">[AAA 2026] 인기상 : 이세계아이돌 투표</h3>
-        <p class="card-desc">아이돌챔프 앱에서 <strong>이세계아이돌</strong>에게 1일 최대 100표 투표! (10/30부터 이파리가 멜론 MMA 리센느 전폭 지원)</p>
+        <p class="card-desc">아이돌챔프 앱에서 <strong>이세계아이돌</strong>에게 매일 100표 이내 자유롭게 투표 후 인증! (10/30부터 이파리가 멜론 MMA 리센느 전폭 지원)</p>
       </div>
 
       <div style="background: rgba(6, 182, 212, 0.08); border: 1px dashed rgba(6, 182, 212, 0.4); border-radius: 8px; padding: 8px 10px; font-size: 12px; color: #0e7490; font-weight: 700; line-height: 1.45;">
@@ -1139,11 +1165,15 @@
       </div>
 
       <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" target="_blank" class="btn-mobile btn-idolchamp">
-          📱 아이돌챔프 [이세계아이돌] 투표 바로가기 ↗
+        <a href="https://rescene.stream/go/aaa" target="_blank" class="btn-mobile btn-idolchamp">
+          📱 아이돌챔프 [이세계아이돌] 직행 투표 ↗
         </a>
-        <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%9D%B4%ED%8C%8C%EB%A6%AC_%EC%B0%A8%EC%9B%90%EC%9D%84_%EB%84%98%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%0A%23ISEGYEIDOL%20%23%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; font-size:13px;">
-          𝕏 연합 인증 트윗 작성 (#리마인과_이파리_차원을_넘어) ↗
+        <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%9D%B4%ED%8C%8C%EB%A6%AC_%EC%B0%A8%EC%9B%90%EC%9D%84_%EB%84%98%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%0A%23ISEGYEIDOL%20%23%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:auto; min-height:46px; padding:7px 12px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:2px;">
+          <div style="display:flex; align-items:center; justify-content:center; gap:4px; font-size:13px; font-weight:700;">
+            <span>𝕏 연합 인증 트윗 작성</span>
+            <span>↗</span>
+          </div>
+          <span style="font-size:11px; font-weight:600; color:#94a3b8; letter-spacing:-0.2px;">#리마인과_이파리_차원을_넘어</span>
         </a>
       </div>
     </div>
@@ -1157,84 +1187,84 @@
 
     <div class="gantt-card">
       <div class="gantt-legend">
-        <div class="legend-item"><div class="legend-color" style="background:#a855f7;"></div> KGMA (D-2)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#e11d48;"></div> MAMA 1차</div>
-        <div class="legend-item"><div class="legend-color" style="background:#10b981;"></div> 멜론 TOP10</div>
-        <div class="legend-item"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상</div>
-        <div class="legend-item"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리</div>
+        <div class="legend-item" style="color:var(--text-muted);"><div class="legend-color" style="background:#a855f7; opacity:0.6;"></div> KGMA (종료)</div>
+        <div class="legend-item"><div class="legend-color" style="background:#e11d48;"></div> MAMA 1차 (D-1)</div>
+        <div class="legend-item"><div class="legend-color" style="background:#10b981;"></div> 멜론 TOP10 (D-8)</div>
+        <div class="legend-item"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상 (D-9)</div>
+        <div class="legend-item"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리 (D-14)</div>
         <div class="legend-item"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합</div>
-        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/18)</div>
+        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/21)</div>
       </div>
 
       <div class="gantt-track-list">
-        <!-- Row 0: KGMA (가장 빠름) -->
-        <div class="gantt-row">
+        <!-- Row 0: KGMA -->
+        <div class="gantt-row" data-name="KGMA" data-start="2026-10-15T00:00:00" data-end="2026-10-20T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">🚨 KGMA Berriz</span>
-            <span class="gantt-row-dates">10/15 ~ 10/20 마감 (D-2)</span>
+            <span class="gantt-row-dates">10/15 ~ 10/20</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/17)"></div>
-            <div class="gantt-bar bar-kgma">D-2 마감</div>
+            <div class="today-line"></div>
+            <div class="gantt-bar bar-kgma">종료됨</div>
           </div>
         </div>
 
         <!-- Row 1: MAMA 1차 -->
-        <div class="gantt-row">
+        <div class="gantt-row" data-name="MAMA" data-start="2026-10-15T00:00:00" data-end="2026-10-22T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">🔴 MAMA 1차 예선</span>
-            <span class="gantt-row-dates">10/15 ~ 10/22 마감 (D-4)</span>
+            <span class="gantt-row-dates">10/15 ~ 10/22</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/17)"></div>
-            <div class="gantt-bar bar-mama">D-4 마감임박</div>
+            <div class="today-line"></div>
+            <div class="gantt-bar bar-mama">D-1 내일 최종마감</div>
           </div>
         </div>
 
         <!-- Row 2: 멜론 MMA TOP 10 -->
-        <div class="gantt-row">
+        <div class="gantt-row" data-name="멜론 MMA" data-start="2026-10-15T00:00:00" data-end="2026-10-29T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">🍈 멜론 MMA TOP10</span>
-            <span class="gantt-row-dates">10/15 ~ 10/29 (매일 투표)</span>
+            <span class="gantt-row-dates">10/15 ~ 10/29</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="today-line"></div>
             <div class="gantt-bar bar-melon">진행 중 (~10/29)</div>
           </div>
         </div>
 
         <!-- Row 3: 카카오뱅크 모두의 스타상 -->
-        <div class="gantt-row">
+        <div class="gantt-row" data-name="카카오뱅크" data-start="2026-10-15T00:00:00" data-end="2026-10-30T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">💛 카뱅 모두의 스타상</span>
-            <span class="gantt-row-dates">10/15 ~ 10/30 (반영 80%)</span>
+            <span class="gantt-row-dates">10/15 ~ 10/30</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="today-line"></div>
             <div class="gantt-bar bar-kb">매일 1회 (~10/30)</div>
           </div>
         </div>
 
-                <!-- Row: AAA 이파리 연합 -->
-        <div class="gantt-row">
+        <!-- Row: AAA 이파리 연합 -->
+        <div class="gantt-row" data-name="AAA 이파리" data-start="2026-10-08T00:00:00" data-end="2026-11-04T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">✨ AAA 이파리 연합 (아챔)</span>
-            <span class="gantt-row-dates">10/08 ~ 11/04 마감 (D-17)</span>
+            <span class="gantt-row-dates">10/08 ~ 11/04</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/18)"></div>
+            <div class="today-line"></div>
             <div class="gantt-bar bar-aaa">이세계아이돌 투표 (~11/04)</div>
           </div>
         </div>
 
         <!-- Row 4: MMA 알디원 연합 (예정) -->
-        <div class="gantt-row">
+        <div class="gantt-row" data-name="MMA 연합" data-start="2026-10-30T00:00:00" data-end="2026-11-13T23:59:59">
           <div class="gantt-row-info">
             <span class="gantt-row-title">🏎️ MMA 연합 (이파리 & 앨리즈)</span>
-            <span class="gantt-row-dates">10/30 ~ 11/13 (오픈 예정)</span>
+            <span class="gantt-row-dates">10/30 ~ 11/13</span>
           </div>
           <div class="gantt-bar-wrap">
-            <div class="today-line" title="오늘(10/17)"></div>
+            <div class="today-line"></div>
             <div class="gantt-bar bar-mma-alliance">이파리+앨리즈 리센느 총공</div>
           </div>
         </div>
@@ -1243,8 +1273,8 @@
       <!-- Timeline Axis Dates -->
       <div class="timeline-axis">
         <span>10/15</span>
-        <span style="color:#ef4444; font-weight:800;">10/18(오늘)</span>
-        <span style="color:var(--kgma-purple); font-weight:800;">10/20(KGMA)</span>
+        <span style="color:#94a3b8;">10/20(종료)</span>
+        <span style="color:#ef4444; font-weight:800;">10/21(오늘)</span>
         <span>10/22(MAMA)</span>
         <span>10/29</span>
         <span>10/30</span>
@@ -1297,11 +1327,13 @@
           <tbody>
             <tr>
               <td class="show-name">
-                <strong>더쇼</strong>
-                <small>스타플래닛</small>
+                <a href="https://play.google.com/store/apps/details?id=inc.rowem.passicon" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>더쇼 ↗</strong>
+                  <small>스타플래닛</small>
+                </a>
               </td>
               <td><span class="cell-badge cell-pre">~14시</span></td>
-              <td><span class="cell-badge cell-live">생방 18:05</span></td>
+              <td><a href="https://www.youtube.com/@thekpop/streams" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live">생방 18:05 ↗</span></a></td>
               <td>-</td>
               <td>-</td>
               <td><span class="cell-badge cell-pre">20시~</span></td>
@@ -1310,12 +1342,14 @@
             </tr>
             <tr>
               <td class="show-name">
-                <strong>쇼챔</strong>
-                <small>아이돌챔프</small>
+                <a href="https://m.idolchamp.com/" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>쇼챔 ↗</strong>
+                  <small>아이돌챔프</small>
+                </a>
               </td>
               <td><span class="cell-badge cell-pre">~14시</span></td>
               <td>-</td>
-              <td><span class="cell-badge cell-live">생방 17:00</span></td>
+              <td><a href="https://www.youtube.com/@ALLTHEKPOP/streams" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live">생방 17:00 ↗</span></a></td>
               <td>-</td>
               <td><span class="cell-badge cell-pre">20시~</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
@@ -1323,47 +1357,55 @@
             </tr>
             <tr>
               <td class="show-name">
-                <strong>엠카</strong>
-                <small>엠넷플러스</small>
+                <a href="https://www.mnetplus.world/" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>엠카 ↗</strong>
+                  <small>엠넷플러스</small>
+                </a>
               </td>
               <td><span class="cell-badge cell-pre">~10시</span></td>
               <td>-</td>
               <td>-</td>
-              <td><span class="cell-badge cell-live">생방 18:00</span></td>
+              <td><a href="https://www.tving.com/live/player/C00579" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live">생방 18:00 ↗</span></a></td>
               <td><span class="cell-badge cell-pre">14시~</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
             </tr>
             <tr>
               <td class="show-name">
-                <strong>뮤뱅</strong>
-                <small>올차트/뮤빗</small>
+                <a href="https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>뮤뱅 ↗</strong>
+                  <small>올차트</small>
+                </a>
               </td>
               <td><span class="cell-badge cell-pre">11시~</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
               <td><span class="cell-badge cell-pre">~11시</span></td>
               <td>-</td>
-              <td><span class="cell-badge cell-live">생방 17:05</span></td>
+              <td><a href="https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live">생방 17:05 ↗</span></a></td>
               <td>-</td>
               <td>-</td>
             </tr>
             <tr>
               <td class="show-name">
-                <strong>음중</strong>
-                <small>뮤빗</small>
+                <a href="https://mubeat.tv/" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>음중 ↗</strong>
+                  <small>뮤빗</small>
+                </a>
               </td>
               <td>-</td>
               <td><span class="cell-badge cell-pre">18시~</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
               <td><span class="cell-badge cell-pre">~11시</span></td>
               <td>-</td>
-              <td><span class="cell-badge cell-live">생방 15:15</span></td>
+              <td><a href="https://m.imbc.com/onair" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live">생방 15:15 ↗</span></a></td>
               <td>-</td>
             </tr>
             <tr>
               <td class="show-name">
-                <strong>인가</strong>
-                <small>SuperStarX</small>
+                <a href="https://superstarx.io/" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                  <strong>인가 ↗</strong>
+                  <small>SuperStarX</small>
+                </a>
               </td>
               <td><span class="cell-badge cell-pre">12시~</span></td>
               <td><span class="cell-badge cell-pre">사전</span></td>
@@ -1371,17 +1413,73 @@
               <td><span class="cell-badge cell-pre">사전</span></td>
               <td><span class="cell-badge cell-pre">~자정</span></td>
               <td>-</td>
-              <td><span class="cell-badge cell-cancelled" title="10/18 야구 중계로 결방">결방 15:30</span></td>
+              <td><a href="https://www.sbs.co.kr/live" target="_blank" style="text-decoration:none;"><span class="cell-badge cell-live" id="cell-inki-live">생방 15:30 ↗</span></a></td>
             </tr>
           </tbody>
         </table>
       </div>
       <div style="font-size:11px; color:var(--text-muted); display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:8px;">
         <span><span class="cell-badge cell-pre" style="padding:2px 5px;">사전</span> 사전투표</span>
-        <span><span class="cell-badge cell-live" style="padding:2px 5px;">생방</span> 실시간투표</span>
+        <span><span class="cell-badge cell-live" style="padding:2px 5px;">생방</span> 실시간투표 & 온에어</span>
         <span><span class="cell-badge cell-cancelled" style="padding:2px 5px;">결방</span> 중계결방</span>
         <span><span style="background:#eef0ff; color:#4338ca; padding:2px 5px; border-radius:4px; font-weight:800;">오늘</span> 오늘 요일</span>
       </div>
+    </div>
+
+    <!-- 4-1. 📺 MUSIC SHOW LIVE ON-AIR (시청률 반영 공식 온에어) -->
+    <div class="section-head">
+      <h2>📺 음악방송 공식 생방송 온에어</h2>
+      <span style="color:#059669; font-weight:700;">시청률 집계 반영</span>
+    </div>
+
+    <div class="hub-mobile-grid">
+      <a href="https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12" target="_blank" class="hub-btn" style="border-left: 3px solid #2563eb;">
+        <div class="hub-icon" style="background:#dbeafe; color:#2563eb;">뮤</div>
+        <div class="hub-txt">
+          <h4>뮤직뱅크 (금 17:05)</h4>
+          <p>KBS2 온에어 (시청률) ↗</p>
+        </div>
+      </a>
+
+      <a href="https://m.imbc.com/onair" target="_blank" class="hub-btn" style="border-left: 3px solid #16a34a;">
+        <div class="hub-icon" style="background:#dcfce7; color:#16a34a;">음</div>
+        <div class="hub-txt">
+          <h4>쇼! 음악중심 (토 15:15)</h4>
+          <p>MBC 온에어 (시청률) ↗</p>
+        </div>
+      </a>
+
+      <a href="https://www.sbs.co.kr/live" target="_blank" class="hub-btn" style="border-left: 3px solid #7c3aed;">
+        <div class="hub-icon" style="background:#ede9fe; color:#7c3aed;">인</div>
+        <div class="hub-txt">
+          <h4>SBS 인기가요 (일 15:30)</h4>
+          <p>SBS 온에어 (시청률) ↗</p>
+        </div>
+      </a>
+
+      <a href="https://www.tving.com/live/player/C00579" target="_blank" class="hub-btn" style="border-left: 3px solid #e11d48;">
+        <div class="hub-icon" style="background:#ffe4e6; color:#e11d48;">엠</div>
+        <div class="hub-txt">
+          <h4>엠카운트다운 (목 18:00)</h4>
+          <p>티빙(TVING) 실시간 ↗</p>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/@thekpop/streams" target="_blank" class="hub-btn" style="border-left: 3px solid #ef4444;">
+        <div class="hub-icon" style="background:#fee2e2; color:#ef4444;">더</div>
+        <div class="hub-txt">
+          <h4>더 쇼 (화 18:05)</h4>
+          <p>유튜브 THE K-POP ↗</p>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/@ALLTHEKPOP/streams" target="_blank" class="hub-btn" style="border-left: 3px solid #d97706;">
+        <div class="hub-icon" style="background:#fef3c7; color:#d97706;">쇼</div>
+        <div class="hub-txt">
+          <h4>쇼! 챔피언 (수 17:00)</h4>
+          <p>유튜브 ALL THE K-POP ↗</p>
+        </div>
+      </a>
     </div>
 
     <!-- 5. Section: Today's Tasks & Weekly Rhythm -->
@@ -1434,11 +1532,11 @@
         </div>
       </a>
 
-      <a href="https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" target="_blank" class="hub-btn">
+      <a href="https://rescene.stream/go/mama" target="_blank" class="hub-btn">
         <div class="hub-icon" style="background:#ffe4e6; color:#e11d48;">M</div>
         <div class="hub-txt">
           <h4>엠넷플러스</h4>
-          <p>MAMA 앱 투표 90%</p>
+          <p>MAMA 1차 직행 (90%)</p>
         </div>
       </a>
 
@@ -1450,11 +1548,11 @@
         </div>
       </a>
 
-      <a href="https://m2.melon.com/mma/2026/vote/top10/" target="_blank" class="hub-btn">
+      <a href="https://kko.to/RFUMpSDfsk" target="_blank" class="hub-btn">
         <div class="hub-icon" style="background:#dcfce7; color:#15803d;">멜</div>
         <div class="hub-txt">
           <h4>멜론 MMA</h4>
-          <p>TOP10 투표하기</p>
+          <p>TOP10 투표 (원링크)</p>
         </div>
       </a>
 
@@ -1466,11 +1564,11 @@
         </div>
       </a>
 
-      <a href="http://pf.kakao.com/_WxcxowX/chat" target="_blank" class="hub-btn">
-        <div class="hub-icon" style="background:#fef08a; color:#191600;">톡</div>
+      <a href="https://open.kakao.com/o/gIR1H4Ki" target="_blank" class="hub-btn" style="border: 1.5px solid #facc15; background: #fffef0;">
+        <div class="hub-icon" style="background:#fee500; color:#191600; font-weight:900;">톡</div>
         <div class="hub-txt">
-          <h4>총공팀 카톡</h4>
-          <p>투표 인증 전송</p>
+          <h4>음원총공 오픈채팅</h4>
+          <p>리마인 필수 입장 ↗</p>
         </div>
       </a>
 
@@ -1482,90 +1580,132 @@
         </div>
       </a>
 
-      <a href="http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" target="_blank" class="hub-btn">
+      <a href="https://rescene.stream/go/aaa" target="_blank" class="hub-btn">
         <div class="hub-icon" style="background:#cffafe; color:#0891b2;">아</div>
         <div class="hub-txt">
           <h4>아이돌챔프</h4>
-          <p>AAA 연합 / 쇼챔 사전</p>
+          <p>AAA 연합 직행 / 쇼챔</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#e0e7ff; color:#3730a3;">올</div>
+        <div class="hub-txt">
+          <h4>올차트 (ALLCHART)</h4>
+          <p>뮤직뱅크 사전투표</p>
+        </div>
+      </a>
+
+      <a href="https://mubeat.tv/" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#fee2e2; color:#dc2626;">뮤</div>
+        <div class="hub-txt">
+          <h4>뮤빗 (Mubeat)</h4>
+          <p>음악중심 사전/실시간</p>
+        </div>
+      </a>
+
+      <a href="https://superstarx.io/" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#fce7f3; color:#db2777;">슈</div>
+        <div class="hub-txt">
+          <h4>SuperStar X</h4>
+          <p>인기가요 실시간/핫스테이지</p>
         </div>
       </a>
     </div>
 
   </main>
 
-  <!-- Sticky Bottom Quick Action Bar (4대 핵심 버튼) -->
+  <!-- Sticky Bottom Quick Action Bar (리센느 핵심 진행 중 투표 3종) -->
   <nav class="bottom-nav">
-    <a href="https://link.berriz.in/ko/web/main/vote/2026kgma/" target="_blank" class="nav-btn btn-kgma">
-      KGMA(D-2) ↗
+    <a href="https://rescene.stream/go/mama" target="_blank" class="nav-btn btn-mama" data-label="MAMA" data-end="2026-10-22T23:59:59">
+      MAMA(D-1) ↗
     </a>
-    <a href="https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" target="_blank" class="nav-btn btn-mama">
-      MAMA(D-4) ↗
-    </a>
-    <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="nav-btn btn-kb">
-      카뱅 특별상 ↗
-    </a>
-    <a href="https://m2.melon.com/mma/2026/vote/top10/" target="_blank" class="nav-btn btn-melon">
+    <a href="https://kko.to/RFUMpSDfsk" target="_blank" class="nav-btn btn-melon" data-label="멜론 TOP10" data-end="2026-10-29T23:59:59">
       멜론 TOP10 ↗
+    </a>
+    <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="nav-btn btn-kb" data-label="카뱅 특별상" data-end="2026-10-30T23:59:59">
+      카뱅 특별상 ↗
     </a>
   </nav>
 
 </div>
 
 <script>
-  // 요일별 일정 데이터
-  const daySchedules = {
-    0: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 일
-      { title: "🚨 KGMA 베리즈 투표 (마감 D-2)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
-      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 #2026MAMAVOTE 글 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
-      { title: "SBS 인기가요 (결방 - 야구 중계)", time: "10/18 생방없음", desc: "야구 포스트시즌 중계로 이번 주 생방송 및 실시간 투표는 쉽니다.", urgent: "", cancelled: true, url: "" }
+  // 🎯 핵심 투표 마스터 데이터 (시작일/종료일 기준 단 1회 정의)
+  const masterVoteEvents = [
+    {
+      id: "mama",
+      title: "2026 MAMA 1차 투표",
+      startDate: "2026-10-15T00:00:00",
+      endDate: "2026-10-22T23:59:59",
+      urgentClass: "urgent-mama",
+      url: "https://rescene.stream/go/mama",
+      desc: "엠넷플러스 앱 1일 1계정 투표 + 𝕏 트윗 필수!"
+    },
+    {
+      id: "melon",
+      title: "제18회 MMA TOP10 투표",
+      startDate: "2026-10-15T00:00:00",
+      endDate: "2026-10-29T23:59:59",
+      urgentClass: "",
+      url: "https://kko.to/RFUMpSDfsk",
+      desc: "스밍권 보유 3표 / 미보유 1표 행사"
+    },
+    {
+      id: "kakaobank",
+      title: "카카오뱅크 모두의 스타상",
+      startDate: "2026-10-15T00:00:00",
+      endDate: "2026-10-30T23:59:59",
+      urgentClass: "",
+      url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u",
+      desc: "카뱅 원링크 1일 1회 (혜택 ➔ 아래로 스크롤)"
+    },
+    {
+      id: "aaa",
+      title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛",
+      startDate: "2026-10-08T00:00:00",
+      endDate: "2026-11-04T23:59:59",
+      urgentClass: "urgent-aaa",
+      url: "https://rescene.stream/go/aaa",
+      desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!"
+    }
+  ];
+
+  // 📺 주간 고정 음악방송 루틴 (요일별 자동 반복)
+  const weeklyMusicShowRoutines = {
+    1: [ // 월
+      { title: "엠카운트다운 사전투표 마감", time: "오전 10:00 마감", desc: "엠넷플러스 보유 표 전량 투표", url: "https://www.mnetplus.world/" },
+      { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
-    1: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 월
-      { title: "🚨 KGMA 베리즈 투표 (마감 D-1)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
-      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
-      { title: "엠카운트다운 사전투표 마감", time: "오전 10:00 마감", desc: "엠넷플러스 보유 표 전량 투표", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "더 쇼 & 쇼챔 사전투표 마감", time: "오후 14:00 마감", desc: "스타플래닛 & 아챔 마감 전 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
+    2: [ // 화
+      { title: "더 쇼 생방송 실시간 투표", time: "18:05 ~ 19:00", desc: "스타플래닛 실시간 투표 & 유튜브 THE K-POP 시청", url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon" },
+      { title: "음악중심 사전투표 오픈", time: "18:00 오픈", desc: "뮤빗 앱에서 음중 사전투표 시작", url: "https://mubeat.tv/" }
     ],
-    2: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 화
-      { title: "🚨 KGMA 베리즈 투표 오늘 최종 마감!!", time: "오늘 23:59 마감", desc: "오늘 밤 마감됩니다! 베리즈 매일 1표 필수", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
-      { title: "MAMA 앱 90% + 트위터 RT 10%", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "더 쇼 생방송 실시간 투표", time: "18:05 ~ 19:00", desc: "스타플래닛 실시간 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon" },
-      { title: "음악중심 사전투표 오픈", time: "18:00 오픈", desc: "뮤빗 앱에서 음중 사전투표 시작", urgent: "", url: "https://mubeat.tv/" }
+    3: [ // 수
+      { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 응원 & 유튜브 ALL THE K-POP 시청", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" },
+      { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트 앱 K-차트 사전투표 마감 전 투표", url: "https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" }
     ],
-    3: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 수
-      { title: "MAMA 앱 90% + 트위터 RT 10% (내일 마감)", time: "~10/22 마감", desc: "엠넷플러스 투표 및 트위터 RT!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 무대 응원", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" },
-      { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트/뮤빗 마감 전 확인", urgent: "", url: "https://mubeat.tv/" }
+    4: [ // 목
+      { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", url: "https://mubeat.tv/" },
+      { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표 & 티빙 온에어 시청", url: "https://www.mnetplus.world/" }
     ],
-    4: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 목
-      { title: "🚨 MAMA 1차 투표 오늘 최종 마감!", time: "오늘 밤 23:59 마감", desc: "오늘 밤 11시 59분에 마감됩니다! 앱+트위터 모두 완료", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", urgent: "", url: "https://mubeat.tv/" },
-      { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" }
+    5: [ // 금
+      { title: "뮤직뱅크 생방송", time: "17:05 방송", desc: "KBS2 본방송 & 공식 온에어 시청(시청률 반영)", url: "https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12" },
+      { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", url: "https://www.mnetplus.world/" },
+      { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
     ],
-    5: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 금
-      { title: "카카오뱅크 모두의 스타상 마감일!", time: "~10/30 최종마감", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", urgent: "", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", urgent: "", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
+    6: [ // 토
+      { title: "쇼! 음악중심 생방 실시간", time: "15:15 ~ 16:15", desc: "뮤빗 앱 + 문자투표(#0505) & MBC 온에어 시청", url: "https://mubeat.tv/" }
     ],
-    6: [
-      { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "http://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" }, // 토
-      { title: "🚨 KGMA 베리즈 투표 (마감 D-3)", time: "~10/20 마감", desc: "베리즈 링크 매일 1표 행사!", urgent: "urgent-kgma", url: "https://link.berriz.in/ko/web/main/vote/2026kgma/" },
-      { title: "MAMA 1차 투표 (마감 D-5)", time: "~10/22 마감", desc: "엠넷플러스 앱 투표 90% + 트위터 RT 10%!", urgent: "urgent-mama", url: "https://www.mnetplus.world/event/ko/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r1%2F6ab09532c314bb17315adc4e" },
-      { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 참여 (80% 반영)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
-      { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "유료 3표 / 무료 1표 행사", urgent: "", url: "https://m2.melon.com/mma/2026/vote/top10/" },
-      { title: "쇼! 음악중심 생방 실시간", time: "15:15 ~ 16:15", desc: "뮤빗 앱 + 문자투표(#0505)", urgent: "", url: "https://mubeat.tv/" }
+    0: [ // 일
+      { 
+        title: "SBS 인기가요 생방송", 
+        time: "15:30 방송", 
+        desc: "SuperStar X 앱 실시간 투표 & 공식 온에어 시청", 
+        url: "https://superstarx.io/",
+        cancelledDates: ["2026-10-18"],
+        cancelReason: "야구 포스트시즌 중계"
+      }
     ]
   };
 
@@ -1577,6 +1717,186 @@
     `${today.getMonth() + 1}월 ${today.getDate()}일(${dayNames[currentDay]})`;
 
   document.getElementById(`dot-${currentDay}`).innerText = "●오늘";
+
+  // 🕒 전체 투표 카드/간트/퀵바 상태 관리자 (Show / Hide / Disabled / D-Day 실시간 자동 연산)
+  function updateAllDynamicCardStates() {
+    const now = new Date();
+
+    // 1) 핵심 투표 카드 (.vote-card) 상태 관리
+    document.querySelectorAll('.vote-card[data-end]').forEach(card => {
+      const end = new Date(card.dataset.end);
+      const start = card.dataset.start ? new Date(card.dataset.start) : null;
+      const deadlineEl = card.querySelector('.card-deadline');
+      const badgeEl = card.querySelector('.badge-tag');
+      const actionBtns = card.querySelectorAll('.btn-mobile, .btn-x-vote');
+
+      // 마감 종료된 경우 -> 100% 자동 숨김(Hide) 및 버튼 비활성화
+      if (now > end) {
+        card.style.display = 'none';
+        card.classList.add('is-ended');
+        actionBtns.forEach(btn => {
+          btn.classList.add('disabled');
+          btn.style.pointerEvents = 'none';
+          btn.style.opacity = '0.5';
+        });
+        return;
+      }
+
+      // 아직 시작 전인 경우 -> 오픈 예정 상태 (Disabled)
+      if (start && now < start) {
+        card.style.display = '';
+        card.classList.add('is-pending');
+        if (deadlineEl) {
+          deadlineEl.textContent = '오픈 예정';
+          deadlineEl.style.color = 'var(--text-muted)';
+        }
+        if (badgeEl) badgeEl.textContent = `⏳ ${start.getMonth()+1}/${start.getDate()} 오픈`;
+        actionBtns.forEach(btn => {
+          btn.classList.add('disabled');
+          btn.style.pointerEvents = 'none';
+          btn.style.opacity = '0.5';
+        });
+        return;
+      }
+
+      // 진행 중인 경우 -> 정상 노출(Show) 및 D-Day 실시간 동적 계산
+      card.style.display = '';
+      card.classList.remove('is-ended', 'is-pending');
+      actionBtns.forEach(btn => {
+        btn.classList.remove('disabled');
+        btn.style.pointerEvents = '';
+        btn.style.opacity = '';
+      });
+
+      const isEndDay = (end.getFullYear() === now.getFullYear() &&
+                        end.getMonth() === now.getMonth() &&
+                        end.getDate() === now.getDate());
+      const msDiff = (new Date(end).setHours(0,0,0,0)) - (new Date(now).setHours(0,0,0,0));
+      const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
+
+      if (deadlineEl) {
+        if (isEndDay) {
+          deadlineEl.textContent = 'D-DAY (오늘 23:59 최종마감!)';
+          deadlineEl.style.color = '#ef4444';
+        } else if (daysLeft === 1) {
+          deadlineEl.textContent = 'D-1 (내일 마감!)';
+          deadlineEl.style.color = '#e11d48';
+        } else {
+          deadlineEl.textContent = `D-${daysLeft} 남음`;
+        }
+      }
+
+      if (badgeEl) {
+        if (isEndDay) {
+          badgeEl.textContent = '🚨 오늘 밤 최종 마감!!';
+        } else if (daysLeft === 1) {
+          badgeEl.textContent = '🚨 마감 임박 (내일 23:59)';
+        }
+      }
+    });
+
+    // 2) 간트 차트 (Gantt) 진행 바 및 D-Day 실시간 자동 동기화
+    const ganttStartDate = new Date("2026-10-15T00:00:00");
+    const ganttEndDate = new Date("2026-11-13T23:59:59");
+    const totalGanttMs = ganttEndDate - ganttStartDate;
+    const currentGanttMs = now - ganttStartDate;
+    const todayPercent = Math.max(2, Math.min(98, (currentGanttMs / totalGanttMs) * 100));
+
+    // 오늘 날짜 인디케이터(today-line) 위치 자동 슬라이딩
+    document.querySelectorAll('.today-line').forEach(line => {
+      line.style.left = `${todayPercent.toFixed(1)}%`;
+      line.title = `오늘 (${now.getMonth()+1}/${now.getDate()})`;
+    });
+
+    // 간트 각 행 상태 업데이트
+    document.querySelectorAll('.gantt-row[data-end]').forEach(row => {
+      const end = new Date(row.dataset.end);
+      const start = row.dataset.start ? new Date(row.dataset.start) : null;
+      const barEl = row.querySelector('.gantt-bar');
+      const titleEl = row.querySelector('.gantt-row-title');
+
+      if (now > end) {
+        row.style.opacity = '0.45';
+        if (titleEl) titleEl.style.textDecoration = 'line-through';
+        if (barEl) {
+          barEl.textContent = '종료됨';
+          barEl.style.background = '#94a3b8';
+        }
+        return;
+      }
+
+      if (start && now < start) {
+        row.style.opacity = '0.75';
+        if (barEl) barEl.textContent = '오픈 예정';
+        return;
+      }
+
+      row.style.opacity = '1';
+      if (titleEl) titleEl.style.textDecoration = 'none';
+
+      const isEndDay = (end.getFullYear() === now.getFullYear() &&
+                        end.getMonth() === now.getMonth() &&
+                        end.getDate() === now.getDate());
+      const msDiff = (new Date(end).setHours(0,0,0,0)) - (new Date(now).setHours(0,0,0,0));
+      const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
+
+      if (barEl) {
+        if (isEndDay) {
+          barEl.textContent = '오늘 마감!!';
+        } else if (daysLeft === 1) {
+          barEl.textContent = 'D-1 내일마감';
+        } else {
+          barEl.textContent = `D-${daysLeft} 진행 중`;
+        }
+      }
+    });
+
+    // 3) 하단 고정 퀵 액션 바 (bottom-nav) D-Day 실시간 갱신 & 마감 시 자동 숨김
+    document.querySelectorAll('.bottom-nav .nav-btn[data-end]').forEach(btn => {
+      const end = new Date(btn.dataset.end);
+      if (now > end) {
+        btn.style.display = 'none';
+        return;
+      }
+      btn.style.display = 'flex';
+      const label = btn.dataset.label || btn.textContent.trim().split('(')[0];
+      const isEndDay = (end.getFullYear() === now.getFullYear() &&
+                        end.getMonth() === now.getMonth() &&
+                        end.getDate() === now.getDate());
+      const msDiff = (new Date(end).setHours(0,0,0,0)) - (new Date(now).setHours(0,0,0,0));
+      const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
+
+      if (isEndDay) {
+        btn.textContent = `${label}(D-DAY) ↗`;
+      } else if (daysLeft >= 1) {
+        btn.textContent = `${label}(D-${daysLeft}) ↗`;
+      }
+    });
+
+    // 4) 이번 주 일요일 인기가요 간트 테이블 동적 체크 (결방 일자에만 1회성 반영)
+    const curDayOfWeek = now.getDay();
+    const sunOffset = (curDayOfWeek === 0 ? 0 : 7 - curDayOfWeek);
+    const thisSun = new Date(now);
+    thisSun.setDate(now.getDate() + sunOffset);
+    const thisSunStr = `${thisSun.getFullYear()}-${String(thisSun.getMonth() + 1).padStart(2, '0')}-${String(thisSun.getDate()).padStart(2, '0')}`;
+
+    const inkiLiveEl = document.getElementById("cell-inki-live");
+    if (inkiLiveEl) {
+      const isSunCancelled = ["2026-10-18"].includes(thisSunStr);
+      if (isSunCancelled) {
+        inkiLiveEl.className = "cell-badge cell-cancelled";
+        inkiLiveEl.textContent = "결방 15:30";
+        inkiLiveEl.title = "야구 중계로 결방";
+      } else {
+        inkiLiveEl.className = "cell-badge cell-live";
+        inkiLiveEl.textContent = "생방 15:30 ↗";
+        inkiLiveEl.title = "SBS 온에어 실시간 시청";
+      }
+    }
+  }
+
+  // 페이지 로드/재로드 시 1회 동기화 실행 (백그라운드 자동 인터벌 제거)
+  updateAllDynamicCardStates();
 
   function setDay(dayIdx) {
     const buttons = document.querySelectorAll(".day-pill-btn");
@@ -1594,10 +1914,91 @@
 
   function renderTasks(dayIdx) {
     const container = document.getElementById("day-tasks-container");
-    const list = daySchedules[dayIdx] || [];
-    let html = "";
+    if (!container) return;
 
-    list.forEach(item => {
+    // 현재 접속 날짜 기준, 이번 주 해당 요일의 실제 달력 날짜 계산
+    const now = new Date();
+    const curDay = now.getDay();
+    const dayOffset = (curDay === 0 ? 7 : curDay) - 1;
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - dayOffset);
+    monday.setHours(0, 0, 0, 0);
+
+    const targetOffset = (dayIdx === 0 ? 6 : dayIdx - 1);
+    const targetDate = new Date(monday);
+    targetDate.setDate(monday.getDate() + targetOffset);
+    
+    const targetDateStart = new Date(targetDate);
+    targetDateStart.setHours(0, 0, 0, 0);
+
+    const targetDateEnd = new Date(targetDate);
+    targetDateEnd.setHours(23, 59, 59, 999);
+
+    const taskList = [];
+
+    // 1) 날짜 기반 시상식 투표 동적 판별 및 D-day 자동 연산
+    masterVoteEvents.forEach(ev => {
+      const start = new Date(ev.startDate);
+      const end = new Date(ev.endDate);
+
+      // 해당 요일 시점에 이미 종료되었거나 아직 시작 전이면 100% 자동 제외
+      if (end < targetDateStart || start > targetDateEnd) return;
+
+      const isEndDay = (end.getFullYear() === targetDate.getFullYear() &&
+                        end.getMonth() === targetDate.getMonth() &&
+                        end.getDate() === targetDate.getDate());
+
+      const msDiff = (new Date(end).setHours(0,0,0,0)) - targetDateStart.getTime();
+      const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
+
+      let timeText = "";
+      let titleText = ev.title;
+      let urgentClass = ev.urgentClass || "";
+
+      if (isEndDay) {
+        titleText = `🚨 ${ev.title} 오늘 밤 최종 마감!!`;
+        timeText = "오늘 23:59 마감";
+        urgentClass = "urgent-mama";
+      } else if (daysLeft === 1) {
+        titleText = `🚨 ${ev.title} (내일 마감!)`;
+        timeText = "내일 23:59 마감";
+        urgentClass = "urgent-mama";
+      } else {
+        const endMonth = end.getMonth() + 1;
+        const endDay = end.getDate();
+        timeText = `D-${daysLeft} (~${endMonth}/${endDay})`;
+      }
+
+      taskList.push({
+        title: titleText,
+        time: timeText,
+        desc: ev.desc,
+        urgent: urgentClass,
+        url: ev.url
+      });
+    });
+
+    // 2) 해당 요일의 주간 음악방송 루틴 결합
+    const routines = weeklyMusicShowRoutines[dayIdx] || [];
+    const targetDateFormatted = `${targetDate.getFullYear()}-${String(targetDate.getMonth() + 1).padStart(2, '0')}-${String(targetDate.getDate()).padStart(2, '0')}`;
+    routines.forEach(r => {
+      const isCancelled = r.cancelledDates && r.cancelledDates.includes(targetDateFormatted);
+      if (isCancelled) {
+        taskList.push({
+          title: `${r.title} (결방 - ${r.cancelReason || '방송사 사정'})`,
+          time: "생방송 없음",
+          desc: `${r.cancelReason || '방송사 사정'}으로 이번 주는 결방되어 실시간 생방송 및 투표는 쉽니다.`,
+          cancelled: true,
+          url: r.url
+        });
+      } else {
+        taskList.push(r);
+      }
+    });
+
+    // 3) HTML 렌더링
+    let html = "";
+    taskList.forEach(item => {
       if (item.cancelled) {
         html += `
           <div class="mini-task-item" style="opacity: 0.7; background: #f1f5f9; border-left: 3px solid #94a3b8;">
@@ -1638,6 +2039,8 @@ const liveVoteSchedules = [
     name: "SBS M 더 쇼 (THE SHOW)",
     app: "스타플래닛 (Star Planet)",
     url: "https://play.google.com/store/apps/details?id=inc.rowem.passicon",
+    streamUrl: "https://www.youtube.com/@thekpop/streams",
+    streamName: "유튜브 THE K-POP 라이브",
     previewStart: 17 * 60 + 5, // 17:05
     liveStart: 18 * 60 + 5,    // 18:05
     liveEnd: 19 * 60,          // 19:00
@@ -1648,6 +2051,8 @@ const liveVoteSchedules = [
     name: "MBC M 쇼! 챔피언",
     app: "아이돌챔프",
     url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient",
+    streamUrl: "https://www.youtube.com/@ALLTHEKPOP/streams",
+    streamName: "유튜브 ALL THE K-POP 라이브",
     previewStart: 16 * 60,     // 16:00
     liveStart: 17 * 60,        // 17:00
     liveEnd: 18 * 60,          // 18:00
@@ -1658,6 +2063,8 @@ const liveVoteSchedules = [
     name: "Mnet 엠카운트다운",
     app: "엠넷플러스 (Mnet Plus)",
     url: "https://www.mnetplus.world/",
+    streamUrl: "https://www.tving.com/live/player/C00579",
+    streamName: "티빙(TVING) Mnet 실시간 라이브",
     previewStart: 17 * 60,     // 17:00
     liveStart: 18 * 60,        // 18:00
     liveEnd: 19 * 60,          // 19:00
@@ -1668,6 +2075,8 @@ const liveVoteSchedules = [
     name: "MBC 쇼! 음악중심",
     app: "뮤빗 (Mubeat) & 문자투표",
     url: "https://mubeat.tv/",
+    streamUrl: "https://m.imbc.com/onair",
+    streamName: "MBC 공식 온에어 (시청률 반영)",
     previewStart: 14 * 60 + 15, // 14:15
     liveStart: 15 * 60 + 15,    // 15:15
     liveEnd: 16 * 60 + 15,      // 16:15
@@ -1678,12 +2087,14 @@ const liveVoteSchedules = [
     name: "SBS 인기가요",
     app: "SuperStar X",
     url: "https://superstarx.io/",
+    streamUrl: "https://www.sbs.co.kr/live",
+    streamName: "SBS 공식 온에어 (시청률 반영)",
     previewStart: 14 * 60 + 30, // 14:30
     liveStart: 15 * 60 + 30,    // 15:30
     liveEnd: 16 * 60 + 30,      // 16:30
     tip: "1위 후보 진입 시 SuperStar X 앱 실시간 투표 참여!",
-    isCancelled: true,
-    cancelReason: "야구 포스트시즌 중계로 인한 결방 (10/18)"
+    cancelledDates: ["2026-10-18"],
+    cancelReason: "야구 포스트시즌 중계"
   }
 ];
 
@@ -1695,6 +2106,7 @@ function checkLiveBroadcastBanner() {
   const currentDayOfWeek = now.getDay();
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
   const currentSeconds = now.getSeconds();
+  const todayDateFormatted = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 
   const show = liveVoteSchedules.find(s => s.day === currentDayOfWeek);
 
@@ -1703,18 +2115,19 @@ function checkLiveBroadcastBanner() {
     return;
   }
 
-  // 0) 방송 결방(Cancelled) 상태인 경우 -> 비활성화(Disabled) 결방 배너 안내
-  if (show.isCancelled) {
+  // 0) 방송 특정일 1회성 결방(Cancelled) 상태인 경우 -> 당일에만 비활성화(Disabled) 결방 배너 안내
+  const isCancelledToday = show.cancelledDates && show.cancelledDates.includes(todayDateFormatted);
+  if (isCancelledToday) {
     if (currentMinutes >= show.previewStart && currentMinutes < (show.liveEnd + 60)) {
       bannerContainer.innerHTML = `
         <div class="live-banner-card" style="background: #f1f5f9; border: 2px dashed #94a3b8; color: #475569;">
           <div class="live-header-row">
             <span class="live-badge" style="background: #e2e8f0; color: #475569; font-weight: 800;">🚫 방송 결방 안내</span>
-            <span class="live-timer" style="color: #64748b; font-weight: 700;">10/18(일) 생방송 없음</span>
+            <span class="live-timer" style="color: #64748b; font-weight: 700;">오늘 생방송 없음</span>
           </div>
           <div>
             <h3 class="live-title" style="color: #334155; font-size: 17px; font-weight: 800;">📺 ${show.name} 결방 (${show.cancelReason || '중계 편성'})</h3>
-            <p class="live-desc" style="color: #64748b; font-size: 13px;">오늘(10/18) SBS 인기가요는 프로야구 포스트시즌 중계로 인해 결방되어 실시간 생방송 투표가 진행되지 않습니다.</p>
+            <p class="live-desc" style="color: #64748b; font-size: 13px;">오늘 ${show.name}는 ${show.cancelReason || '중계 편성'}으로 인해 결방되어 실시간 생방송 투표가 진행되지 않습니다.</p>
           </div>
           <button class="btn-live-action disabled" style="background: #e2e8f0; color: #94a3b8; cursor: not-allowed; border: none; font-weight: 800; pointer-events: none;">
             ⛔ 오늘 생방송 투표 미진행 (결방)
@@ -1745,9 +2158,15 @@ function checkLiveBroadcastBanner() {
           <h3 class="live-title">${show.name} 실시간 투표 대기 중</h3>
           <p class="live-desc">투표 앱: ${show.app} · ${show.tip}</p>
         </div>
-        <button class="btn-live-action disabled">
-          🔒 생방송 시작 시 활성화됩니다 (${Math.floor(show.liveStart/60)}:${show.liveStart%60 < 10 ? '0': ''}${show.liveStart%60} 오픈)
-        </button>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <button class="btn-live-action disabled">
+            🔒 실시간 투표는 생방송 시작 시 활성화됩니다 (${Math.floor(show.liveStart/60)}:${show.liveStart%60 < 10 ? '0': ''}${show.liveStart%60} 오픈)
+          </button>
+          ${show.streamUrl ? `
+          <a href="${show.streamUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:6px; width:100%; height:40px; border-radius:10px; font-size:12px; font-weight:700; background:#ffffff; color:#b45309; border:1px solid #f59e0b; text-decoration:none;">
+            📺 ${show.streamName || '공식 온에어'} 미리 열기 ↗
+          </a>` : ''}
+        </div>
       </div>
     `;
   }
@@ -1768,9 +2187,15 @@ function checkLiveBroadcastBanner() {
           <h3 class="live-title">🔥 ${show.name} 1위 후보 실시간 투표 오픈!</h3>
           <p class="live-desc">지금 바로 투표에 참여해 리센느에게 힘을 보태주세요! (${show.tip})</p>
         </div>
-        <a href="${show.url}" target="_blank" class="btn-live-action enabled">
-          지금 바로 실시간 투표하기 ↗
-        </a>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <a href="${show.url}" target="_blank" class="btn-live-action enabled">
+            🔥 1위 후보 실시간 투표하기 ↗
+          </a>
+          ${show.streamUrl ? `
+          <a href="${show.streamUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:6px; width:100%; height:42px; border-radius:10px; font-size:13px; font-weight:800; background:#ffffff; color:#e11d48; border:1.5px solid #e11d48; text-decoration:none; box-shadow:0 2px 6px rgba(225,29,72,0.15);">
+            📺 ${show.streamName || '공식 온에어'} 시청하기 ↗
+          </a>` : ''}
+        </div>
       </div>
     `;
   }
