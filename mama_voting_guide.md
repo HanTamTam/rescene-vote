@@ -11,7 +11,7 @@
 ---
 
 ## 1️⃣ 엠넷플러스 앱 투표 방법
-- **투표처**: [엠넷플러스 MAMA 2차 직행 링크](https://rescene.stream/go/mama)
+- **투표처**: [엠넷플러스 MAMA 2차 직행 링크](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=)
 - **투표 한도**: 1기기 1계정당 매일 1표
 - **선택 안내**:
   - 🍀 **남자 부문**: **앤더블 (AND2BLE)**

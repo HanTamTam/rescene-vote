@@ -26,7 +26,7 @@ const daySchedules = {
     { title: "음악중심 사전투표 오픈", time: "18:00 오픈", desc: "뮤빗 앱에서 음중 사전투표 시작", urgent: "", url: "https://mubeat.tv/" }
   ],
   3: [ // 수요일 (오늘 10/21)
-    { title: "🚨 MAMA 1차 투표 (내일 마감!)", time: "~10/22 23:59 마감", desc: "엠넷플러스 앱 1일 1계정 투표 + 𝕏 트윗 필수!", urgent: "urgent-mama", url: "https://rescene.stream/go/mama" },
+    { title: "🚨 MAMA 1차 투표 (내일 마감!)", time: "~10/22 23:59 마감", desc: "엠넷플러스 앱 1일 1계정 투표 + 𝕏 트윗 필수!", urgent: "urgent-mama", url: "https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=" },
     { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "https://rescene.stream/go/aaa" },
     { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "스밍권 3표 / 미보유 1표 행사", urgent: "", url: "https://kko.to/RFUMpSDfsk" },
     { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 (혜택 ➔ 아래로 스크롤)", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },
@@ -34,7 +34,7 @@ const daySchedules = {
     { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트 앱 K-차트 사전투표 마감 전 투표", urgent: "", url: "https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" }
   ],
   4: [ // 목요일 (내일 10/22 마감일!)
-    { title: "🚨 MAMA 1차 투표 오늘 밤 최종 마감!!", time: "오늘 밤 23:59 마감", desc: "오늘 밤 11시 59분에 마감됩니다! 앱+트위터 전량 완료", urgent: "urgent-mama", url: "https://rescene.stream/go/mama" },
+    { title: "🚨 MAMA 1차 투표 오늘 밤 최종 마감!!", time: "오늘 밤 23:59 마감", desc: "오늘 밤 11시 59분에 마감됩니다! 앱+트위터 전량 완료", urgent: "urgent-mama", url: "https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=" },
     { title: "✨ [연합] AAA 이세계아이돌 투표 & 아챔 루비 룰렛", time: "상시 (~11/04)", desc: "아챔샵 룰렛 10회 + 6시간 간격 분할 투표로 룰렛 페이백 극대화!", urgent: "urgent-aaa", url: "https://rescene.stream/go/aaa" },
     { title: "멜론 MMA TOP10 투표", time: "상시 (~10/29)", desc: "스밍권 3표 / 미보유 1표 행사", urgent: "", url: "https://kko.to/RFUMpSDfsk" },
     { title: "카카오뱅크 모두의 스타상", time: "상시 (~10/30)", desc: "카뱅 원링크 1일 1회 투표", urgent: "", url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u" },

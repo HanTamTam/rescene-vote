@@ -5,7 +5,7 @@
 ## 🚨 [신규 연합] 2026 MAMA 팬스 초이스 2차 투표 (10/28 18:00 ~ 11/08 23:59)
 > **리마인(RESCENE) 💘 🤝 앤클로(AND2BLE) 🍀 2차 본선 연합투표!**
 
-- **투표 플랫폼**: [엠넷플러스 MAMA 투표](https://rescene.stream/go/mama)
+- **투표 플랫폼**: [엠넷플러스 MAMA 투표](https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=)
 - **투표 기간**: **2026년 10월 28일(수) 18:00 ~ 11월 8일(일) 23:59 (KST)**
 - **투표 방식**: 1일 1계정 당 1표 (남자 1팀 + 여자 1팀 필수 선택)
   - 🍀 **남자 부문**: **앤더블 (AND2BLE)**
