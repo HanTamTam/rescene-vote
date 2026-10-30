@@ -16,8 +16,8 @@
 
 ### 📌 리센느 본진 투표 부문
 * 🏆 **부문명**: **GLOBAL TOP10** (본상)
-* 📱 **국내 투표처**: [멜론 MMA 공식 투표](https://kko.to/RFUMpSDfsk) (이용권 보유자 1일 3표 / 미보유자 1표)
-* 🌐 **글로벌 투표처**: [베리즈(Berriz) 플랫폼](https://link.berriz.in/ko/web/main/vote/) (해외 리마인 참여 가능)
+* 📱 **국내 투표처**: [멜론 MMA 공식 투표 (부문별 투표)](https://m2.melon.com/mma/2026/vote/category/) (이용권 보유자 1일 3표 / 미보유자 1표)
+* 🌐 **글로벌 투표처**: [베리즈(Berriz) 플랫폼 (해외 팬 전용)](https://link.berriz.in/ko/web/main/vote/mma2026) (해외 리마인 참여 가능)
 
 ### 🤝 리마인이 투표할 공식 연합 부문 2팀
 * 🏆 **올해의 신인**: **알파드라이브원**
