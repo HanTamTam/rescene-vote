@@ -1314,13 +1314,14 @@
 
     <div class="gantt-card">
       <div class="gantt-legend">
-        <div class="legend-item" style="color:var(--text-muted);"><div class="legend-color" style="background:#a855f7; opacity:0.6;"></div> KGMA (종료)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#e11d48;"></div> MAMA 2차 본선 (~11/08)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#2563eb;"></div> MAMA 제베원 (~11/08)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#10b981;"></div> MMA GLOBAL TOP10 (~11/13)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상 (오늘마감)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리 (~11/04)</div>
-        <div class="legend-item"><div class="legend-color" style="background:#03c75a;"></div> 네이버 응원 (~11/03)</div>
+        <div class="legend-item" data-name="KGMA" style="color:var(--text-muted);"><div class="legend-color" style="background:#a855f7; opacity:0.6;"></div> KGMA (종료)</div>
+        <div class="legend-item" data-name="MAMA"><div class="legend-color" style="background:#e11d48;"></div> MAMA 2차 본선 (~11/08)</div>
+        <div class="legend-item" data-name="MAMA 제로베이스원"><div class="legend-color" style="background:#2563eb;"></div> MAMA 제베원 (~11/08)</div>
+        <div class="legend-item" data-name="MMA GLOBAL TOP10"><div class="legend-color" style="background:#10b981;"></div> MMA GLOBAL TOP10 (~11/13)</div>
+        <div class="legend-item" data-name="카카오뱅크"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상 (오늘마감)</div>
+        <div class="legend-item" data-name="AAA 이파리"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리 (~11/04)</div>
+        <div class="legend-item" data-name="네이버 컴백 응원"><div class="legend-color" style="background:#03c75a;"></div> 네이버 응원 (~11/03)</div>
+        <div class="legend-item" data-name="MMA 연합"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합 (~11/13)</div>
         <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/30)</div>
       </div>
 
@@ -2012,16 +2013,35 @@
       const start = row.dataset.start ? new Date(row.dataset.start) : null;
       const barEl = row.querySelector('.gantt-bar');
       const titleEl = row.querySelector('.gantt-row-title');
+      const rowName = row.dataset.name;
+      const legendEl = rowName ? document.querySelector(`.gantt-legend .legend-item[data-name="${rowName}"]`) : null;
 
+      // 🚨 종료 후 24시간(1일)이 넘게 지난 항목은 간트 차트 및 범례에서 자동 숨김(제거) 처리
       if (now > end) {
+        const diffMs = now - end;
+        const oneDayMs = 24 * 60 * 60 * 1000;
+        if (diffMs > oneDayMs) {
+          row.style.display = 'none';
+          if (legendEl) legendEl.style.display = 'none';
+          return;
+        }
+
+        row.style.display = '';
         row.style.opacity = '0.45';
         if (titleEl) titleEl.style.textDecoration = 'line-through';
         if (barEl) {
           barEl.textContent = '종료됨';
           barEl.style.background = '#94a3b8';
         }
+        if (legendEl) {
+          legendEl.style.display = '';
+          legendEl.style.opacity = '0.5';
+        }
         return;
       }
+
+      row.style.display = '';
+      if (legendEl) legendEl.style.display = '';
 
       if (start && now < start) {
         row.style.opacity = '0.75';
