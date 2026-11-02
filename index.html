@@ -1048,263 +1048,16 @@
     </a>
 
 
-    <!-- 1. Section: 4 Urgent Votes (가장 마감 빠른 순서로 정렬) -->
+    <!-- 1. Section: Dynamic Core Vote Cards (데이터 기반 완전 자동 렌더링) -->
     <div class="section-head">
       <h2>🔥 지금 진행 중인 핵심 투표</h2>
-      <span>마감 임박 순서</span>
+      <span id="vote-card-count">실시간 로딩 중</span>
     </div>
 
-    <!-- 1-1. [종료] KGMA Berriz 투표 (10/20 마감) - 자동 마감 감지 지원 -->
-    <div class="vote-card kgma-border" data-name="KGMA" data-start="2026-10-15T00:00:00" data-end="2026-10-20T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag badge-kgma">🚨 마감 초비상 (~10/20 23:59)</span>
-        <span class="card-deadline" style="color:var(--kgma-purple);">D-2 남음</span>
-      </div>
-      <div>
-        <h3 class="card-title">KGMA Berriz 글로벌 팬 초이스</h3>
-        <p class="card-desc">베리즈(Berriz) 플랫폼에서 매일 1표 행사 필수!</p>
-      </div>
-      <a href="https://link.berriz.in/ko/web/main/vote/2026kgma/" target="_blank" class="btn-mobile btn-kgma">
-        베리즈(Berriz) 투표창 바로열기 ↗
-      </a>
+    <!-- 🎯 투표 카드 동적 렌더링 컨테이너 (데이터 객체에서 자동 생성) -->
+    <div id="vote-cards-container" style="display: flex; flex-direction: column; gap: 16px;">
+      <!-- JavaScript renderVoteCards()에 의해 데이터로부터 자동 생성됩니다 -->
     </div>
-
-    <!-- 1-2. MAMA 2차 본선 투표 (앤클로 연합, 10/28 18:00 ~ 11/08 23:59 마감) -->
-    <div class="vote-card mama-border" data-name="MAMA 2차" data-start="2026-10-28T18:00:00" data-end="2026-11-08T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag badge-mama">✨ 리마인 🤝🏻 앤클로 연합 (~11/08)</span>
-        <span class="card-deadline" style="color:var(--mama-red);">D-9 (11/08 마감)</span>
-      </div>
-      <div>
-        <h3 class="card-title">2026 MAMA 2차 본선 (Fans' Choice)</h3>
-        <p class="card-desc">엠넷플러스 앱에서 남자·여자 부문 각각 1팀씩 선택 투표 (1일 1계정 당 1표 / 기기 제한)</p>
-      </div>
-
-      <div class="picks-pill-box">
-        <div class="picks-row">
-          <span class="picks-label">🍀 남자:</span>
-          <span class="picks-names"><strong style="color:#15803d; background:#dcfce7;">앤더블 (AND2BLE)</strong></span>
-        </div>
-        <div class="picks-row">
-          <span class="picks-label">💘 여자:</span>
-          <span class="picks-names"><strong>리센느 (RESCENE)</strong></span>
-        </div>
-      </div>
-
-      <div style="background: rgba(225, 29, 72, 0.08); border: 1px dashed rgba(225, 29, 72, 0.4); border-radius: 8px; padding: 7px 10px; font-size: 11.5px; color: #9f1239; font-weight: 700; line-height: 1.4;">
-        ✊🏻 <strong>연합 필수:</strong> 투표 완료 후 𝕏 인증 트윗 및 앤더블 연합 보은 스밍에 함께해 주세요!
-      </div>
-
-      <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=" target="_blank" class="btn-mobile btn-mama">
-          📱 엠넷플러스 MAMA 2차 직행 투표 ↗
-        </a>
-        <a href="https://kko.to/tqFqUfeuKY" target="_blank" style="text-decoration:none; display:flex; align-items:center; justify-content:center; gap:6px; background:#f0fdf4; border:1px solid #86efac; border-radius:10px; height:42px; font-size:12.5px; font-weight:700; color:#15803d;">
-          🍀 앤더블 [French Kissing] 멜론 뮤직웨이브 스밍 ↗
-        </a>
-        <a href="https://twitter.com/intent/tweet?text=%232026MAMAVOTE%20%23rescene%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%95%A4%ED%81%B4%EB%A1%9C%EC%9D%98_HappyBloom" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:auto; min-height:44px; padding:7px 12px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:2px;">
-          <div style="display:flex; align-items:center; justify-content:center; gap:4px; font-size:13px; font-weight:700;">
-            <span>𝕏 연합 인증 트윗 작성</span>
-            <span>↗</span>
-          </div>
-          <span style="font-size:11px; font-weight:600; color:#94a3b8; letter-spacing:-0.2px;">#리마인과_앤클로의_HappyBloom</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- 1-3. [오늘 마감!] KakaoBank Special Award (~10/30) -->
-    <div class="vote-card kb-border" data-name="카카오뱅크" data-start="2026-10-15T00:00:00" data-end="2026-10-30T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag badge-kb">💛 카카오뱅크 (~10/30 23:59)</span>
-        <span class="card-deadline" style="color:#b45309;">🚨 오늘 밤 최종 마감 (D-Day)</span>
-      </div>
-      <div>
-        <h3 class="card-title">MMA 2026 모두의 스타상</h3>
-        <p class="card-desc">모두의 스타상 오늘 밤 최종 마감! 매일 1회 <strong>'리센느'</strong> 투표 (만 14세 이상 카뱅 계좌 보유자)</p>
-      </div>
-
-      <div style="background: rgba(234, 179, 8, 0.08); border: 1px dashed rgba(234, 179, 8, 0.4); border-radius: 8px; padding: 6px 10px; font-size: 11.5px; color: #854d0e; font-weight: 700;">
-        📍 <strong>투표 배너 위치:</strong> 카카오뱅크 앱 [혜택] 메뉴 ➔ 아래로 스크롤하여 참여! (투표 80% 반영)
-      </div>
-
-      <a href="https://kakaobank.onelink.me/0qMi/p3ifhx4u" target="_blank" class="btn-mobile btn-kb">
-        카카오뱅크 원링크 바로가기 ↗
-      </a>
-    </div>
-
-    <!-- 1-4. MMA 2026 본상 [GLOBAL TOP10] & 부문별 연합 투표 (10/30 ~ 11/13) -->
-    <div class="vote-card melon-border" data-name="MMA GLOBAL TOP10" data-start="2026-10-30T00:00:00" data-end="2026-11-13T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag badge-melon">🍈 멜론 & 베리즈 (~11/13 23:59)</span>
-        <span class="card-deadline" style="color:#15803d;">🚨 현재 예측 19위 (화력 집중 필수!)</span>
-      </div>
-      <div>
-        <h3 class="card-title">제18회 MMA 본상 [GLOBAL TOP10] & 부문별 연합</h3>
-        <p class="card-desc">멜론 앱(유료 3표 / 무료 1표) 및 Berriz 앱(글로벌) 매일 <strong>'리센느'</strong> 투표 + 연합 2팀 품앗이 투표</p>
-      </div>
-
-      <div style="background: rgba(16, 185, 129, 0.08); border: 1px dashed rgba(16, 185, 129, 0.4); border-radius: 8px; padding: 8px 10px; font-size: 11.5px; color: #065f46; font-weight: 700; line-height: 1.45;">
-        💡 <strong>연합 품앗이 투표 꿀팁:</strong> MMA는 투표수가 외부로 공개되므로, 인증이 번거로우신 분들은 <strong>인증을 생략하더라도 투표창 숫자로 화력을 보여주기 위해 연합팀 투표는 꼭 필수</strong>로 함께해 주세요!
-      </div>
-
-      <div class="picks-pill-box" style="gap: 6px;">
-        <div class="picks-row">
-          <span class="picks-label" style="min-width: 80px; color: #15803d; font-weight: 800;">🏆 리센느:</span>
-          <span class="picks-names"><strong>GLOBAL TOP10</strong> (본상 / 예측 19위)</span>
-        </div>
-        <div class="picks-row" style="padding-top: 4px; border-top: 1px dashed #e2e8f0;">
-          <span class="picks-label" style="min-width: 80px; color: #4338ca; font-weight: 800;">🏆 올해의 신인:</span>
-          <span class="picks-names"><strong>알파드라이브원</strong> (앨리즈 연합)</span>
-        </div>
-        <div class="picks-row" style="padding-top: 4px; border-top: 1px dashed #e2e8f0;">
-          <span class="picks-label" style="min-width: 80px; color: #b91c1c; font-weight: 800;">🏆 베스트송:</span>
-          <span class="picks-names"><strong>코르티스 [REDRED]</strong> (코어 연합)</span>
-        </div>
-      </div>
-
-      <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="https://m2.melon.com/mma/2026/vote/category/" target="_blank" class="btn-mobile btn-melon">
-          🍈 멜론 MMA 부문별 투표 바로가기 ↗
-        </a>
-        <a href="https://link.berriz.in/ko/web/main/vote/mma2026" target="_blank" class="btn-mobile" style="background: linear-gradient(135deg, #7c3aed, #6d28d9); color:#ffffff; box-shadow: 0 3px 10px rgba(124, 58, 237, 0.3);">
-          🌐 베리즈(Berriz) GLOBAL TOP10 투표 (해외 팬) ↗
-        </a>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
-          <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_%EC%95%A8%EB%A6%AC%EC%A6%88_%ED%95%A8%EA%BB%98%EB%8B%AC%EB%A0%A4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA" target="_blank" class="btn-x-vote" style="font-size:11.5px; height:38px;">
-            𝕏 알디원 인증 트윗 ↗
-          </a>
-          <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_with_%EC%BD%94%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA" target="_blank" class="btn-x-vote" style="font-size:11.5px; height:38px;">
-            𝕏 코르티스 인증 트윗 ↗
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 1-5. [신규 연합] MAMA Worldwide KCONERS' Choice : 제로베이스원 (~11/08) -->
-    <div class="vote-card" style="border-top: 4px solid #2563eb; background: linear-gradient(180deg, #eff6ff 0%, #ffffff 25%);" data-name="MAMA 제로베이스원" data-start="2026-10-30T00:00:00" data-end="2026-11-08T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag" style="background:#dbeafe; color:#1d4ed8; font-weight:800;">✨ 리마인 🤝🏻 제로즈 연합 (~11/08)</span>
-        <span class="card-deadline" style="color:#2563eb;">D-9 (상호 전폭 품앗이)</span>
-      </div>
-      <div>
-        <h3 class="card-title">[MAMA] Worldwide KCONERS' Choice : 제로베이스원</h3>
-        <p class="card-desc">MAMA KCONERS 부문 <strong>제로베이스원 'Customize'</strong> 투표 시, 제로즈가 <strong>MMA GLOBAL TOP10 리센느</strong>로 강력 화답!</p>
-      </div>
-
-      <div class="picks-pill-box" style="gap: 8px;">
-        <div class="picks-row" style="align-items: flex-start;">
-          <span class="picks-label" style="min-width: 80px; color: #2563eb; font-weight: 800;">리마인 🎁 제로즈:</span>
-          <div style="font-size: 11.5px; color: #1e293b; line-height: 1.4;">
-            <div>• <strong>MAMA Worldwide KCONERS' Choice</strong>: <strong>제로베이스원 ('Customize')</strong> 투표 (~11/08)</div>
-          </div>
-        </div>
-        <div class="picks-row" style="align-items: flex-start; padding-top: 6px; border-top: 1px dashed #e2e8f0;">
-          <span class="picks-label" style="min-width: 80px; color: #15803d; font-weight: 800;">제로즈 🎁 리마인:</span>
-          <div style="font-size: 11.5px; color: #1e293b; line-height: 1.4;">
-            <div>• <strong>멜론 MMA GLOBAL TOP10</strong>: <strong>리센느</strong> 전폭 투표 (10/30 ~ 11/13)</div>
-          </div>
-        </div>
-      </div>
-
-      <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="https://tinyurl.com/z96fcabd" target="_blank" class="btn-mobile" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #ffffff; box-shadow: 0 3px 10px rgba(37, 99, 235, 0.3);">
-          📱 MAMA KCONERS [제로베이스원] 직행 투표 ↗
-        </a>
-        <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_AND_%EC%A0%9C%EB%A1%9C%EC%A6%88%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%20%23ZEROBASEONE" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:38px; font-size:12px;">
-          1️⃣ 𝕏 연합 인증 트윗 작성 (#리마인_AND_제로즈) ↗
-        </a>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
-          <a href="https://forms.gle/Lb3YrGBNSU3BAbde7" target="_blank" style="text-decoration:none; display:flex; align-items:center; justify-content:center; gap:4px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; height:36px; font-size:11px; font-weight:700; color:#1e40af;">
-            2️⃣ 구글 폼 인증 ↗
-          </a>
-          <a href="https://pf.kakao.com/_WxcxowX/chat" target="_blank" style="text-decoration:none; display:flex; align-items:center; justify-content:center; gap:4px; background:#fef08a; border:1px solid #facc15; border-radius:10px; height:36px; font-size:11px; font-weight:700; color:#854d0e;">
-            3️⃣ 카톡 채널 전송 ↗
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 1-6. [연합] 아이돌챔프 AAA 인기상 : 이세계아이돌 (~11/04) -->
-    <div class="vote-card aaa-border" data-name="AAA 이세계아이돌" data-start="2026-10-08T00:00:00" data-end="2026-11-04T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag badge-aaa">✨ 리마인 🤝🏻 이파리 연합 (~11/04)</span>
-        <span class="card-deadline" style="color:#0891b2;">D-8 (아챔 100%)</span>
-      </div>
-      <div>
-        <h3 class="card-title">[AAA 2026] 인기상 : 이세계아이돌 투표</h3>
-        <p class="card-desc">아이돌챔프 앱에서 <strong>이세계아이돌</strong>에게 매일 100표 이내 투표 후 인증! (이파리가 MAMA 2차·MMA TOP10·뮤직웨이브 스밍으로 화답)</p>
-      </div>
-
-      <div style="background: rgba(6, 182, 212, 0.08); border: 1px dashed rgba(6, 182, 212, 0.4); border-radius: 8px; padding: 8px 10px; font-size: 12px; color: #0e7490; font-weight: 700; line-height: 1.45;">
-        ⚡ <strong>6시간 분할 투표 룰렛 꿀팁:</strong> 투표 1회 시 룰렛(최대 100❤)이 열리며 쿨타임은 6시간! 하루 100표를 몰아서 쓰지 말고 <strong>6시간 간격으로 나누어 투표</strong> 시 루비 페이백 극대화!
-      </div>
-
-      <div class="picks-pill-box" style="gap: 8px;">
-        <div class="picks-row" style="align-items: flex-start;">
-          <span class="picks-label" style="min-width: 78px; color: #0891b2; font-weight: 800;">리마인 🎁 이파리</span>
-          <div style="font-size: 11.5px; color: #1e293b; line-height: 1.4;">
-            <div>• <strong>AAA 인기상(여자가수)</strong>: 이세계아이돌 투표 (~11/04)</div>
-            <div>• <strong>[이세돌 신곡] 23~0시 2회 스밍</strong> (11/09~11/21)</div>
-          </div>
-        </div>
-        <div class="picks-row" style="align-items: flex-start; padding-top: 6px; border-top: 1px dashed #e2e8f0;">
-          <span class="picks-label" style="min-width: 78px; color: #e11d48; font-weight: 800;">이파리 🎁 리마인</span>
-          <div style="font-size: 11.5px; color: #1e293b; line-height: 1.4;">
-            <div>• <strong>MMA GLOBAL TOP10</strong>: 리센느 투표 (10/30~11/13)</div>
-            <div>• <strong>MAMA 2차(여)</strong>: 리센느 투표 (10/28~11/08)</div>
-            <div>• <strong>뮤직웨이브 [WITH] 23~0시 스밍</strong> (11/03~11/08)</div>
-          </div>
-        </div>
-      </div>
-
-      <div style="display:flex; flex-direction:column; gap:8px;">
-        <a href="https://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R" target="_blank" class="btn-mobile btn-idolchamp">
-          📱 아이돌챔프 [이세계아이돌] 직행 투표 ↗
-        </a>
-        <a href="https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%9D%B4%ED%8C%8C%EB%A6%AC_%EC%B0%A8%EC%9B%90%EC%9D%84_%EB%84%98%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%0A%23ISEGYEIDOL%20%23%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:auto; min-height:46px; padding:7px 12px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:2px;">
-          <div style="display:flex; align-items:center; justify-content:center; gap:4px; font-size:13px; font-weight:700;">
-            <span>1️⃣ 𝕏 연합 인증 트윗 작성 (권장)</span>
-            <span>↗</span>
-          </div>
-          <span style="font-size:11px; font-weight:600; color:#94a3b8; letter-spacing:-0.2px;">#리마인과_이파리_차원을_넘어</span>
-        </a>
-        <a href="https://pf.kakao.com/_WxcxowX" target="_blank" style="text-decoration:none; display:flex; align-items:center; justify-content:center; gap:6px; background:#fef08a; border:1px solid #facc15; border-radius:10px; height:36px; font-size:11.5px; font-weight:700; color:#854d0e;">
-          2️⃣ 써치밴/X 미사용자: 카카오톡 채널로 인증샷 전송 ↗
-        </a>
-      </div>
-    </div>
-
-    <!-- 1-6. [네이버] 미니 4집 [PULSE] 컴백 스페셜 응원 이벤트 (~11/03) -->
-    <div class="vote-card" style="border-top: 4px solid #03c75a; background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 25%);" data-name="네이버 컴백 응원" data-start="2026-10-26T18:00:00" data-end="2026-11-03T23:59:59">
-      <div class="card-meta-row">
-        <span class="badge-tag" style="background:#dcfce7; color:#15803d; font-weight:800;">🎁 네이버 컴백 스페셜 (~11/03)</span>
-        <span class="card-deadline" style="color:#03c75a;">매일 100회 응원</span>
-      </div>
-      <div>
-        <h3 class="card-title">[네이버] 응원하고 사인 앨범 & 폴라로이드 받자!</h3>
-        <p class="card-desc">리센느 미니 4집 [PULSE] 발매 기념! 컴백 스페셜 페이지에서 매일 응원 100회 달성 시 사인 앨범 & 친필 폴라로이드 추첨 증정</p>
-      </div>
-
-      <div class="picks-pill-box" style="gap: 6px;">
-        <div class="picks-row" style="align-items: flex-start;">
-          <span class="picks-label" style="min-width: 68px; color: #15803d; font-weight: 800;">🏆 스페셜:</span>
-          <span style="font-size: 11.5px; color: #1e293b;"><strong>사인 앨범 1개 + 멤버 폴라로이드 1장 (5명)</strong><br><span style="color:#64748b;">→ 응모 기간 중 5일 이상 일일 최대치(100회) 달성</span></span>
-        </div>
-        <div class="picks-row" style="align-items: flex-start; padding-top: 4px; border-top: 1px dashed #e2e8f0;">
-          <span class="picks-label" style="min-width: 68px; color: #15803d; font-weight: 800;">💿 응원상:</span>
-          <span style="font-size: 11.5px; color: #1e293b;"><strong>사인 앨범 1개 (5명)</strong><br><span style="color:#64748b;">→ 응모 기간 중 3일 이상 일일 최대치(100회) 달성</span></span>
-        </div>
-      </div>
-
-      <div style="background: rgba(3, 199, 90, 0.08); border: 1px dashed rgba(3, 199, 90, 0.4); border-radius: 8px; padding: 6px 10px; font-size: 11.5px; color: #15803d; font-weight: 700;">
-        📍 <strong>참여 방법:</strong> 응모 기간(10/26 18시 ~ 11/3 23:59) 동안 매일 100회 응원하기 달성 필수! (11/18 발표)
-      </div>
-
-      <a href="http://naver.me/xHE02Yna" target="_blank" class="btn-mobile" style="background: linear-gradient(135deg, #03c75a, #029e46); color: #ffffff; box-shadow: 0 3px 10px rgba(3, 199, 90, 0.3);">
-        💚 네이버 컴백 스페셜 응원하기 (1일 100회) ↗
-      </a>
-    </div>
-
 
     <!-- 2. 📊 GANTT CHART TIMELINE -->
     <div class="section-head">
@@ -1812,6 +1565,383 @@
 </div>
 
 <script>
+
+  // ==========================================
+  // 🎯 [순수 투표 데이터 리스트 (Vote Cards Data)]
+  // 새로운 투표/연합 추가 시 아래 배열에 객체만 추가하면 UI와 상태가 자동 적용됩니다.
+  // ==========================================
+  const voteCardsData = [
+    {
+      id: "mama-round2",
+      name: "MAMA 2차",
+      theme: "mama",
+      badgeText: "✨ 리마인 🤝🏻 앤클로 연합 (~11/08)",
+      title: "2026 MAMA 2차 본선 (Fans' Choice)",
+      desc: "엠넷플러스 앱에서 남자·여자 부문 각각 1팀씩 선택 투표 (1일 1계정 당 1표 / 기기 제한)",
+      startDate: "2026-10-28T18:00:00",
+      endDate: "2026-11-08T23:59:59",
+      deadlineColor: "var(--mama-red)",
+      picks: [
+        { label: "🍀 남자:", name: "앤더블 (AND2BLE)", style: "color:#15803d; background:#dcfce7;" },
+        { label: "💘 여자:", name: "리센느 (RESCENE)" }
+      ],
+      notice: "✊🏻 <strong>연합 필수:</strong> 투표 완료 후 𝕏 인증 트윗 및 앤더블 연합 보은 스밍에 함께해 주세요!",
+      noticeColor: { bg: "rgba(225, 29, 72, 0.08)", border: "rgba(225, 29, 72, 0.4)", text: "#9f1239" },
+      actions: [
+        {
+          type: "primary",
+          label: "📱 엠넷플러스 MAMA 2차 직행 투표 ↗",
+          url: "https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&refererCode=",
+          btnClass: "btn-mama"
+        },
+        {
+          type: "custom",
+          label: "🍀 앤더블 [French Kissing] 멜론 뮤직웨이브 스밍 ↗",
+          url: "https://kko.to/tqFqUfeuKY",
+          style: "background:#f0fdf4; border:1px solid #86efac; color:#15803d; font-size:12.5px; font-weight:700; height:42px; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        },
+        {
+          type: "x-tweet",
+          label: "𝕏 연합 인증 트윗 작성",
+          subtext: "#리마인과_앤클로의_HappyBloom",
+          url: "https://twitter.com/intent/tweet?text=%232026MAMAVOTE%20%23rescene%0A%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%95%A4%ED%81%B4%EB%A1%9C%EC%9D%98_HappyBloom"
+        }
+      ]
+    },
+    {
+      id: "mma-global",
+      name: "MMA GLOBAL TOP10",
+      theme: "melon",
+      badgeText: "🍈 멜론 & 베리즈 (~11/13 23:59)",
+      title: "제18회 MMA 본상 [GLOBAL TOP10] & 부문별 연합",
+      desc: "멜론 앱(유료 3표 / 무료 1표) 및 Berriz 앱(글로벌) 매일 <strong>'리센느'</strong> 투표 + 연합 2팀 품앗이 투표",
+      startDate: "2026-10-30T00:00:00",
+      endDate: "2026-11-13T23:59:59",
+      deadlineColor: "#15803d",
+      urgentText: "🚨 현재 예측 19위 (화력 집중 필수!)",
+      notice: "💡 <strong>연합 품앗이 투표 꿀팁:</strong> MMA는 투표수가 외부로 공개되므로, 인증이 번거로우신 분들은 <strong>인증을 생략하더라도 투표창 숫자로 화력을 보여주기 위해 연합팀 투표는 꼭 필수</strong>로 함께해 주세요!",
+      noticeColor: { bg: "rgba(16, 185, 129, 0.08)", border: "rgba(16, 185, 129, 0.4)", text: "#065f46" },
+      picks: [
+        { label: "🏆 리센느:", name: "GLOBAL TOP10 (본상 / 예측 19위)", labelColor: "#15803d" },
+        { label: "🏆 올해의 신인:", name: "알파드라이브원 (앨리즈 연합)", labelColor: "#4338ca", divider: true },
+        { label: "🏆 베스트송:", name: "코르티스 [REDRED] (코어 연합)", labelColor: "#b91c1c", divider: true }
+      ],
+      actions: [
+        {
+          type: "primary",
+          label: "🍈 멜론 MMA 부문별 투표 바로가기 ↗",
+          url: "https://m2.melon.com/mma/2026/vote/category/",
+          btnClass: "btn-melon"
+        },
+        {
+          type: "custom",
+          label: "🌐 베리즈(Berriz) GLOBAL TOP10 투표 (해외 팬) ↗",
+          url: "https://link.berriz.in/ko/web/main/vote/mma2026",
+          style: "background: linear-gradient(135deg, #7c3aed, #6d28d9); color:#ffffff; box-shadow: 0 3px 10px rgba(124, 58, 237, 0.3); border-radius: 12px; height: 46px; font-weight: 700; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        },
+        {
+          type: "grid2",
+          items: [
+            {
+              label: "𝕏 알디원 인증 트윗 ↗",
+              url: "https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_%EC%95%A8%EB%A6%AC%EC%A6%88_%ED%95%A8%EA%BB%98%EB%8B%AC%EB%A0%A4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA",
+              style: "font-size:11.5px; height:38px;"
+            },
+            {
+              label: "𝕏 코르티스 인증 트윗 ↗",
+              url: "https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_with_%EC%BD%94%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA",
+              style: "font-size:11.5px; height:38px;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: "mama-zb1",
+      name: "MAMA 제로베이스원",
+      theme: "zb1",
+      customBorder: "border-top: 4px solid #2563eb; background: linear-gradient(180deg, #eff6ff 0%, #ffffff 25%);",
+      badgeText: "✨ 리마인 🤝🏻 제로즈 연합 (~11/08)",
+      badgeStyle: "background:#dbeafe; color:#1d4ed8; font-weight:800;",
+      title: "[MAMA] Worldwide KCONERS' Choice : 제로베이스원",
+      desc: "MAMA KCONERS 부문 <strong>제로베이스원 'Customize'</strong> 투표 시, 제로즈가 <strong>MMA GLOBAL TOP10 리센느</strong>로 강력 화답!",
+      startDate: "2026-10-30T00:00:00",
+      endDate: "2026-11-08T23:59:59",
+      deadlineColor: "#2563eb",
+      picksRows: [
+        { label: "리마인 🎁 제로즈:", labelColor: "#2563eb", desc: "• <strong>MAMA Worldwide KCONERS' Choice</strong>: <strong>제로베이스원 ('Customize')</strong> 투표 (~11/08)" },
+        { label: "제로즈 🎁 리마인:", labelColor: "#15803d", desc: "• <strong>멜론 MMA GLOBAL TOP10</strong>: <strong>리센느</strong> 전폭 투표 (10/30 ~ 11/13)", divider: true }
+      ],
+      actions: [
+        {
+          type: "custom",
+          label: "📱 MAMA KCONERS [제로베이스원] 직행 투표 ↗",
+          url: "https://tinyurl.com/z96fcabd",
+          style: "background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #ffffff; box-shadow: 0 3px 10px rgba(37, 99, 235, 0.3); border-radius: 12px; height: 46px; font-weight: 700; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        },
+        {
+          type: "x-tweet-simple",
+          label: "1️⃣ 𝕏 연합 인증 트윗 작성 (#리마인_AND_제로즈) ↗",
+          url: "https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8_AND_%EC%A0%9C%EB%A1%9C%EC%A6%88%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%232026MMA%20%23ZEROBASEONE"
+        },
+        {
+          type: "grid2",
+          items: [
+            {
+              label: "2️⃣ 구글 폼 인증 ↗",
+              url: "https://forms.gle/Lb3YrGBNSU3BAbde7",
+              style: "background:#eff6ff; border:1px solid #bfdbfe; color:#1e40af; height:36px; font-size:11px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+            },
+            {
+              label: "3️⃣ 카톡 채널 전송 ↗",
+              url: "https://pf.kakao.com/_WxcxowX/chat",
+              style: "background:#fef08a; border:1px solid #facc15; color:#854d0e; height:36px; font-size:11px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: "aaa-isegye",
+      name: "AAA 이세계아이돌",
+      theme: "aaa",
+      badgeText: "✨ 리마인 🤝🏻 이파리 연합 (~11/04)",
+      title: "2026 AAA 인기상 (아이돌챔프) : 이세계아이돌",
+      desc: "아이돌챔프 앱 여자 가수 부문 <strong>'이세계아이돌'</strong> 매일 100표 투표 ➔ 이파리가 <strong>MMA GLOBAL TOP10 리센느</strong>로 화답!",
+      startDate: "2026-10-08T00:00:00",
+      endDate: "2026-11-04T23:59:59",
+      deadlineColor: "#0891b2",
+      notice: "💎 <strong>아챔 룰렛 환급 꿀팁:</strong> 아챔샵 매일 루비 룰렛 10회 참여 & 6시간 간격 100표 분할 투표 시 룰렛 추가 기회 페이백!",
+      noticeColor: { bg: "rgba(6, 182, 212, 0.08)", border: "rgba(6, 182, 212, 0.4)", text: "#0e7490" },
+      picks: [
+        { label: "🤝 연합 품앗이:", name: "리마인(이세돌 AAA 인기상) ↔ 이파리(리센느 MMA GLOBAL TOP10 & 스밍)" }
+      ],
+      actions: [
+        {
+          type: "primary",
+          label: "📱 아이돌챔프 AAA 직행 투표 열기 ↗",
+          url: "https://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M4784X9DKK87B0J1GB669P3R",
+          btnClass: "btn-aaa"
+        },
+        {
+          type: "x-tweet",
+          label: "𝕏 연합 인증 트윗 작성",
+          subtext: "#리마인과_이파리_차원을_넘어",
+          url: "https://twitter.com/intent/tweet?text=%23%EB%A6%AC%EB%A7%88%EC%9D%B8%EA%B3%BC_%EC%9D%B4%ED%8C%8C%EB%A6%AC_%EC%B0%A8%EC%9B%90%EC%9D%84_%EB%84%98%EC%96%B4%0A%23RESCENE%20%23%EB%A6%AC%EC%84%BC%EB%8A%90%20%23%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C%20%23AAA2026"
+        },
+        {
+          type: "custom",
+          label: "💬 이파리 카카오톡 오픈채팅 인증방 ↗",
+          url: "https://open.kakao.com/o/g14v7iWf",
+          style: "background:#fef08a; border:1px solid #facc15; border-radius:10px; height:38px; font-size:12px; font-weight:700; color:#854d0e; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        }
+      ]
+    },
+    {
+      id: "naver-pulse",
+      name: "네이버 컴백 응원",
+      theme: "naver",
+      customBorder: "border-top: 4px solid #03c75a; background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 25%);",
+      badgeText: "💚 네이버 독점 이벤트 (~11/03)",
+      badgeStyle: "background:#dcfce7; color:#15803d; font-weight:800;",
+      title: "미니 4집 [PULSE] 네이버 컴백 스페셜",
+      desc: "네이버 컴백 스페셜 페이지에서 매일 <strong>100회 응원 터치</strong> 참여 (로그인 네이버 ID당 1일 100회 제한)",
+      startDate: "2026-10-26T18:00:00",
+      endDate: "2026-11-03T23:59:59",
+      deadlineColor: "#15803d",
+      notice: "🎁 <strong>리워드 안내:</strong> 5일 이상 응원 완료 시 <strong>멤버 전원 친필 사인 앨범 + 미공개 폴라로이드 사진</strong> 추첨 응모!",
+      noticeColor: { bg: "rgba(3, 199, 90, 0.08)", border: "rgba(3, 199, 90, 0.4)", text: "#15803d" },
+      actions: [
+        {
+          type: "custom",
+          label: "💚 네이버 컴백 스페셜 응원하기 ↗",
+          url: "http://naver.me/xHE02Yna",
+          style: "background: linear-gradient(135deg, #03c75a, #029e46); color:#ffffff; box-shadow:0 3px 10px rgba(3, 199, 90, 0.3); border-radius:12px; height:46px; font-weight:800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        }
+      ]
+    },
+    {
+      id: "kakaobank",
+      name: "카카오뱅크",
+      theme: "kb",
+      badgeText: "💛 카카오뱅크 (~10/30 23:59)",
+      title: "MMA 2026 모두의 스타상",
+      desc: "모두의 스타상 매일 1회 <strong>'리센느'</strong> 투표 (만 14세 이상 카뱅 계좌 보유자)",
+      startDate: "2026-10-15T00:00:00",
+      endDate: "2026-10-30T23:59:59",
+      deadlineColor: "#b45309",
+      notice: "📍 <strong>투표 배너 위치:</strong> 카카오뱅크 앱 [혜택] 메뉴 ➔ 아래로 스크롤하여 참여! (투표 80% 반영)",
+      noticeColor: { bg: "rgba(234, 179, 8, 0.08)", border: "rgba(234, 179, 8, 0.4)", text: "#854d0e" },
+      actions: [
+        {
+          type: "primary",
+          label: "카카오뱅크 원링크 바로가기 ↗",
+          url: "https://kakaobank.onelink.me/0qMi/p3ifhx4u",
+          btnClass: "btn-kb"
+        }
+      ]
+    },
+    {
+      id: "kgma",
+      name: "KGMA",
+      theme: "kgma",
+      badgeText: "🚨 마감 초비상 (~10/20 23:59)",
+      title: "KGMA Berriz 글로벌 팬 초이스",
+      desc: "베리즈(Berriz) 플랫폼에서 매일 1표 행사 필수!",
+      startDate: "2026-10-15T00:00:00",
+      endDate: "2026-10-20T23:59:59",
+      actions: [
+        {
+          type: "primary",
+          label: "베리즈(Berriz) 투표창 바로열기 ↗",
+          url: "https://link.berriz.in/ko/web/main/vote/2026kgma/",
+          btnClass: "btn-kgma"
+        }
+      ]
+    }
+  ];
+
+  // 🎨 투표 카드 자동 렌더링 함수 (UI/UX 템플릿 + 상태 제어)
+  function renderVoteCards() {
+    const container = document.getElementById("vote-cards-container");
+    if (!container) return;
+
+    const now = new Date();
+    let html = "";
+    let activeCount = 0;
+
+    voteCardsData.forEach(card => {
+      const end = new Date(card.endDate);
+      const start = new Date(card.startDate);
+
+      // 종료 후 24시간(1일) 넘게 지난 카드는 완전 자동 숨김(렌더링 제외)
+      const diffMs = now - end;
+      if (diffMs > (24 * 60 * 60 * 1000)) {
+        return;
+      }
+
+      const isEnded = now > end;
+      const isUpcoming = now < start;
+      if (!isEnded) activeCount++;
+
+      // 실시간 D-Day 계산
+      let deadlineText = "";
+      if (isEnded) {
+        deadlineText = "종료됨";
+      } else if (isUpcoming) {
+        deadlineText = "오픈 예정";
+      } else {
+        const isEndDay = (end.getFullYear() === now.getFullYear() &&
+                          end.getMonth() === now.getMonth() &&
+                          end.getDate() === now.getDate());
+        const msDiff = (new Date(end).setHours(0,0,0,0)) - (new Date(now).setHours(0,0,0,0));
+        const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
+        if (isEndDay) {
+          deadlineText = "🚨 오늘 밤 최종 마감 (D-Day)";
+        } else if (daysLeft === 1) {
+          deadlineText = "🚨 D-1 내일 마감!";
+        } else {
+          deadlineText = card.urgentText || `D-${daysLeft} (${end.getMonth() + 1}/${String(end.getDate()).padStart(2, '0')} 마감)`;
+        }
+      }
+
+      const borderClass = card.theme ? `${card.theme}-border` : '';
+      const customStyle = card.customBorder ? `style="${card.customBorder}"` : '';
+      const badgeClass = card.theme ? `badge-${card.theme}` : '';
+      const badgeStyle = card.badgeStyle ? `style="${card.badgeStyle}"` : '';
+
+      // 연합 픽 HTML
+      let picksHtml = "";
+      if (card.picks && card.picks.length > 0) {
+        picksHtml = `<div class="picks-pill-box" style="gap:6px;">` +
+          card.picks.map(p => `
+            <div class="picks-row" ${p.divider ? 'style="padding-top:4px; border-top:1px dashed #e2e8f0;"' : ''}>
+              <span class="picks-label" ${p.labelColor ? `style="min-width:80px; color:${p.labelColor}; font-weight:800;"` : ''}>${p.label}</span>
+              <span class="picks-names"><strong ${p.style ? `style="${p.style}"` : ''}>${p.name}</strong></span>
+            </div>
+          `).join('') + `</div>`;
+      } else if (card.picksRows && card.picksRows.length > 0) {
+        picksHtml = `<div class="picks-pill-box" style="gap:8px;">` +
+          card.picksRows.map(p => `
+            <div class="picks-row" style="align-items:flex-start; ${p.divider ? 'padding-top:6px; border-top:1px dashed #e2e8f0;' : ''}">
+              <span class="picks-label" style="min-width:80px; color:${p.labelColor || '#2563eb'}; font-weight:800;">${p.label}</span>
+              <div style="font-size:11.5px; color:#1e293b; line-height:1.4;">${p.desc}</div>
+            </div>
+          `).join('') + `</div>`;
+      }
+
+      // 안내 박스 HTML
+      let noticeHtml = "";
+      if (card.notice) {
+        const c = card.noticeColor || { bg: "rgba(225, 29, 72, 0.08)", border: "rgba(225, 29, 72, 0.4)", text: "#9f1239" };
+        noticeHtml = `
+          <div style="background:${c.bg}; border:1px dashed ${c.border}; border-radius:8px; padding:7px 10px; font-size:11.5px; color:${c.text}; font-weight:700; line-height:1.45;">
+            ${card.notice}
+          </div>
+        `;
+      }
+
+      // 액션 버튼 HTML
+      let actionsHtml = "";
+      if (card.actions && card.actions.length > 0) {
+        actionsHtml = `<div style="display:flex; flex-direction:column; gap:8px;">` +
+          card.actions.map(act => {
+            if (act.type === 'primary') {
+              return `<a href="${act.url}" target="_blank" class="btn-mobile ${act.btnClass || ''}">${act.label}</a>`;
+            } else if (act.type === 'custom') {
+              return `<a href="${act.url}" target="_blank" style="${act.style || ''}">${act.label}</a>`;
+            } else if (act.type === 'x-tweet') {
+              return `
+                <a href="${act.url}" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; min-height:44px; padding:7px 12px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:2px;">
+                  <div style="display:flex; align-items:center; justify-content:center; gap:4px; font-size:13px; font-weight:700;">
+                    <span>${act.label}</span> <span>↗</span>
+                  </div>
+                  ${act.subtext ? `<span style="font-size:11px; font-weight:600; color:#94a3b8; letter-spacing:-0.2px;">${act.subtext}</span>` : ''}
+                </a>
+              `;
+            } else if (act.type === 'x-tweet-simple') {
+              return `
+                <a href="${act.url}" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:38px; font-size:12px;">
+                  ${act.label}
+                </a>
+              `;
+            } else if (act.type === 'grid2') {
+              return `
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">
+                  ${act.items.map(it => `
+                    <a href="${it.url}" target="_blank" ${it.style.includes('font-size') ? `class="btn-x-vote"` : ''} style="${it.style}">${it.label}</a>
+                  `).join('')}
+                </div>
+              `;
+            }
+            return '';
+          }).join('') + `</div>`;
+      }
+
+      html += `
+        <div class="vote-card ${borderClass} ${isEnded ? 'is-ended' : ''}" data-id="${card.id}" data-name="${card.name}" data-start="${card.startDate}" data-end="${card.endDate}" ${customStyle} ${isEnded ? 'style="opacity:0.5;"' : ''}>
+          <div class="card-meta-row">
+            <span class="badge-tag ${badgeClass}" ${badgeStyle}>${card.badgeText}</span>
+            <span class="card-deadline" style="color:${card.deadlineColor || 'inherit'};">${deadlineText}</span>
+          </div>
+          <div>
+            <h3 class="card-title">${card.title}</h3>
+            <p class="card-desc">${card.desc}</p>
+          </div>
+          ${noticeHtml}
+          ${picksHtml}
+          ${actionsHtml}
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+    const countBadge = document.getElementById("vote-card-count");
+    if (countBadge) {
+      countBadge.innerText = `진행 중 ${activeCount}개`;
+    }
+  }
+
   // 🎯 핵심 투표 마스터 데이터 (시작일/종료일 기준 단 1회 정의)
   const masterVoteEvents = [
     {
@@ -1929,6 +2059,9 @@
   // 🕒 전체 투표 카드/간트/퀵바 상태 관리자 (Show / Hide / Disabled / D-Day 실시간 자동 연산)
   function updateAllDynamicCardStates() {
     const now = new Date();
+
+    // 0) 데이터 기반 핵심 투표 카드 렌더링 및 실시간 D-Day 연산
+    renderVoteCards();
 
     // 1) 핵심 투표 카드 (.vote-card) 상태 관리
     document.querySelectorAll('.vote-card[data-end]').forEach(card => {
