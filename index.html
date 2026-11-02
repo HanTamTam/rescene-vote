@@ -1074,11 +1074,23 @@
         <div class="legend-item" data-name="카카오뱅크"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상 (오늘마감)</div>
         <div class="legend-item" data-name="AAA 이파리"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리 (~11/04)</div>
         <div class="legend-item" data-name="네이버 컴백 응원"><div class="legend-color" style="background:#03c75a;"></div> 네이버 응원 (~11/03)</div>
+        <div class="legend-item" data-name="음중 시청자위원회"><div class="legend-color" style="background:#059669;"></div> 음중 위원회 (~11/06)</div>
         <div class="legend-item" data-name="MMA 연합"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합 (~11/13)</div>
-        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘(10/30)</div>
+        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘</div>
       </div>
 
       <div class="gantt-track-list">
+        <!-- Row: 음중 시청자위원회 -->
+        <div class="gantt-row" data-name="음중 시청자위원회" data-start="2026-11-01T00:00:00" data-end="2026-11-06T12:00:00">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title">📢 음중 시청자 위원회 모집</span>
+            <span class="gantt-row-dates">11/01 ~ 11/06 12시</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" style="left:50%;"></div>
+            <div class="gantt-bar" style="left:52%; width:28%; background:linear-gradient(90deg, #059669, #047857); font-weight:800; color:#fff;">2천명 선발 모집 중 (~11/06)</div>
+          </div>
+        </div>
         <!-- Row 0: KGMA -->
         <div class="gantt-row" data-name="KGMA" data-start="2026-10-15T00:00:00" data-end="2026-10-20T23:59:59">
           <div class="gantt-row-info">
@@ -1511,6 +1523,14 @@
         </div>
       </a>
 
+      <a href="https://m.imbc.com/program/Apply/1000788100000100000?bid=1000788100000100000" target="_blank" class="hub-btn">
+        <div class="hub-icon" style="background:#d1fae5; color:#047857;">위</div>
+        <div class="hub-txt">
+          <h4>음중 시청자위원회</h4>
+          <p>모집 신청 (~11/6 12시)</p>
+        </div>
+      </a>
+
       <a href="https://superstarx.io/" target="_blank" class="hub-btn">
         <div class="hub-icon" style="background:#fce7f3; color:#db2777;">슈</div>
         <div class="hub-txt">
@@ -1571,6 +1591,29 @@
   // 새로운 투표/연합 추가 시 아래 배열에 객체만 추가하면 UI와 상태가 자동 적용됩니다.
   // ==========================================
   const voteCardsData = [
+    {
+      id: "mbc-committee",
+      name: "음중 시청자위원회",
+      theme: "mbc",
+      customBorder: "border-top: 4px solid #059669; background: linear-gradient(180deg, #ecfdf5 0%, #ffffff 25%);",
+      badgeText: "📢 시청자 위원회 모집 (~11/06 12시)",
+      badgeStyle: "background:#d1fae5; color:#047857; font-weight:800;",
+      title: "쇼! 음악중심 시청자 위원회 신청",
+      desc: "추첨제 2,000명 선발! 선발 시 음중 1위 순위제 사전투표권 부여 (컴백 대비 필수 신청)",
+      startDate: "2026-11-01T00:00:00",
+      endDate: "2026-11-06T12:00:00",
+      deadlineColor: "#059669",
+      notice: "🎯 <strong>시청자 위원회 점수의 중요성:</strong> 투표 결과가 음악중심 순위 점수에 직접 반영됩니다! 2천명 추첨 선발이므로 최대한 많은 리마인의 신청이 필수입니다.",
+      noticeColor: { bg: "rgba(5, 150, 105, 0.08)", border: "rgba(5, 150, 105, 0.4)", text: "#065f46" },
+      actions: [
+        {
+          type: "custom",
+          label: "📝 iMBC 쇼! 음악중심 시청자 위원회 신청하기 ↗",
+          url: "https://m.imbc.com/program/Apply/1000788100000100000?bid=1000788100000100000",
+          style: "background: linear-gradient(135deg, #059669, #047857); color: #ffffff; box-shadow: 0 3px 10px rgba(5, 150, 105, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+        }
+      ]
+    },
     {
       id: "mama-round2",
       name: "MAMA 2차",
@@ -2028,6 +2071,7 @@
       { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표 & 티빙 온에어 시청", url: "https://www.mnetplus.world/" }
     ],
     5: [ // 금
+      { title: "쇼! 음악중심 시청자 위원회 신청 마감", time: "낮 12:00 마감 (~11/6)", desc: "iMBC 시청자 위원회 신청 마감 (추첨 2,000명 선발 / 순위제 반영)", url: "https://m.imbc.com/program/Apply/1000788100000100000?bid=1000788100000100000" },
       { title: "뮤직뱅크 생방송", time: "17:05 방송", desc: "KBS2 본방송 & 공식 온에어 시청(시청률 반영)", url: "https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12" },
       { title: "엠카 차주 사전투표 오픈", time: "14:00 오픈", desc: "엠넷플러스 다음 주 사전투표 시작", url: "https://www.mnetplus.world/" },
       { title: "더 쇼 & 쇼챔 사전투표 동시 오픈", time: "20:00 오픈", desc: "스타플래닛 & 아챔 사전투표 오픈", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" }
