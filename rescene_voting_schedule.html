@@ -1743,10 +1743,10 @@
       </a>
 
       <a href="https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" target="_blank" class="hub-btn">
-        <div class="hub-icon" style="background:#e0e7ff; color:#3730a3;">올</div>
+        <div class="hub-icon" style="background:#fee2e2; color:#dc2626;">🚫</div>
         <div class="hub-txt">
           <h4>올차트 (ALLCHART)</h4>
-          <p>뮤직뱅크 사전투표</p>
+          <p style="color:#ef4444; font-weight:700;">뮤뱅 사전투표 금지 (~11/4)</p>
         </div>
       </a>
 
@@ -1882,7 +1882,16 @@
     ],
     3: [ // 수
       { title: "쇼! 챔피언 생방송", time: "17:00 방송", desc: "MBC M 생방송 응원 & 유튜브 ALL THE K-POP 시청", url: "https://play.google.com/store/apps/details?id=com.nwz.ichampclient" },
-      { title: "뮤직뱅크 사전투표 마감", time: "오전 11:00 마감", desc: "올차트 앱 K-차트 사전투표 마감 전 투표", url: "https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions" }
+      { 
+        title: "뮤직뱅크 사전투표 마감", 
+        time: "오전 11:00 마감", 
+        desc: "올차트 앱 K-차트 사전투표 마감 전 투표", 
+        url: "https://play.google.com/store/apps/details?id=com.smtn.allstarsolutions",
+        cancelledDates: ["2026-11-04"],
+        cancelReason: "컴백 첫 주 음원/음반 점수 미반영으로 1위 불가",
+        cancelBadge: "투표금지",
+        cancelDesc: "첫 주는 음원·앨범 등의 집계 점수가 없어 1위 후보가 불가능하므로, 표를 쓰지 않고 다음 주를 위해 아낍니다."
+      }
     ],
     4: [ // 목
       { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", url: "https://mubeat.tv/" },
@@ -2216,10 +2225,11 @@
       const isCancelled = r.cancelledDates && r.cancelledDates.includes(targetDateFormatted);
       if (isCancelled) {
         taskList.push({
-          title: `${r.title} (결방 - ${r.cancelReason || '방송사 사정'})`,
-          time: "생방송 없음",
-          desc: `${r.cancelReason || '방송사 사정'}으로 이번 주는 결방되어 실시간 생방송 및 투표는 쉽니다.`,
+          title: r.cancelBadge === '투표금지' ? `🚫 ${r.title} (투표 금지)` : `${r.title} (결방 - ${r.cancelReason || '방송사 사정'})`,
+          time: r.cancelBadge === '투표금지' ? "투표 보류" : "생방송 없음",
+          desc: r.cancelDesc || `${r.cancelReason || '방송사 사정'}으로 이번 주는 결방되어 실시간 생방송 및 투표는 쉽니다.`,
           cancelled: true,
+          badgeText: r.cancelBadge || '결방',
           url: r.url
         });
       } else {
@@ -2231,13 +2241,14 @@
     let html = "";
     taskList.forEach(item => {
       if (item.cancelled) {
+        const isBan = item.badgeText === '투표금지';
         html += `
-          <div class="mini-task-item" style="opacity: 0.7; background: #f1f5f9; border-left: 3px solid #94a3b8;">
+          <div class="mini-task-item" style="opacity: 0.9; background: ${isBan ? '#fff1f2' : '#f1f5f9'}; border-left: 3px solid ${isBan ? '#ef4444' : '#94a3b8'};">
             <div class="mini-task-header">
-              <span class="mini-task-title" style="color: #64748b; text-decoration: line-through;">${item.title}</span>
-              <span class="mini-task-time" style="color: #ef4444; font-weight: 700; background: #fee2e2; padding: 2px 6px; border-radius: 4px;">결방</span>
+              <span class="mini-task-title" style="color: ${isBan ? '#991b1b' : '#64748b'}; text-decoration: line-through;">${item.title}</span>
+              <span class="mini-task-time" style="color: #ffffff; font-weight: 800; background: ${isBan ? '#ef4444' : '#64748b'}; padding: 2px 7px; border-radius: 4px; font-size: 11px;">${item.badgeText || '결방'}</span>
             </div>
-            <p class="mini-task-desc" style="color: #64748b;">${item.desc}</p>
+            <p class="mini-task-desc" style="color: ${isBan ? '#b91c1c' : '#64748b'}; font-weight: ${isBan ? '600' : '400'};">${item.desc}</p>
           </div>
         `;
       } else {
