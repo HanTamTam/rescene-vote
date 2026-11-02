@@ -2131,7 +2131,14 @@
     ],
     4: [ // 목
       { title: "음악중심 사전투표 마감", time: "오전 11:00 마감", desc: "뮤빗 앱 음중 사전투표 마감", url: "https://mubeat.tv/" },
-      { title: "엠카운트다운 생방 투표", time: "18:00 ~ 19:00", desc: "엠넷플러스 실시간 투표 & 티빙 온에어 시청", url: "https://www.mnetplus.world/" }
+      { 
+        title: "엠카운트다운 생방 투표", 
+        time: "18:00 ~ 19:00", 
+        desc: "엠넷플러스 실시간 투표 & 티빙 온에어 시청", 
+        url: "https://www.mnetplus.world/",
+        cancelledDates: ["2026-11-05"],
+        cancelReason: "엠카운트다운 방송 결방"
+      }
     ],
     5: [ // 금
       { title: "쇼! 음악중심 시청자 위원회 신청 마감", time: "낮 12:00 마감 (~11/6)", desc: "iMBC 시청자 위원회 신청 마감 (추첨 2,000명 선발 / 순위제 반영)", url: "https://m.imbc.com/program/Apply/1000788100000100000?bid=1000788100000100000" },
@@ -2550,7 +2557,9 @@ const liveVoteSchedules = [
     previewStart: 17 * 60,     // 17:00
     liveStart: 18 * 60,        // 18:00
     liveEnd: 19 * 60,          // 19:00
-    tip: "1위 후보 진입 시 엠넷플러스 앱에서 1인 1회 실시간 투표 오픈!"
+    tip: "1위 후보 진입 시 엠넷플러스 앱에서 1인 1회 실시간 투표 오픈!",
+    cancelledDates: ["2026-11-05"],
+    cancelReason: "엠카운트다운 방송 결방"
   },
   {
     day: 6, // 토요일
