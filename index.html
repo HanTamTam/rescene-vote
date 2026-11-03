@@ -2251,10 +2251,15 @@
   const currentDay = today.getDay();
   const dayNames = ["일", "월", "화", "수", "목", "금", "토"];
 
-  document.getElementById("today-badge").innerText = 
-    `${today.getMonth() + 1}월 ${today.getDate()}일(${dayNames[currentDay]})`;
+  const todayBadge = document.getElementById("today-badge");
+  if (todayBadge) {
+    todayBadge.innerText = `${today.getMonth() + 1}월 ${today.getDate()}일(${dayNames[currentDay]})`;
+  }
 
-  document.getElementById(`dot-${currentDay}`).innerText = "●오늘";
+  const dotEl = document.getElementById(`dot-${currentDay}`);
+  if (dotEl) {
+    dotEl.innerText = "●오늘";
+  }
 
   // 🕒 전체 투표 카드/간트/퀵바 상태 관리자 (Show / Hide / Disabled / D-Day 실시간 자동 연산)
   function updateAllDynamicCardStates() {
