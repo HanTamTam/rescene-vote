@@ -13,6 +13,9 @@
 * 🧞 **지니 음악나누기 (무료 계정 1시간 1회 완곡 스밍)**: [나누기 링크 #1](https://www.genie.co.kr/A2QIQ4) · [나누기 링크 #2](https://www.genie.co.kr/VV0RG9) · [나누기 링크 #3](https://www.genie.co.kr/5ZOIW0)
 * 🎬 **'WITH' 공식 뮤직비디오 (유튜브)**: [유튜브 공식 MV 바로가기](https://youtu.be/pey3E47eSc8?si=jDPo8325_mDFwmaz)
   * 👉 [뮤비 스트리밍 가이드](https://rescene.stream/streaming/youtube) (15분에 1회 조회수 집계 반영)
+* 📱 **뮤빗·하이어 MV 스트리밍 (모바일 전용 · 써클 소셜 차트 24시간 1회 반영)**:
+  * 🎬 **뮤빗(Mubeat)**: [뮤빗 'WITH' MV 바로가기](https://mubeat.applink.info/xVGeMPKhpw) (링크 클릭 후 대기 시 재생, 🤍하트 필수)
+  * 🎬 **하이어(Higher)**: [하이어 'WITH' MV 바로가기](https://higher.fan/app/video/6ae9a37e9b77fc4ddf55e264?did=6ae9c66f7735380e35535820) (링크 클릭 후 대기 시 재생, 🤍하트 필수)
 * 📲 **개별곡(MP3) 다운로드**: 멜론 / 지니 / 벅스에서 타이틀곡 **'WITH'** 다운로드 참여
 * 💰 **다운로드 비용 페이백 신청**: [페이백 신청 구글 폼 링크](https://forms.gle/a5dnEM77hEobSEha7)
 * ⚠️ **음원 다운로드 후 파일 삭제 필수**: 음원 다운로드 후 **기기 내 저장된 음원 파일을 반드시 삭제**해야 정상적으로 스트리밍 집계에 반영됩니다! (로컬 파일 재생 방지)
