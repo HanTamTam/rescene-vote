@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-RESCENE (리센느) X(트위터) 음원총공팀 피드 전용 자동 동기화 엔진
+RESCENE (리센느) X(트위터) 음원총공팀 피드 전용 자동 동기화 & 갱신(Upsert) 엔진
 - 오직 리센느 음원총공팀 공식 X 계정(@ResceneStream)의 피드만 모니터링합니다.
 - @ResceneStream 피드에 새로운 음원 방송 투표, 스밍, 시상식 연합 공지가 올라오면 index.html의 voteCardsData에 자동 반영합니다.
+- 이미 등록된 투표라도 마감일시 연장, 안내 문구/팁 변경 등 변동 사항이 감지되면 최신 정보로 덮어쓰는(Upsert) 기능을 지원합니다.
 """
 
 import os
@@ -46,28 +47,111 @@ def save_index_html(content):
         f.write(content)
     with open(MIRROR_PATH, "w", encoding="utf-8") as f:
         f.write(content)
-    print("✅ index.html & rescene_voting_schedule.html 저장 완료")
+    print("✅ index.html & rescene_voting_schedule.html 동기화 저장 완료")
 
-def inject_vote_card(card_obj):
+def find_card_span(content, card_id):
+    """
+    HTML 내 voteCardsData 배열에서 특정 card_id를 가진 객체의 시작('{')과 끝('},' 또는 '}') 인덱스를 탐색합니다.
+    """
+    pattern = re.compile(r'id:\s*[\"\']' + re.escape(card_id) + r'[\"\']')
+    match = pattern.search(content)
+    if not match:
+        return None
+    idx = match.start()
+    open_brace_idx = content.rfind('{', 0, idx)
+    if open_brace_idx == -1:
+        return None
+
+    depth = 0
+    in_string = False
+    quote_char = ''
+    i = open_brace_idx
+    while i < len(content):
+        ch = content[i]
+        if in_string:
+            if ch == '\\':
+                i += 2
+                continue
+            elif ch == quote_char:
+                in_string = False
+        else:
+            if ch in ('"', "'"):
+                in_string = True
+                quote_char = ch
+            elif ch == '{':
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0:
+                    end_idx = i + 1
+                    if end_idx < len(content) and content[end_idx] == ',':
+                        end_idx += 1
+                    return (open_brace_idx, end_idx)
+        i += 1
+    return None
+
+def upsert_vote_card(card_obj):
+    """
+    투표 카드를 신규 삽입하거나, 기존 카드가 변경되었으면 최신 데이터로 업데이트(Upsert)합니다.
+    반환값: (성공여부: bool, 상태: 'inserted' | 'updated' | 'unchanged' | 'error')
+    """
     content = load_index_html()
     card_id = card_obj.get("id")
+    card_title = card_obj.get("title", card_id)
 
-    if f'id: "{card_id}"' in content or f"id: '{card_id}'" in content:
-        print(f"ℹ️ 이미 대시보드에 존재하는 투표 카드입니다: {card_id}")
-        return False
-
-    target = "const voteCardsData = ["
-    if target not in content:
+    target_array = "const voteCardsData = ["
+    if target_array not in content:
         print("❌ voteCardsData 배열을 찾을 수 없습니다.")
-        return False
+        return False, "error"
 
-    card_js = "    " + json.dumps(card_obj, ensure_ascii=False, indent=6)[4:-1].strip()
-    card_entry = f"\n    {{\n      {card_js}\n    }},"
+    card_span = find_card_span(content, card_id)
 
-    new_content = content.replace(target, target + card_entry)
-    save_index_html(new_content)
-    print(f"🎉 X 공지 기반 신규 투표 카드 생성 성공: {card_obj.get('title')}")
-    return True
+    # 1. 기존 카드가 없는 경우 -> 신규 삽입 (Insert)
+    if not card_span:
+        card_js = "    " + json.dumps(card_obj, ensure_ascii=False, indent=6)[4:-1].strip()
+        card_entry = f"\n    {{\n      {card_js}\n    }},"
+        new_content = content.replace(target_array, target_array + card_entry)
+        save_index_html(new_content)
+        print(f"🎉 신규 투표 카드 등록 성공: {card_title} ({card_id})")
+        return True, "inserted"
+
+    # 2. 기존 카드가 존재하는 경우 -> 변동 사항 검사 후 갱신 (Update)
+    start, end = card_span
+    old_card_code = content[start:end]
+
+    # 주요 변경 대상 필드 비교 (마감일, 배지문구, 안내팁, 설명)
+    new_end_date = card_obj.get("endDate", "")
+    new_badge = card_obj.get("badgeText", "")
+    new_notice = card_obj.get("notice", "")
+    new_desc = card_obj.get("desc", "")
+
+    has_diff = False
+    if new_end_date and f'endDate: "{new_end_date}"' not in old_card_code and f"endDate: '{new_end_date}'" not in old_card_code:
+        has_diff = True
+        print(f"⏰ [{card_id}] 마감일시 변동 감지 -> {new_end_date}")
+
+    if new_badge and f'badgeText: "{new_badge}"' not in old_card_code and f"badgeText: '{new_badge}'" not in old_card_code:
+        has_diff = True
+        print(f"🏷️ [{card_id}] 배지 문구 변동 감지 -> {new_badge}")
+
+    if new_notice and new_notice not in old_card_code:
+        has_diff = True
+        print(f"💡 [{card_id}] 투표 공지/팁 변동 감지")
+
+    if new_desc and new_desc not in old_card_code:
+        has_diff = True
+        print(f"📝 [{card_id}] 설명 문구 변동 감지")
+
+    if has_diff:
+        card_js = "    " + json.dumps(card_obj, ensure_ascii=False, indent=6)[4:-1].strip()
+        new_card_code = f"{{\n      {card_js}\n    }},"
+        new_content = content[:start] + new_card_code + content[end:]
+        save_index_html(new_content)
+        print(f"🔄 [{card_id}] 기존 투표 카드 최신 정보로 갱신 완료!")
+        return True, "updated"
+
+    print(f"ℹ️ [{card_id}] 변동 사항 없음 (최신 상태 유지)")
+    return False, "unchanged"
 
 def get_x_feed_tweets():
     """
@@ -122,30 +206,61 @@ def get_x_feed_tweets():
 
     return tweets
 
+def parse_date_from_text(text, default_date_str="2026-11-06T23:59:59"):
+    """
+    트윗 본문에서 마감 날짜 및 시간을 정교하게 파싱합니다.
+    예: 2026-11-07 23:59, 11/07 23:59, 11월 7일 24:00, ~11.08 등
+    """
+    now = datetime.now()
+    year = now.year
+
+    # 1) YYYY.MM.DD 또는 YYYY-MM-DD
+    m_full = re.search(r"(\d{4})[.\-/ ](\d{1,2})[.\-/ ](\d{1,2})", text)
+    if m_full:
+        y, m, d = int(m_full.group(1)), int(m_full.group(2)), int(m_full.group(3))
+        # 시간 검사
+        m_time = re.search(r"(\d{1,2}):(\d{2})", text)
+        h, mn = (int(m_time.group(1)), int(m_time.group(2))) if m_time else (23, 59)
+        return f"{y:04d}-{m:02d}-{d:02d}T{h:02d}:{mn:02d}:59", f"~{m:02d}/{d:02d} {h:02d}:{mn:02d}"
+
+    # 2) MM월 DD일 또는 MM/DD
+    m_month = re.search(r"(\d{1,2})월\s*(\d{1,2})일", text) or re.search(r"(?:~|\s)(\d{1,2})[./](\d{1,2})", text)
+    if m_month:
+        m, d = int(m_month.group(1)), int(m_month.group(2))
+        m_time = re.search(r"(\d{1,2}):(\d{2})", text)
+        h, mn = (int(m_time.group(1)), int(m_time.group(2))) if m_time else (23, 59)
+        return f"{year:04d}-{m:02d}-{d:02d}T{h:02d}:{mn:02d}:59", f"~{m:02d}/{d:02d} {h:02d}:{mn:02d}"
+
+    return default_date_str, "~11/06 23:59"
+
 def parse_x_tweet_for_actions(tweet_text):
     """
-    트윗 본문을 분석하여 신규 투표 및 공지 카드를 생성합니다.
+    트윗 본문을 분석하여 신규 또는 갱신할 투표 카드 객체를 생성합니다.
     """
     cards = []
 
     # 1) SBS 인기가요 사전투표 감지
-    if "인기가요" in tweet_text and ("사전투표" in tweet_text or "사전 투표" in tweet_text or "LiNC" in tweet_text or "링크" in tweet_text):
-        m = re.search(r"(\d{4})[.\-/ ](\d{1,2})[.\-/ ](\d{1,2})", tweet_text)
-        end_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}T23:59:59" if m else "2026-11-06T23:59:59"
+    if "인기가요" in tweet_text and ("사전투표" in tweet_text or "사전 투표" in tweet_text or "LiNC" in tweet_text or "링크" in tweet_text or "사전" in tweet_text):
+        end_date, badge_deadline = parse_date_from_text(tweet_text, "2026-11-06T23:59:59")
+
+        # 연장 또는 특별 안내 문구 감지
+        notice_tip = "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다."
+        if "연장" in tweet_text:
+            notice_tip += " (📢 <strong>총공팀 공지:</strong> 투표 기간이 연장되었습니다. 끝까지 총공 부탁드립니다!)"
 
         cards.append({
             "id": "inkigayo-with",
             "name": "인기가요 사전투표",
             "theme": "inki",
             "customBorder": "border-top: 4px solid #0284c7; background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 25%);",
-            "badgeText": "🔴 인기가요 신곡 사전투표 (~11/06 23:59)",
+            "badgeText": f"🔴 인기가요 신곡 사전투표 ({badge_deadline})",
             "badgeStyle": "background:#e0f2fe; color:#0369a1; font-weight:800;",
             "title": "SBS 인기가요 사전투표 : 리센느 'WITH'",
             "desc": "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 필수! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
             "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
             "endDate": end_date,
             "deadlineColor": "#0284c7",
-            "notice": "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다.",
+            "notice": notice_tip,
             "noticeColor": { "bg": "rgba(2, 132, 199, 0.08)", "border": "rgba(2, 132, 199, 0.4)", "text": "#0369a1" },
             "actions": [
                 {
@@ -173,18 +288,19 @@ def parse_x_tweet_for_actions(tweet_text):
         })
 
     # 2) KBS 뮤직뱅크 사전투표 (쿠궁 앱) 감지
-    if "뮤직뱅크" in tweet_text and ("사전투표" in tweet_text or "쿠궁" in tweet_text or "fancast" in tweet_text):
+    if "뮤직뱅크" in tweet_text and ("사전투표" in tweet_text or "쿠궁" in tweet_text or "fancast" in tweet_text or "뮤뱅" in tweet_text):
+        end_date, badge_deadline = parse_date_from_text(tweet_text, "2026-11-10T11:00:00")
         cards.append({
             "id": "musicbank-vote",
             "name": "뮤직뱅크 사전투표",
             "theme": "kb",
             "customBorder": "border-top: 4px solid #3b82f6; background: linear-gradient(180deg, #eff6ff 0%, #ffffff 25%);",
-            "badgeText": "📢 뮤직뱅크 사전투표",
+            "badgeText": f"📢 뮤직뱅크 사전투표 ({badge_deadline})",
             "badgeStyle": "background:#dbeafe; color:#1d4ed8; font-weight:800;",
             "title": "KBS 뮤직뱅크 사전투표 : 리센느 'WITH'",
             "desc": "쿠궁(coogoong) 앱에서 리센느 'WITH' 투표 참여!",
             "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
-            "endDate": "2026-11-10T11:00:00",
+            "endDate": end_date,
             "deadlineColor": "#1d4ed8",
             "actions": [
                 {
@@ -196,18 +312,19 @@ def parse_x_tweet_for_actions(tweet_text):
         })
 
     # 3) MBC 쇼! 음악중심 (뮤빗 & 뮤니버스) 감지
-    if "음악중심" in tweet_text and ("사전투표" in tweet_text or "뮤빗" in tweet_text or "뮤니버스" in tweet_text):
+    if "음악중심" in tweet_text and ("사전투표" in tweet_text or "뮤빗" in tweet_text or "뮤니버스" in tweet_text or "음중" in tweet_text):
+        end_date, badge_deadline = parse_date_from_text(tweet_text, "2026-11-12T11:00:00")
         cards.append({
             "id": "music-core-vote",
             "name": "음악중심 사전투표",
             "theme": "melon",
             "customBorder": "border-top: 4px solid #ec4899; background: linear-gradient(180deg, #fdf2f8 0%, #ffffff 25%);",
-            "badgeText": "📢 쇼! 음악중심 사전투표",
+            "badgeText": f"📢 쇼! 음악중심 사전투표 ({badge_deadline})",
             "badgeStyle": "background:#fce7f3; color:#be185d; font-weight:800;",
             "title": "MBC 쇼! 음악중심 사전투표 : 리센느 'WITH'",
             "desc": "뮤빗(Mubeat) & 뮤니버스(Muniverse) 앱에서 음중 사전투표 진행!",
             "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
-            "endDate": "2026-11-12T11:00:00",
+            "endDate": end_date,
             "deadlineColor": "#be185d",
             "actions": [
                 {
@@ -220,8 +337,23 @@ def parse_x_tweet_for_actions(tweet_text):
 
     return cards
 
+def log_notice_archive(header_tag, text):
+    if not os.path.exists(NOTICE_MD_PATH) or not text.strip():
+        return False
+    with open(NOTICE_MD_PATH, "r", encoding="utf-8") as f:
+        md_content = f.read()
+
+    first_line = text.strip().split("\n")[0][:40]
+    if first_line not in md_content:
+        today_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+        entry = f"\n\n### 📢 [{header_tag}] ({today_str})\n{text.strip()}\n"
+        with open(NOTICE_MD_PATH, "a", encoding="utf-8") as f:
+            f.write(entry)
+        return True
+    return False
+
 def main():
-    print(f"🚀 RESCENE X(@{TWITTER_USERNAME}) 음원총공팀 피드 전용 동기화 엔진 가동")
+    print(f"🚀 RESCENE X(@{TWITTER_USERNAME}) 음원총공팀 피드 전용 동기화 & 갱신(Upsert) 엔진 가동")
     issue_body = os.environ.get("ISSUE_BODY", "")
     raw_text = issue_body if issue_body and issue_body.strip() not in ["sync", "SYNC"] else ""
 
@@ -232,18 +364,12 @@ def main():
         print("📥 모바일에서 전달된 트윗/공지 텍스트를 분석합니다.")
         cards = parse_x_tweet_for_actions(raw_text)
         for c in cards:
-            if inject_vote_card(c):
+            success, status = upsert_vote_card(c)
+            if success:
                 modified = True
 
-        if os.path.exists(NOTICE_MD_PATH):
-            with open(NOTICE_MD_PATH, "r", encoding="utf-8") as f:
-                md_content = f.read()
-            today_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-            entry = f"\n\n### 📢 [X 피드 수집 공지] ({today_str})\n{raw_text.strip()}\n"
-            if raw_text.strip() not in md_content:
-                with open(NOTICE_MD_PATH, "a", encoding="utf-8") as f:
-                    f.write(entry)
-                modified = True
+        if log_notice_archive("모바일 수집 공지", raw_text):
+            modified = True
 
     # 2) 자동 스케줄 실행 또는 빈칸 실행인 경우 -> 오직 @ResceneStream X 피드만 조회!
     else:
@@ -257,23 +383,16 @@ def main():
                 txt = tw.get("text", "")
                 cards = parse_x_tweet_for_actions(txt)
                 for c in cards:
-                    if inject_vote_card(c):
+                    success, status = upsert_vote_card(c)
+                    if success:
                         modified = True
 
                 # 마크다운 아카이브 갱신
-                if os.path.exists(NOTICE_MD_PATH) and txt:
-                    with open(NOTICE_MD_PATH, "r", encoding="utf-8") as f:
-                        md_content = f.read()
-                    first_line = txt.strip().split("\n")[0][:40]
-                    if first_line not in md_content:
-                        today_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-                        entry = f"\n\n### 📢 [X(@{TWITTER_USERNAME}) 트윗 피드] ({today_str})\n{txt.strip()}\n"
-                        with open(NOTICE_MD_PATH, "a", encoding="utf-8") as f:
-                            f.write(entry)
-                        modified = True
+                if log_notice_archive(f"X(@{TWITTER_USERNAME}) 트윗 피드", txt):
+                    modified = True
 
     if modified:
-        print("✨ X(@ResceneStream) 피드에서 새 공지를 감지하여 대시보드에 반영했습니다! (PR 생성 예정)")
+        print("✨ X(@ResceneStream) 피드에서 변동/신규 공지를 감지하여 대시보드에 성공적으로 반영했습니다! (PR 생성 예정)")
     else:
         print("ℹ️ X(@ResceneStream) 피드 기준 이미 최신 상태이며 새로운 변동 사항이 없습니다.")
 
