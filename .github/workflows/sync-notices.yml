@@ -2,8 +2,10 @@ name: Sync Rescene Notices
 
 on:
   schedule:
-    # 매일 한국 시간 오후 6시 30분 (UTC 09:30) 자동 실행
-    - cron: '30 9 * * *'
+    # 1) 오전 8시, 오후 10시 KST (UTC 23:00, 13:00)
+    - cron: '0 13,23 * * *'
+    # 2) 오후 12시 30분, 오후 6시 30분 KST (UTC 03:30, 09:30)
+    - cron: '30 3,9 * * *'
   workflow_dispatch:
     inputs:
       notice_text:
