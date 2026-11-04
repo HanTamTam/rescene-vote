@@ -32,6 +32,7 @@
 
 * 🏆 **투표 대상**: **리센느 - 'WITH'**
 * 📱 **투표 앱**: **링크(LiNC)** 앱
+  * [📱 **인기가요 직행 투표 열기 ↗**](https://app.linc.fan/31TL/UPBjE3DC)
   * [🍎 iOS (아이폰) 링크 앱 다운로드 ↗](https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944)
   * [🤖 안드로이드 링크 앱 다운로드 ↗](https://play.google.com/store/apps/details?id=com.sbs.linc)
 * 🗓️ **투표 기간**: **~2026. 11. 06(금) 23:59까지**
