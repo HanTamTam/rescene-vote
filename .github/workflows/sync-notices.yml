@@ -1,0 +1,78 @@
+name: Sync Rescene Notices
+
+on:
+  workflow_dispatch:
+    inputs:
+      notice_text:
+        description: '추가할 공지 텍스트 (비워둘 경우 자동 점검)'
+        required: false
+        default: ''
+  issues:
+    types: [opened, edited]
+  repository_dispatch:
+    types: [sync-trigger]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'repository_dispatch' ||
+      (github.event_name == 'issues' && contains(github.event.issue.title, 'sync')) ||
+      (github.event_name == 'issues' && contains(github.event.issue.title, 'SYNC')) ||
+      (github.event_name == 'issues' && contains(github.event.issue.title, '공지'))
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 환경 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 필수 패키지 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: 공지 동기화 스크립트 실행
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title || 'Workflow Dispatch' }}
+          ISSUE_BODY: ${{ github.event.inputs.notice_text || github.event.issue.body || '' }}
+        run: |
+          python scripts/sync_notices.py
+
+      - name: 변경 사항 Git 커밋 및 푸시
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "변경 사항이 없어 커밋을 생략합니다."
+          else
+            git commit -m "Auto sync Rescene notices via Mobile GitHub Actions"
+            git push origin main
+          fi
+
+      - name: 이슈 자동 완료 댓글 및 Close 처리
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '🎉 **공지 동기화 및 대시보드 배포가 성공적으로 완료되었습니다!**\n\n대시보드 웹사이트에 즉시 반영되었으며, 본 이슈는 자동으로 닫힙니다.'
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
