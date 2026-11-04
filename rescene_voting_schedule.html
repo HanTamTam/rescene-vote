@@ -72,6 +72,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 12px;
       box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
@@ -80,6 +81,8 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      min-width: 0;
+      flex: 1;
     }
 
     .app-logo {
@@ -90,6 +93,10 @@
       display: block;
       flex-shrink: 0;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .app-title-wrap {
+      min-width: 0;
     }
 
     .app-title-wrap h1 {
@@ -113,6 +120,8 @@
       font-size: 12px;
       font-weight: 700;
       color: #f1f5f9;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
     /* Content Area */
