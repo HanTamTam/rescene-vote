@@ -1,6 +1,9 @@
 name: Sync Rescene Notices
 
 on:
+  schedule:
+    # 매일 한국 시간 오후 6시 30분 (UTC 09:30) 자동 실행
+    - cron: '30 9 * * *'
   workflow_dispatch:
     inputs:
       notice_text:
@@ -9,18 +12,17 @@ on:
         default: ''
   issues:
     types: [opened, edited]
-  repository_dispatch:
-    types: [sync-trigger]
 
 permissions:
   contents: write
+  pull-requests: write
   issues: write
 
 jobs:
   sync:
     if: |
+      github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
-      github.event_name == 'repository_dispatch' ||
       (github.event_name == 'issues' && contains(github.event.issue.title, 'sync')) ||
       (github.event_name == 'issues' && contains(github.event.issue.title, 'SYNC')) ||
       (github.event_name == 'issues' && contains(github.event.issue.title, '공지'))
@@ -29,6 +31,8 @@ jobs:
     steps:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 파이썬 환경 설정
         uses: actions/setup-python@v5
@@ -47,17 +51,56 @@ jobs:
         run: |
           python scripts/sync_notices.py
 
-      - name: 변경 사항 Git 커밋 및 푸시
+      - name: 브랜치 생성 및 변경 사항 푸시
+        id: commit_step
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
           if git diff --staged --quiet; then
-            echo "변경 사항이 없어 커밋을 생략합니다."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "변경 사항이 없습니다."
           else
-            git commit -m "Auto sync Rescene notices via Mobile GitHub Actions"
-            git push origin main
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            BRANCH_NAME="update/rescene-notices"
+            git checkout -B $BRANCH_NAME
+            git commit -m "Auto sync Rescene notices via Cloud Bot"
+            git push origin $BRANCH_NAME --force
           fi
+
+      - name: 📱 모바일 승인용 Pull Request(PR) 생성
+        if: steps.commit_step.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = 'update/rescene-notices';
+            const title = '📢 [공지 자동 갱신] RESCENE 최신 총공 및 투표 스케줄 업데이트';
+            const body = `## 📢 RESCENE (리센느) 최신 공지 업데이트 알림 ✨\n\n` +
+                         `클라우드 봇이 최신 공지 및 스트리밍·투표 일정을 감지하여 대시보드 코드를 업데이트했습니다.\n\n` +
+                         `* **반영 파일**: \`index.html\`, \`rescene_voting_schedule.html\`, \`mma_alliance_voting_notice.md\`\n` +
+                         `* **📱 모바일 원터치 승인**: 아래 초록색 **[Merge pull request]** 버튼을 탭하시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀`;
+
+            const pulls = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${branch}`,
+              base: 'main',
+              state: 'open'
+            });
+
+            if (pulls.data.length === 0) {
+              const pr = await github.rest.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                head: branch,
+                base: 'main',
+                body: body
+              });
+              console.log('✅ 새 PR 생성 완료: #' + pr.data.number);
+            } else {
+              console.log('ℹ️ 이미 오픈된 PR이 있습니다: #' + pulls.data[0].number);
+            }
 
       - name: 이슈 자동 완료 댓글 및 Close 처리
         if: github.event_name == 'issues'
@@ -68,7 +111,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '🎉 **공지 동기화 및 대시보드 배포가 성공적으로 완료되었습니다!**\n\n대시보드 웹사이트에 즉시 반영되었으며, 본 이슈는 자동으로 닫힙니다.'
+              body: '🎉 **공지 동기화 PR이 생성되었습니다!**\n\nGitHub 앱의 [Pull Requests] 탭에서 확인 후 승인(Merge)하시면 즉시 배포됩니다.'
             });
             github.rest.issues.update({
               issue_number: context.issue.number,
