@@ -156,16 +156,61 @@ def upsert_vote_card(card_obj):
 def get_x_feed_tweets():
     """
     @ResceneStream X(트위터) 피드에서 최신 트윗 목록을 추출합니다.
-    1) Twitter 공식 Syndication 타임라인 API
-    2) Nitter RSS 백업 미러
+    클라우드 러너(GitHub Actions) 환경에서도 안정적으로 수집되도록 다중 소스를 순차 시도합니다:
+    1) FxTwitter API v2 (오픈소스 X JSON API)
+    2) FxTwitter RSS 피드 (fxtwitter.com/{user}/feed.xml)
+    3) Twitter 공식 Syndication 위젯 엔드포인트
+    4) Nitter 공개 미러 백업
     """
     print(f"🐦 @{TWITTER_USERNAME} X(트위터) 음총팀 피드 수집 중...")
     tweets = []
 
-    # 1. Twitter Syndication Timeline API (X 공식 위젯 엔드포인트)
-    syn_url = f"https://syndication.twitter.com/srv/timeline-profile/screen-name/{TWITTER_USERNAME}"
-    html = fetch_url(syn_url)
+    # 1. FxTwitter API v2 (데이터센터 IP 차단 없는 고신뢰도 JSON 엔드포인트)
+    try:
+        fx_api_url = f"https://api.fxtwitter.com/2/profile/{TWITTER_USERNAME}/statuses"
+        fx_json_str = fetch_url(fx_api_url, timeout=8)
+        if fx_json_str and fx_json_str.strip().startswith("{"):
+            fx_data = json.loads(fx_json_str)
+            entries = fx_data.get("results") or fx_data.get("tweets") or fx_data.get("statuses") or []
+            for item in entries:
+                txt = item.get("text") or item.get("full_text") or ""
+                created_at = item.get("created_at") or ""
+                if txt:
+                    tweets.append({"text": txt, "created_at": created_at, "source": "fxtwitter_api"})
+            if tweets:
+                print(f"✅ FxTwitter API에서 트윗 {len(tweets)}건 수집 완료")
+                return tweets
+    except Exception as ex:
+        print(f"⚠️ FxTwitter API 조회 실패: {ex}")
 
+    # 2. FxTwitter RSS 피드
+    try:
+        fx_rss_url = f"https://fxtwitter.com/{TWITTER_USERNAME}/feed.xml"
+        rss_xml = fetch_url(fx_rss_url, timeout=8)
+        if rss_xml and ("<rss" in rss_xml or "<feed" in rss_xml):
+            root = ET.fromstring(rss_xml)
+            for item in root.findall(".//item"):
+                title = item.findtext("title") or ""
+                desc = item.findtext("description") or ""
+                full_txt = f"{title}\n{desc}"
+                if full_txt.strip():
+                    tweets.append({"text": full_txt, "source": "fxtwitter_rss"})
+            if not tweets:
+                for entry in root.findall(".//{http://www.w3.org/2005/Atom}entry"):
+                    title = entry.findtext("{http://www.w3.org/2005/Atom}title") or ""
+                    content = entry.findtext("{http://www.w3.org/2005/Atom}content") or ""
+                    full_txt = f"{title}\n{content}"
+                    if full_txt.strip():
+                        tweets.append({"text": full_txt, "source": "fxtwitter_atom"})
+            if tweets:
+                print(f"✅ FxTwitter RSS에서 트윗 {len(tweets)}건 수집 완료")
+                return tweets
+    except Exception as ex:
+        print(f"⚠️ FxTwitter RSS 조회 실패: {ex}")
+
+    # 3. Twitter Syndication Timeline API (X 공식 위젯 엔드포인트)
+    syn_url = f"https://syndication.twitter.com/srv/timeline-profile/screen-name/{TWITTER_USERNAME}"
+    html = fetch_url(syn_url, timeout=8)
     if html:
         next_data_match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html)
         if next_data_match:
@@ -180,29 +225,30 @@ def get_x_feed_tweets():
                     created_at = tweet.get("created_at", "")
                     if text:
                         tweets.append({"text": text, "created_at": created_at, "source": "x_syndication"})
-                print(f"✅ X 공식 타임라인에서 트윗 {len(tweets)}건 수집 완료")
+                if tweets:
+                    print(f"✅ X 공식 타임라인에서 트윗 {len(tweets)}건 수집 완료")
+                    return tweets
             except Exception as ex:
                 print(f"⚠️ Syndication JSON 파싱 오류: {ex}")
 
-    # 2. Syndication 응답이 없을 경우 Nitter RSS 미러 백업 활용
-    if not tweets:
-        nitter_hosts = ["nitter.poast.org", "nitter.privacydev.net", "nitter.net"]
-        for host in nitter_hosts:
-            rss_url = f"https://{host}/{TWITTER_USERNAME}/rss"
-            rss_xml = fetch_url(rss_url, timeout=6)
-            if rss_xml and "<rss" in rss_xml:
-                try:
-                    root = ET.fromstring(rss_xml)
-                    for item in root.findall(".//item"):
-                        title = item.findtext("title") or ""
-                        desc = item.findtext("description") or ""
-                        full_txt = f"{title}\n{desc}"
-                        tweets.append({"text": full_txt, "source": host})
-                    if tweets:
-                        print(f"✅ Nitter RSS({host})에서 트윗 {len(tweets)}건 수집 완료")
-                        break
-                except Exception as ex:
-                    print(f"⚠️ RSS 파싱 실패 ({host}): {ex}")
+    # 4. Nitter RSS 미러 백업
+    nitter_hosts = ["nitter.poast.org", "nitter.privacydev.net", "nitter.net"]
+    for host in nitter_hosts:
+        rss_url = f"https://{host}/{TWITTER_USERNAME}/rss"
+        rss_xml = fetch_url(rss_url, timeout=5)
+        if rss_xml and "<rss" in rss_xml:
+            try:
+                root = ET.fromstring(rss_xml)
+                for item in root.findall(".//item"):
+                    title = item.findtext("title") or ""
+                    desc = item.findtext("description") or ""
+                    full_txt = f"{title}\n{desc}"
+                    tweets.append({"text": full_txt, "source": host})
+                if tweets:
+                    print(f"✅ Nitter RSS({host})에서 트윗 {len(tweets)}건 수집 완료")
+                    break
+            except Exception as ex:
+                print(f"⚠️ RSS 파싱 실패 ({host}): {ex}")
 
     return tweets
 
