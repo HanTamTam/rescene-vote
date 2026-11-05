@@ -162,3 +162,403 @@
 ---
 
 *모바일 대시보드 바로가기: [index.html](file:///Users/hanchangmin/Documents/Rescene/index.html)*
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢멜론 선물 총공 리마인님들! 멜론에서 더 좋은 성적을 만들기 위해, 리센느 음원총공팀에게 'WITH' 음원을 선물 해주세요🎁 ✅오늘은? 리센느음총팀11~20 에 음원 선물 보내기🎁 하루 최대 10명 / 한달 최대 50명에게 선물 가능 🪙1곡…
+<p>📢멜론 선물 총공<br />
+<br />
+리마인님들! 멜론에서 더 좋은 성적을 만들기 위해,<br />
+리센느 음원총공팀에게 &apos;WITH&apos; 음원을 선물 해주세요🎁<br />
+<br />
+✅오늘은?<br />
+리센느음총팀11~20 에 음원 선물 보내기🎁<br />
+<br />
+하루 최대 10명 / 한달 최대 50명에게 선물 가능<br />
+🪙1곡 당 가격 770원<br />
+<br />
+· 앱으로 선물 시 멜론캐시 미리 충전 필요<br />
+· 아이폰은 PC로만 선물 가능<br />
+· 같은 닉네임에 중복 선물하지 않게 주의<br />
+<br />
+👇🏻타래의 선물하기 가이드를 참조 해 주세요<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWVKu-NboAAm_D2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVKu-NboAAm_D2.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+하단의 가이드를 참고 부탁드리겠습니다 :)
+<p>하단의 가이드를 참고 부탁드리겠습니다 :)</p>
+<p><a href="https://pbs.twimg.com/media/HWVK2mIa4AAOlxv.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVK2mIa4AAOlxv.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+[ 2026. 11. 05. 21:00 ] 💓 With 멜론 1위 · 지니 3위 벅스 2위 · 플로 1위 💓 Finest Thing 멜론 9위 · 지니 57위 벅스 14위 · 플로 21위 💓 백화요란 (Inside Out) 멜론 4위 · 지니 …
+<p>[ 2026. 11. 05. 21:00 ]<br />
+<br />
+💓 With<br />
+멜론 1위 · 지니 3위<br />
+벅스 2위 · 플로 1위<br />
+<br />
+💓 Finest Thing<br />
+멜론 9위 · 지니 57위<br />
+벅스 14위 · 플로 21위<br />
+<br />
+💓 백화요란 (Inside Out)<br />
+멜론 4위 · 지니 19위<br />
+벅스 6위 · 플로 13위<br />
+<br />
+🎬 With MV<br />
+10,436,779회<br />
+<br />
+#RESCENE #리센느</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢뮤빗/ 하이어 뮤비 총공 [모바일만 가능] 리마인님들! 뮤빗과 하이어 총공이 시작되었습니다! 🎬뮤빗과 하이어에서 리센느의 타이틀곡 'WITH' 뮤비 시청을 부탁드립니다! (써클 소셜 차트에 24시간 1회 반영) 뮤비🤍도 꼭 눌러주세요! 링크 …
+<p>📢뮤빗/ 하이어 뮤비 총공 [모바일만 가능]<br />
+<br />
+리마인님들! 뮤빗과 하이어 총공이 시작되었습니다!<br />
+<br />
+🎬뮤빗과 하이어에서 리센느의 타이틀곡 &apos;WITH&apos; 뮤비 시청을 부탁드립니다! (써클 소셜 차트에 24시간 1회 반영)<br />
+<br />
+뮤비🤍도 꼭 눌러주세요!<br />
+링크 클릭하고 잠시 기다리면 뮤직비디오가 재생됩니다!<br />
+<br />
+뮤빗<br />
+🔗https://mubeat.applink.info/xVGeMPKhpw<br />
+<br />
+하이어 <br />
+🔗https://higher.fan/app/video/6ae9a37e9b77fc4ddf55e264?did=6ae9c66f7735380e35535820<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWVKWyKaQAAR8ak.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVKWyKaQAAR8ak.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢 Genie 음악나누기 참여 안내 리마인 여러분, Genie 음악나누기 에 함께해 주세요! 🪽 Genie 음악나누기는 별도의 이용권 구매 없이 총공팀에서 준비한 음악나누기 링크에서 음악을 재생해 리센느의 음원 성적에 힘을 보탤 수 있는 기능입니…
+<p>📢 Genie 음악나누기 참여 안내<br />
+<br />
+리마인 여러분, Genie 음악나누기 에 함께해 주세요! 🪽<br />
+<br />
+Genie 음악나누기는 별도의 이용권 구매 없이 총공팀에서 준비한 음악나누기 링크에서 음악을 재생해 리센느의 음원 성적에 힘을 보탤 수 있는 기능입니다.<br />
+<br />
+🎧 참여 방법<br />
+<br />
+1.  Genie 이용권이 없는 계정 준비<br />
+2. 아래 음악나누기 링크 접속 후 로그인<br />
+3. With 끝까지 재생 (중간에 음악나누기 회수가 차감되는 경우에도 끝까지 들어야 정상 집계됩니다)<br />
+4. 매 1시간마다 다시 참여 <br />
+<br />
+🔗 Genie 음악나누기  링크는 타래에<br />
+<br />
+⚠️ 주의사항<br />
+<br />
+- 비회원 재생은 집계되지 않으므로 로그인 필수 <br />
+- 이용권 결제한 계정은 팬트리로! 음악나누기는 이용권 결제하지 않은 계정으로 들어주세요!<br />
+- 스밍집계 1 시간에 1계정 1회의 규칙을 따라 한곡 듣고 다른 무료 계정으로 접속해서 다시 들으면 내가 로긴로갓 한 만큼 스트리밍 집계량 증가!<br />
+- 클릭 시 완곡 재생이 아닌 &apos;1분 미리듣기&apos;가 뜬다면<br />
+300회가 모두 소진된 링크이므로 다른 링크를 이용해 주세요.<br />
+- 재생 시간대를 임의로 이동하지 마시고 끝까지 완곡해 주세요.<br />
+- 음소거 금지 → (우회 팁):<br />
+PC: 브라우저 확장 프로그램 &apos;Volume Master&apos; → 브라우저 음량만 조절<br />
+안드로이드: &apos;Sound Assistant&apos; 앱 → 지니 앱 음량만 따로 조절<br />
+<br />
+매 시간 클릭한번으로 챙기는 스트리밍 부스터!! 리센느의 성공적인 컴백을 위해 많은 관심과 참여 부탁드립니다! 💙<br />
+<br />
+#RESCENE #리센느 #PULSE #WITH</p>
+<p><a href="https://pbs.twimg.com/media/HWMJHoMagAAdANB.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWMJHoMagAAdANB.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+- 클릭 시 완곡 재생이 아닌 '1분 미리듣기'가 뜬다면 300회가 모두 소진된 링크이므로 다른 링크를 이용해 주세요 https://www.genie.co.kr/TV55C9 https://www.genie.co.kr/0KGH74 https://www…
+<p>- 클릭 시 완곡 재생이 아닌 &apos;1분 미리듣기&apos;가 뜬다면 300회가 모두 소진된 링크이므로 다른 링크를 이용해 주세요<br />
+<br />
+https://www.genie.co.kr/TV55C9<br />
+https://www.genie.co.kr/0KGH74<br />
+https://www.genie.co.kr/YTITG7<br />
+https://www.genie.co.kr/T1FIT4</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢스트리밍 리스트 리셋 잠시 후 8시에 스밍리스트 리셋해주세요! 🎵8시 정각, 스밍리스트의 처음으로 돌아가 다시 재생하기 ‼️리셋 시간을 놓쳤을 시, 그대로 스밍 ‼️리셋 시간 이외에 스밍이 끊겼을 경우 다음 곡부터 재생 ‼️임의적인 리셋은 스트…
+<p>📢스트리밍 리스트 리셋<br />
+<br />
+잠시 후 8시에 스밍리스트 리셋해주세요!<br />
+<br />
+🎵8시 정각, 스밍리스트의 처음으로 돌아가 다시 재생하기<br />
+<br />
+‼️리셋 시간을 놓쳤을 시, 그대로 스밍<br />
+‼️리셋 시간 이외에 스밍이 끊겼을 경우 다음 곡부터 재생<br />
+‼️임의적인 리셋은 스트리밍 누락을 가져옵니다! <br />
+<br />
+음총팀 리셋 시간을 되도록 지켜 주세요!🙇<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWVKFfibUAAc957.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVKFfibUAAc957.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+🐥 덕애드 스밍후원 🐥 🪽With에 후원 부탁드립니다🙏🏻 스밍후원 회수를 채워두면 불특정 다수가 스밍해서 소진하는 시스템(스밍 이용자수 늘리기에 유리함!) 1️⃣ '덕애드' 앱 설치 - 하단 STREAMING 탭 가기 2️⃣ 리센느 또는 W…
+<p>🐥 덕애드 스밍후원 🐥<br />
+<br />
+🪽With에 후원 부탁드립니다🙏🏻<br />
+<br />
+스밍후원 회수를 채워두면 불특정 다수가 스밍해서 소진하는 시스템(스밍 이용자수 늘리기에 유리함!)<br />
+<br />
+1️⃣ &apos;덕애드&apos; 앱 설치 - 하단 STREAMING 탭 가기<br />
+2️⃣ 리센느 또는 With검색<br />
+3️⃣ 후원 (1회 500표 소모)<br />
+4️⃣ 멜론, 지니 후원 해 주세요<br />
+<br />
+🔥표 모으기<br />
+<br />
+· 타 아티스트 곡 스밍하기 : 300표 획득<br />
+· 광고 쇼핑 게임 등으로 모으기 : 다양하게 획득<br />
+· 유료 충전은 월말2배 이벤트 시에 하기<br />
+· 하트도 매일 눌러주세요!<br />
+<br />
+#RESCENE #리센느 #PULSE #WITH</p>
+<p><a href="https://pbs.twimg.com/media/HWU7k3JaUAAsv6S.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWU7k3JaUAAsv6S.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢카카오뮤직 곡 구매하기 카카오뮤직에서 곡 구매를 진행해주세요🤍 다운로드 및 삭제 가이드 🔗https://rescene.stream/download 카카오뮤직 탈(퇴)다(운로드) 를 이용해 여러 번 다운을 받을 수 있습니다! 가입▶️다운 (곡 …
+<p>📢카카오뮤직 곡 구매하기<br />
+<br />
+카카오뮤직에서 곡 구매를 진행해주세요🤍<br />
+<br />
+다운로드 및 삭제 가이드<br />
+🔗https://rescene.stream/download<br />
+<br />
+카카오뮤직 탈(퇴)다(운로드)<br />
+를 이용해 여러 번 다운을 받을 수 있습니다! <br />
+<br />
+가입▶️다운 (곡 구매)▶️탈퇴 반복<br />
+<br />
+➖카카오계정 이메일 &gt; 지메일로 가입<br />
+➖본인인증: 3개까지 가능, 본인인증 슬롯 하나 비워둘 것<br />
+<br />
+➖ 🚨🚨실사용 카톡 탈퇴 절대 금지!! 🚨🚨<br />
+       (새로 만든 탈다용 아이디만 탈퇴 / 탈퇴전 꼭 확인하세요)<br />
+<br />
+➖반드시 아래 링크에서 탈퇴!<br />
+🔗https://accounts.kakao.com/weblogin/deactivate#deactivateIntro<br />
+➖같은 메일 주소로 재가입 시 30분 정도의 간격 필요<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWVI8gVasAAq9nB.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVI8gVasAAq9nB.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢멜론 댓글 총공 리센느 팬톡, 앨범, 곡 등에 응원의 댓글을 달아 주세요! 멜론 댓글은 응원의 마음을 전할 뿐 아니라, 멜론 글로벌 K 차트 집계에도 영향을 줍니다! 다른 리마인들에게 투표나 스트리밍 방법 등을 댓글로 홍보해도 좋아요!
+<p>📢멜론 댓글 총공<br />
+<br />
+리센느 팬톡, 앨범, 곡 등에 응원의 댓글을 달아 주세요!<br />
+<br />
+멜론 댓글은 응원의 마음을 전할 뿐 아니라,<br />
+멜론 글로벌 K 차트 집계에도 영향을 줍니다!<br />
+<br />
+다른 리마인들에게 투표나 스트리밍 방법 등을 댓글로<br />
+홍보해도 좋아요!</p>
+<p><a href="https://pbs.twimg.com/media/HWUpPyyaMAAGvDS.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWUpPyyaMAAGvDS.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+신곡 발매 버프로 현재 리센느 일간 1위🔥🔥 글로벌 K 차트 월간 1위 시 🏆실물 트로피가 전달됩니다 쉽지 않은 일이겠지만 리마인!!모두 최선을 다 해 봅시다🤍
+<p>신곡 발매 버프로 현재 리센느 일간 1위🔥🔥<br />
+<br />
+글로벌 K 차트 월간 1위 시 <br />
+🏆실물 트로피가 전달됩니다<br />
+<br />
+쉽지 않은 일이겠지만 <br />
+리마인!!모두 최선을 다 해 봅시다🤍</p>
+<p><a href="https://pbs.twimg.com/media/HWVRIg6a0AAejG4.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWVRIg6a0AAejG4.jpg?name=orig" alt="" /></a></p>
+<blockquote><a href="https://x.com/ResceneStream/status/2118187693872140634">📢 Melon Global K Chart 안내 📊차트 점수 얻기 ✔️ 리센느 팬맺기 ✔️ 리센느의 음악 스트리밍 하기 ✔️ 리센느의 뮤비 및 각종 영상 콘텐츠 보기 ✔️ 리센느의 모든 콘텐츠 좋아요 누르기 ✅ 리센느 아티스트 채널(팬톡), 앨범, 곡 에 댓글 많이 달기 ✔️이용권이 없는 무료 아이디/해외 아이디도 팬 맺기, 댓글 쓰기, 좋아요 누르기가 가능합니다 중국 TME 차트, 일본 Line Music 차트 점수도 같이 반영되기 때문에 글로벌 리마인님들의 힘도 필요합니다!! 많은 참여 부…</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+[ 2026. 11. 05. 15:00 ] 💓 With 멜론 1위 · 지니 3위 벅스 2위 · 플로 1위 💓 Finest Thing 멜론 10위 · 지니 71위 벅스 34위 · 플로 17위 💓 백화요란 (Inside Out) 멜론 5위 · 지니…
+<p>[ 2026. 11. 05. 15:00 ]<br />
+<br />
+💓 With<br />
+멜론 1위 · 지니 3위<br />
+벅스 2위 · 플로 1위<br />
+<br />
+💓 Finest Thing<br />
+멜론 10위 · 지니 71위<br />
+벅스 34위 · 플로 17위<br />
+<br />
+💓 백화요란 (Inside Out)<br />
+멜론 5위 · 지니 26위<br />
+벅스 4위 · 플로 11위<br />
+<br />
+🎬 With MV<br />
+9,354,975회<br />
+<br />
+#RESCENE #리센느</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📻 편성표 보고 매 시간마다 라디오 신청 하기🔥
+<p>📻 편성표 보고 매 시간마다 라디오 신청 하기🔥</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2117628682969993333">📢 With 라디오 신청📢 📻신청문자원클릭 및 편성시간표 http://rescene.stream/radio ✅ 방송 주제에 맞는 재미있는 사연과 함께 신청 해 주세요! ✅ 문자메시지 단문50원 / 장문100원✨(가장 선정확률높음) ✅ 라디오 앱이나 프로그램 홈페이지 게시판을 이용하면 무료로도 신청 가능🙆 ✔️ 라디오 선곡 시 음악방송 방송점수로 집계됩니다 리센느 음원총공팀 사이트를 통해 원클릭 신청도 가능하니 많은 참여를 부탁 드리겠습니다🙇</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢 FLO 응원하기 참여 안내 리마인 여러분, FLO 응원하기에 함께해 주세요! 🪽 FLO 응원하기는 별도의 이용권 구매 없이 총공팀에서 준비한 링크를 통해 리센느의 신곡 'With'를 스트리밍하며 음원 성적에 힘을 보탤 수 있는 기능입니다. …
+<p>📢 FLO 응원하기 참여 안내<br />
+<br />
+리마인 여러분, FLO 응원하기에 함께해 주세요! 🪽<br />
+<br />
+FLO 응원하기는 별도의 이용권 구매 없이 총공팀에서 준비한 링크를 통해 리센느의 신곡 &apos;With&apos;를 스트리밍하며 음원 성적에 힘을 보탤 수 있는 기능입니다.<br />
+<br />
+🎧 참여 방법<br />
+<br />
+1. FLO 이용권이 없는 계정 준비<br />
+2. 아래 응원하기 링크 접속 후 로그인<br />
+3. 리센느 &apos;With&apos; 끝까지 재생<br />
+4. 1시간마다 다시 참여<br />
+<br />
+⚠️ 주의사항<br />
+<br />
+- 반드시 총공팀에서 제공한 링크로 접속<br />
+- 비회원 재생은 집계되지 않으므로 로그인 필수<br />
+- 반복재생 기능 OFF<br />
+- 1시간에 1회 재생 권장<br />
+<br />
+이용권이 없어도 리센느의 음원 성적에 힘을 보탤 수 있는 만큼 많은 관심과 참여 부탁드립니다! 💙<br />
+<br />
+🔗 FLO 응원하기 링크<br />
+https://cheer.music-flo.com/g/HTSFDuSKsZ<br />
+<br />
+#FLO에서응원하기</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+리센느 🤝🏻 엔진 연합 안내 ━━━━━━━━━━━━━━━━ 리마인 🎁 엔진 : · MAMA 팬초이스 with VISA '엔하이픈ENHYPEN' 투표 🗓️ ~ 11/8(일) · MAMA 팬초이스 with VISA 실시간 '엔하이픈ENHYPEN'…
+<p>리센느 🤝🏻 엔진 연합 안내 <br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+리마인 🎁 엔진  :<br />
+· MAMA 팬초이스 with VISA &apos;엔하이픈ENHYPEN&apos; 투표<br />
+🗓️  ~ 11/8(일)<br />
+· MAMA 팬초이스 with VISA 실시간 &apos;엔하이픈ENHYPEN&apos; 투표<br />
+🗓️11월 20일 예정 (실시간 투표)<br />
+<br />
+이 투표는 상호 투표수 교환 투표 입니다.<br />
+❤️‍🔥일 목표 2000표  -  많은 참여 부탁드립니다!<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+✔️인증 방법(다음 중 택 1)<br />
+➖ 이 글의 댓글(멘션) #RESCENEXENHYPEN 해시태그 포함해서 인증샷 올리기 (댓글 1개에 인증샷 하나만 올려야 합니다. 워터마크/낙관 필수)  <br />
+➖ 아래 구글 폼에 인증샷 업로드 (2차 남성팀과 동시에 선택해서 투표하기 때문에 그냥 같은 폼에 올리시면됩니다)<br />
+🔗https://forms.gle/iNpYAUsCSxTh1KVJ8<br />
+➖음원총공팀 채널로 인증샷 전송<br />
+🔗 http://pf.kakao.com/_WxcxowX/chat<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+엔진 🎁 리마인<br />
+· 멜론 뮤직 어워드(MMA) GLOBAL TOP10 &apos;리센느&apos; 투표<br />
+🗓️  ~ 11/8(일)<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+#RESCENE #리센느</p>
+<p><a href="https://pbs.twimg.com/media/HWKo_n9awAAVov8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWKo_n9awAAVov8.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢 매일매일 리마인 투표 TO DO (모든 시간 KST) 🧵 각 투표별 인증방법 및 자세한 사항은 타래를 참조 해 주세요 ❥･•━━━━━━━━━━━━━━ ‼️인기가요 사전투표‼️ 📱 LinC 앱에서 투표 📅 ~ 2026.11.06 23:59 …
+<p>📢 매일매일 리마인 투표 TO DO (모든 시간 KST)<br />
+<br />
+🧵 각 투표별 인증방법 및 자세한 사항은 타래를 참조 해 주세요<br />
+<br />
+❥･•━━━━━━━━━━━━━━<br />
+<br />
+‼️인기가요 사전투표‼️<br />
+📱 LinC 앱에서 투표<br />
+📅 ~ 2026.11.06 23:59 <br />
+⚠️제한 투표 : 계정 당 ❗매일 10표❗ 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 <br />
+<br />
+🏃🏻‍♀️투표하러가기<br />
+https://app.linc.fan/31TL/UPBjE3DC<br />
+<br />
+🏆MMA 부문별 투표 및 연합팀 안내<br />
+<br />
+📱멜론(한국) | Berriz(글로벌)<br />
+🗓 ~ 2026. 11. 13  23:59 <br />
+🗳 투표방법<br />
+➖1일 1계정 당 부문별 1표(멜론이용권X) /3표(멜론이용권O) <br />
+➖Berriz 는 매일 1계정 1표<br />
+<br />
+🩷GLOBAL TOP 10 &apos;리센느&apos;<br />
+✔️올해의 베스트송 &apos;코르티스 REDRED&apos;🔴<br />
+✔️올해의 신인 &apos;알파드라이브원&apos;🏎<br />
+<br />
+🔗대한민국 : http://kko.to/7kliHuzdQZ<br />
+🔗글로벌 : https://link.berriz.in/ko/web/main/vote/mma2026/<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+🏆 MAMA 2026 FANS’ CHOICE 2차  투표 및 연합팀 안내<br />
+<br />
+📱MnetPlus | 엠넷플러스<br />
+🗓  ~ 2026. 11. 8 23:59<br />
+🗳 투표방법 : 1일 1계정 당 1표 (기기 제한)<br />
+<br />
+🍀남자 부문 &apos;앤더블&apos;<br />
+🩷여자 부문 &apos;리센느&apos; <br />
+🆕팬스초이스 with VISA 부문 &apos;엔하이픈&apos;<br />
+<br />
+🔗https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-vote-r2-v2%2F6acecda6f3778e1b06f5170b%3Furl_fallback_type%3Dupdate&amp;missionType=MAMA_2026_FANS_CHOICE_VOTE_2ND_SHARE&amp;refererCode=69TC2WZM<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+🏆 MAMA WORLDWIDE KCONERS&apos; CHOICE <br />
+📱MnetPlus | 엠넷플러스<br />
+🗓  ~ 2026. 11. 8 23:59 <br />
+🗳 투표방법 : 1일 1계정 당 1표 (기기 제한)<br />
+<br />
+🌹제로베이스원 &apos;Customise&apos; 투표 및 영상 하트+시청<br />
+<br />
+🔗https://mnetplus.onelink.me/TRa8/0ew6w81u?custom_link_value=vote%2Ftemplates%2Fmama-worldwide-kconers-choice%2F6abcc3c9fb8eaa1ef57c3ca3%3Furl_fallback_type%3Dupdate<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+🏆 2027 대한민국 퍼스트브랜드 대상<br />
+🗓 ~ 2026. 11. 15 23:59 <br />
+🗳 투표방법 : 실 사용 이메일로 인증 1회 당 부문별 1표씩 (연합 팀 필수 투표)<br />
+<br />
+🩷 여자아이돌(핫트렌드) / 광고모델(여) &apos;리센느&apos;<br />
+💙 밴드 &apos;데이식스&apos;<br />
+💙 남자아이돌 (신인) &apos;앤더블&apos;<br />
+💙 남자아이돌 &apos;코르티스&apos;<br />
+💙 싱어송라이터 &apos;이승윤&apos;<br />
+<br />
+➖핫아이콘(남) 이선민 , 개그맨 부문에 이선민/유영우 삼촌들도 있으니 챙겨주세요 (자율 투표)<br />
+<br />
+✔️ 투표완료 후에는 어떤 후보를 뽑았는지 나오지 않으니 투표하면서 바로 인증샷을 찍어주시면 좋습니다. 이메일 인증 완료 화면 스샷과 함께 인증 해 주시면 됩니다!</p>
+<p><a href="https://pbs.twimg.com/media/HWUdw_nbsAApmVO.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWUdw_nbsAApmVO.jpg?name=orig" alt="" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-05 13:05)
+📢 음총팀 사이트 숏폼 제작 가이드 업데이트 신곡 홍보에서 숏폼 바이럴도 중요한 요소를 차지합니다! 바이럴은 8할이 기세인거 아시죠?🔥 각종 SNS에 글 쓰실 때 With를 BGM으로 설정 해 주세요! 플랫폼 별 차트 점수는 물론 써클 소셜 차트…
+<p>📢 음총팀 사이트 숏폼 제작 가이드 업데이트<br />
+<br />
+신곡 홍보에서 숏폼 바이럴도 중요한 요소를 차지합니다! 바이럴은 8할이 기세인거 아시죠?🔥<br />
+<br />
+각종 SNS에 글 쓰실 때 With를 BGM으로 설정 해 주세요! 플랫폼 별 차트 점수는 물론 써클 소셜 차트3.0 점수 적용으로 음악방송 점수까지 챙길 수 있습니다<br />
+<br />
+꼭 리센느 관련 내용이 아니더라도 &apos;with&apos; 를 이용해서 재미있는 숏폼을 많이 만들어 주세요🙏🏻<br />
+<br />
+ex) with - 강아지우다다영상, 러닝크루 브이로그 등😂<br />
+<br />
+리마인이 만든 하나의 숏폼이 신곡 바이럴 홍보의 시작이 될 수도 있습니다👏🏻👏🏻<br />
+<br />
+숏폼 가이드<br />
+🔗https://rescene.stream/shortform<br />
+<br />
+#RESCENE #리센느 #PULSE #WITH</p>
