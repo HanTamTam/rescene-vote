@@ -1694,41 +1694,45 @@
   // ==========================================
   const voteCardsData = [
     {
-      id: "inkigayo-with",
-      name: "인기가요 사전투표",
-      theme: "inki",
-      customBorder: "border-top: 4px solid #0284c7; background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 25%);",
-      badgeText: "🔴 인기가요 신곡 사전투표 (~11/06 23:59)",
-      badgeStyle: "background:#e0f2fe; color:#0369a1; font-weight:800;",
-      title: "SBS 인기가요 사전투표 : 리센느 'WITH'",
-      desc: "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 가능! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
-      startDate: "2026-11-04T00:00:00",
-      endDate: "2026-11-06T23:59:59",
-      deadlineColor: "#0284c7",
-      notice: "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다.",
-      noticeColor: { bg: "rgba(2, 132, 199, 0.08)", border: "rgba(2, 132, 199, 0.4)", text: "#0369a1" },
-      actions: [
-        {
-          type: "custom",
-          label: "📱 링크(LiNC) 인기가요 직행 투표 열기 ↗",
-          url: "https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944",
-          style: "background: linear-gradient(135deg, #0284c7, #0369a1); color: #ffffff; box-shadow: 0 3px 10px rgba(2, 132, 199, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
-        },
-        {
-          type: "grid2",
-          items: [
+          "id": "inkigayo-with",
+      "name": "인기가요 사전투표",
+      "theme": "inki",
+      "customBorder": "border-top: 4px solid #0284c7; background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 25%);",
+      "badgeText": "🔴 인기가요 신곡 사전투표 (~11/06 23:59)",
+      "badgeStyle": "background:#e0f2fe; color:#0369a1; font-weight:800;",
+      "title": "SBS 인기가요 사전투표 : 리센느 'WITH'",
+      "desc": "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 필수! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
+      "startDate": "2026-11-05T00:00:00",
+      "endDate": "2026-11-06T23:59:59",
+      "deadlineColor": "#0284c7",
+      "notice": "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다.",
+      "noticeColor": {
+            "bg": "rgba(2, 132, 199, 0.08)",
+            "border": "rgba(2, 132, 199, 0.4)",
+            "text": "#0369a1"
+      },
+      "actions": [
             {
-              label: "🍎 iOS (아이폰) 링크 앱 ↗",
-              url: "https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944",
-              style: "background:#f0f9ff; border:1px solid #bae6fd; color:#0284c7; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                  "type": "custom",
+                  "label": "📱 링크(LiNC) 인기가요 직행 투표 열기 ↗",
+                  "url": "https://app.linc.fan/31TL/UPBjE3DC",
+                  "style": "background: linear-gradient(135deg, #0284c7, #0369a1); color: #ffffff; box-shadow: 0 3px 10px rgba(2, 132, 199, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
             },
             {
-              label: "🤖 안드로이드 링크 앱 ↗",
-              url: "https://play.google.com/store/apps/details?id=com.sbs.linc",
-              style: "background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                  "type": "grid2",
+                  "items": [
+                        {
+                              "label": "🍎 iOS (아이폰) 링크 앱 ↗",
+                              "url": "https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944",
+                              "style": "background:#f0f9ff; border:1px solid #bae6fd; color:#0284c7; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                        },
+                        {
+                              "label": "🤖 안드로이드 링크 앱 ↗",
+                              "url": "https://play.google.com/store/apps/details?id=com.sbs.linc",
+                              "style": "background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                        }
+                  ]
             }
-          ]
-        }
       ]
     },
     {
