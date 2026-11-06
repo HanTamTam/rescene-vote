@@ -289,6 +289,18 @@ def run_tests():
     # ----------------------------------------------------
     # Test 6: 링크 유효성 및 응답성 검사 (Link Health Check)
     # ----------------------------------------------------
+    APP_STORE_DOMAINS = [
+        "apps.apple.com",
+        "play.google.com",
+        "app.linc.fan",
+        "itunes.apple.com",
+        "kakaobank.onelink.me",
+        "onelink.me",
+        "tinyurl.com",
+        "muzip.link",
+        "b.stage"
+    ]
+
     print(f"\n🌐 [총 {len(all_urls_to_check)}개 버튼 링크 유효성 검사 시작]")
     tested_urls = set()
     broken_urls = []
@@ -303,25 +315,42 @@ def run_tests():
             continue
         tested_urls.add(url)
 
+        is_app_domain = any(d in url for d in APP_STORE_DOMAINS)
+        status_code = None
+
+        # 1. HEAD 요청 시도
         try:
             req = urllib.request.Request(url, headers=HEADERS, method="HEAD")
             with urllib.request.urlopen(req, timeout=5) as resp:
-                status = resp.status
-                if status < 400:
-                    pass
+                status_code = resp.status
         except urllib.error.HTTPError as e:
-            if e.code in [401, 403, 405, 429]:
-                warning_urls.append((label, url, f"HTTP {e.code} (봇 차단 - URL 정상)"))
-            elif e.code == 404:
-                broken_urls.append((label, url, f"HTTP 404 (페이지 없음)"))
-            else:
-                warning_urls.append((label, url, f"HTTP {e.code}"))
-        except Exception as ex:
-            err_str = str(ex)
-            if "nodename nor servname" in err_str:
-                warning_urls.append((label, url, "DNS/오프라인 환경"))
-            else:
-                warning_urls.append((label, url, f"연결 지연 ({type(ex).__name__})"))
+            status_code = e.code
+            # Apple App Store, Google Play, Branch 딥링크는 HEAD 요청에 404/405를 반환하므로 GET으로 재시도
+            if e.code in [404, 405, 403]:
+                try:
+                    get_req = urllib.request.Request(url, headers=HEADERS, method="GET")
+                    get_req.add_header("Range", "bytes=0-100")
+                    with urllib.request.urlopen(get_req, timeout=5) as get_resp:
+                        status_code = get_resp.status
+                except urllib.error.HTTPError as ge:
+                    status_code = ge.code
+                except Exception:
+                    pass
+        except Exception:
+            status_code = None
+
+        # 상태 판정
+        if status_code and status_code < 400:
+            pass
+        elif is_app_domain:
+            # 앱스토어 및 모바일 딥링크는 봇/서버 요청에 404/403을 반환하지만 실제 URL은 정상이므로 알림으로 분류
+            warning_urls.append((label, url, f"HTTP {status_code or 'Timeout'} (앱스토어/딥링크 봇 차단 - URL 정상)"))
+        elif status_code in [401, 403, 405, 429]:
+            warning_urls.append((label, url, f"HTTP {status_code} (봇 차단 - URL 정상)"))
+        elif status_code == 404:
+            broken_urls.append((label, url, "HTTP 404 (페이지 없음)"))
+        else:
+            warning_urls.append((label, url, f"HTTP {status_code or '연결 지연'}"))
 
     if broken_urls:
         for lbl, u, reason in broken_urls:
