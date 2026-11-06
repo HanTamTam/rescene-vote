@@ -53,7 +53,8 @@ def find_card_span(content, card_id):
     """
     HTML 내 voteCardsData 배열에서 특정 card_id를 가진 객체의 시작('{')과 끝('},' 또는 '}') 인덱스를 탐색합니다.
     """
-    pattern = re.compile(r'id:\s*[\"\']' + re.escape(card_id) + r'[\"\']')
+    # 따옴표 유무(JSON의 "id" 또는 JS 객체의 id)에 관계없이 정확히 카드를 찾습니다.
+    pattern = re.compile(r'["\']?id["\']?\s*:\s*["\']' + re.escape(card_id) + r'["\']')
     match = pattern.search(content)
     if not match:
         return None
