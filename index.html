@@ -2045,6 +2045,49 @@
     }
   ];
 
+  // 📋 원터치 클립보드 복사 및 모바일 토스트 알림 함수
+  function copyToClipboard(text, toastMsg) {
+    if (!text) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function() {
+        showToast(toastMsg || "클립보드에 복사되었습니다!");
+      }).catch(function() {
+        fallbackCopy(text, toastMsg);
+      });
+    } else {
+      fallbackCopy(text, toastMsg);
+    }
+  }
+
+  function fallbackCopy(text, toastMsg) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.left = "-9999px";
+    document.body.appendChild(textArea);
+    textArea.select();
+    try {
+      document.execCommand('copy');
+      showToast(toastMsg || "클립보드에 복사되었습니다!");
+    } catch (err) {
+      alert("복사 실패: " + text);
+    }
+    document.body.removeChild(textArea);
+  }
+
+  function showToast(msg) {
+    let toast = document.getElementById("mobile-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "mobile-toast";
+      toast.style.cssText = "position:fixed; bottom:80px; left:50%; transform:translateX(-50%); background:rgba(15,23,42,0.92); color:#ffffff; padding:10px 18px; border-radius:999px; font-size:12.5px; font-weight:700; z-index:9999; box-shadow:0 4px 14px rgba(0,0,0,0.25); transition:opacity 0.25s ease; opacity:0; pointer-events:none;";
+      document.body.appendChild(toast);
+    }
+    toast.innerText = msg || "클립보드에 복사되었습니다!";
+    toast.style.opacity = "1";
+    setTimeout(function() { toast.style.opacity = "0"; }, 2000);
+  }
+
   // 🎨 투표 카드 자동 렌더링 함수 (UI/UX 템플릿 + 상태 제어)
   function renderVoteCards() {
     const container = document.getElementById("vote-cards-container");
@@ -2146,6 +2189,19 @@
             } else if (act.type === 'x-tweet-simple') {
               return `
                 <a href="${act.url}" target="_blank" class="btn-x-vote" style="background:#0f172a; border:1px solid #334155; height:38px; font-size:12px;">
+                  ${act.label}
+                </a>
+              `;
+            } else if (act.type === 'copy') {
+              return `
+                <button type="button" class="btn-mobile" onclick="copyToClipboard('${(act.copyText || '').replace(/'/g, "\\'")}', '${act.toast || '클립보드에 복사되었습니다!'}\')" style="${act.style || 'background: linear-gradient(135deg, #334155, #1e293b); color: #ffffff; font-weight: 800; border-radius: 12px; height: 46px; cursor: pointer; border: none; box-shadow: 0 3px 10px rgba(30, 41, 59, 0.25);'}">
+                  ${act.label}
+                </button>
+              `;
+            } else if (act.type === 'sms') {
+              const smsUrl = 'sms:' + (act.number || '') + (act.body ? '?body=' + encodeURIComponent(act.body) : '');
+              return `
+                <a href="${smsUrl}" class="btn-mobile" style="${act.style || 'background: linear-gradient(135deg, #10b981, #059669); color: #ffffff; font-weight: 800; box-shadow: 0 3px 10px rgba(16, 185, 129, 0.3); border-radius: 12px; height: 46px; text-decoration: none;'}">
                   ${act.label}
                 </a>
               `;
