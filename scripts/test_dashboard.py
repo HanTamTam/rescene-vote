@@ -361,19 +361,33 @@ def run_tests():
     # ----------------------------------------------------
     # Markdown QA 리포트 생성
     # ----------------------------------------------------
+    # ----------------------------------------------------
+    # Markdown QA 리포트 생성 (오류 발생 시에도 관리자 판단용으로 상세 기록)
+    # ----------------------------------------------------
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S KST")
-    overall_status = "✅ PASS (모든 검증 통과 - 배포 승인 가능)" if results.failed == 0 else "❌ FAIL (오류 감지 - 점검 필요)"
+    has_issues = results.failed > 0
+
+    if has_issues:
+        overall_status = "⚠️ ATTENTION (오류 감지 - 관리자 검토 필요)"
+        action_guide = f"""
+> 🚨 **[관리자 확인 필요] 자동 검증 중 {results.failed}건의 오류가 감지되었습니다!**
+> 
+> 아래 체크리스트의 빨간색(❌) 항목을 확인해 주세요.
+> 일시적인 링크 차단이거나 배포에 문제없다고 판단되시면, **그럼에도 불구하고 아래 [Merge pull request]를 눌러 배포를 진행**해 주시면 됩니다.
+"""
+    else:
+        overall_status = "✅ PASS (모든 검증 통과 - 배포 승인 가능)"
+        action_guide = "\n👉 **모든 안전 검증을 100% 통과했습니다.** 아래 [Merge pull request]를 누르시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀\n"
 
     md_report = f"""## 🤖 [CI 자동 검증 QA 리포트]
 * **검증 일시**: `{now_str}`
 * **종합 판정**: **{overall_status}**
 * **상세 결과**: 통과 `{results.passed}`건 / 실패 `{results.failed}`건 / 알림 `{results.warnings}`건
 
+{action_guide}
+
 ### 📋 세부 검증 체크리스트
 {chr(10).join(results.details)}
-
----
-👉 **판정 결과**: {'안전하게 배포할 수 있는 상태입니다. 아래 [Merge pull request]를 누르시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀' if results.failed == 0 else '⚠️ 감지된 오류를 먼저 확인하고 조치해 주세요!'}
 """
 
     with open(REPORT_PATH, "w", encoding="utf-8") as f:
@@ -384,12 +398,13 @@ def run_tests():
 
 def main():
     results, report = run_tests()
+    # 오류가 있더라도 워크플로를 중단시키지 않고, 관리자가 모바일 PR에서 오류 내역을 보고 머지할지 결정할 수 있도록 PR 생성을 허용합니다.
     if results.failed > 0:
-        print("\n❌ 자동 QA 테스트에서 오류가 발견되었습니다. 워크플로를 중단합니다.")
-        sys.exit(1)
+        print(f"\n⚠️ 자동 QA 검증에서 {results.failed}건의 확인 필요 항목이 발견되었습니다.")
+        print("💡 관리자가 모바일 PR에서 오류 내역을 직접 확인하고 머지 여부를 결정할 수 있도록 PR 생성을 계속 진행합니다.")
     else:
         print("\n🎉 모든 자동 QA 테스트를 성공적으로 통과했습니다!")
-        sys.exit(0)
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()

@@ -90,12 +90,23 @@ jobs:
               qaReport = fs.readFileSync('qa_report.md', 'utf8');
             }
 
+            const hasIssues = qaReport.includes('ATTENTION') || qaReport.includes('❌') || qaReport.includes('오류');
             const branch = 'update/rescene-notices';
-            const title = '📢 [공지 자동 갱신] RESCENE 최신 총공 및 투표 스케줄 업데이트';
+            const title = hasIssues
+              ? '⚠️ [점검 필요] RESCENE 최신 총공 업데이트 (QA 검토 후 병합 결정 필요)'
+              : '📢 [검증 완료] RESCENE 최신 총공 및 투표 스케줄 업데이트';
+
+            const noticeHeader = hasIssues
+              ? `> 🚨 **[관리자 확인 요청] 자동 QA 검증에서 일부 점검 필요 항목이 발견되었습니다.**\n` +
+                `> 아래 첨부된 리포트의 에러 상세 내역을 확인해 주세요.\n` +
+                `> 일시적 링크 지연이거나 배포에 문제없다고 판단되시면 **그럼에도 불구하고 [Merge pull request]를 눌러 배포를 강행**하실 수 있습니다.\n\n`
+              : '';
+
             const body = `## 📢 RESCENE (리센느) 최신 공지 업데이트 알림 ✨\n\n` +
+                         noticeHeader +
                          `클라우드 봇이 최신 공지 및 스트리밍·투표 일정을 감지하여 대시보드 코드를 업데이트했습니다.\n\n` +
                          `* **반영 파일**: \`index.html\`, \`rescene_voting_schedule.html\`, \`mma_alliance_voting_notice.md\`\n` +
-                         `* **📱 모바일 원터치 승인**: 아래 초록색 **[Merge pull request]** 버튼을 탭하시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀\n\n` +
+                         `* **📱 모바일 원터치 승인**: 검토 후 아래 초록색 **[Merge pull request]** 버튼을 탭하시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀\n\n` +
                          (qaReport ? `---\n\n` + qaReport : '');
 
             const pulls = await github.rest.pulls.list({
