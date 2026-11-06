@@ -30,6 +30,8 @@ AI 어시스턴트는 사용자의 요청이나 상황에 따라 아래 매핑 �
    - 코드를 수정했을 때는 반드시 `python3 scripts/test_dashboard.py`를 실행하여 실패가 0건인지 확인한 후 사용자에게 완료 보고를 한다.
 4. **결과 보고는 핵심 위주로 명확하게**  
    - 작업 후 보고는 군더더기 없이 **[1. 점검 내역 / 2. 발견된 문제 / 3. 수정 및 배포 결과]** 위주로 읽기 쉽게 요약한다.
+5. **코드 작업 시 문서 동기화 필수 체크 (Doc-Sync Rule)**  
+   - 스크립트, HTML, 워크플로 등 코드를 하나라도 수정하거나 기능을 추가·변경할 때마다, 관련 문서([`HANDOVER.md`](file:///Users/hanchangmin/Documents/Rescene/HANDOVER.md), [`WORK_HISTORY.md`](file:///Users/hanchangmin/Documents/Rescene/WORK_HISTORY.md), [`DAILY_OPS_GUIDE.md`](file:///Users/hanchangmin/Documents/Rescene/DAILY_OPS_GUIDE.md) 등)에 반영할 사항이 있는지 반드시 확인하고 코드와 함께 문서를 최신화한다.
 
 ---
 
