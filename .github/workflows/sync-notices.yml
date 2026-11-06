@@ -53,9 +53,9 @@ jobs:
         run: |
           python scripts/sync_notices.py
 
-      - name: 🛡️ 사전 무결성 및 문법 안전 검증 (Safety Guardrail)
+      - name: 🛡️ 종합 자동 QA 및 무결성 E2E 검증 (QA & Health Guardrail)
         run: |
-          python scripts/verify_html.py
+          python scripts/test_dashboard.py
 
       - name: 브랜치 생성 및 변경 사항 푸시
         id: commit_step
@@ -79,12 +79,19 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
+            let qaReport = '';
+            if (fs.existsSync('qa_report.md')) {
+              qaReport = fs.readFileSync('qa_report.md', 'utf8');
+            }
+
             const branch = 'update/rescene-notices';
             const title = '📢 [공지 자동 갱신] RESCENE 최신 총공 및 투표 스케줄 업데이트';
             const body = `## 📢 RESCENE (리센느) 최신 공지 업데이트 알림 ✨\n\n` +
                          `클라우드 봇이 최신 공지 및 스트리밍·투표 일정을 감지하여 대시보드 코드를 업데이트했습니다.\n\n` +
                          `* **반영 파일**: \`index.html\`, \`rescene_voting_schedule.html\`, \`mma_alliance_voting_notice.md\`\n` +
-                         `* **📱 모바일 원터치 승인**: 아래 초록색 **[Merge pull request]** 버튼을 탭하시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀`;
+                         `* **📱 모바일 원터치 승인**: 아래 초록색 **[Merge pull request]** 버튼을 탭하시면 라이브 웹 대시보드에 즉시 배포됩니다! 🚀\n\n` +
+                         (qaReport ? `---\n\n` + qaReport : '');
 
             const pulls = await github.rest.pulls.list({
               owner: context.repo.owner,
