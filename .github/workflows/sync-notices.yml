@@ -48,6 +48,7 @@ jobs:
 
       - name: 공지 동기화 스크립트 실행
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ISSUE_TITLE: ${{ github.event.issue.title || 'Workflow Dispatch' }}
           ISSUE_BODY: ${{ github.event.inputs.notice_text || github.event.issue.body || '' }}
         run: |
