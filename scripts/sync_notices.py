@@ -483,7 +483,7 @@ def generate_fallback_card(tweet_text):
         "badgeText": f"📢 총공팀 실시간 공지 ({badge_deadline})",
         "badgeStyle": "background:#e0e7ff; color:#4338ca; font-weight:800;",
         "title": f"📢 {first_line}",
-        "desc": tweet_text.replace("\n", "<br>")[:200] + ("..." if len(tweet_text) > 200 else ""),
+        "desc": tweet_text.replace("\n", "<br>"),
         "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
         "endDate": end_date,
         "deadlineColor": "#4338ca",
