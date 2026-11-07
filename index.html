@@ -1731,49 +1731,7 @@
   // 🎯 [순수 투표 데이터 리스트 (Vote Cards Data)]
   // 새로운 투표/연합 추가 시 아래 배열에 객체만 추가하면 UI와 상태가 자동 적용됩니다.
   // ==========================================
-    const voteCardsData = [
-    {
-        "id": "inkigayo-with",
-        "name": "인기가요 사전투표",
-        "theme": "inki",
-        "customBorder": "border-top: 4px solid #0284c7; background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 25%);",
-        "badgeText": "🔴 인기가요 신곡 사전투표 (~11/06 23:59)",
-        "badgeStyle": "background:#e0f2fe; color:#0369a1; font-weight:800;",
-        "title": "SBS 인기가요 사전투표 : 리센느 'WITH'",
-        "desc": "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 필수! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
-        "startDate": "2026-11-04T00:00:00",
-        "endDate": "2026-11-06T23:59:59",
-        "deadlineColor": "#0284c7",
-        "notice": "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다.",
-        "noticeColor": {
-            "bg": "rgba(2, 132, 199, 0.08)",
-            "border": "rgba(2, 132, 199, 0.4)",
-            "text": "#0369a1"
-        },
-        "actions": [
-            {
-                "type": "custom",
-                "label": "📱 링크(LiNC) 인기가요 직행 투표 열기 ↗",
-                "url": "https://app.linc.fan/31TL/UPBjE3DC",
-                "style": "background: linear-gradient(135deg, #0284c7, #0369a1); color: #ffffff; box-shadow: 0 3px 10px rgba(2, 132, 199, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
-            },
-            {
-                "type": "grid2",
-                "items": [
-                    {
-                        "label": "🍎 iOS (아이폰) 링크 앱 ↗",
-                        "url": "https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944",
-                        "style": "background:#f0f9ff; border:1px solid #bae6fd; color:#0284c7; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
-                    },
-                    {
-                        "label": "🤖 안드로이드 링크 앱 ↗",
-                        "url": "https://play.google.com/store/apps/details?id=com.sbs.linc",
-                        "style": "background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
-                    }
-                ]
-            }
-        ]
-    },
+      const voteCardsData = [
     {
         "id": "mama-round2",
         "name": "MAMA 2차",
@@ -2026,6 +1984,48 @@
         ]
     },
     {
+        "id": "inkigayo-with",
+        "name": "인기가요 사전투표",
+        "theme": "inki",
+        "customBorder": "border-top: 4px solid #0284c7; background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 25%);",
+        "badgeText": "🔴 인기가요 신곡 사전투표 (~11/06 23:59)",
+        "badgeStyle": "background:#e0f2fe; color:#0369a1; font-weight:800;",
+        "title": "SBS 인기가요 사전투표 : 리센느 'WITH'",
+        "desc": "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 필수! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
+        "startDate": "2026-11-04T00:00:00",
+        "endDate": "2026-11-06T23:59:59",
+        "deadlineColor": "#0284c7",
+        "notice": "💎 <strong>무료 재화 적립 팁:</strong> 광고 보고 팬 포인트 룰렛 돌리기! 1표당 30 팬 포인트(또는 8젬) 소모. 계정당 매일 10표씩 투표 가능하며 다계정 참여가 가능합니다.",
+        "noticeColor": {
+            "bg": "rgba(2, 132, 199, 0.08)",
+            "border": "rgba(2, 132, 199, 0.4)",
+            "text": "#0369a1"
+        },
+        "actions": [
+            {
+                "type": "custom",
+                "label": "📱 링크(LiNC) 인기가요 직행 투표 열기 ↗",
+                "url": "https://app.linc.fan/31TL/UPBjE3DC",
+                "style": "background: linear-gradient(135deg, #0284c7, #0369a1); color: #ffffff; box-shadow: 0 3px 10px rgba(2, 132, 199, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+            },
+            {
+                "type": "grid2",
+                "items": [
+                    {
+                        "label": "🍎 iOS (아이폰) 링크 앱 ↗",
+                        "url": "https://apps.apple.com/kr/app/linc-%EB%A7%81%ED%81%AC/id6475704944",
+                        "style": "background:#f0f9ff; border:1px solid #bae6fd; color:#0284c7; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                    },
+                    {
+                        "label": "🤖 안드로이드 링크 앱 ↗",
+                        "url": "https://play.google.com/store/apps/details?id=com.sbs.linc",
+                        "style": "background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; height:38px; font-size:11.5px; font-weight:700; border-radius:10px; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "mama-zb1",
         "name": "MAMA 제로베이스원",
         "theme": "zb1",
@@ -2173,6 +2173,28 @@
                 "label": "📝 iMBC 쇼! 음악중심 시청자 위원회 신청하기 ↗",
                 "url": "https://m.imbc.com/program/Apply/1000788100000100000?bid=1000788100000100000",
                 "style": "background: linear-gradient(135deg, #059669, #047857); color: #ffffff; box-shadow: 0 3px 10px rgba(5, 150, 105, 0.3); border-radius: 12px; height: 46px; font-weight: 800; display:flex; align-items:center; justify-content:center; text-decoration:none;"
+            }
+        ]
+    },
+    {
+        "id": "notice-a2eeaddf",
+        "name": "총공 공지",
+        "theme": "kb",
+        "customBorder": "border-top: 4px solid #6366f1; background: linear-gradient(180deg, #eef2ff 0%, #ffffff 25%);",
+        "badgeText": "📢 총공팀 실시간 공지 (~11/06 23:59)",
+        "badgeStyle": "background:#e0e7ff; color:#4338ca; font-weight:800;",
+        "title": "📢 무대 위의 몇 분을 위해 무대 밖에서는 수많은 시간과 마음이 쌓",
+        "desc": "무대 위의 몇 분을 위해 무대 밖에서는 수많은 시간과 마음이 쌓여갑니다<br><br>한 번의 재생과 한 표의 응원, 그리고 보이지 않는 곳에서 보태주시는 작은 정성까지<br><br>그 모든 손길이 모여 리센느가 걸어갈 길을 조금 더 넓혀주고 있습니다<br><br>이번 활동에 쏟아온 노력들이 좋은 결실로 이어질 수 있도록, 음원총공을 위한 모금에도 리마인 여러분의 따뜻한 동참을 부탁드립니다🤍",
+        "startDate": "2026-11-06T23:18:00",
+        "endDate": "2026-11-08T23:59:59",
+        "deadlineColor": "#4338ca",
+        "notice": "💡 리센느 음원총공팀 피드에서 실시간으로 감지된 최신 공지입니다.",
+        "actions": [
+            {
+                "type": "custom",
+                "label": "🐦 X(@ResceneStream) 공식 트윗 보기 ↗",
+                "url": "https://x.com/ResceneStream",
+                "style": "background: #0f172a; color: #ffffff; border-radius: 12px; height: 44px; font-weight: 700; display:flex; align-items:center; justify-content:center; text-decoration:none;"
             }
         ]
     },
