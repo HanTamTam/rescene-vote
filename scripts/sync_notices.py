@@ -264,10 +264,11 @@ def get_x_feed_tweets():
 
     return tweets
 
-def parse_date_from_text(text, default_date_str="2026-11-06T23:59:59"):
+def parse_date_from_text(text, default_date_str=None):
     now = datetime.now()
     year = now.year
 
+    # 1. 명시적 날짜 (YYYY-MM-DD 또는 M월 D일 / M.D)
     m_full = re.search(r"(\d{4})[.\-/ ](\d{1,2})[.\-/ ](\d{1,2})", text)
     if m_full:
         y, m, d = int(m_full.group(1)), int(m_full.group(2)), int(m_full.group(3))
@@ -282,7 +283,36 @@ def parse_date_from_text(text, default_date_str="2026-11-06T23:59:59"):
         h, mn = (int(m_time.group(1)), int(m_time.group(2))) if m_time else (23, 59)
         return f"{year:04d}-{m:02d}-{d:02d}T{h:02d}:{mn:02d}:59", f"~{m:02d}/{d:02d} {h:02d}:{mn:02d}"
 
-    return default_date_str, "~11/06 23:59"
+    # 2. 번개 공지 시간 명시 (예: "3시간 동안", "2시간 달립니다", "~10시까지")
+    m_hours = re.search(r"(\d{1,2})\s*시간\s*(?:동안|달립|집중)", text)
+    if m_hours:
+        duration_hrs = int(m_hours.group(1))
+        exp = now + timedelta(hours=duration_hrs)
+        return exp.strftime("%Y-%m-%dT%H:%M:%S"), f"~{exp.strftime('%H:%M')} ({duration_hrs}시간 번개)"
+
+    m_until_hr = re.search(r"~(\d{1,2})시(?:\s*까지)?", text)
+    if m_until_hr:
+        target_hr = int(m_until_hr.group(1))
+        exp = now.replace(hour=target_hr, minute=0, second=0)
+        if exp < now:
+            exp += timedelta(days=1)
+        return exp.strftime("%Y-%m-%dT%H:%M:%S"), f"~{target_hr:02d}:00까지"
+
+    # 3. 초단기 번개 공지 키워드 (스밍 리셋, 참여 대기 등 -> 기본 2시간 수명)
+    flash_kws = ["리셋", "대기", "정각", "게릴라", "잠시 후", "지금부터"]
+    if any(k in text for k in flash_kws):
+        exp = now + timedelta(hours=2)
+        return exp.strftime("%Y-%m-%dT%H:%M:%S"), f"~{exp.strftime('%H:%M')} (번개)"
+
+    # 4. 컴백 활동기 상시 참여 공지 키워드 (라디오 신청, 멜론 댓글/선물 등 -> 11/20 상시)
+    campaign_kws = ["라디오", "댓글", "팬톡", "음원 선물", "선물 총공", "라디오 신청"]
+    if any(k in text for k in campaign_kws):
+        return "2026-11-20T23:59:59", "~11/20 (활동기 상시)"
+
+    # 5. 일반 데일리 공지 기본값: 당일 자정(23:59:59)
+    if default_date_str:
+        return default_date_str, "~" + default_date_str[5:10].replace("-", "/") + " " + default_date_str[11:16]
+    return now.strftime("%Y-%m-%dT23:59:59"), f"~오늘 23:59"
 
 # =====================================================================
 # 1계층: 정규식 고속 패스 (Rule-based Fast Path)
@@ -421,8 +451,20 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
     prompt = f"""
 당신은 걸그룹 RESCENE(리센느) 음원총공팀 공식 트윗을 분석하여 대시보드 카드 JSON 객체로 변환하는 전문 AI 엔진입니다.
 제공된 트윗 본문 텍스트와 함께 첨부된 이미지(포스터, 카드뉴스, 시간표, 총공 안내문, 캡처 등)의 글씨(OCR) 및 시각 정보를 종합 분석하세요.
-특히 본문 글이 매우 짧거나 없더라도 첨부 이미지에 투표/스밍/모금/신청/해시태그 등의 안내가 담겨 있다면, 이미지 속 세부 일정(마감일시), 참여 방법, 대상 및 안내 링크를 면밀히 읽어내어 반드시 아래 JSON 규격으로 단 1개의 JSON 객체를 응답하세요.
-단순 멤버 친목 사진이나 팬덤 액션이 필요 없는 일반 글인 경우 "null"만 반환하세요.
+
+[🚫 엄격한 제외 원칙 - 아래 항목은 무조건 "null"만 반환하세요]:
+1. 모금, 후원, 계좌번호, 입금 요청 공지 (대시보드 신뢰도 원칙상 절대 생성 금지)
+2. 총공팀 내부 헬퍼 구인, 일손 부족, 아이디 회수/제출 등 내부 운영 공지
+3. 단순 감정적 호소글, 단순 투표 독려글 (대시보드 상단 1~3순위 투표 카드로 이미 대체됨)
+4. 이미 상단 배너에 있는 중복 가이드 (지니 음악나누기, FLO 응원하기, 카카오뮤직 등)
+5. 단순 멤버 친목 사진이나 팬덤 참여 액션이 필요 없는 일반 글
+
+[✅ 카드 생성 대상 및 수명(endDate) 산정 기준]:
+- 팬들이 직접 무료로 참여할 수 있는 실질적인 새 미션(멜론 댓글 총공, 방송사 라디오 신청 등)만 카드로 조립합니다.
+- 수명(endDate):
+  • 초단기 번개 공지(스밍 리셋, 참여 대기 등): 본문에 명시된 시간 또는 발행 2시간 뒤 만료
+  • 활동기 상시 참여 공지(라디오 신청, 멜론 댓글 등): 2026-11-20T23:59:59
+  • 일반 데일리 이벤트: 당일 23:59:59
 
 [JSON 스키마 규격]:
 {{
@@ -488,6 +530,12 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
 # 3계층: 만능 범용 레고 블록 (Universal Fail-safe Fallback)
 # =====================================================================
 def generate_fallback_card(tweet_text, image_urls=None):
+    # 🚫 수집 제외(블랙리스트) 필터링
+    # 1) 모금/계좌/기부, 2) 총공팀 내부 헬퍼 구인, 3) 단순 감정적 호소/독려글
+    blacklist = ["모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서", "절실합니다", "도와주세요"]
+    if any(b in tweet_text for b in blacklist):
+        print(f"🚫 [필터링 제외] 모금/헬퍼/운영 관련 공지 제외: {tweet_text[:30]}...")
+        return None
     action_keywords = ["총공", "투표", "스밍", "다운", "해시태그", "모금", "인증", "신청", "1위", "생방", "공구", "가이드", "편성표"]
     has_action_kw = any(k in tweet_text for k in action_keywords)
     has_images = bool(image_urls)
