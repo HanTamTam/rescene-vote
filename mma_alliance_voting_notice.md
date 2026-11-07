@@ -1131,3 +1131,155 @@ https://kr.ktown4u.com/iteminfo?grp_no=44545726&fanc_goods_no=484808&goods_no=17
 그 모든 손길이 모여 리센느가 걸어갈 길을 조금 더 넓혀주고 있습니다
 
 이번 활동에 쏟아온 노력들이 좋은 결실로 이어질 수 있도록, 음원총공을 위한 모금에도 리마인 여러분의 따뜻한 동참을 부탁드립니다🤍
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+🎶 스트리밍을 가장 간편하게
+
+✅ 이용권 결제 후 입장만 하세요!
+
+🍈 멜론 뮤직웨이브
+https://kko.to/DNDUjHWw7Q
+
+🧞‍♂️지니 팬트리 
+https://genie.co.kr/EEMA02
+
+🎧  스테이션헤드 (스포티파이 / 애플뮤직)
+https://stationhead.com/c/remine
+<p><a href="https://pbs.twimg.com/media/HWgjd1iacAEaQ8N.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWgjd1iacAEaQ8N.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+
+<p><a href="https://pbs.twimg.com/media/HWgjD8VbsAA7r3i.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWgjD8VbsAA7r3i.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+KBS 방송점수가 부족해요🥹🥹
+뮤직뱅크는 KBS 방송점수가 큰 비중을 차지합니다. 현재 리센느가 출연한 프로그램이 적기 때문에 리마인이 라디오 신청으로 방송점수 만드는 방법밖에 없습니다. 많이 신청 해 주세요!!💪🏻
+
+오늘도 라디오 신청 함께해봅시다. 꼭 선정되지 않아도 많은 사람이 신청하는 것 자체도 의미가 있어요! 
+신청이 많이 들어오는 곡을 작가님들이 선곡 해 주실 확률이 올라갑니다👀
+
+📢 With 라디오 신청📢
+
+📻신청문자원클릭 및 편성시간표
+http://rescene.stream/radio
+
+✅ 방송 주제에 맞는 재미있는 사연과 함께 신청 해 주세요!
+✅ 문자메시지 단문50원 / 장문100원✨(가장 선정확률높음)
+✅ 라디오 앱이나 프로그램 홈페이지 게시판을 이용하면 무료로도 신청 가능🙆
+
+✔️ 라디오 선곡 시 음악방송 방송점수로 집계됩니다
+
+리센느 음원총공팀 사이트를 통해 원클릭 신청도 가능하니 많은 참여를 부탁 드리겠습니다🙇
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+📢 카카오뮤직 다운로드 / V컬러링 참여 안내
+
+❗ 써클차트 성적에 중요하게 반영됩니다! ❗
+
+음악중심(100%), 인기가요(일부) 음원 점수에 적용되는 써클 디지털 차트는 국내 4대 음원사이트 외에도 카카오뮤직(BGM 차트)과 V컬러링 차트 성적을 합산하여 산정됩니다
+
+따라서 써클차트 성적을 최대한 확보하는 것이 안정적인 음악방송 점수 확보에 중요합니다
+
+🚨 현재 V컬러링에 비해 카카오뮤직 다운로드 참여가 많이 부족합니다!
+
+✅ 카카오뮤직 다운로드 안내
+➖카카오톡 계정만 있다면 누구나 참여 가능
+➖카카오뮤직 앱 설치 후 간편하게 다운로드
+➖총공 시간 외에도 언제든 다운로드 가능!
+
+별도로 안내드리는 카뮤 다운로드 총공 시간은 참여를 잊지 않도록 정해둔 시간일 뿐, 다운로드하는 시간대는 크게 중요하지 않습니다.
+
+집계기간 마감(내일 11시 59분) 전 언제 다운로드하시든 큰 도움이 되니, 총공 시간을 놓치셨더라도 꼭 참여해 주세요! 
+
+카카오뮤직 다운로드가 어려우신 분들께서는 가족과 지인분들께도 적극적으로 홍보하여 다운로드 참여가 확대될 수 있도록 도와주시기 바랍니다💪
+
+리마인 여러분의 작은 참여 하나하나가 모여 음악방송 1위를 만들 수 있습니다. 많은 관심과 참여 부탁드립니다!
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HWgI7ynakAA8MKG.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWgI7ynakAA8MKG.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+오늘도 플로 응원하기💙
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+지니 음악나누기💙
+
+✅ 1시간에 1계정 1회 스밍 집계 규칙은 같습니다! 
+
+➖같은 아이디로 로그인 시 링크 여러개 사용❌
+➖추가 스밍을 하고 싶다면 다른 무료 아이디로 다시 로그인하여 나누기 해 주세요!
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+😃 복잡한 스트리밍!
+이용권 결제 후 아래 링크만 클릭하면 손쉽게 OK!
+
+━━━━━━━━━━━━━━
+
+🍈 뮤직웨이브(멜론)  https://kko.to/BDs_omYmQc
+
+🧙‍♂️ 팬트리(지니) 
+ http://genie.co.kr/CEICT3 [모바일 앱]
+
+🎧 스테이션헤드 (스포티파이 / 애플뮤직)
+https://stationhead.com/c/remine
+
+━━━━━━━━━━━━━━
+
+🤍뮤직웨이브 채팅창에서 각종 리센느 관련 정보는 물론 스트리밍, 투표 정보 등도 활발하게 교환되니 많이 활용 해 주세요!
+
+🚨뮤웨 채팅창은 누구나 와서 볼 수 있는 공개된 공간이니 대화 시 항상 타인을 배려 해 주세요. 타 아티스트 언급이나 비교, 개인적인 정보의 과도한 노출 등의 문제 소지가 있는 발언은 되도록 삼가 주시기 바랍니다🙏
+<p><a href="https://pbs.twimg.com/media/HWf-HfPbQAA2S9H.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWf-HfPbQAA2S9H.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+[📢] ‘PULSE' 컴백 음악방송 투표 스케줄러
+
+컴백 음악방송 투표 스케줄을 정리 해 드립니다. 일반적인 음악방송의 사전투표 및 생방송 실시간 투표 스케줄을 알려드리는 목적이며 실제 투표 총공은 추후 음총팀 공지를 따라주시면 됩니다
+
+📆 리센느 음악방송 활동 첫 주 집계 기간
+
+• 11/3 (화) - 11/7 (토) — 쇼 케이팝
+• 11/3 (화) - 11/6 (금) — 더 쇼
+• 11/3 (화) - 11/8 (일)  — 쇼 챔피언, 엠 카운트다운(결방), 뮤직뱅크
+• 11/3 (화) - 11/9 (월 11:59 KST) — 쇼! 음악중심, 인기가요
+• 11/3 (화) - 11/8 (일 11:59 KST)  — 써클차트
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HWGMg1YbMAARoR9.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWGMg1YbMAARoR9.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+내일이 투표 마감이니 마지막까지 열심히 참여 해 주세요!!
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+🍈 알뜰하게 멜론 이용하는 방법!
+
+✔️ 최초 가입 시 월 스밍권 110원 쿠폰 이용 !
+
+✔️ 카카오 선물하기 멜론뮤직이용권 → 가장 저렴한 50회 1,100원 구매하여 하루에 한번씩만 듣기!
+
+✔️ (추천) 쇼핑할때 멜론 경유해서 멜론캐시 모으기! → 아래 가이드 참조👇🏻
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HWe9j31awAAzO5P.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWe9j31awAAzO5P.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWe9kXXbsAAudbT.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWe9kXXbsAAudbT.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-07 09:27)
+🔥 11/7(토) [PULSE] 컴백 총공 일정표
+리마인 여러분, 컴백 5일차 일정입니다!
+
+시간대별 총공 일정 확인하시고, 
+오늘도 많은 참여 부탁드립니다😍
+
+각종 가이드는 👇
+https://rescene.stream
+<p><a href="https://pbs.twimg.com/media/HWfGufxaoAAjJRD.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWfGufxaoAAjJRD.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
