@@ -1482,3 +1482,52 @@ https://pf.kakao.com/_WxcxowX
 #RESCENE #리센느
 <p><a href="https://pbs.twimg.com/media/HSpXJp7bgAAjbuh.jpg?name=orig"><img src="https://pbs.twimg.com/media/HSpXJp7bgAAjbuh.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HSpXJ9rbcAEQz2L.jpg?name=orig"><img src="https://pbs.twimg.com/media/HSpXJ9rbcAEQz2L.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 13:34)
+📢 멜론 FLAC 16bit 다운로드 총공 안내
+
+내일 오전 7시-7시 59분에 멜론 FLAC 16bit 다운로드 총공을 진행할 예정입니다.
+
+현재 차트 추이상 다운로드 총공이 순위 변동을 만들어 내기에는 어려움이 있으나, 음악방송 음원 점수 확보와 출근길 이용자 유입 효과를 동시에 챙길 수 있기 때문에 해당 시간에 총공을 진행하려 합니다.
+
+힘을 모아 유의미한 결과를 만들 수 있도록, 
+리마인 여러분의 많은 참여 부탁드립니다! 💗
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 13:34)
+📢 MAMA 팬 초이스 투표가 오늘 23시 59분에 마감됩니다!
+
+아직 투표에 참여하지 않으신 리마인분들께서는 잊지 말고 소중한 한 표 행사해 주시기 바랍니다.
+
+마지막까지 많은 관심과 참여 부탁드립니다! 💗
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 13:34)
+📢 리센느 [PULSE] 활동 음총 추가 모금 
+
+리센느의 컴백 활동을 지원하기 위해 음원총공팀 추가 모금을 진행합니다!
+
+추가 모금은 2주차 음원 총공활동 및 음악방송 투표에 사용됩니다
+
+📍음원총공팀 카페 가입 후 모금 공지를 바로 확인하실 수 있습니다
+
+☕https://m.cafe.daum.net/rescenestream/Ml9H/6
+
+3만원 이상 모금자분들께서는 인증 게시판에서 등업 신청을 하시면 등급 조절되어 추후 정산 내역을 열람하실 수 있습니다
+
+리센느를 사랑하는 리마인 여러분들의 많은 참여 부탁드립니다🙇🏻‍♂️
+
+#RESCENE #리센느
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 13:34)
+리마인! 투표 통합 공지 확인 해 주세요🤍
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 13:34)
+WITH 뮤비 조회수 2천만 돌파 🎉🎉
+
+리마인 여러분!! 뮤비도 꾸준히 스트리밍 해 주세요!
+<p><a href="https://pbs.twimg.com/media/HWk1xT3aAAAiQOa.png?name=orig"><img src="https://pbs.twimg.com/media/HWk1xT3aAAAiQOa.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
