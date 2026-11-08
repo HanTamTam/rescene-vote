@@ -1376,3 +1376,109 @@ https://www.ticketbay.co.kr/shop/mo-voucher/1?offset=1&category_id=10&brand_id=6
 뮤직뱅크·쇼! 음악중심·인기가요 투표에 관한 자세한 사항은 별도 공지를 통해 안내드리겠습니다. 리마인 여러분의 지속적인 관심과 적극적인 참여 부탁드립니다!
 
 감사합니다.
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+❗이번 주 다음 주는 음악방송 사전/실시간 투표에 모든 화력을 집중해야 합니다!
+
+여러 투표앱에 리센느가 후보인 투표가 많이 있습니다만! 지금은 각 음악방송 사전투표와 실시간투표를 위해 화력을 비축해야 합니다🔥
+
+❗자잘한 서브 투표들에 재화를 소비하지 말아 주세요!❗
+
+안내에 없는 타 투표들도 음악방송 투표가 아니라면 삼가 주세요🙏🏻
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HWkOHkUacAA-WdW.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWkOHkUacAA-WdW.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+🔥 11/8(일) [PULSE] 컴백 총공 일정표
+리마인 여러분, 컴백 6일차 일정입니다!
+
+시간대별 총공 일정 확인하시고, 
+오늘도 많은 참여 부탁드립니다😍
+
+각종 가이드는 👇
+https://rescene.stream
+<p><a href="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+리센느 🤝🏻 제로베이스원 연합 안내  ✨
+
+━━━━━━━━━━━━━━━━
+
+리마인 🎁 제로즈  :
+· MAMA WORLDWIDE KCONERS' CHOICE  제로베이스원 'Customise' 투표
+🗓️  ~ 11/8(일)
+📱투표 앱 : 엠넷 플러스 | Mnet Plus
+
+🔗http://mnetplus.onelink.me/https://mnetplus.onelink.me/TRa8/0ew6w81u?custom_link_value=vote%2Ftemplates%2Fmama-worldwide-kconers-choice%2F6abcc3c9fb8eaa1ef57c3ca3%3Furl_fallback_type%3Dupdate
+✔️투표 외 영상 조회수도 점수에 들어가니 'Customize' 무대 영상 감상하시고 하트도 눌러주세요!
+
+━━━━━━━━━━━━━━━━
+
+제로즈 🎁 리마인
+· 멜론 뮤직 어워드(MMA) GLOBAL Top10 '리센느' 투표
+🗓️10/30(금) ~ 11/13(일)
+📱투표 앱 : 멜론(한국) / Berriz(글로벌)
+
+✔️인증 방법(택 1)
+ ➖#리마인_AND_제로즈 해시태그 이용 X에 인증글 쓰기 
+➖ 아래 구글 폼에 인증샷 업로드
+🔗http://forms.gle/Lb3YrGBNSU3BAb…
+➖ 음원총공팀 채널로 인증샷 전송
+🔗 http://pf.kakao.com/_WxcxowX/chat
+
+━━━━━━━━━━━━━━━━
+
+#RESCENE #리센느 #2026MMA
+<p><a href="https://pbs.twimg.com/media/HV3ExKsakAAo0nI.jpg?name=orig"><img src="https://pbs.twimg.com/media/HV3ExKsakAAo0nI.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+투표 오늘 마감입니다🔥🔥 
+마지막까지 잘 부탁드립니다!
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+🔥 라디오 신청 오늘도 파이팅!
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+💚스포티파이 | 🍎애플뮤직 스밍도 간단하게!
+
+➖STATIONHEAD스테이션헤드 앱 설치  → 아이디 생성
+ → 스포티파이/애플뮤직(프리미엄계정) 연결 → Rescene 검색 → 채널 입장
+
+리마인 공식채널
+🔗http://stationhead.com/c/remine
+
+☑️채널에 들어가 있기만 하면 누락 없는 스포티파이/애플뮤직(아이폰만) 스트리밍
+<p><a href="https://pbs.twimg.com/media/HNqDGSjawAA5v2C.jpg?name=orig"><img src="https://pbs.twimg.com/media/HNqDGSjawAA5v2C.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-08 03:54)
+📢음원총공팀 헬퍼를 모집합니다
+
+👀 주 활동기간:  11월 3일부터 2주
+
+개인의 일정에 맞춰 조정해드릴 예정이니
+단 하루, 한 시간이라도 헬퍼로 참여해주시면 큰 도움이 됩니다🫶🏻
+
+진행 방법은 총공팀에서 안내해드릴 예정이며, 어렵지 않은 단순 반복 작업이 헬퍼 활동의 대부분이니
+관련 경험이 없더라도 부담 없이 지원해주세요🙏🏻
+
+※ 분야와 지원 조건 모두 유연하게 조율 가능합니다.
+
+[지원 방법]
+
+카카오톡 채널 문의:
+https://pf.kakao.com/_WxcxowX
+
+헬퍼 활동이 처음이신 분들도 환영하니
+활동을 함께 준비해주실 분들의 많은 지원 부탁드립니다🥹
+
+#RESCENE #리센느
+<p><a href="https://pbs.twimg.com/media/HSpXJp7bgAAjbuh.jpg?name=orig"><img src="https://pbs.twimg.com/media/HSpXJp7bgAAjbuh.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HSpXJ9rbcAEQz2L.jpg?name=orig"><img src="https://pbs.twimg.com/media/HSpXJ9rbcAEQz2L.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
