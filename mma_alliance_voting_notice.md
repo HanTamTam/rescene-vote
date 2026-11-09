@@ -1611,3 +1611,339 @@ MAMA 투표가 오늘 종료되었습니다.
 #RESCENE #리센느 #PULSE
 <p><a href="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 연합팀 투표 참여하고 MMA 티켓 당첨의 기회까지! 🎫 리마인 여러분, 주목해 주세요! 😃 현재 MMA에서 진행 중인 '올해의 베스트송' 부문에 CORTIS(코르티스)를 투표하고, MMA 티켓 당첨의 기회까지 잡아 보세요! 우리의 소중한 한…
+<p>📢 연합팀 투표 참여하고 MMA 티켓 당첨의 기회까지! 🎫<br />
+<br />
+리마인 여러분, 주목해 주세요! 😃<br />
+<br />
+현재 MMA에서 진행 중인 &apos;올해의 베스트송&apos; 부문에 CORTIS(코르티스)를 투표하고, MMA 티켓 당첨의 기회까지 잡아 보세요!<br />
+<br />
+우리의 소중한 한 표가 큰 힘이 됩니다. 💪<br />
+<br />
+🔥 투표도 많이 많이 참여해 주시고!<br />
+🎁 준비된 티켓 이벤트에도 꼭 응모해 주세요!<br />
+<br />
+열심히 투표하고, 행운의 주인공까지 되어 보자고요! 🍀<br />
+<br />
+투표도 응모도 잊지 마세요!<br />
+여러분의 많은 참여 부탁드립니다. 🫶</p>
+<blockquote><a href="https://x.com/CORTISTRM/status/2115977733893411197">⭐️MMA2026 올해의 베스트송 투표 이벤트 안내⭐️ CORTIS 스트리밍이 MMA 티켓 쏜다❤️‍🔥 지금 진행 중인 MMA 부문별 투표에서 CORTIS - REDRED 투표하고 MMA 입성해요! REDRED에 투표한다면 누구든 참여 가능합니다! 🎁상품 : MMA2026 11/15 플로어 티켓 1장 (1명) 참여 링크🔗https://forms.gle/8TMfZ6VGYyG5Qhm78</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+❗PULSE 초동 오늘 마감❗ 음원총공팀 2차 공구가 진행중이니 앨범을 아직 구매하지 못하신 리마인들은 많은 참여 부탁드립니다! ━━━━━━━━━━━━━━ 💿 음원총공팀 2차 공구 11월 9일(월) 17:00까지 💙뮤직플랜트 (23:59까지 구매…
+<p>❗PULSE 초동 오늘 마감❗<br />
+<br />
+음원총공팀 2차 공구가 진행중이니 앨범을 아직 구매하지 못하신 리마인들은 많은 참여 부탁드립니다!<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+💿 음원총공팀 2차 공구 11월 9일(월) 17:00까지 <br />
+<br />
+💙뮤직플랜트 (23:59까지 구매는 가능하지만 정확한 초동반영을 위해 임박 시간 전 미리 구매 하시는것을 추천드립니다!)<br />
+➖https://linktr.ee/RESCENEPULSE_MP<br />
+<br />
+💙올엠디<br />
+➖https://zrr.kr/6sJTuc<br />
+<br />
+💙케타포<br />
+➖ https://zrr.kr/rwTSPP<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+💘기증 공구 : 구매자에게 배송되지 않고 경남 혈액원 본부로 바로 배송되어 헌혈 프로모션에 사용 될 예정입니다! <br />
+<br />
+🤍뮤직플랜트<br />
+➖ https://zrr.kr/4Tk8Z0<br />
+<br />
+🤍올엠디<br />
+➖ https://zrr.kr/OO9CW2<br />
+<br />
+🤍케타포<br />
+➖ https://zrr.kr/EPJ9nb<br />
+<br />
+#RESCENE #리센느 #PULSE<br />
+#원이 #리브 #미나</p>
+<p><a href="https://pbs.twimg.com/media/HWpL7LpaAAAqG53.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpL7LpaAAAqG53.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWpL7LpaAAAqG53.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpL7LpaAAAqG53.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 1332회 인기가요 사전 투표 시작 📱 LinC 앱에서 투표 🗳️ SBS 인기가요 사전투표 📅 ~ 2026.11.13(금) 23:59 (KST) ⚠️제한 투표 : 계정 당 매일 10표 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 …
+<p>📢 1332회 인기가요 사전 투표 시작<br />
+<br />
+📱 LinC 앱에서 투표<br />
+<br />
+🗳️ SBS 인기가요 사전투표<br />
+📅 ~ 2026.11.13(금) 23:59 (KST)<br />
+⚠️제한 투표 : 계정 당 매일 10표 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 <br />
+<br />
+🏃🏻‍♀️투표하러가기<br />
+https://app.linc.fan/31TL/mekl8Epu<br />
+<br />
+✅재화 모으기 가이드 <br />
+➖ TIN 앱 깔고 LinC와 동일한 계정으로 로그인 하면 두 앱의 재화가 공유됩니다<br />
+<br />
+· LinC 광고시청 하고 룰렛돌리기(1회 무료/ 광고보고 10회 추가, 쿨타임 10분)<br />
+<br />
+· TIN 광고시청 당 6 팬포인트 (일20회 한도, 쿨타임 1분)<br />
+<br />
+✔️다계정 이용하면 더 많은 투표가 가능합니다<br />
+<br />
+#RESCENE #리센느</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 쇼 챔피언 사전투표 안내 ❗오늘 오후 2시 59분 마감❗ 되도록 마감 직전에 투표 해 주세요 📱 아이돌챔프 | IdolChamp 🗓 ~ 11/9(월) 14:59 🔗https://promo-web.idolchamp.com/app_proxy.…
+<p>📢 쇼 챔피언 사전투표 안내<br />
+<br />
+❗오늘 오후 2시 59분 마감❗<br />
+되도록 마감 직전에 투표 해 주세요<br />
+<br />
+📱 아이돌챔프 | IdolChamp<br />
+🗓 ~ 11/9(월) 14:59 <br />
+🔗https://promo-web.idolchamp.com/app_proxy.html?deeplink=https%3A%2F%2Fapp.idolchamp.com%2Fopen%2Fvote%2F01M6FHEJNZYH529E8SW619EHTE<br />
+<br />
+✅현재 음원·음반·뮤비조회수 등 사전 집계 점수가 충분히 확보되어 있습니다<br />
+<br />
+▪️아직 확정지을 수 없는 부분도 일부 있지만 예측 결과 무리한 현질 등으로 꼭 투표 1위를 할 필요성은 없습니다<br />
+<br />
+타임챔심 등 기간이 있는 재화 등을 활용하여 경쟁 후보와의 격차가 너무 과도하게 나지 않게만 유지 해 주세요🙇🏻‍♂️<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWpa6i7aMAAkM4-.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpa6i7aMAAkM4-.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWpa6i7aMAAkM4-.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpa6i7aMAAkM4-.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 공동구매 마감 안내 공동구매가 오늘 오후 5시에 마감됩니다! 오늘 구매하신 앨범 수량까지 초동에 반영되오니, 아직 앨범을 구매하지 못하신 리마인분들께서는 마감 시간을 놓치지 말고 꼭 참여해 주시기 바랍니다. 리센느의 소중한 초동 기록을 위해 마…
+<p>📢 공동구매 마감 안내<br />
+<br />
+공동구매가 오늘 오후 5시에 마감됩니다!<br />
+<br />
+오늘 구매하신 앨범 수량까지 초동에 반영되오니, 아직 앨범을 구매하지 못하신 리마인분들께서는 마감 시간을 놓치지 말고 꼭 참여해 주시기 바랍니다.<br />
+<br />
+리센느의 소중한 초동 기록을 위해 마지막까지 많은 관심과 참여 부탁드립니다! 🤍</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2112085561393418465">📀 대표 공지 💿 RESCENE 4th Mini Album [PULSE] 앨범 공동구매 안내 리센느 음원총공팀에서 [PULSE] 앨범 공동구매를 진행합니다. 판매처별 구매 링크와 혜택, 유의사항은 아래 타래에서 확인해 주세요. 추가 판매처는 본 타래에 순차 안내드립니다. 리마인 여러분의 많은 관심과 참여</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+🙇🏻‍♂️MMA 투표도 매일 잊지말고 해 주세요!
+<p>🙇🏻‍♂️MMA 투표도 매일 잊지말고 해 주세요!</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2115978927793656244">📢 MMA 부문별 투표 | 리센느 연합 안내 안녕하세요. 리센느 음원총공팀입니다 MMA 부문별 투표가 시작되었습니다 GLOBAL TOP10 &apos;리센느&apos; 및 연합 팀들을 잊지 말고 함께 투표 해 주세요🔥 멜론 메인 투표 화면에서 위쪽 탭을 이용하여 각 부문별 투표를 할 수 있습니다</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+중요한 내용이 많이 있으니 꼭 읽어주세요🔥
+<p>중요한 내용이 많이 있으니 꼭 읽어주세요🔥</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2119107947519459566">📢 음악방송 사전투표 통합 공지 : 더쇼, 쇼챔, 뮤뱅 ━━━━━━━━━━━━━━ ➖더 쇼 📱 빅크 | BIGC 🗓 ~ 11/9(월) 10:00 ✅현재 음원·음반·팬 인게이지먼트 등 사전 집계 점수가 충분히 확보되어 있어, 이번 투표에서는 화력을 아끼고자 합니다. ▪️무리한 현질은 지양하고, 기 보유 중인</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+🎶 스트리밍을 가장 간편하게 ━━━━━━━━━━━━━━ 🤍이용권 결제 후 입장만 하세요! 🍈 멜론 뮤직웨이브 http://kko.to/DNDUjHWw7Q 🧞‍♂️지니 팬트리 http://genie.co.kr/EEMA02 🎧 스테이션헤드 (스…
+<p>🎶 스트리밍을 가장 간편하게<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+🤍이용권 결제 후 입장만 하세요!<br />
+<br />
+🍈 멜론 뮤직웨이브<br />
+http://kko.to/DNDUjHWw7Q<br />
+<br />
+🧞‍♂️지니 팬트리 <br />
+http://genie.co.kr/EEMA02<br />
+<br />
+🎧  스테이션헤드 (스포티파이 / 애플뮤직)<br />
+http://stationhead.com/c/remine<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+💙플로 무료이용권 로그인 후 <br />
+아래 링크 클릭 - 1시간 1회 듣기<br />
+http://cheer.music-flo.com/g/HTSFDuSKsZ<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+#RESCENE #리센느 #PULSE #WITH<br />
+#원이 #리브 #미나미 #메이 #제나</p>
+<p><a href="https://pbs.twimg.com/media/HWpCY3GbsAAvj0E.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpCY3GbsAAvj0E.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWpCY3GbsAAvj0E.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWpCY3GbsAAvj0E.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+응원더하기 안하셔도 됩니다😂 플레이버튼만 눌러 1시간에 1번 재생 해 주세요
+<p>응원더하기 안하셔도 됩니다😂<br />
+<br />
+플레이버튼만 눌러 1시간에 1번 재생 해 주세요</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2117547367176274180">📢 FLO 응원하기 참여 안내 리마인 여러분, FLO 응원하기에 함께해 주세요! 🪽 FLO 응원하기는 별도의 이용권 구매 없이 총공팀에서 준비한 링크를 통해 리센느의 신곡 &apos;With&apos;를 스트리밍하며 음원 성적에 힘을 보탤 수 있는 기능입니다. 🎧 참여 방법 1. FLO 이용권이 없는 계정 준비 2. 아래</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 연합 스트리밍 공지 ━━━━━━━━━━━━━━ 리마인 ➡️ 엔돌핀 : · 박지현 '녹아버려요' 멜론 스트리밍 🗓️ 11/9(월) ~ 11/15(일) #️⃣ 리마인_with_엔돌핀 ━━━━━━━━━━━━━━ 리마인 ➡️ 이파리 : · 이세계아이…
+<p>📢 연합 스트리밍 공지<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+리마인 ➡️ 엔돌핀  :<br />
+· 박지현 &apos;녹아버려요&apos;  멜론 스트리밍<br />
+🗓️  11/9(월) ~ 11/15(일)<br />
+#️⃣ 리마인_with_엔돌핀<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+리마인 ➡️ 이파리  :<br />
+· 이세계아이돌 &apos;REBELS&apos;  멜론 스트리밍<br />
+🗓️  11/9(월) ~ 11/21(토)<br />
+#️⃣ 리마인과_이파리_차원을넘어<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+✅ 연합 스트리밍 인증 방법(택 1)<br />
+<br />
+➖ 연합 기간 내 매일 23시, 00시 뮤직웨이브에서 연합팀 곡 함께 스트리밍 (따로 인증 필요 없음)<br />
+<br />
+➖ 뮤직웨이브 시간에 참여하지 못하시는 분들은 다른 시간대 개별 스트리밍 인증도 가능(연합 해시태그 이용 X(트위터)에 게시물 작성)<br />
+<br />
+━━━━━━━━━━━━━━<br />
+💘 원래 9일 ~ 15일로 예정되어있던 피프티피프티 님들의 연합 스트리밍은 팬덤 간 협의 후 기간을 조절하여 한 주 뒤로 미루어집니다😃<br />
+<br />
+음악을 사랑하는 리마인 여러분들의 많은 참여 부탁드리겠습니디🙇🏻‍♂️<br />
+<br />
+#RESCENE #리센느 #PULSE</p>
+<p><a href="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-CB2aMAAF7G8.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWm-Cfea0AE5pDQ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 출근길 멜론 🍈'With' FLAC 16bit 다운 📢 ━━━━━━━━━━━━━━ ⏰ 다운 시간 - 11월 9일 월요일 7:00 ~ 7:59 🍈 타이틀곡인 'With' 의 FLAC 16bit만 다운 🪙 음원 가격 - 1100원 ✔️ 개별…
+<p>📢  출근길 멜론 🍈&apos;With&apos; FLAC 16bit 다운 📢<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+⏰ 다운 시간 - 11월 9일 월요일  7:00 ~ 7:59<br />
+🍈 타이틀곡인 &apos;With&apos; 의 FLAC 16bit만 다운<br />
+🪙 음원 가격 - 1100원<br />
+<br />
+✔️ 개별곡(mp3)을 아직 다운받지 않으셨다면 개별곡으로 받아주셔도 됩니다<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+⚠️주의사항<br />
+➖ 음원❗ 다운 후 반드시 바로 삭제❗<br />
+: 다운 및 삭제 가이드<br />
+🔗 http://rescene.stream/download/melon<br />
+<br />
+➖ 앱 구매 시 웹(또는 모바일 웹)에서 미리 캐시충전<br />
+🔗http://m2.melon.com/buy/meloncash/…<br />
+<br />
+➖ 🍎 아이폰은 앱 다운 불가 PC로 다운 권장<br />
+➖ 개별곡, FLAC은 같은 시간대에 중복 반영 ❌<br />
+➖ FLAC 16 / 24 둘 중 하나반 차트반영 (저렴한 16으로 다운 추천)<br />
+<br />
+⚠️다운받은 음원 파일을 삭제하지 않는 경우 기기의 해당 파일로 음원이 재생되어 스트리밍 집계가 제대로 되지 않습니다. 반드시 삭제 해 주세요⚠️<br />
+<br />
+#RESCENE #리센느 #PULSE<br />
+#원이 #리브 #미나미 #메이 #제나</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+MAMA 투표가 오늘 종료되었습니다. 해외 투표 비중이 큰 투표이기 때문에 리마인들에게는 결코 쉽지 않은 도전이었을 이번 투표에 끝까지 열심히 참여 해 주신 모든 분들께 진심으로 감사의 인사를 드립니다. 언뜻 보기에 과정보다 결과가 더 중요하게 여겨…
+<p>MAMA 투표가 오늘 종료되었습니다.<br />
+<br />
+해외 투표 비중이 큰 투표이기 때문에 리마인들에게는 결코 쉽지 않은 도전이었을 이번 투표에 끝까지 열심히 참여 해 주신 모든 분들께 진심으로 감사의 인사를 드립니다.<br />
+<br />
+언뜻 보기에 과정보다 결과가 더 중요하게 여겨질 수 있겠지만, 그럼에도 불구하고 리마인들이 모아준 마음은 리센느 멤버들에게 하나도 빠짐없이 다 전해졌을거라고 믿습니다.<br />
+<br />
+연말 컴백과 시상식이 겹쳐 많이 정신 없고 바쁘셨을텐데 정말 수고하셨습니다.<br />
+<br />
+남은 일정들도 잘 소화할 수 있기를 바랍니다🙇🏻‍♂️<br />
+<br />
+정말 고마워요 리마인🤍</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 멜론 FLAC 16bit 다운로드 총공 안내 내일 오전 7시-7시 59분에 멜론 FLAC 16bit 다운로드 총공을 진행할 예정입니다! ❗ 타이틀곡 'With' 만 다운❗ 현재 차트 추이상 다운로드 총공이 순위 변동을 만들어 내기에는 어려움이 …
+<p>📢 멜론 FLAC 16bit 다운로드 총공 안내<br />
+<br />
+내일 오전 7시-7시 59분에 멜론 FLAC 16bit 다운로드 총공을 진행할 예정입니다!<br />
+<br />
+❗ 타이틀곡 &apos;With&apos; 만 다운❗<br />
+<br />
+현재 차트 추이상 다운로드 총공이 순위 변동을 만들어 내기에는 어려움이 있으나, 음악방송 음원 점수 확보와 출근길 이용자 유입 효과를 동시에 챙길 수 있기 때문에 해당 시간에 총공을 진행하려 합니다.<br />
+<br />
+힘을 모아 유의미한 결과를 만들 수 있도록, <br />
+리마인 여러분의 많은 참여 부탁드립니다! 💗</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 MAMA 팬 초이스 투표가 오늘 23시 59분에 마감됩니다! 아직 투표에 참여하지 않으신 리마인분들께서는 잊지 말고 소중한 한 표 행사해 주시기 바랍니다. 마지막까지 많은 관심과 참여 부탁드립니다! 💗
+<p>📢 MAMA 팬 초이스 투표가 오늘 23시 59분에 마감됩니다!<br />
+<br />
+아직 투표에 참여하지 않으신 리마인분들께서는 잊지 말고 소중한 한 표 행사해 주시기 바랍니다.<br />
+<br />
+마지막까지 많은 관심과 참여 부탁드립니다! 💗</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2117189605351203222">‼️2026 MAMA 팬스초이스 2차 투표 변경 연합 안내 ━━━━━━━━━━━━━━ 🏆 투표 부문 🍀팬스 초이스(남자) | 앤더블 💘팬스 초이스(여자) | 리센느 🌟올해의 팬스 초이스 with VISA | 엔하이픈 🆕 🗓️ 투표 기간 10.28(수) 18:00 ~ 11.08(일) 23:59 (KST) 🔗https://mnetplus.world/event/2026-mama?deeplink=mnetplus%3A%2F%2Fvote%2Ftemplates%2Fmama-fans-choice-…</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+📢 리센느 [PULSE] 활동 음총 추가 모금 리센느의 컴백 활동을 지원하기 위해 음원총공팀 추가 모금을 진행합니다! 추가 모금은 2주차 음원 총공활동 및 음악방송 투표에 사용됩니다 📍음원총공팀 카페 가입 후 모금 공지를 바로 확인하실 수 있습니…
+<p>📢 리센느 [PULSE] 활동 음총 추가 모금 <br />
+<br />
+리센느의 컴백 활동을 지원하기 위해 음원총공팀 추가 모금을 진행합니다!<br />
+<br />
+추가 모금은 2주차 음원 총공활동 및 음악방송 투표에 사용됩니다<br />
+<br />
+📍음원총공팀 카페 가입 후 모금 공지를 바로 확인하실 수 있습니다<br />
+<br />
+☕https://m.cafe.daum.net/rescenestream/Ml9H/6<br />
+<br />
+3만원 이상 모금자분들께서는 인증 게시판에서 등업 신청을 하시면 등급 조절되어 추후 정산 내역을 열람하실 수 있습니다<br />
+<br />
+리센느를 사랑하는 리마인 여러분들의 많은 참여 부탁드립니다🙇🏻‍♂️<br />
+<br />
+#RESCENE #리센느<br />
+#원이 #리브 #미나미 #메이 #제나</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+🎶 스트리밍을 가장 간편하게 ✅ 이용권 결제 후 입장만 하세요! 🍈 멜론 뮤직웨이브 https://kko.to/DNDUjHWw7Q 🧞‍♂️지니 팬트리 https://genie.co.kr/EEMA02 🎧 스테이션헤드 (스포티파이 / 애플뮤직) …
+<p>🎶 스트리밍을 가장 간편하게<br />
+<br />
+✅ 이용권 결제 후 입장만 하세요!<br />
+<br />
+🍈 멜론 뮤직웨이브<br />
+https://kko.to/DNDUjHWw7Q<br />
+<br />
+🧞‍♂️지니 팬트리 <br />
+https://genie.co.kr/EEMA02<br />
+<br />
+🎧  스테이션헤드 (스포티파이 / 애플뮤직)<br />
+https://stationhead.com/c/remine</p>
+<p><a href="https://pbs.twimg.com/media/HWjzWDgaUAAXJyU.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWjzWDgaUAAXJyU.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWjzWDgaUAAXJyU.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWjzWDgaUAAXJyU.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+투표 오늘 마감입니다🔥🔥 마지막까지 잘 부탁드립니다!
+<p>투표 오늘 마감입니다🔥🔥 <br />
+마지막까지 잘 부탁드립니다!</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2117441513538093176">리센느 🤝🏻 엔진 연합 안내 ━━━━━━━━━━━━━━━━ 리마인 🎁 엔진 : · MAMA 팬초이스 with VISA &apos;엔하이픈ENHYPEN&apos; 투표 🗓️ ~ 11/8(일) · MAMA 팬초이스 with VISA 실시간 &apos;엔하이픈ENHYPEN&apos; 투표 🗓️11월 20일 예정 (실시간 투표) 이 투표는 상호 투표수 교환 투표 입니다. ❤️‍🔥일 목표 2000표 - 많은 참여 부탁드립니다! ━━━━━━━━━━━━━━━━ ✔️인증 방법(다음 중 택 1) ➖ 이 글의 댓글(멘션) #RESCENE…</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 03:57)
+🔥 11/8(일) [PULSE] 컴백 총공 일정표 리마인 여러분, 컴백 6일차 일정입니다! 시간대별 총공 일정 확인하시고, 오늘도 많은 참여 부탁드립니다😍 각종 가이드는 👇 https://rescene.stream
+<p>🔥 11/8(일) [PULSE] 컴백 총공 일정표<br />
+리마인 여러분, 컴백 6일차 일정입니다!<br />
+<br />
+시간대별 총공 일정 확인하시고, <br />
+오늘도 많은 참여 부탁드립니다😍<br />
+<br />
+각종 가이드는 👇<br />
+https://rescene.stream</p>
+<p><a href="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
