@@ -1947,3 +1947,49 @@ https://stationhead.com/c/remine</p>
 https://rescene.stream</p>
 <p><a href="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig" alt="" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWhHxDAbMAAqs-G.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 09:43)
+📣 멜론 주간인기상 투표
+
+🗳 매일 유료계정 3표 / 무료계정 1표
+
+명의 당 한 번씩 투표가 가능하니, 
+유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! 
+(무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.)
+
+https://www.melon.com/melonaward/weekAward.htm
+
+✅ 멜론 이용권 결제 계정으로 로그인
+✅ 우측하단 바로가기 → 주간인기상
+✅ [RESCENE (리센느)] 투표
+
+리마인! 매일 잊지말고 투표 해 주세요🔥
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 09:43)
+🔥🔥초동 오늘 마감🔥🔥
+
+리마인!! 마지막까지 힘을 보태주세요
+하프 밀리언을 향해🏃🏻‍♂️🏃🏻‍♀️🏃🏻
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 09:43)
+MBC 시청자 위원회에 지원해주시고, 당첨되신 모든 리마인님들 감사드립니다🙇
+
+덕분에 이번 투표에서는 한 표라도 더 투표를 할 수 있게 되었습니다.
+
+시청자 위원회 투표의 경우, 투표가 오픈될시 링크와 별도 추가 안내가 진행될 예정으로 안내 이전까지는 잠시 대기해주시길 바라겠습니다🫶
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-09 09:43)
+🔥[PULSE] 활동 2주차에 접어들었습니다!
+
+특히 이제부터는 뮤비 스트리밍 화력이 떨어지기 쉬우니 뮤비 감상을 자주 해 주세요!🙇🏻‍♂️
+
+🎬https://youtu.be/pey3E47eSc8?si=-yR2-f-LcJz6jElZ
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
