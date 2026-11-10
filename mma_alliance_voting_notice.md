@@ -1993,3 +1993,189 @@ MBC 시청자 위원회에 지원해주시고, 당첨되신 모든 리마인님�
 
 #RESCENE #리센느 #PULSE 
 #원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+📢 뮤직뱅크 사전투표 공지
+
+📱쿠궁 | Coogoong 
+🗓 11/8(일) 15:00 ~ 11/11(수) 11:00
+
+💪돈 아끼기 위해 최대한 무료 재화를 모아주세요!
+💰유료 충전은 스토어 → 패키지 탭 에서 월간 패키지(월 1회 한정)를 구매하시면 가장 저렴합니다.
+
+✅예측 2위로 방송점수 부분도 불리할 것으로 예상됩니다. 뮤뱅 사전 투표는 1위 2000점, 그 이하 등수는 비율로 점수를 받아가기 때문에 뮤뱅 1위를 노리기 위해서는 사전 투표에 최대한 화력을 집중해야 합니다 ❤️‍🔥
+
+▪️ 공지가 있을 때 까지 재화를 모으면서 일단 대기 해 주세요.
+
+▪️뮤뱅 사전투표는 기본적으로 무제한 투표이기는 하나 1회 투표량 제한 500, 다음 투표까지 10분의 쿨타임이 있기 때문에 종료 1초전에 대량 투하 하는 방법을 쓰기 힘듭니다 . 따라서 단시간에 화력을 집중할 수 있게 최대한 다계정에 분산 충전을 해 주세요 
+
+━━━━━━━━━━━━━━
+
+타래에 유료충전 관련 TIP이 있습니다. 
+참고해주시기 바랍니다!
+
+#RESCENE #리센느 #PULSE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+올엠디 공구 가격인하🤍
+<p><a href="https://pbs.twimg.com/media/HWxHm2SbcAEZbqT.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxHm2SbcAEZbqT.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+📢 [음원총공팀 | RESCENE 2027 시즌그리팅 공동구매 안내]
+
+안녕하세요. 리센느 음원총공팀입니다
+
+RESCENE 2027 SEASON'S GREETINGS 〈PAGES OF YOUTH〉 공동구매를 진행합니다
+
+📌 공동구매 가격 안내
+
+① ALLMD (올엠디)
+https://bit.ly/48O15ne
+
+소비자가 : 43,000원
+공구가 : 39,600원
+공동구매 기간 : ~11월 19일 (목) 11:59 PM (KST)
+
+② ktown4u (케이타운포유)
+https://kr.ktown4u.com/eventinfo?eve_no=44630783&biz_no=967
+
+소비자가: 43,000원
+공구가: 39,900원
+공동구매 기간: ~소진 시까지
+
+📦 배송 안내
+
+출시일: 2026년 12월 22일(화)
+발송 일정: 12월 23일(수) 이후 순차 발송
+
+※ 상품 및 배송 관련 문의는 각 공동구매 업체로 부탁드립니다
+
+두 업체 모두 유통사 특전 미공포(각 링크에서 확인 가능)가 포함됩니다.  많은 관심 부탁드립니다 💗
+<p><a href="https://pbs.twimg.com/media/HWvpdK_bAAA3pWC.png?name=orig"><img src="https://pbs.twimg.com/media/HWvpdK_bAAA3pWC.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWvpdK-bEAA9vBe.png?name=orig"><img src="https://pbs.twimg.com/media/HWvpdK-bEAA9vBe.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+💗 매일매일 최애직캠보고 뮤빗 하트비트 적립
+
+🔗https://mubeat.applink.info/ANEaaemdd2
+
+✔️영상만 보면 일 최대 45하트비트 적립가능
+✔️다른 앱 동시 사용해도 작은 창으로 계속 재생 가능
+
+다가올 컴백을 위해 잊지말고 매일 적립 해 주세요🫶🏻
+<p><a href="https://pbs.twimg.com/media/HR-X-l6aQAE1S2M.jpg?name=orig"><img src="https://pbs.twimg.com/media/HR-X-l6aQAE1S2M.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+📢 연합 스트리밍 공지 (추가)
+
+━━━━━━━━━━━━━━
+
+리마인 ➡️ 앨리즈
+
+'Talk to me (Dance break ver.)' 멜론 스트리밍
+
+🗓️ 11/10(화) ~ 11/16(월)
+#️⃣ 리마인with앨리즈
+
+━━━━━━━━━━━━━━
+
+🤍 알파드라이브원 음원총공팀이 주신 기술적 지원에 보답하기 위해 일주일 간의 멜론 스트리밍 연합입니다! 세부 지원 내용은 외부로 밝힐 수 없으나, 큰 도움을 주신만큼 연합 스트리밍에 많은 참여 부탁드립니다.
+
+✅ 인증 방법 (택 1)
+
+➖ 연합 기간 내 매일 23시, 00시에 멜론 뮤직웨이브 접속 
+        (따로 인증 필요 없음)
+
+➖ 개별 스트리밍 인증도 가능
+        (연합 해시태그와 함께 X에 인증글 작성)
+
+━━━━━━━━━━━━━━
+
+리마인 여러분들의 많은 참여 부탁드리겠습니다🙇🏻‍♂️
+
+#RESCENE #리센느 #PULSE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+🏆 리센느 더쇼 1위 달성 🏆
+
+리센느가 더쇼에서 이번 활동 영광의 첫 1위를 차지했습니다!
+
+밤낮을 가리지 않고 꾸준히 음원을 스트리밍해 주시고 투표에 참여해 주신 모든 리마인 여러분, 정말 고생 많으셨습니다. 여러분의 정성이 모여 이렇게 뜻깊은 첫 번째 트로피를 안겨줄 수 있었습니다.
+
+남은 음악방송에서도 좋은 성적을 이어갈 수 있도록 끝까지 함께 달려주세요.
+
+정말 수고 많으셨습니다! 💗
+
+#RESCENE #리센느 #With1stWin
+<p><a href="https://pbs.twimg.com/media/HWwigHMacAADQxL.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWwigHMacAADQxL.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+❓ 아 뮤직뱅크 투표 어떻게 하는거지❓
+
+🔥메인 화력 부대🔥
+➖ 충전된 다계정이 많고 내일 오전 11시 마감직전 표 전량 투하가 가능하신 분 → 충전 재화 터는데 걸리는 시간 계산(아래 링크 시트 이용) 역산하여 그때부터 투표시작
+🔗https://docs.google.com/spreadsheets/d/1J3E9-LxtoIZC_4xPAlk0BKVr7Q1ESfFZD7SFEfo1A_E/edit?usp=drivesdk (사본으로 복사해가서 쓰세요)
+
+━━━━━━━━━━━━━━
+
+🤍메인 팀을 돕는 서포터
+➖ 내일 오전 11시 직전 참여가 힘든 분 → 가진 재화 모두를 미리 투표 본인이 할 수 있는 한 가장 늦게 투표 (ex. 오늘 밤 11시 or 내일 7시 등)
+
+➖ 쓸 수 있는 화력이 충분하고 쿨타임 때문에 투표 시간이 부족할것 같다면 → 자유롭게 투표 하면서 격차 줄여주기 또는 음총팀 모금 지원
+
+➖ 소액으로 충전하자니 교환 효율이 아까우신 분 → 음총팀 모금 지원
+🔗https://m.cafe.daum.net/rescenestream/Ml9H/6
+
+━━━━━━━━━━━━━━
+
+✔️ 계정을 미리 많이 준비 해 두시면 유사시 빠르게 투표 가능합니다(계정 확보는 다다익선!)
+✔️ 한표도 소중한 상황이니 무료재화 모아서 조금이라도 참여 부탁드립니다🙇🏻‍♂️🙇🏻‍♂️
+✔️ 큰 차이로 이겨야 합니다. 2위로 슬슬 따라가다가 마감전 한번에 뒤집을 화력을 확보할 수 있게 많은 참여 부탁드립니다!
+
+🚨 뮤직뱅크는 음반판매량이 최대인 이번주가 유일하게 1위 가능성이 있는 주 입니다. 뮤직뱅크 1위의 마지막 기회인 만큼 후회없는 선택 부탁드립니다!
+
+✅쿠궁 사전투표 현황 차트
+https://vote.rescene-remine.com/coogoong/?e=905
+✅투표하러가기
+https://open.coogoong.com?target=event%2Fdetail%3Fkey_event%3D905
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+📢 더 쇼 실시간 투표가 시작되었습니다
+
+리센느의 다음주 더 쇼 출연이 불투명하기 때문에 이번주 투표만 참여할 수 있는 확률이 높습니다
+
+투표 점수 이외 음원과 음반 점수를 많이 얻었기 때문에 투표 화력을 아껴 다른 음방에 집중할 수 있게 되었습니다
+
+따라서 기간이 지나면 사라지는 소멸성 재화 위주로 투표 해 주시고 무리한 현금 충전은 지양하여 주시기 바랍니다
+
+감사합니다🙇🏻‍♂️
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+[📰] 
+
+리센느, 음원 이어 음반까지 터졌다…'초동 60만장' 자체 최고 기록
+
+🔗 https://m.entertain.naver.com/home/article/312/0000783755
+
+#RESCENE #리센느 #リセンヌ
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+#리마인과_이파리_차원을넘어
+261109 연합 스트리밍 인증
+<p><a href="https://pbs.twimg.com/media/HWvm3GVaoAAGRX6.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWvm3GVaoAAGRX6.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-10 13:53)
+🎉리센느 [PULSE] 초동 602,688🎉
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HWvNKrUaIAAlRry.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWvNKrUaIAAlRry.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
