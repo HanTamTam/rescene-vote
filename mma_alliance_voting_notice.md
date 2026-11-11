@@ -2179,3 +2179,152 @@ https://open.coogoong.com?target=event%2Fdetail%3Fkey_event%3D905
 🎉리센느 [PULSE] 초동 602,688🎉
 #RESCENE #리센느 #PULSE
 <p><a href="https://pbs.twimg.com/media/HWvNKrUaIAAlRry.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWvNKrUaIAAlRry.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+📢  카카오뮤직 곡 구매 가이드 및 V컬러링 설정 
+
+카카오뮤직 주간차트 12위🆕
+V컬러링 TOP20 3위🆕
+
+2주차 음방 점수를 위해 🔥
+카카오뮤직 곡 구매, V 컬러링 설정을 미처 못하신 분들은 잊지말고 참여 해 주시고 주변에도 많은 홍보 부탁드립니다🙇🏻‍♂️
+
+🤍 음원 점수 외 써클차트에 추가로 합산되는 점수이므로 꼭 챙기기 🤍
+
+━카카오뮤직━━━━━━━━━━
+
+카카오뮤직에서 곡 구매를 진행해주세요
+
+다운로드 및 삭제 가이드
+🔗https://rescene.stream/download/kakaomusic
+
+카카오뮤직 탈(퇴)다(운로드)
+를 이용해 여러 번 다운을 받을 수 있습니다! 
+
+가입▶️다운 (곡 구매)▶️탈퇴 반복
+
+➖카카오계정 이메일 > 지메일로 가입
+➖본인인증: 3개까지 가능, 본인인증 슬롯 하나 비워둘 것
+
+➖ 🚨🚨실사용 카톡 탈퇴 절대 금지!! 🚨🚨
+       (새로 만든 탈다용 아이디만 탈퇴 / 탈퇴전 꼭 확인하세요)
+
+➖반드시 아래 링크에서 탈퇴!
+🔗https://accounts.kakao.com/weblogin/deactivate#deactivateIntro
+➖같은 메일 주소로 재가입 시 일정 시간  간격 필요
+
+━브이컬러링━━━━━━━━━
+
+리센느의 'With'를 V컬러링으로 설정 해 주세요!
+
+🔗http://vcoloring.onelink.me/vD4y/vvl1alch
+
+━━━━━━━━━━━━━━
+#RESCENE #리센느 #PULSE #원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+📢 쇼! 음악중심 시청자 위원회 연합 투표 안내
+
+🗓 ~ 11/12 (목) 11:00 (KST)
+
+✅시청자 위원회 선정자만 투표 가능
+✅4곡 선택 후 투표 : 
+
+1- With / RESCENE(리센느)
+2- 삐그덕 (feat. 아이유) / Crush(크러쉬)
+3- 타타 (feat. 미나미 of RESCENE) / 로꼬(LOCO)
+4- 나를 사랑하지 말아요 / 허각
+
+시청자 위원회 리마인님들은 아래 링크에서 위 4곡을 투표 해 주세요!
+
+🔗https://program.imbc.com/Info/musiccore?seq=5
+
+#리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+#리마인_with_앨리즈
+261110 연합 스트리밍 인증
+<p><a href="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+🚨뮤직뱅크 사전투표 마감 오전 11시
+
+1회 투표 후 10분 쿨타임이 있으니,
+여러 번 투표하실 분은 바로 시작!!!
+
+🗳️ 쿠궁 앱 접속
+       [1314회] KBS 뮤직뱅크 사전투표
+       하트 50개 = 1표 (1회최대 500표)
+
+🔹 쿨타임 계산해 투표 시작
+🔹 1회만 투표하실 분은 마감 전에 투하
+
+🗓️ 마감: 오늘(11/11) 오전 11시
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+🔥 뮤직뱅크 사전투표 마감 3시간 전 🔥
+
+🚨🚨 투표가 오늘 오전 11시에 마감됩니다. 🚨🚨
+
+뮤직뱅크는 실시간 투표가 없기에, 
+사전투표에서 큰 격차로 앞서가는 것만이 우리가 할 수 있는 가장 확실한 방법입니다.
+
+방송 점수가 부족해 아쉬움이 남을 수도 있습니다. 하지만 수많은 아이돌이 컴백하는 가운데, 방송 출연 기회를 얻기 어려운 상황을 생각하면 원이가 바라던 뮤직뱅크 1위를 선물하는 이번  순간은 그 어느 때보다 소중할 것입니다.
+
+마감까지 얼마 남지 않았습니다!
+마지막까지 포기하지 말고 함께 달려주세요.
+
+❗투표 마감 시간이 오전 중이므로 참여가 어려우신 분들은 미리 투표해 주세요.
+❗대량 투표를 준비 중이시라면 시간을 잘 분배하여 마감 전까지 빠짐없이 투표해 주세요.
+❗다계정을 최대한 활용해 역전의 기회를 만들어 봅시다.
+
+마지막까지 리마인의 힘을 보여주세요.
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+📢 1314회 뮤직뱅크 사전 투표 가이드
+
+📱 투표 앱 : 쿠궁 | Coogoong 
+🗓️ ~  11/11(수) 11:00 (KST)
+🗳️ 무제한 투표 : 단 1회 최대 500표까지 투표 후 10분 기다려야 다시 투표 가능
+
+❗사용 표 수와 상관없이 투표를 한 번 하면 무조건 10분 쿨타임 생김 → 대량 투표시 반드시 매 투표 당 최대 500표 확인하고 투표하기
+
+🔗https://open.coogoong.com?target=event%2Fdetail%3Fkey_event%3D905
+
+✔️ 현재 예측점수 상 밀리는 상태입니다!!
+✔️ 뮤직뱅크는 실시간 투표 없이 사전 투표 점수만을 반영하여 최종 순위가 결정됩니다
+✔️ [비율 점수제] 투표 1등 2천점, 그 이하 등수는 득표 비율로 점수를 받아갑니다! 
+
+🚨사전 투표 1위 달성은 물론이고 2위와의 차이를 많이 벌려야 최종 1위가 가능합니다!! 
+
+🚨무제한 투표이지만 투표 쿨타임이 존재합니다
+💡투표 방법 예시 영상 가이드
+https://youtube.com/shorts/0R2XYQ0c8os?si=BKijzu877ziUN8mp
+
+아래 구글시트로 본인이 ❗투표할 양 에 따른 시간을 계산 ❗후 실수 없이 투표 해 주세요!
+🔗https://zrr.kr/e58j6d
+
+🚨다계정을 이용해 재화를 분산 충전 해 두면 단시간에 화력 집중이 가능합니다! 구글 계정만 있으면 쉽게 가입 가능하니 임박시점 화력집중을 위해 다계정 필수로 준비해주세요!
+
+🚨계정이 부족하면 돈이 있어도 쿨타임때문애 투표를 못해요😂 비상시에 대비해서 빈 계정이라도 최대한 많이 확보해주세요
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 09:40)
+고마워 리마인 🪽
+
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HWxNdPjbAAAhPc2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPjbAAAhPc2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWxNdPXbQAAmIUg.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPXbQAAmIUg.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HWxNdPubUAAEpd3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPubUAAEpd3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
