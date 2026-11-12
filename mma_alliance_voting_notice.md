@@ -2328,3 +2328,362 @@ https://youtube.com/shorts/0R2XYQ0c8os?si=BKijzu877ziUN8mp
 <p><a href="https://pbs.twimg.com/media/HWxNdPjbAAAhPc2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPjbAAAhPc2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HWxNdPXbQAAmIUg.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPXbQAAmIUg.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HWxNdPubUAAEpd3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HWxNdPubUAAEpd3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📢 음악중심 사전투표 안내 안녕하세요 리센느 음원총공팀입니다 목요일 11시에 마감되는 음악중심 사전투표(뮤빗 및 뮤니버스에서 진행) 안내 말씀 드립니다 이번 주의 음방 점수는 초동음반 점수과 발매시의 높은 음원 점수가 적용되기 때문에 비교적 여유가…
+<p>📢 음악중심 사전투표 안내<br />
+<br />
+안녕하세요 리센느 음원총공팀입니다<br />
+<br />
+목요일 11시에 마감되는 음악중심 사전투표(뮤빗 및 뮤니버스에서 진행) 안내 말씀 드립니다<br />
+<br />
+이번 주의 음방 점수는 초동음반 점수과 발매시의 높은 음원 점수가 적용되기 때문에 비교적 여유가 있는 상황입니다<br />
+<br />
+음악중심 사전투표는 순위별 차등 점수제로, 각 등수 간 점수 차이는 50점에 불과합니다<br />
+따라서 1위가 아니더라도 실제 획득 점수에서 큰 차이가 발생하지는 않습니다<br />
+<br />
+따라서 이번 주는 사전투표에 재화를 무리하게 쏟기보다, 전체 투표 상황을 지켜보며 효율적으로 대응하는 것이 좋습니다<br />
+<br />
+상대팀이 과도한 재화를 사용해 1위를 노리더라도 무리하게 따라갈 필요가 없습니다<br />
+2~3위를 안정적으로 유지하는 것만으로도 충분히 전략적인 선택입니다<br />
+<br />
+또한 앱 투표 외의 사전 점수인 시청자위원 점수도 적지 않을 것으로 예상됩니다. <br />
+<br />
+그리고 내일 최종 예측 이후 점수가 조금 부족하다고 판단되더라도 걱정하지 않으셔도 됩니다<br />
+<br />
+한국 리마인의 음악중심 실시간 투표 (특히 문자투표) 화력은 매우 강력합니다 <br />
+<br />
+사전투표에서 부족한 부분은 실시간 투표를 통해 충분히 보완할 수 있는 만큼, 사전투표에서는 더욱 화력을 아껴두는 것이 좋습니다<br />
+<br />
+다음 주에도 달성할 목표가 남아있는 만큼, 지금은 무리하기보다 필요한 순간에 집중할 수 있도록 화력을 비축하는 것이 좋습니다🤍<br />
+<br />
+리마인 여러분, 눈앞의 순위에 흔들리지 않고 전체적인 흐름에 맞춰 함께 힘을 모아주세요!<br />
+<br />
+늘 함께해 주시고 힘을 보태주셔서 감사합니다 🙇🏻‍♂️</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📣 멜론 주간인기상 투표 주간인기상 투표가 역전 당했습니다. 모두 매일매일 투표에 꼭 참여 부탁드리겠습니다🙏 🗳 매일 유료계정 3표 / 무료계정 1표 명의 당 한 번씩 투표가 가능하니, 유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요…
+<p>📣 멜론 주간인기상 투표<br />
+<br />
+주간인기상 투표가 역전 당했습니다.<br />
+<br />
+모두 매일매일 투표에 꼭 참여 부탁드리겠습니다🙏<br />
+<br />
+🗳 매일 유료계정 3표 / 무료계정 1표<br />
+<br />
+명의 당 한 번씩 투표가 가능하니, <br />
+유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! <br />
+(무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.)<br />
+<br />
+https://www.melon.com/melonaward/weekAward.htm<br />
+<br />
+✅ 멜론 이용권 결제 계정으로 로그인<br />
+✅ 우측하단 바로가기 → 주간인기상<br />
+✅ [RESCENE (리센느)] 투표<br />
+<br />
+리마인! 매일 잊지말고 투표 해 주세요🔥</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+🎬 매일매일 뮤직비디오 스트리밍 ✔️ 무료로 손쉽게 음악방송 점수 얻기! 3주차 음악방송부터는 음반 점수가 상대적으로 적습니다. 1위 도전을 위해서는 뮤직비디오 등 부가적인 점수를 획득하는것이 중요합니다!! 🪽 With 뮤비 보기 https://…
+<p>🎬 매일매일 뮤직비디오 스트리밍<br />
+<br />
+✔️ 무료로 손쉽게 음악방송 점수 얻기!<br />
+<br />
+3주차 음악방송부터는 음반 점수가 상대적으로 적습니다. 1위 도전을 위해서는 뮤직비디오 등 부가적인 점수를 획득하는것이 중요합니다!!<br />
+<br />
+🪽 With 뮤비 보기<br />
+<br />
+https://youtu.be/pey3E47eSc8?si=4GpPYnGZsWJOiRsE<br />
+<br />
+조회수가 15분마다 한번씩 카운팅됩니다! 자주 보고 음방점수 올려보아요🔥<br />
+<br />
+뮤비 스트리밍 가이드👇🏻<br />
+https://rescene.stream/streaming/youtube<br />
+<br />
+#RESCENE #리센느 #PULSE #원이 #리브 #미나미 #메이 #제나</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📢 매일매일 리마인 투표 TO DO (모든 시간 KST) ❥･•━음악방송 투표━━━━━━━ 🥇음악중심 사전투표(시청자위원회 투표 포함) 🗓 ~ 11/12 (목) 11:00 ➖시청자위원회 투표 ✅시청자 위원회 선정자만 투표 가능 ✅아래 4곡 선택…
+<p>📢 매일매일 리마인 투표 TO DO (모든 시간 KST)<br />
+<br />
+❥･•━음악방송 투표━━━━━━━<br />
+<br />
+🥇음악중심 사전투표(시청자위원회 투표 포함)<br />
+🗓 ~ 11/12 (목) 11:00<br />
+<br />
+➖시청자위원회 투표<br />
+<br />
+✅시청자 위원회 선정자만 투표 가능<br />
+✅아래 4곡 선택 후 투표<br />
+<br />
+1- With / RESCENE(리센느)<br />
+2- 삐그덕 (feat. 아이유) / Crush(크러쉬)<br />
+3- 타타 (feat. 미나미 of RESCENE) / 로꼬(LOCO)<br />
+4- 나를 사랑하지 말아요 / 허각<br />
+<br />
+🔗https://m.imbc.com/program/Info/1000788100000100000?seq=5<br />
+<br />
+➖ 글로벌 사전 투표<br />
+<br />
+📱 뮤니버스 | Muniverse<br />
+🗳️ GLOBAL Pre-Voting (무제한 투표)<br />
+🔗https://www.muniverse.io/votes/4bd4d80f-ea86-455c-84d1-4350b4bb1ced<br />
+<br />
+📱 뮤빗 | Mubeat<br />
+🗳️ GLOBAL Pre-Voting (무제한 투표)<br />
+🔗https://mubeat.applink.info/jrWncmic7l<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+🥇 인기가요 사전투표<br />
+<br />
+📱 링크 | LinC<br />
+🗓 ~ 11/13(금) 23:59<br />
+🗳 1일 1계정 10표 제한 (다계정 가능) <br />
+🔗https://app.linc.fan/31TL/mekl8Epu<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+❗ 음악방송 사전투표 외 옆에서 리마인을 유혹하는 각종 서브 투표들에 절대 속지 말기❗<br />
+<br />
+❥･•━그 외 투표━━━━━━━<br />
+<br />
+🍈 멜론 주간인기상<br />
+<br />
+📱멜론(한국)<br />
+🗓 ~11/15(일) 23:59 <br />
+🗳1일 1계정(명의 제한) 1표(멜론이용권X) /3표(멜론이용권O)<br />
+🔗https://m2.melon.com/melonaward/weekAward.htm<br />
+<br />
+✔️ 계정이 여러개라도 명의 당 일 1회만 투표 가능. 꼭 유료계정으로 투표할 것!(무료계정으로 먼저 투표시 1표만 던지는 실수를 하게 됩니다😂)<br />
+<br />
+━━━━━━━━━━━━━━<br />
+<br />
+🏆MMA 부문별 투표 및 연합팀 안내<br />
+<br />
+📱멜론(한국) | Berriz(글로벌)<br />
+🗓 ~ 11/13(금) 23:59 <br />
+🗳 투표방법<br />
+➖1일 1계정(명의 제한)당 부문별 1표(멜론이용권X) /3표(멜론이용권O) <br />
+➖Berriz 는 매일 1계정 1표<br />
+<br />
+🩷GLOBAL TOP 10 &apos;리센느&apos;<br />
+✔️올해의 베스트송 &apos;코르티스 REDRED&apos;🔴<br />
+✔️올해의 신인 &apos;알파드라이브원&apos;🏎<br />
+<br />
+🔗대한민국 : http://kko.to/7kliHuzdQZ<br />
+🔗글로벌 : https://link.berriz.in/ko/web/main/vote/mma2026<br />
+<br />
+━━━━━━━━━━━━━<br />
+<br />
+🏆 2027 대한민국 퍼스트브랜드 대상<br />
+🗓 ~ 2026. 11. 15 23:59 <br />
+<br />
+🗳 투표방법 : 실 사용 이메일로 인증 1회 당 부문별 1표씩<br />
+✔️이메일 다계정 시 메일 주소 당 1번씩 여러번 투표 가능!<br />
+<br />
+🔗http://fba.kcforum.co.kr/2027/<br />
+<br />
+🩷 여자아이돌(핫트렌드) / 광고모델(여) &apos;리센느&apos;<br />
+💙 밴드 &apos;데이식스&apos;<br />
+💙 남자아이돌 (신인) &apos;앤더블&apos;<br />
+💙 남자아이돌 &apos;코르티스&apos;<br />
+💙 싱어송라이터 &apos;이승윤&apos;<br />
+<br />
+➖핫아이콘(남) 이선민💪🏻 , 개그맨 부문에 이선민💪🏻/유영우🎤삼촌들도 있으니 챙겨주세요 (자율 투표)<br />
+<br />
+✔️ 투표완료 후에는 어떤 후보를 뽑았는지 나오지 않으니 투표하면서 바로 인증샷을 찍어주시면 좋습니다. 이메일 인증 완료 화면 스샷과 함께 인증 해 주시면 됩니다!<br />
+<br />
+━━━━━━━━━━━━━━━━<br />
+<br />
+#RESCENE #리센느 #PULSE #WITH<br />
+#원이 #리브 #미나미 #메이 #제나</p>
+<p><a href="https://pbs.twimg.com/media/HW1zEPSa0AISlH0.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1zEPSa0AISlH0.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW1zEPSa0AISlH0.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1zEPSa0AISlH0.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+11월 11일 ‘챔피언송’은? RESCENE (리센느)의 ‘With’입니다. 은은한 머스크향처럼 깊은 여운을 남기는 RESCENE (리센느)의 챔피언송 수상을 진심으로 축하드립니다.
+<p>11월 11일 ‘챔피언송’은?<br />
+RESCENE (리센느)의 ‘With’입니다.<br />
+은은한 머스크향처럼 깊은 여운을 남기는<br />
+RESCENE (리센느)의 챔피언송 수상을 진심으로 축하드립니다.</p>
+<p><a href="https://pbs.twimg.com/media/HW1nXmNbUAAZzts.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1nXmNbUAAZzts.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW1nXmLaMAAeu1h.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1nXmLaMAAeu1h.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW1nXmNbUAAZzts.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1nXmNbUAAZzts.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW1nXmLaMAAeu1h.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1nXmLaMAAeu1h.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+🏆 리센느 Global-K Chart 월간 1위 총공 안내 리센느가 멜론 Global-K Chart에서 11월 첫째 주 주간 1위를 달성했습니다 🎉 해당 차트에서 월간 1위를 달성하면 아티스트에게 실물 트로피가 전달되고, 한국·중국·일본 주요 도…
+<p>🏆 리센느 Global-K Chart 월간 1위 총공 안내<br />
+<br />
+리센느가 멜론 Global-K Chart에서 11월 첫째 주 주간 1위를 달성했습니다 🎉<br />
+<br />
+해당 차트에서 월간 1위를 달성하면 아티스트에게 실물 트로피가 전달되고, 한국·중국·일본 주요 도시에서 기념 옥외광고가 진행됩니다<br />
+<br />
+우리의 힘으로 리센느에게 또 하나의 트로피를 선물할 수 있는 기회입니다 🤍<br />
+<br />
+📌 리마인 여러분의 일일 참여 미션<br />
+<br />
+✅ 멜론 리센느 음원 꾸준히 스트리밍하기<br />
+✅ 리센느 음원 및 앨범에 하루 댓글 10개 이상 남기기<br />
+✅ 리센느 음원·앨범·관련 콘텐츠 조회 및 좋아요 누르기<br />
+✅ 리센느 아티스트 팬맺기 및 발매곡 좋아요 확인하기<br />
+<br />
+💚 댓글은 신곡뿐 아니라 기존 발매곡에도 자유롭게 남겨 주세요<br />
+<br />
+동일한 문구를 반복하기보다는 각 곡에 대한 감상과 응원을 담아 참여해 주시면 감사하겠습니다<br />
+<br />
+11월의 시작을 주간 1위로 열어 준 만큼, 이제는 월간 1위라는 더 큰 목표를 향해 함께 나아가고자 합니다<br />
+<br />
+조금 번거롭더라도 리마인 여러분의 꾸준한 참여를 부탁드립니다<br />
+<br />
+🔗 https://www.melon.com/global-k-chart</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+시청자 위원회 리마인!! 투표 내일 오전 11시에 마감이니 잊지 말고 꼭 투표 해 주세요🤍
+<p>시청자 위원회 리마인!! <br />
+투표 내일 오전 11시에 마감이니 잊지 말고 꼭 투표 해 주세요🤍</p>
+<blockquote><a href="https://x.com/ResceneStream/status/2120338236883325263">📢 쇼! 음악중심 시청자 위원회 연합 투표 안내 🗓 ~ 11/12 (목) 11:00 (KST) ✅시청자 위원회 선정자만 투표 가능 ✅4곡 선택 후 투표 : 1- With / RESCENE(리센느) 2- 삐그덕 (feat. 아이유) / Crush(크러쉬) 3- 타타 (feat. 미나미 of RESCENE) / 로꼬(LOCO) 4- 나를 사랑하지 말아요 / 허각 시청자 위원회 리마인님들은 아래 링크에서 위 4곡을 투표 해 주세요! 🔗https://program.imbc.com/Info/musi…</a></blockquote>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+🏆 리센느 쇼챔피언 1위 달성 🏆 리센느가 쇼챔피언에서 이번 활동 두 번째 1위를 차지했습니다! 더쇼에 이어 연달아 기쁜 소식이 전해진건 하루도 빠짐없이 스트리밍과 투표에 힘써 주신 리마인 여러분 덕분입니다. 이 기세를 이어 남은 음악방송까지 리…
+<p>🏆 리센느 쇼챔피언 1위 달성 🏆<br />
+<br />
+리센느가 쇼챔피언에서 이번 활동 두 번째 1위를 차지했습니다!<br />
+<br />
+더쇼에 이어 연달아 기쁜 소식이 전해진건 하루도 빠짐없이 스트리밍과 투표에 힘써 주신 리마인 여러분 덕분입니다.<br />
+<br />
+이 기세를 이어 남은 음악방송까지 리센느와 끝까지 함께 달려주세요.<br />
+<br />
+오늘도 정말 수고 많으셨습니다! 💗<br />
+<br />
+#With2ndWin #RESCENE8thWin<br />
+#RESCENE #리센느 #リセンヌ</p>
+<p><a href="https://pbs.twimg.com/media/HW1dnWpacAAOVoW.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1dnWpacAAOVoW.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW1dnWpacAAOVoW.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW1dnWpacAAOVoW.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📢 카카오뮤직 곡 구매 가이드 및 V컬러링 설정 카카오뮤직 주간차트 12위🆕 V컬러링 TOP20 3위🆕 2주차 음방 점수를 위해 🔥 카카오뮤직 곡 구매, V 컬러링 설정을 미처 못하신 분들은 잊지말고 참여 해 주시고 주변에도 많은 홍보 부탁드…
+<p>📢  카카오뮤직 곡 구매 가이드 및 V컬러링 설정 <br />
+<br />
+카카오뮤직 주간차트 12위🆕<br />
+V컬러링 TOP20 3위🆕<br />
+<br />
+2주차 음방 점수를 위해 🔥<br />
+카카오뮤직 곡 구매, V 컬러링 설정을 미처 못하신 분들은 잊지말고 참여 해 주시고 주변에도 많은 홍보 부탁드립니다🙇🏻‍♂️<br />
+<br />
+🤍 음원 점수 외 써클차트에 추가로 합산되는 점수이므로 꼭 챙기기 🤍<br />
+<br />
+━카카오뮤직━━━━━━━━━━<br />
+<br />
+카카오뮤직에서 곡 구매를 진행해주세요<br />
+<br />
+다운로드 및 삭제 가이드<br />
+🔗https://rescene.stream/download/kakaomusic<br />
+<br />
+카카오뮤직 탈(퇴)다(운로드)<br />
+를 이용해 여러 번 다운을 받을 수 있습니다! <br />
+<br />
+가입▶️다운 (곡 구매)▶️탈퇴 반복<br />
+<br />
+➖카카오계정 이메일 &gt; 지메일로 가입<br />
+➖본인인증: 3개까지 가능, 본인인증 슬롯 하나 비워둘 것<br />
+<br />
+➖ 🚨🚨실사용 카톡 탈퇴 절대 금지!! 🚨🚨<br />
+       (새로 만든 탈다용 아이디만 탈퇴 / 탈퇴전 꼭 확인하세요)<br />
+<br />
+➖반드시 아래 링크에서 탈퇴!<br />
+🔗https://accounts.kakao.com/weblogin/deactivate#deactivateIntro<br />
+➖같은 메일 주소로 재가입 시 일정 시간  간격 필요<br />
+<br />
+━브이컬러링━━━━━━━━━<br />
+<br />
+리센느의 &apos;With&apos;를 V컬러링으로 설정 해 주세요!<br />
+<br />
+🔗http://vcoloring.onelink.me/vD4y/vvl1alch<br />
+<br />
+━━━━━━━━━━━━━━<br />
+#RESCENE #리센느 #PULSE #원이 #리브 #미나미 #메이 #제나</p>
+<p><a href="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0widNaoAApGf3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0wiviaAAAO3iZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📣 멜론 주간인기상 투표 🗳 매일 유료계정 3표 / 무료계정 1표 명의 당 한 번씩 투표가 가능하니, 유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! (무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.) https:/…
+<p>📣 멜론 주간인기상 투표<br />
+<br />
+🗳 매일 유료계정 3표 / 무료계정 1표<br />
+<br />
+명의 당 한 번씩 투표가 가능하니, <br />
+유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! <br />
+(무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.)<br />
+<br />
+https://www.melon.com/melonaward/weekAward.htm<br />
+<br />
+✅ 멜론 이용권 결제 계정으로 로그인<br />
+✅ 우측하단 바로가기 → 주간인기상<br />
+✅ [RESCENE (리센느)] 투표<br />
+<br />
+리마인! 매일 잊지말고 투표 해 주세요🔥</p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+#리마인_with_앨리즈 261110 연합 스트리밍 인증
+<p>#리마인_with_앨리즈<br />
+261110 연합 스트리밍 인증</p>
+<p><a href="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0stQXboAAYhX5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+#리마인과_이파리_차원을넘어 261110 연합 스트리밍 인증
+<p>#리마인과_이파리_차원을넘어<br />
+261110 연합 스트리밍 인증</p>
+<p><a href="https://pbs.twimg.com/media/HW0smwcboAASXsN.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0smwcboAASXsN.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0smwcboAASXsN.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0smwcboAASXsN.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+#리마인_with_엔돌핀 261110 연합 스트리밍 인증
+<p>#리마인_with_엔돌핀<br />
+261110 연합 스트리밍 인증</p>
+<p><a href="https://pbs.twimg.com/media/HW0sei0aQAAI3Px.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0sei0aQAAI3Px.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0sei0aQAAI3Px.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0sei0aQAAI3Px.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-11 23:28)
+📢 [음원총공팀 | RESCENE 2027 시즌그리팅 공동구매 안내] RESCENE 2027 SEASON'S GREETINGS 〈PAGES OF YOUTH〉 WITHMUU 단독 특전 OR 유통 단독 특전 (택1) 시즌그리팅 3 - FIT THE F…
+<p>📢 [음원총공팀 | RESCENE 2027 시즌그리팅 공동구매 안내]<br />
+<br />
+RESCENE 2027 SEASON&apos;S GREETINGS 〈PAGES OF YOUTH〉<br />
+WITHMUU 단독 특전 OR 유통 단독 특전 (택1) 시즌그리팅<br />
+<br />
+3 - FIT THE FAN<br />
+http://fitthefan.com/s/jf0NlY<br />
+<br />
+판매가 : 43,000원 &gt; 🔥공구가 : 37,000원🔥<br />
+<br />
+특전X (시즌그리팅만) : 37,000원<br />
+위드뮤 특전 : 39,000원 / (5종 중 1종 랜덤 증정)<br />
+유통 특전 : 39,000원 / (5종 중 1종 랜덤 증정)<br />
+<br />
+*옵션에서 선택가능<br />
+<br />
+~11.19 18:00 KST 까지<br />
+<br />
+모든 CS는 핏더팬 1:1 로 부탁드립니다.</p>
+<p><a href="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig" alt="" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
