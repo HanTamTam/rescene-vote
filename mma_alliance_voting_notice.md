@@ -2687,3 +2687,46 @@ http://fitthefan.com/s/jf0NlY<br />
 <p><a href="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig" alt="" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_qlbsAAp_Ee.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW0N_9UbsAAh3_N.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-12 03:57)
+📢 컴백 3주차 총공 활동 대비 음총 모금 
+
+리센느의 컴백 활동을 지원하기 위해 음원총공팀 모금을 진행합니다!
+
+✅음원총공팀 카페 가입 후 모금 공지를 확인하실 수 있습니다
+
+☕https://m.cafe.daum.net/rescenestream/Ml9H/6
+
+3만원 이상 모금자분들께서는 인증 게시판에서 등업 신청을 하시면 등급 조절되어 추후 정산 내역을 열람하실 수 있습니다.
+(기존 정산 폼으로 이미 신청하신 분들은 메일로 발송 해 드릴 예정이니 따로 신청하지 않으셔도 됩니다)
+
+리센느를 사랑하는 리마인 여러분들의 많은 참여 부탁드립니다💗
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-12 03:57)
+🤍매일매일 최애직캠보고 뮤빗 하트비트 적립
+
+🔗https://mubeat.applink.info/mBIvHxiOM7
+
+✔️영상만 보면 일 최대 45하트비트 적립가능
+✔️다른 앱 동시 사용해도 작은 창으로 계속 재생 가능
+
+잊지말고 매일 적립 해 주세요💘
+
+#RESCENE #리센느 #PULSE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-12 03:57)
+📢 11월 리센느 컴백 대비 리마인  TO DO 😍
+
+1⃣ 벅스/ 지니 아이디 기부
+2⃣ 컴백 총공 헬퍼 지원
+3⃣ 음원 총공비 모금
+4⃣ 음총팀 스탭 지원
+
+👇자세한 설명은 타래로 
+
+#RESCENE #리센느
