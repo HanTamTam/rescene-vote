@@ -15,6 +15,7 @@ import sys
 import json
 import base64
 import hashlib
+import html as html_lib
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
@@ -214,7 +215,11 @@ def get_x_feed_tweets():
             for item in root.findall(".//item"):
                 title = item.findtext("title") or ""
                 desc = item.findtext("description") or ""
-                full_txt = f"{title}\n{desc}"
+                clean_desc = re.sub(r'<br\s*/?>', '\n', desc, flags=re.IGNORECASE)
+                clean_desc = re.sub(r'</p>\s*<p>', '\n\n', clean_desc, flags=re.IGNORECASE)
+                clean_desc = re.sub(r'<[^>]+>', '', clean_desc)
+                clean_desc = html_lib.unescape(clean_desc).strip()
+                full_txt = clean_desc if clean_desc else html_lib.unescape(title).strip()
                 image_urls = re.findall(r'<img[^>]+src=["\'](https?://pbs\.twimg\.com/media/[^"\']+)["\']', desc)
                 if not image_urls:
                     image_urls = re.findall(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', desc)
@@ -336,7 +341,7 @@ def parse_rule_based_actions(tweet_text):
             "badgeStyle": "background:#e0f2fe; color:#0369a1; font-weight:800;",
             "title": "SBS 인기가요 사전투표 : 리센느 'WITH'",
             "desc": "링크(LiNC) 앱에서 매일 계정당 <strong>최대 10표 투표</strong> 필수! (신곡 'WITH' 1위 순위 사전투표 집계 반영)",
-            "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
+            "startDate": min(datetime.now().strftime("%Y-%m-%dT00:00:00"), end_date),
             "endDate": end_date,
             "deadlineColor": "#0284c7",
             "notice": notice_tip,
@@ -378,7 +383,7 @@ def parse_rule_based_actions(tweet_text):
             "badgeStyle": "background:#dbeafe; color:#1d4ed8; font-weight:800;",
             "title": "KBS 뮤직뱅크 사전투표 : 리센느 'WITH'",
             "desc": "쿠궁(coogoong) 앱에서 리센느 'WITH' 투표 참여!",
-            "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
+            "startDate": min(datetime.now().strftime("%Y-%m-%dT00:00:00"), end_date),
             "endDate": end_date,
             "deadlineColor": "#1d4ed8",
             "actions": [
@@ -402,7 +407,7 @@ def parse_rule_based_actions(tweet_text):
             "badgeStyle": "background:#fce7f3; color:#be185d; font-weight:800;",
             "title": "MBC 쇼! 음악중심 사전투표 : 리센느 'WITH'",
             "desc": "뮤빗(Mubeat) & 뮤니버스(Muniverse) 앱에서 음중 사전투표 진행!",
-            "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
+            "startDate": min(datetime.now().strftime("%Y-%m-%dT00:00:00"), end_date),
             "endDate": end_date,
             "deadlineColor": "#be185d",
             "actions": [
@@ -532,11 +537,16 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
 def generate_fallback_card(tweet_text, image_urls=None):
     # 🚫 수집 제외(블랙리스트) 필터링
     # 1) 모금/계좌/기부, 2) 총공팀 내부 헬퍼 구인, 3) 단순 감정적 호소/독려글
-    blacklist = ["모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서", "절실합니다", "도와주세요"]
+    blacklist = [
+        "모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서", "절실합니다", "도와주세요",
+        "음악나누기", "FLO 응원하기", "뮤빗/ 하이어", "뮤빗/하이어", "카카오뮤직", "스트리밍을 가장 간편하게",
+        "권장 스트리밍", "숏폼 제작", "틱톡 업로드", "V컬러링", "뮤직웨이브", "공동구매", "초동",
+        "멜론의 전당", "판매증명서", "컴백 총공 일정표", "투표 통합 공지", "투표 TO DO", "당첨되신"
+    ]
     if any(b in tweet_text for b in blacklist):
-        print(f"🚫 [필터링 제외] 모금/헬퍼/운영 관련 공지 제외: {tweet_text[:30]}...")
+        print(f"🚫 [필터링 제외] 모금/헬퍼/중복가이드/운영 공지 제외: {tweet_text[:30]}...")
         return None
-    action_keywords = ["총공", "투표", "스밍", "다운", "해시태그", "모금", "인증", "신청", "1위", "생방", "공구", "가이드", "편성표"]
+    action_keywords = ["총공", "투표", "스밍", "다운", "해시태그", "인증", "신청", "1위", "생방", "가이드", "편성표"]
     has_action_kw = any(k in tweet_text for k in action_keywords)
     has_images = bool(image_urls)
 
@@ -553,6 +563,12 @@ def generate_fallback_card(tweet_text, image_urls=None):
     first_line = lines[0][:35] if lines else ("리센느 총공팀 공지 안내" if has_images else "리센느 총공 공지")
 
     end_date, badge_deadline = parse_date_from_text(tweet_text, (datetime.now() + timedelta(days=2)).strftime("%Y-%m-%dT23:59:59"))
+    try:
+        if datetime.fromisoformat(end_date) < datetime.now():
+            print(f"⏭️ [만료 스킵] 이미 마감된 과거 공지 제외 ({end_date}): {first_line}")
+            return None
+    except Exception:
+        pass
 
     # 트윗 내 URL 및 해시태그 추출
     urls = re.findall(r'https?://[^\s]+', tweet_text)
@@ -605,7 +621,7 @@ def generate_fallback_card(tweet_text, image_urls=None):
         "badgeStyle": "background:#e0e7ff; color:#4338ca; font-weight:800;",
         "title": f"📢 {first_line}",
         "desc": desc_text,
-        "startDate": datetime.now().strftime("%Y-%m-%dT00:00:00"),
+        "startDate": min(datetime.now().strftime("%Y-%m-%dT00:00:00"), end_date),
         "endDate": end_date,
         "deadlineColor": "#4338ca",
         "notice": "💡 리센느 음원총공팀 피드에서 실시간으로 감지된 최신 공지입니다.",
