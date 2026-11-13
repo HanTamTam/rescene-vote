@@ -2730,3 +2730,18 @@ http://fitthefan.com/s/jf0NlY<br />
 👇자세한 설명은 타래로 
 
 #RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 03:56)
+리마인이 만들어준 🏆
+
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HW5wiEVbIAAWXNv.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW5wiEVbIAAWXNv.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW5wiEgakAA5xwZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW5wiEgakAA5xwZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 03:56)
+소속 아티스트 권익 침해 관련 법적 대응 상황 안내
+
+🔗 https://artist.mnetplus.world/main/stg/rescene-official/community/board/67a5c573036dc37e1e6d248c/post/6af5bb87b946f90fca97783d
+<p><a href="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
