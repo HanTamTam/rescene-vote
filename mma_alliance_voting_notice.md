@@ -2745,3 +2745,36 @@ http://fitthefan.com/s/jf0NlY<br />
 
 🔗 https://artist.mnetplus.world/main/stg/rescene-official/community/board/67a5c573036dc37e1e6d248c/post/6af5bb87b946f90fca97783d
 <p><a href="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+멜론 TOP100 순위가 점점 떨어지고 있어요🔥
+
+스밍이 멈춰 있는지 확인 해 주시고
+
+주말이지만 스밍 잊지말고 꾸준히 해 주세요!!💘
+<p><a href="https://pbs.twimg.com/media/HW_nrx4aQAAzWG2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW_nrx4aQAAzWG2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+📢 [PULSE] 앨범 공동구매 관련 안내
+
+[PULSE] (Limited ver.), (Guardian ver.)은 유통 과정의 사정으로 정상 배송이 어려워 부득이하게 주문 취소 및 환불이 진행됩니다.
+
+주문 수량은 취소 전 초동 판매량에 정상 반영된 것으로 확인되었습니다.
+
+앨범을 기다려 주신 리마인 여러분의 너른 양해 부탁드립니다. 취소 및 환불은 각 유통사를 통해 순차적으로 진행될 예정이며, 관련 문의는 주문하신 유통사로 부탁드립니다.
+
+공동구매에 함께해 주신 모든 리마인 여러분께 감사드립니다.
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+🎉 리센느 글로벌 K 차트 일간 1위🎉
+
+🏆월간 1위 달성 시 실물 트로피가 전달됩니다!
+
+🪽 '리센느' 팬맺기 / 댓글 / 좋아요 / 영상, 포토 조회수 올리기 오늘도 많이많이 부탁드립니다🔥
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HW_Giuca4AAdRoa.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW_Giuca4AAdRoa.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
