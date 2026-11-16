@@ -3039,3 +3039,126 @@ MAMA와 MMA 긴 투표 기간 동안 리센느를 위해 한마음으로 달려�
 #With4thWin #RESCENE10thWin
 #RESCENE #리센느 #リセンヌ
 <p><a href="https://pbs.twimg.com/media/HXJqg19bEAAWEHP.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXJqg19bEAAWEHP.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+[🎉]
+
+RESCENE(리센느) ‘With’ OFFICIAL MV 30Million Views on YouTube 🪽
+
+🔗 https://youtu.be/pey3E47eSc8
+
+#RESCENE #리센느 #リセンヌ
+#With
+<p><a href="https://pbs.twimg.com/media/HXPdqyraQAA4cX3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXPdqyraQAA4cX3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+🚨 [긴급] 모금액 소진 임박, 남은 총공을 이어갈 여러분의 도움이 절실합니다
+
+지난 2주간 리센느의 컴백을 위해 함께 달려 주신 리마인 여러분께 감사드립니다.
+
+여러분이 보내주신 모금액으로 집중적인 총공을 진행했지만, 현재는 자금이 거의 소진되어 3주차 총공을 위한 추가 모금이 필요한 상황입니다.
+
+활동이 끝난 뒤에도 음원 집계는 계속됩니다. 아직 해주고 싶은 것도, 해야 할 총공도 남아 있는데, 지금은 이를 이어갈 비용부터 걱정해야 하는 상황입니다.
+
+이미 힘을 보태 주신 여러분께 다시 부탁드리는 마음도 무겁습니다. 그럼에도 함께 쌓아온 응원을 더 좋은 성적으로 이어갈 수 있도록, 리마인 여러분, 한 번만 더 힘을 보태 주세요.
+
+작은 금액도 남은 총공을 이어갈 큰 힘이 됩니다. 보내주신 모금액은 리센느를 위한 남은 총공에 사용하겠습니다. 🤍
+
+🏦 카카오뱅크 3333-10-8683271 ㄱㅌㅇ
+🪙 https://paypal.me/RSSTREAM
+<p><a href="https://pbs.twimg.com/media/HXOevMxbUAAmggZ.png?name=orig"><img src="https://pbs.twimg.com/media/HXOevMxbUAAmggZ.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXOewEeaUAAdZdX.png?name=orig"><img src="https://pbs.twimg.com/media/HXOewEeaUAAdZdX.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📣 멜론 주간인기상 투표 안내
+
+리마인님들, 우리 리센느 11월 2주차 1위에 이어 11월 3주차 1위도 함께 만들어 주실 거죠?!🥹🏆
+
+소중하게 만들어 낸 첫 번째 1위의 기쁨을 이어갈 수 있도록 남은 기간에도 매일매일 투표 참여 부탁드려요!
+4주 연속 1위로 멋지게 졸업할 수 있도록 마지막까지 파이팅!🔥
+
+4주 연속 1위시, 음원 기록에 '주간인기상 4주 1위' 라는 기록이 영구 기재됩니다!
+언제든 보면서 기뻐할 리센느를 위해 소중한 투표 부탁드리겠습니다!🙇🙇
+
+🗳 투표 안내
+- 유료 계정 : 매일 3표
+- 무료 계정 : 매일 1표
+- 명의당 하루 한 번 투표 가능
+
+유료 계정과 무료 계정 모두 이용하시는 경우, 반드시 유료 계정으로 먼저 투표해 주세요!
+🚨무료 계정으로 먼저 투표하면 해당 일자의 투표권이 모두 소진됩니다.🚨
+
+✅ 멜론 이용권 결제 계정으로 로그인
+✅ 우측 하단 바로가기 → 주간인기상
+✅ RESCENE (리센느) 선택 후 투표!
+
+🔗https://m2.melon.com/melonaward/weekAward.htm
+
+리마인님들, 매일 잊지 말고 투표로 함께해 주세요!
+우리 리센느 또 1위 시켜주자구요!! 🔥🏆
+<p><a href="https://pbs.twimg.com/media/HXPBzDWaAAATh5v.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXPBzDWaAAATh5v.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+🏆 멜론 주간인기상 1위 리센느! 💗
+
+리마인님들, 우리 리센느가 멜론 주간인기상 1위를 달성했어요!! 🥹🎉
+
+무려 4주 연속 1위라는 뜻깊은 기록을 만들기 위해 마지막까지 함께 힘을 모아주셔서 정말 감사드립니다!
+
+이제 4주 연속 1위로 멋지게 졸업할 수 있도록 남은 기간도 꾸준한 투표 부탁드려요! 마지막까지 방심하지 말고 우리 리센느에게 소중한 한 표씩 더 보태봐요. 🫶🏻
+
+우리 함께 4주 연속 1위 졸업까지 화이팅입니다💗🏆
+
+#리센느 #RESCENE
+<p><a href="https://pbs.twimg.com/media/HXOaqeDa4AAnAfI.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXOaqeDa4AAnAfI.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📢 뮤직뱅크 투표 관련 안내 💗
+
+리마인님들, 현재 뮤직뱅크는 음반 점수와 방송 점수에서 다소 부족한 상황이며, 종합적으로 보았을 때 1위 가능성이 높지 않을 것으로 판단됩니다. 🥲
+
+한정된 투표 화력을 최대한 효율적으로 활용하기 위해 뮤직뱅크 투표는 권장하지 않고 있으며, 다른 음악방송에 힘을 모아 집중적으로 총공을 진행하는 방향이 더 좋을 것 같아요!
+
+각자의 자리에서 최선을 다해주시는 리마인님들께 항상 감사드리며, 조금 더 효율적인 총공을 위한 결정인 만큼 너른 양해와 협조 부탁드려요! 💗
+
+우리 리센느에게 더 좋은 결과를 안겨줄 수 있도록 함께 힘내봐요! 🫶🏻
+
+#리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📢1333회 인기가요 사전 투표 시작
+
+📱 LinC | 링크
+
+📅 ~ 2026.11.20 23:59PM (KST)
+⚠️제한 투표 : 계정 당 매일 10표 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 
+
+🏃🏻‍♀️투표하러가기
+https://napp.linc.fan/3bjRtORG
+
+━━━━━━━━━━━━━━
+
+SBS 인기가요 사전투표 ⭕
+LiNC 컴백 스포트라이트 투표 ❌
+리센느 초동 앨범 서포트 투표❌
+
+━━━━━━━━━━━━━━
+
+✅재화 모으기 가이드 
+➖ TIN 앱 깔고 LinC와 동일한 계정으로 로그인 하면 두 앱의 재화가 공유됩니다
+
+· LinC 광고시청 하고 룰렛돌리기(1회 무료/ 광고보고 10회 추가, 쿨타임 10분)
+
+· TIN 광고시청 당 6 팬포인트 (일20회 한도, 쿨타임 1분)
+
+✔️다계정 이용하면 더 많은 투표가 가능합니다
+
+#RESCENE #리센느 #PULSE 
+ #원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
