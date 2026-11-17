@@ -3162,3 +3162,45 @@ LiNC 컴백 스포트라이트 투표 ❌
 #RESCENE #리센느 #PULSE 
  #원이 #리브 #미나미 #메이 #제나
 <p><a href="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+📢 리센느 포토카드 이미지 제보 요청
+
+🔗 https://rescene.stream/apps/photocards
+
+현재 리센느 포토카드 아카이브 사이트가 에이페, 할리스 1차 포토카드 이후로 오랫동안 업데이트되지 않은 상태입니다
+
+이에 따라 에이페·할리스 1차 이후 공식적으로 발매되거나 증정된 모든 포토카드의 이미지 자료를 수집하고자 합니다
+
+앨범 포토카드는 물론 미공포(미공개 포토카드), 럭키드로우, 팬사인회, 팝업스토어, 각종 이벤트 및 특전 포토카드 등 공식적으로 출시된 포토카드라면 모두 제보 부탁드립니다
+
+가능하다면 첨부된 예시 사진처럼 동일한 종류의 포토카드를 멤버별로 모아 정리한 이미지로 보내주시면 감사하겠습니다
+
+개별 사진으로 보내주셔도 괜찮으며, 포토카드의 앞면이 선명하게 보이는 고화질 이미지일수록 좋습니다
+
+제보 시 포토카드의 발매처나 이벤트명도 함께 알려주시면 자료를 분류하는 데 큰 도움이 됩니다
+
+이미 수집된 자료와 중복되어도 괜찮으니 가지고 계신 사진이 있다면 부담 없이 공유해 주세요
+
+리센느가 지금까지 쌓아 온 수많은 순간들을 빠짐없이 기록하고, 앞으로 입덕할 리마인들도 편하게 찾아볼 수 있도록 많은 관심과 협조 부탁드립니다 🩷
+<p><a href="https://pbs.twimg.com/media/HXTg0VrakAArCsO.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXTg0VrakAArCsO.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+아래 폼 링크로 제출 부탁드립니다!
+
+https://forms.gle/Fx6QFQZUYkq7qCjE9
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+📣공짜(?) 로 🍈멜론 스트리밍 하기
+
+☑️ 무료 캐시 모으는 메뉴에 들어가면 손쉽게 캐시 모을수 있어요(메인화면 우측상단 육각형 버튼)
+
+☑️ 일상에서 흔히 사용하는 쇼핑몰들(쿠팡, SSG 등)을 멜론 캐시 화면 경유로 입장해서 이용하면 구매 금액에 따라 멜론캐시가 적립됩니다
+
+이렇게 모은 캐시로 이용권 결제, 음원 다운로드, 음원 선물하기 등이 가능하니 장보실때 꼭 잊지 말고 챙기세요 🫶🏻
+
+👇🏻캐시로 이용권 결제 설정하기
+<p><a href="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig"><img src="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
