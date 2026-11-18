@@ -3204,3 +3204,207 @@ https://forms.gle/Fx6QFQZUYkq7qCjE9
 
 👇🏻캐시로 이용권 결제 설정하기
 <p><a href="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig"><img src="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢멜론 주간인기상 투표 안내
+
+리마인!! 매일매일 투표에 꼭 참여 부탁드리겠습니다🙏
+
+🗳 매일 유료계정 3표 / 무료계정 1표
+
+명의 당 한 번씩 투표가 가능하니, 
+유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! 
+(무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.)
+
+https://m2.melon.com/melonaward/weekAward.htm
+
+✅ 멜론 이용권 결제 계정으로 로그인
+✅ 우측하단 바로가기 → 주간인기상
+✅ [RESCENE (리센느)] 투표
+
+리마인! 매일 잊지말고 투표 해 주세요🔥
+<p><a href="https://pbs.twimg.com/media/HXXnVqZaQAAH8-5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXXnVqZaQAAH8-5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢 쇼! 음악중심 시청자 위원회 투표 안내
+
+🗓 ~ 11/19 (목) 11:00 (KST)
+
+✅시청자 위원회 선정자만 투표 가능
+✅4곡 선택 후 투표 : 
+
+1- With / RESCENE(리센느)
+2- 당신뿐입니다 / 김용빈
+3- 물음표 / 한로로
+4- 미야 / 장한별
+
+시청자 위원회 리마인님들은 아래 링크에서 위 4곡을 투표 해 주세요!
+
+🔗https://m.imbc.com/program/Info/1000788100000100000?seq=5
+
+투표 기간이 짧습니다! 잊지말고 투표 해 주세요!
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢 '95 MBC 서울가요제 최고 인기스타상 투표 안내
+
+리센느 미나미가 '95 MBC 서울가요제 최고 인기스타상 후보에 올랐습니다! 💚
+
+음악방송 활동을 마친 뒤에도 미나미에게 또 하나의 뜻깊은 상을 안겨줄 기회가 찾아왔습니다
+
+이번 인기스타상은 시청자 투표가 진행되는 만큼, 리마인 여러분의 적극적인 참여가 필요합니다
+
+🗳️ 투표 안내
+📅 투표 기간 : 11월 18일(수) 09:00 ~ 11월 25일(수) 23:59
+✅ 투표 횟수 : 1일 1회 (홈페이지 회원가입 후 투표)
+🔗https://m.imbc.com/wiz/ent/hangoutwithyoo/95gayo/
+
+🏆 결과 발표 : 본방송 공개
+
+매일 한 번씩 참여할 수 있는 투표인 만큼, 첫날부터 마지막 날까지 꾸준한 참여가 무엇보다 중요합니다
+
+무대 위에서 언제나 최선을 다해 온 미나미에게 이번에는 우리가 좋은 결과로 보답할 수 있도록, 리마인 여러분의 많은 관심과 참여 부탁드립니다
+
+주변 리마인들에게도 적극적인 공유 부탁드립니다! 💚
+
+#RESCENE #리센느 #미나미
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢[971회] 음악중심 사전 투표
+
+➖앱 투표
+
+📱 뮤니버스(Muniverse)
+🗓️ ~ 11/19 (목) 11:00 (KST)
+🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 애드루미 5)
+🔗https://www.muniverse.io/votes/b7edd1ec-6f13-48ae-b585-08821aa9a1f4
+
+📱 뮤빗(Mubeat)
+🗓️ ~ 11/19 (목) 11:00 (KST)
+🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 하트비트 3)
+🔗https://mubeat.applink.info/fkkn0Qdl9V
+
+━━━━━━━━━━━━━━
+
+✅ 재화 미리 충전 및 환전해두고 마감 직전 투표해서 역전 노리기🔥 - 룰렛 돌려 환전하는 시간이 꽤 걸리니 미리 준비 부탁드립니다!
+
+☑️뮤니버스 재화충전(웹)
+https://www.muniverse.io/store
+골드루미 충전 - 룰렛 돌려 애드루미로 환전
+
+☑️뮤빗 재화충전(웹)
+스타비트 충전 - 룰렛 돌려 하트비트로 환전
+https://mubeat.tv/starbeat-purchase
+
+☑️뮤빗, 뮤니버스 2개의 앱에서 진행 후 점수 합산
+➖차등점수제: 1위 500점 | 2위 450점 | 3위 400점 - 고정 점수
+
+미리 선정된 시청자위원회 투표 점수를 앱 투표 점수에 합산
+➖비율점수제: 1위 500점 2위부터는 점유 비율로 점수 받음
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HXYSjJkawAIUNy8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXYSjJkawAIUNy8.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+사랑해볼래, 나 - 미나미 of RESCENE OUT NOW 💌
+
+Spotify 🔗 https://bit.ly/4iU4kOQ
+Melon 🔗 https://bit.ly/4eEljU3
+YouTube Music 🔗 https://bit.ly/4Cs2Owv
+Genie 🔗 https://bit.ly/4kYQY6s
+FLO 🔗 https://bit.ly/4zqtFpK
+Bugs 🔗 https://bit.ly/4iYudNv
+
+#MINAMI #미나미 #ミナミ
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXZXhV-akAAt12b.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXZXhV-akAAt12b.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+미나미의 맑고 사랑스러운 보컬로 담아낸 풋풋한 설렘!
+💞메리 베리 러브 OST '사랑해볼래, 나' 많관부💞
+　
+미나미 (MINAMI) '사랑해볼래, 나 (메리 베리 러브 OST Part 2)' 발매 인사 영상
+2026.11.18 6PM (KST) Release!
+　
+#메리베리러브 #OST #RESCENE #리센느
+#미나미 #MINAMI #발매인사영상
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+✨ 메리 베리 러브 OST Part 2.
+
+💝사랑해볼래, 나 - 미나미 of Rescene
+가 발매되었습니다!
+
+각 음원사이트 좋아요 / 댓글 / 평점 5점 부탁드리겠습니다💪🏻
+
+━━━━━━━━━━━━━━
+
+🍈https://kko.to/CrNRTFgv9C
+🧞‍♂️http://genie.co.kr/15DTR1
+🌊https://flomuz.io/s/b.PZgbX
+🐞https://music.bugs.co.kr/track/6517855
+💚https://open.spotify.com/track/4tzL8LQ00bEpITICxkwwiv?si=ewV3VAcCQsyxh4i_zHot1w&utm_source=copy-link
+
+#RESCENE #리센느 #미나미
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+🎉 RESCENE、Billboard Global 200 初ランクイン！ 🎉
+
+📊 Billboard Global 200
+🗓 2026年11月21日付
+
+🏆 「With」初登場58位！ 🌍✨
+
+RESCENEが米Billboardのグローバルチャート「Billboard Global 200」に初めてランクインする快挙を達成しました！😭💐
+
+世界へと広がり続けるRESCENEの音楽。
+
+この素晴らしい記録を一緒に作り上げたRESCENEとREMINEの皆さん、本当におめでとうございます！💗
+
+これからもRESCENEのさらなる飛躍を応援していきましょう！✨
+
+🔗 https://www.billboard.com/charts/billboard-global-200/
+
+#RESCENE #리센느 #With #PULSE
+<p><a href="https://pbs.twimg.com/media/HXXPFMlaIAAi3hY.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXXPFMlaIAAi3hY.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+다시 사랑할 시간☃️
+
+한해, 문세윤 ‘Love Again (feat. 제나 of RESCENE)’
+
+2026.11.23 6PM (KST) RELEASE
+
+@RESCENEofficial 
+
+#한해 #HANHAE
+#문세윤 #MoonSeYoon
+#제나 #ZENA
+#리센느 #RESCENE
+#LoveAgain
+#브랜뉴뮤직 #BRANDNEWMUSIC
+<p><a href="https://pbs.twimg.com/media/HXTu04VboAAmS43.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXTu04VboAAmS43.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+사랑에 빠진 첫! 느낌을 담아 표현한 리센느 미나미의 첫! 솔로 OST '사랑해볼래, 나'
+미나미의 설렘 가득 목소리가 심어져 새콤달콤한 로맨스가 1129배 느껴질 거라고! 
+
+2026.11.18 18:00 (KST) 메리 베리 러브 OST Part 2 '미나미 (MINAMI) - 사랑해볼래, 나' Release!
+
+#메리베리러브 #OST #RESCENE #리센느 #미나미 #MINAMI
+<p><a href="https://pbs.twimg.com/media/HXURuShaUAAjnV6.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXURuShaUAAjnV6.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
