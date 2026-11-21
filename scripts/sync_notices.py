@@ -415,19 +415,21 @@ def parse_date_from_text(text, default_date_str=None):
     now = datetime.now()
     year = now.year
 
-    # 1. 명시적 날짜 (YYYY-MM-DD 또는 M월 D일 / M.D)
-    m_full = re.search(r"(\d{4})[.\-/ ](\d{1,2})[.\-/ ](\d{1,2})", text)
-    if m_full:
+    # 1. 명시적 날짜 (YYYY-MM-DD 또는 M월 D일 / M.D) - 기간 표기(시작 ~ 마감) 시 마지막(마감) 날짜 우선
+    m_full_list = list(re.finditer(r"(\d{4})[.\-/ ](\d{1,2})[.\-/ ](\d{1,2})", text))
+    if m_full_list:
+        m_full = m_full_list[-1]
         y, m, d = int(m_full.group(1)), int(m_full.group(2)), int(m_full.group(3))
-        m_time = re.search(r"(\d{1,2}):(\d{2})", text)
-        h, mn = (int(m_time.group(1)), int(m_time.group(2))) if m_time else (23, 59)
+        t_list = list(re.finditer(r"(\d{1,2}):(\d{2})", text[m_full.start():])) or list(re.finditer(r"(\d{1,2}):(\d{2})", text))
+        h, mn = (int(t_list[-1].group(1)), int(t_list[-1].group(2))) if t_list else (23, 59)
         return f"{y:04d}-{m:02d}-{d:02d}T{h:02d}:{mn:02d}:59", f"~{m:02d}/{d:02d} {h:02d}:{mn:02d}"
 
-    m_month = re.search(r"(\d{1,2})월\s*(\d{1,2})일", text) or re.search(r"(?:~|\s)(\d{1,2})[./](\d{1,2})", text)
-    if m_month:
+    m_month_list = list(re.finditer(r"(\d{1,2})월\s*(\d{1,2})일", text)) or list(re.finditer(r"(?:~|\s)(\d{1,2})[./](\d{1,2})", text))
+    if m_month_list:
+        m_month = m_month_list[-1]
         m, d = int(m_month.group(1)), int(m_month.group(2))
-        m_time = re.search(r"(\d{1,2}):(\d{2})", text)
-        h, mn = (int(m_time.group(1)), int(m_time.group(2))) if m_time else (23, 59)
+        t_list = list(re.finditer(r"(\d{1,2}):(\d{2})", text[m_month.start():])) or list(re.finditer(r"(\d{1,2}):(\d{2})", text))
+        h, mn = (int(t_list[-1].group(1)), int(t_list[-1].group(2))) if t_list else (23, 59)
         return f"{year:04d}-{m:02d}-{d:02d}T{h:02d}:{mn:02d}:59", f"~{m:02d}/{d:02d} {h:02d}:{mn:02d}"
 
     # 2. 번개 공지 시간 명시 (예: "3시간 동안", "2시간 달립니다", "~10시까지")
