@@ -2730,3 +2730,880 @@ http://fitthefan.com/s/jf0NlY<br />
 👇자세한 설명은 타래로 
 
 #RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 03:56)
+리마인이 만들어준 🏆
+
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HW5wiEVbIAAWXNv.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW5wiEVbIAAWXNv.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HW5wiEgakAA5xwZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW5wiEgakAA5xwZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 03:56)
+소속 아티스트 권익 침해 관련 법적 대응 상황 안내
+
+🔗 https://artist.mnetplus.world/main/stg/rescene-official/community/board/67a5c573036dc37e1e6d248c/post/6af5bb87b946f90fca97783d
+<p><a href="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW7WFGWacAA2M1_.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+멜론 TOP100 순위가 점점 떨어지고 있어요🔥
+
+스밍이 멈춰 있는지 확인 해 주시고
+
+주말이지만 스밍 잊지말고 꾸준히 해 주세요!!💘
+<p><a href="https://pbs.twimg.com/media/HW_nrx4aQAAzWG2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW_nrx4aQAAzWG2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+📢 [PULSE] 앨범 공동구매 관련 안내
+
+[PULSE] (Limited ver.), (Guardian ver.)은 유통 과정의 사정으로 정상 배송이 어려워 부득이하게 주문 취소 및 환불이 진행됩니다.
+
+주문 수량은 취소 전 초동 판매량에 정상 반영된 것으로 확인되었습니다.
+
+앨범을 기다려 주신 리마인 여러분의 너른 양해 부탁드립니다. 취소 및 환불은 각 유통사를 통해 순차적으로 진행될 예정이며, 관련 문의는 주문하신 유통사로 부탁드립니다.
+
+공동구매에 함께해 주신 모든 리마인 여러분께 감사드립니다.
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-13 09:40)
+🎉 리센느 글로벌 K 차트 일간 1위🎉
+
+🏆월간 1위 달성 시 실물 트로피가 전달됩니다!
+
+🪽 '리센느' 팬맺기 / 댓글 / 좋아요 / 영상, 포토 조회수 올리기 오늘도 많이많이 부탁드립니다🔥
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HW_Giuca4AAdRoa.jpg?name=orig"><img src="https://pbs.twimg.com/media/HW_Giuca4AAdRoa.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+📢 2주차 이후 음악방송 1위 수상을 위해 
+
+리마인 할 일🫶🏻
+
+1️⃣ 스트리밍 꾸준히 하기!
+: 신곡발매 후 시간이 흐를수록 당연히 차트 순위가 떨어질 수 있습니다. 최대한 리마인들의 스밍과 홍보로 순위 유지 해 주세요!
+
+2️⃣ 라디오 신청 
+: 팬들이 만들어 줄 수 있는 가장 큰 방송점수입니다! 잊지말고 매일 시간대마다 신청 해 주세요
+
+3️⃣ 뮤직비디오 스트리밍 
+: 초동 점수가 빠지는 3주차 음악방송부터는 뮤직비디오 조회수 점수가 너무 중요합니다! 무료로도 스밍 가능하니 많이 참여 해 주세요 (뮤빗, 하이어 뮤비도 1일1회 꼭 시청하기!)
+
+4️⃣ With 음원 혹은 뮤직비디오 다운
+: 혹시 빼먹고 다운받지 않은 것이 있다면 빠짐없이 다운받아 주세요(음원 다운후 삭제는 이제 다들 잘 아시죠?)
+
+🔥특히 카카오뮤직 탈퇴 재가입 다운로드와 V컬러링 설정 꼭 부탁드립니다
+(V컬러링은 SKT 사용자끼리는 선물도 가능하므로 많은 관심 부탁드립니다!!)
+
+5️⃣ 투표앱 재화 모으기
+: 무료 재화 꾸준한 수집으로 부담을 조금이라도 줄여 주세요
+
+연말 시상식과 겹쳐 잠도 줄여가며 바쁜 컴백 활동을 하고 있는 리센느에게 조금이라도 더 힘을 주기 위해 음방 막방 이후에도 1위를 노려볼 수 있게 힘내주세요
+
+리마인 파이팅💪🏻
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+📢[1331회] 261115 인기가요 실시간 투표 안내
+
+━━━━━━━━━━━━━━
+
+- 이번 주 음원, 음반 등  다른 부문의 점수가 여유→ 실시간 투표 무리하지 않기 
+- 다음 주는 투표를 큰 차이로 꼭 이겨야 1위 가능하므로 이번주에 화력 아껴주세요!
+
+━━━━━━━━━━━━━━
+
+✅비율 점수제 : 투표 점유율에 따라 점수를 가져가니 각자 기본적인 투표만 해 주세요!
+
+🗳️ 실시간 투표
+📅 15:20 방송시작 
+
+📱 투표 앱 : 하이어 | Higher
+⚠️제한 투표 : 계정 당 최대 5표 (루비 250 또는 다이아 25)
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+🏆 2026 MMA 리센느 3관왕 달성 🏆
+
+🏅 글로벌 TOP10
+🏅 카카오뱅크 모두의 스타
+🏅 핫트렌드
+
+리마인 여러분, 리센느가 MMA에서 무려 3관왕이라는 값진 성과를 거두었습니다! 🎉
+
+오늘 시상식에서 리센느의 이름이 불릴 수 있도록 각자의 자리에서 마음을 모아 주신 모든 리마인 여러분께 진심으로 감사드립니다 🥹
+
+수많은 응원과 한 표 한 표에 담긴 각자의 바람이 모여 오늘의 세 개의 트로피가 되었습니다
+
+리센느가 흘린 땀과 리마인이 쏟아 온 정성이 이렇게 눈부신 결실로 돌아온 오늘, 이 순간의 기쁨이 우리 모두에게 오래도록 남기를 바랍니다
+
+온 세상에 리센느의 이름을 더 크게 빛내 주신 리마인 여러분, 그간 투표에 마음을 쏟느라 정말 고생 많으셨습니다👏🏻
+
+우리의 자랑스러운 리센느, 3관왕을 진심으로 축하합니다! 🎉
+
+ P.S. 원이님의 '말괄량이 영애상' 수상도 축하드립니다🤍
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXFnEV1aAAAOWa7.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXFnEV1aAAAOWa7.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXFnEqbaEAAjcnc.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXFnEqbaEAAjcnc.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXFnE8sacAAS4TW.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXFnE8sacAAS4TW.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+🏆 리센느 쇼! 음악중심 1위 달성 🏆
+
+리센느가 쇼!음악중심에서 이번 활동 세 번째 1위를 차지했습니다!
+
+음악방송 3관왕이라는 성과는 리마인과 리센느 함께 만들어 낸 것이니 더욱더 소중합니다🥹
+
+오늘의 기운을 이어받아 내일, 그리고 다음 주의 남은 음악방송까지 리센느와 함께 새로운 기록을 만들어 나갈 수 있게 함께 달려요🤍
+
+리마인 여러분 오늘도 정말 수고 많으셨습니다! 
+
+#With3ndWin #RESCENE9thWin
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXEcyRGagAAVNiw.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXEcyRGagAAVNiw.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+📢 [970회] 261114 음악중심 실시간 투표 안내
+
+━━━━━━━━━━━━━━
+
+- 이번 주는 음원, 음반 등  다른 부문의 점수가 여유
+- 저렴한 문자투표 집중
+-  앱 투표는 상대와 심하게 차이나지 않는 비율로 유지
+-  더 힘들어질 다음 주 도전을 위해 과도한 지출은 지양
+
+━━━━━━━━━━━━━━
+
+✅비율 점수제 : 투표 점유율에 따라 점수를 가져가니 각자 기본적인 투표만 해 주세요!
+
+🗳 App live-Voting
+📅 생방송 중 시작 ~ 16:10
+
+📱 투표 앱 : 뮤빗 | Mubeat
+⚠️제한 투표 : 계정 당 5표 (하트비트 150개→생방송 투표권 5개 구매)
+
+📱 투표 앱 : 뮤니버스 | Muniverse 
+⚠️제한 투표 : 계정 당 5표 (1표 당 골드루미 60 또는 애드루미 50)
+
+━━━━━━━━━━━━━━
+
+📱 실시간문자투표 (100원)
+🗳 문자 #0505로 - 리센느 보내기 (오타 주의!)
+⚠️제한 투표 : 폰 번호 하나 당 1표 
+🚨 투표 시작 전 보내면 무효(15:45에 보내기)
+🚨 여러 번 보내면 무효
+
+━━━━━━━━━━━━━━
+
+✅ 앱 실시간 투표는 계정 당 5표 투표 가능
+: 뮤빗  -  필요재화 150 하트비트 → 스토어에서 생방송투표권 5회 구매
+✔️1500원 스타비트 구매 후 룰렛 → 하트비트로 환전후 구매 추천
+
+: 뮤니버스 - 필요재화 300 골드루미 또는 250 애드루미(혹은 섞어서 5표 분량 준비)
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+📢 연말 시상식 투표를 마무리하며
+
+안녕하세요. 리센느 음원총공팀입니다
+
+MAMA와 MMA 긴 투표 기간 동안 리센느를 위해 한마음으로 달려와 주신 모든 리마인 여러분께 진심으로 감사드립니다🙇🏻‍♂️
+
+올해 저희는 데뷔 후 처음으로 시상식 투표에 집중하는 뜻깊은 경험을 하게 되었고, 매일 소중한 한 표를 보태주신 여러분 덕분에 시상식 투표를 잘 마무리할 수 있게 되었습니다. 다들 정말 고생하셨습니다👏🏻👏🏻
+
+또한 저희를 믿고 뜻을 모아주신 연합 팬덤 여러분께도 감사의 인사를 드립니다🤍
+
+그냥 지나갈 수 있는 하루를 리센느를 위해서 써 주셔서 감사합니다
+모두 따뜻하고 행복한 연말 되시길 바랍니다🫶🏻
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+💗리마인을 위한 아이디 생성 가이드
+
+✅주요 음원사이트 
+➖멜론 : 명의 당 3개
+➖지니 : 폰 번호 당 3개 (30일 지나면 다시 생성 가능)
+➖벅스 : 폰 번호 당 3개
+➖플로 : 폰 번호 당 10개
+
+✔️ 음원사이트 아이디를 추가로 생성하여 더 많은 스트리밍/다운로드를 할 수 있습니다
+
+✔️ 음원총공팀에 아이디를 기부하여 음총팀 총공에 사용할 수 있습니다
+
+#RESCENE #리센느 #리마인
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+💗리마인을 위한 스트리밍 가이드
+
+✅국내 음원사이트
+➖ 멜론 | 지니 | 플로 | 벅스 | 바이브 | 카카오뮤직 (앞쪽 순서대로 중요도 높음)
+
+✅ 해외 음원사이트
+➖ 스포티파이 | 애플뮤직 | 유튜브뮤직
+
+✔️음원사이트 앱 설치 후 이용권 결제하고 리센느의 노래를 스트리밍 해 주세요
+
+✔️ 다운받은 리센느의 음원이 있다면 반드시 삭제하고 스트리밍 해야합니다 (삭제하지 않을 시 다운 받은 음원으로 재생되어 스트리밍 실패)
+
+✔️ 앱 설정에서 캐싱 기능을 꺼야 정확하게 스트리밍 반영 됩니다
+
+#RESCENE #리센느 #리마인
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+리센느 🤝🏻 엔믹스 연합 안내 🎶
+ 
+━━━━━━━━━━━━━━
+
+리마인 🎁 엔써 :
+·  컴백 활동 음악방송 투표 (추후 공지)
+
+━━━━━━━━━━━━━━
+
+엔써 🎁 리마인
+· MMA Global Top10 '리센느' 투표
+
+📱사용 앱 : 멜론 
+🗓 2026. 10. 30 ~ 11. 13 23:59 (KST)
+
+✔️인증 방법
+#리마인_엔써_함께소원빌자 해시태그 이용 인증글 쓰기
+
+#RESCENE #리센느 #2026MMA
+#NMIXX #엔믹스
+오후 5:09
+<p><a href="https://pbs.twimg.com/media/HVD8y0qbAAE1ULu.jpg?name=orig"><img src="https://pbs.twimg.com/media/HVD8y0qbAAE1ULu.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+🤍연합팀 사정으로 인해 음악방송 투표 보은은 다음 컴백 시로 조절하였습니다. 추후 있을 공지에 잘 따라 주세요🙇🏻‍♂️
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 03:55)
+📢 음원총공팀 공동구매 관련 추가 공지
+
+앨범 구성품 제작업체의 생산 물량 소화 불가 문제로 인해, 부득이하게 2차 공동구매 물량 중 일부가 취소될 수 있다는 안내를 전달받았습니다
+
+배송 및 환불 등 자세한 사항은 구매하신 판매처로 직접 문의해 주시기 바랍니다
+
+갑작스러운 소식으로 불편을 드리게 된 점 양해 부탁드리며, 리마인 여러분들의 너른 양해를 부탁드립니다🙇🏻‍♂️
+
+감사합니다🤍
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 23:18)
+📢 쇼 케이팝 사전투표 관련 공지
+
+쇼 케이팝은 음원점수에 써클 글로벌 Kpop 차트를 적용하기 때문에 경쟁팀과 비교해 점수 격차가 큽니다
+
+1위 후보는 사전 집계 상위 2팀이며
+예측 점수 상 사전 투표에서 경쟁팀 4배 이상의 표를 얻어야 1위 후보가 가능하기 때문에 이번 
+❗쇼 케이팝 사전투표에는 참여하지 않고❗ 
+화력을 아끼는 것을 권장드립니다
+
+늘 적극적으로 참여 해 주셔서 감사드립니다🙇🏻‍♂️
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-15 23:18)
+🏆 리센느 인기가요 1위 🏆
+
+리마리마인!! 
+리센느가 오늘 인기가요에서 이번 활동 네 번째 트로피를 받았습니다! 🥹
+
+바쁜 하루 틈틈이 리센느를 떠올려 주신 마음들이 모여 또 하나의 트로피가 되었습니다👏🏻👏🏻
+
+모두 정말 수고 많으셨습니다! 🤍
+
+#With4thWin #RESCENE10thWin
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXJqg19bEAAWEHP.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXJqg19bEAAWEHP.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+[🎉]
+
+RESCENE(리센느) ‘With’ OFFICIAL MV 30Million Views on YouTube 🪽
+
+🔗 https://youtu.be/pey3E47eSc8
+
+#RESCENE #리센느 #リセンヌ
+#With
+<p><a href="https://pbs.twimg.com/media/HXPdqyraQAA4cX3.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXPdqyraQAA4cX3.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+🚨 [긴급] 모금액 소진 임박, 남은 총공을 이어갈 여러분의 도움이 절실합니다
+
+지난 2주간 리센느의 컴백을 위해 함께 달려 주신 리마인 여러분께 감사드립니다.
+
+여러분이 보내주신 모금액으로 집중적인 총공을 진행했지만, 현재는 자금이 거의 소진되어 3주차 총공을 위한 추가 모금이 필요한 상황입니다.
+
+활동이 끝난 뒤에도 음원 집계는 계속됩니다. 아직 해주고 싶은 것도, 해야 할 총공도 남아 있는데, 지금은 이를 이어갈 비용부터 걱정해야 하는 상황입니다.
+
+이미 힘을 보태 주신 여러분께 다시 부탁드리는 마음도 무겁습니다. 그럼에도 함께 쌓아온 응원을 더 좋은 성적으로 이어갈 수 있도록, 리마인 여러분, 한 번만 더 힘을 보태 주세요.
+
+작은 금액도 남은 총공을 이어갈 큰 힘이 됩니다. 보내주신 모금액은 리센느를 위한 남은 총공에 사용하겠습니다. 🤍
+
+🏦 카카오뱅크 3333-10-8683271 ㄱㅌㅇ
+🪙 https://paypal.me/RSSTREAM
+<p><a href="https://pbs.twimg.com/media/HXOevMxbUAAmggZ.png?name=orig"><img src="https://pbs.twimg.com/media/HXOevMxbUAAmggZ.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXOewEeaUAAdZdX.png?name=orig"><img src="https://pbs.twimg.com/media/HXOewEeaUAAdZdX.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📣 멜론 주간인기상 투표 안내
+
+리마인님들, 우리 리센느 11월 2주차 1위에 이어 11월 3주차 1위도 함께 만들어 주실 거죠?!🥹🏆
+
+소중하게 만들어 낸 첫 번째 1위의 기쁨을 이어갈 수 있도록 남은 기간에도 매일매일 투표 참여 부탁드려요!
+4주 연속 1위로 멋지게 졸업할 수 있도록 마지막까지 파이팅!🔥
+
+4주 연속 1위시, 음원 기록에 '주간인기상 4주 1위' 라는 기록이 영구 기재됩니다!
+언제든 보면서 기뻐할 리센느를 위해 소중한 투표 부탁드리겠습니다!🙇🙇
+
+🗳 투표 안내
+- 유료 계정 : 매일 3표
+- 무료 계정 : 매일 1표
+- 명의당 하루 한 번 투표 가능
+
+유료 계정과 무료 계정 모두 이용하시는 경우, 반드시 유료 계정으로 먼저 투표해 주세요!
+🚨무료 계정으로 먼저 투표하면 해당 일자의 투표권이 모두 소진됩니다.🚨
+
+✅ 멜론 이용권 결제 계정으로 로그인
+✅ 우측 하단 바로가기 → 주간인기상
+✅ RESCENE (리센느) 선택 후 투표!
+
+🔗https://m2.melon.com/melonaward/weekAward.htm
+
+리마인님들, 매일 잊지 말고 투표로 함께해 주세요!
+우리 리센느 또 1위 시켜주자구요!! 🔥🏆
+<p><a href="https://pbs.twimg.com/media/HXPBzDWaAAATh5v.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXPBzDWaAAATh5v.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+🏆 멜론 주간인기상 1위 리센느! 💗
+
+리마인님들, 우리 리센느가 멜론 주간인기상 1위를 달성했어요!! 🥹🎉
+
+무려 4주 연속 1위라는 뜻깊은 기록을 만들기 위해 마지막까지 함께 힘을 모아주셔서 정말 감사드립니다!
+
+이제 4주 연속 1위로 멋지게 졸업할 수 있도록 남은 기간도 꾸준한 투표 부탁드려요! 마지막까지 방심하지 말고 우리 리센느에게 소중한 한 표씩 더 보태봐요. 🫶🏻
+
+우리 함께 4주 연속 1위 졸업까지 화이팅입니다💗🏆
+
+#리센느 #RESCENE
+<p><a href="https://pbs.twimg.com/media/HXOaqeDa4AAnAfI.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXOaqeDa4AAnAfI.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📢 뮤직뱅크 투표 관련 안내 💗
+
+리마인님들, 현재 뮤직뱅크는 음반 점수와 방송 점수에서 다소 부족한 상황이며, 종합적으로 보았을 때 1위 가능성이 높지 않을 것으로 판단됩니다. 🥲
+
+한정된 투표 화력을 최대한 효율적으로 활용하기 위해 뮤직뱅크 투표는 권장하지 않고 있으며, 다른 음악방송에 힘을 모아 집중적으로 총공을 진행하는 방향이 더 좋을 것 같아요!
+
+각자의 자리에서 최선을 다해주시는 리마인님들께 항상 감사드리며, 조금 더 효율적인 총공을 위한 결정인 만큼 너른 양해와 협조 부탁드려요! 💗
+
+우리 리센느에게 더 좋은 결과를 안겨줄 수 있도록 함께 힘내봐요! 🫶🏻
+
+#리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-16 23:23)
+📢1333회 인기가요 사전 투표 시작
+
+📱 LinC | 링크
+
+📅 ~ 2026.11.20 23:59PM (KST)
+⚠️제한 투표 : 계정 당 매일 10표 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 
+
+🏃🏻‍♀️투표하러가기
+https://napp.linc.fan/3bjRtORG
+
+━━━━━━━━━━━━━━
+
+SBS 인기가요 사전투표 ⭕
+LiNC 컴백 스포트라이트 투표 ❌
+리센느 초동 앨범 서포트 투표❌
+
+━━━━━━━━━━━━━━
+
+✅재화 모으기 가이드 
+➖ TIN 앱 깔고 LinC와 동일한 계정으로 로그인 하면 두 앱의 재화가 공유됩니다
+
+· LinC 광고시청 하고 룰렛돌리기(1회 무료/ 광고보고 10회 추가, 쿨타임 10분)
+
+· TIN 광고시청 당 6 팬포인트 (일20회 한도, 쿨타임 1분)
+
+✔️다계정 이용하면 더 많은 투표가 가능합니다
+
+#RESCENE #리센느 #PULSE 
+ #원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXNzlw4bEAAFCTn.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+📢 리센느 포토카드 이미지 제보 요청
+
+🔗 https://rescene.stream/apps/photocards
+
+현재 리센느 포토카드 아카이브 사이트가 에이페, 할리스 1차 포토카드 이후로 오랫동안 업데이트되지 않은 상태입니다
+
+이에 따라 에이페·할리스 1차 이후 공식적으로 발매되거나 증정된 모든 포토카드의 이미지 자료를 수집하고자 합니다
+
+앨범 포토카드는 물론 미공포(미공개 포토카드), 럭키드로우, 팬사인회, 팝업스토어, 각종 이벤트 및 특전 포토카드 등 공식적으로 출시된 포토카드라면 모두 제보 부탁드립니다
+
+가능하다면 첨부된 예시 사진처럼 동일한 종류의 포토카드를 멤버별로 모아 정리한 이미지로 보내주시면 감사하겠습니다
+
+개별 사진으로 보내주셔도 괜찮으며, 포토카드의 앞면이 선명하게 보이는 고화질 이미지일수록 좋습니다
+
+제보 시 포토카드의 발매처나 이벤트명도 함께 알려주시면 자료를 분류하는 데 큰 도움이 됩니다
+
+이미 수집된 자료와 중복되어도 괜찮으니 가지고 계신 사진이 있다면 부담 없이 공유해 주세요
+
+리센느가 지금까지 쌓아 온 수많은 순간들을 빠짐없이 기록하고, 앞으로 입덕할 리마인들도 편하게 찾아볼 수 있도록 많은 관심과 협조 부탁드립니다 🩷
+<p><a href="https://pbs.twimg.com/media/HXTg0VrakAArCsO.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXTg0VrakAArCsO.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+아래 폼 링크로 제출 부탁드립니다!
+
+https://forms.gle/Fx6QFQZUYkq7qCjE9
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-17 11:43)
+📣공짜(?) 로 🍈멜론 스트리밍 하기
+
+☑️ 무료 캐시 모으는 메뉴에 들어가면 손쉽게 캐시 모을수 있어요(메인화면 우측상단 육각형 버튼)
+
+☑️ 일상에서 흔히 사용하는 쇼핑몰들(쿠팡, SSG 등)을 멜론 캐시 화면 경유로 입장해서 이용하면 구매 금액에 따라 멜론캐시가 적립됩니다
+
+이렇게 모은 캐시로 이용권 결제, 음원 다운로드, 음원 선물하기 등이 가능하니 장보실때 꼭 잊지 말고 챙기세요 🫶🏻
+
+👇🏻캐시로 이용권 결제 설정하기
+<p><a href="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig"><img src="https://pbs.twimg.com/media/HNuBXM1awAEwPAX.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢멜론 주간인기상 투표 안내
+
+리마인!! 매일매일 투표에 꼭 참여 부탁드리겠습니다🙏
+
+🗳 매일 유료계정 3표 / 무료계정 1표
+
+명의 당 한 번씩 투표가 가능하니, 
+유료 계정이 있다면 꼭 유료 계정으로 먼저 투표 해 주세요! 
+(무료 계정으로 먼저 투표할 경우 그날의 투표권이 모두 소진됩니다.)
+
+https://m2.melon.com/melonaward/weekAward.htm
+
+✅ 멜론 이용권 결제 계정으로 로그인
+✅ 우측하단 바로가기 → 주간인기상
+✅ [RESCENE (리센느)] 투표
+
+리마인! 매일 잊지말고 투표 해 주세요🔥
+<p><a href="https://pbs.twimg.com/media/HXXnVqZaQAAH8-5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXXnVqZaQAAH8-5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢 쇼! 음악중심 시청자 위원회 투표 안내
+
+🗓 ~ 11/19 (목) 11:00 (KST)
+
+✅시청자 위원회 선정자만 투표 가능
+✅4곡 선택 후 투표 : 
+
+1- With / RESCENE(리센느)
+2- 당신뿐입니다 / 김용빈
+3- 물음표 / 한로로
+4- 미야 / 장한별
+
+시청자 위원회 리마인님들은 아래 링크에서 위 4곡을 투표 해 주세요!
+
+🔗https://m.imbc.com/program/Info/1000788100000100000?seq=5
+
+투표 기간이 짧습니다! 잊지말고 투표 해 주세요!
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢 '95 MBC 서울가요제 최고 인기스타상 투표 안내
+
+리센느 미나미가 '95 MBC 서울가요제 최고 인기스타상 후보에 올랐습니다! 💚
+
+음악방송 활동을 마친 뒤에도 미나미에게 또 하나의 뜻깊은 상을 안겨줄 기회가 찾아왔습니다
+
+이번 인기스타상은 시청자 투표가 진행되는 만큼, 리마인 여러분의 적극적인 참여가 필요합니다
+
+🗳️ 투표 안내
+📅 투표 기간 : 11월 18일(수) 09:00 ~ 11월 25일(수) 23:59
+✅ 투표 횟수 : 1일 1회 (홈페이지 회원가입 후 투표)
+🔗https://m.imbc.com/wiz/ent/hangoutwithyoo/95gayo/
+
+🏆 결과 발표 : 본방송 공개
+
+매일 한 번씩 참여할 수 있는 투표인 만큼, 첫날부터 마지막 날까지 꾸준한 참여가 무엇보다 중요합니다
+
+무대 위에서 언제나 최선을 다해 온 미나미에게 이번에는 우리가 좋은 결과로 보답할 수 있도록, 리마인 여러분의 많은 관심과 참여 부탁드립니다
+
+주변 리마인들에게도 적극적인 공유 부탁드립니다! 💚
+
+#RESCENE #리센느 #미나미
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+📢[971회] 음악중심 사전 투표
+
+➖앱 투표
+
+📱 뮤니버스(Muniverse)
+🗓️ ~ 11/19 (목) 11:00 (KST)
+🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 애드루미 5)
+🔗https://www.muniverse.io/votes/b7edd1ec-6f13-48ae-b585-08821aa9a1f4
+
+📱 뮤빗(Mubeat)
+🗓️ ~ 11/19 (목) 11:00 (KST)
+🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 하트비트 3)
+🔗https://mubeat.applink.info/fkkn0Qdl9V
+
+━━━━━━━━━━━━━━
+
+✅ 재화 미리 충전 및 환전해두고 마감 직전 투표해서 역전 노리기🔥 - 룰렛 돌려 환전하는 시간이 꽤 걸리니 미리 준비 부탁드립니다!
+
+☑️뮤니버스 재화충전(웹)
+https://www.muniverse.io/store
+골드루미 충전 - 룰렛 돌려 애드루미로 환전
+
+☑️뮤빗 재화충전(웹)
+스타비트 충전 - 룰렛 돌려 하트비트로 환전
+https://mubeat.tv/starbeat-purchase
+
+☑️뮤빗, 뮤니버스 2개의 앱에서 진행 후 점수 합산
+➖차등점수제: 1위 500점 | 2위 450점 | 3위 400점 - 고정 점수
+
+미리 선정된 시청자위원회 투표 점수를 앱 투표 점수에 합산
+➖비율점수제: 1위 500점 2위부터는 점유 비율로 점수 받음
+
+#RESCENE #리센느 #PULSE
+<p><a href="https://pbs.twimg.com/media/HXYSjJkawAIUNy8.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXYSjJkawAIUNy8.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+사랑해볼래, 나 - 미나미 of RESCENE OUT NOW 💌
+
+Spotify 🔗 https://bit.ly/4iU4kOQ
+Melon 🔗 https://bit.ly/4eEljU3
+YouTube Music 🔗 https://bit.ly/4Cs2Owv
+Genie 🔗 https://bit.ly/4kYQY6s
+FLO 🔗 https://bit.ly/4zqtFpK
+Bugs 🔗 https://bit.ly/4iYudNv
+
+#MINAMI #미나미 #ミナミ
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXZXhV-akAAt12b.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXZXhV-akAAt12b.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+미나미의 맑고 사랑스러운 보컬로 담아낸 풋풋한 설렘!
+💞메리 베리 러브 OST '사랑해볼래, 나' 많관부💞
+　
+미나미 (MINAMI) '사랑해볼래, 나 (메리 베리 러브 OST Part 2)' 발매 인사 영상
+2026.11.18 6PM (KST) Release!
+　
+#메리베리러브 #OST #RESCENE #리센느
+#미나미 #MINAMI #발매인사영상
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+✨ 메리 베리 러브 OST Part 2.
+
+💝사랑해볼래, 나 - 미나미 of Rescene
+가 발매되었습니다!
+
+각 음원사이트 좋아요 / 댓글 / 평점 5점 부탁드리겠습니다💪🏻
+
+━━━━━━━━━━━━━━
+
+🍈https://kko.to/CrNRTFgv9C
+🧞‍♂️http://genie.co.kr/15DTR1
+🌊https://flomuz.io/s/b.PZgbX
+🐞https://music.bugs.co.kr/track/6517855
+💚https://open.spotify.com/track/4tzL8LQ00bEpITICxkwwiv?si=ewV3VAcCQsyxh4i_zHot1w&utm_source=copy-link
+
+#RESCENE #리센느 #미나미
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+🎉 RESCENE、Billboard Global 200 初ランクイン！ 🎉
+
+📊 Billboard Global 200
+🗓 2026年11月21日付
+
+🏆 「With」初登場58位！ 🌍✨
+
+RESCENEが米Billboardのグローバルチャート「Billboard Global 200」に初めてランクインする快挙を達成しました！😭💐
+
+世界へと広がり続けるRESCENEの音楽。
+
+この素晴らしい記録を一緒に作り上げたRESCENEとREMINEの皆さん、本当におめでとうございます！💗
+
+これからもRESCENEのさらなる飛躍を応援していきましょう！✨
+
+🔗 https://www.billboard.com/charts/billboard-global-200/
+
+#RESCENE #리센느 #With #PULSE
+<p><a href="https://pbs.twimg.com/media/HXXPFMlaIAAi3hY.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXXPFMlaIAAi3hY.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+다시 사랑할 시간☃️
+
+한해, 문세윤 ‘Love Again (feat. 제나 of RESCENE)’
+
+2026.11.23 6PM (KST) RELEASE
+
+@RESCENEofficial 
+
+#한해 #HANHAE
+#문세윤 #MoonSeYoon
+#제나 #ZENA
+#리센느 #RESCENE
+#LoveAgain
+#브랜뉴뮤직 #BRANDNEWMUSIC
+<p><a href="https://pbs.twimg.com/media/HXTu04VboAAmS43.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXTu04VboAAmS43.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-18 20:55)
+사랑에 빠진 첫! 느낌을 담아 표현한 리센느 미나미의 첫! 솔로 OST '사랑해볼래, 나'
+미나미의 설렘 가득 목소리가 심어져 새콤달콤한 로맨스가 1129배 느껴질 거라고! 
+
+2026.11.18 18:00 (KST) 메리 베리 러브 OST Part 2 '미나미 (MINAMI) - 사랑해볼래, 나' Release!
+
+#메리베리러브 #OST #RESCENE #리센느 #미나미 #MINAMI
+<p><a href="https://pbs.twimg.com/media/HXURuShaUAAjnV6.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXURuShaUAAjnV6.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+[#2026MAMA] BEST OF NEXT🏆 RESCENE (리센느)
+
+Presenting the winner of the 2026 MAMA AWARDS.
+2026 MAMA AWARDS의 수상자를 소개합니다.
+
+MOVE THE STARS,
+A MUSIC INTERSTELLAR
+2026 MAMA AWARDS
+
+#MAMAAWARDS #2026MAMAAWARDS
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 [971회] 261121 음악중심 실시간 투표 안내 (방송 15시 30분 시작)
+
+━━━━━━━━━━━━━━
+- 이번 주는 사전 집계 점수가 박빙입니다!🚨
+-  실시간 투표 결과에 따라 1위가 결정되기 때문에 투표에 열심히 참여 해 주세요
+-  다계정 필수🔥🔥
+-  투표 시간이 짧으니 후보 발표 즉시 보유한 모든 계정으로 투표를 시작 해 주세요!(초반 화력 중요)
+- 문자투표 주변 홍보 필수 🔥🔥(예약문자 활용)
+
+━━━━━━━━━━━━━━
+
+✅비율 점수제 : 투표 점유율에 따라 점수를 가져가니 경쟁팀을 큰 차이로 이기는 것이 중요하고 설령 이기지 못할 경우에도 튜표율 최대한 따라가야 합니다🔥
+
+🗳 App live-Voting
+📅 생방송 중 시작 ~ 16:10
+
+📱 투표 앱 : 뮤빗 | Mubeat
+⚠️제한 투표 : 계정 당 5표 (하트비트 150개→생방송 투표권 5개 구매)
+
+📱 투표 앱 : 뮤니버스 | Muniverse 
+⚠️제한 투표 : 계정 당 5표 (1표 당 골드루미 60 또는 애드루미 50)
+
+━━━━━━━━━━━━━━
+
+📱 실시간문자투표 (100원)
+🗳 문자 #0505로 - 리센느 보내기 (오타 주의!)
+⚠️제한 투표 : 폰 번호 하나 당 1표 
+🚨 투표 시작 전 보내면 무효(15:45에 보내기)
+🚨 여러 번 보내면 무효
+
+━━━━━━━━━━━━━━
+
+✅ 앱 실시간 투표는 계정 당 5표 투표 가능
+: 뮤빗  -  필요재화 150 하트비트 → 스토어에서 생방송투표권 5회 구매
+✔️1500원 스타비트 구매 후 룰렛 → 하트비트로 환전후 구매 추천
+
+: 뮤니버스 - 필요재화 300 골드루미 또는 250 애드루미(혹은 섞어서 5표 분량 준비)
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+🏆 2026 MAMA AWARDS | BEST OF NEXT
+
+리센느가 2026 MAMA AWARDS에서 'BEST OF NEXT'를 수상했습니다! 🎉
+
+앞으로의 성장이 더욱 기대되는 아티스트에게 주어지는 특별상이기에, 이번 수상이 더욱 뜻깊게 다가옵니다
+
+첫 MAMA 무대에 선 리센느가 앞으로 펼쳐 나갈 수많은 날들을 함께 기대하고 응원해 주세요
+
+지금까지 쉼 없이 달려온 우리 다섯 멤버들과 언제나 곁을 지켜주신 리마인 여러분, 진심으로 축하하고 감사합니다 🤍
+
+리센느의 내일은 오늘보다 더 빛날 거예요
+
+#RESCENE #리센느 #2026MAMA #BESTOFNEXT
+<p><a href="https://pbs.twimg.com/media/HXkquX-asAApvu5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXkquX-asAApvu5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 11/21 쇼! 음악중심 실시간 문자투표 이벤트 안내✨
+
+11월 21일(토) MBC 쇼! 음악중심 실시간 문자투표 참여 독려를 위한 이벤트를 진행합니다
+
+📌 이벤트 안내
+- 참여 시간 : 11/21(토) 오후 3시 40분 ~ 생방송 투표 마감
+- 문자투표 : #0505 로 '리센느' 발송
+- 인증 마감 : 11/21(토) 오후 6시
+- 응모 폼 : https://forms.gle/EFmsUn6npYLNuq417
+
+🎁 이벤트 경품 (총 30명)
+- 뿌링클 + 콜라 : 5명
+- 굽네 오리지널 + 콜라 : 5명
+- 싸이버거 세트 : 10명
+- CU 5,000원 금액권 : 10명
+
+⚠️ 투표 시작 이전에 발송한 문자는 인정되지 않으니 반드시 생방송 투표 시작 공지를 확인해 주시기 바랍니다
+
+자세한 참여 방법 및 유의사항은 첨부된 이미지를 참고해 주세요
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXjiTCtbkAAQCC2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXjiTCtbkAAQCC2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXjiTm5aMAA08x-.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXjiTm5aMAA08x-.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 2026 MAMA (FANS’ CHOICE OF THE YEAR) 연합 투표 안내
+
+리마인님들!
+오늘 11월 20일 오후 6시부터 진행되는 MAMA AWARDS 생방송에서 ENHYPEN의 실시간 연합 투표가 있습니다!🗳️
+
+🏆 투표 부문
+
+🍀FANS’ CHOICE OF THE YEAR
+🍀엔하이픈(ENHYPEN)
+
+🗓️ 투표 기간
+11.20(금) 18:00(KST) 부터 🚨MAMA 생방송 실시간 투표🚨
+📱 투표 플랫폼 | Mnet Plus (엠넷플러스)
+
+🗳️투표 방법
+1️⃣Mnet Plus (엠넷플러스) 실시간 투표
+2️⃣엔하이픈(ENHYPEN) 투표
+
+🔗https://mnetplus.onelink.me/TRa8/ehzb36ve?custom_link_value=vote%2Ftemplates%2Fmama-fans-choice-vote-final%2F6ae98e36e656c6520a18a71f%3Furl_fallback_type%3Dupdate
+
+✔️인증 방법(다음 중 택 1)
+➖ 이 글의 댓글(멘션) #RESCENEXENHYPEN 해시태그 포함해서 인증샷 올리기 (댓글 1개에 인증샷 하나! 워터마크/낙관 필수)  
+➖ 아래 구글 폼에 인증샷 업로드
+🔗https://forms.gle/Z68XwX6iR7m99o2K8
+➖음원총공팀 채널로 인증샷 전송
+🔗 http://pf.kakao.com/_WxcxowX/chat
+
+이번 투표는 연합으로 진행되는 만큼, 리센느와 엔하이픈 모두에게 좋은 결과가 찾아올 수 있도록 리마인님들의 많은 관심과 참여 부탁드립니다🥹
+
+#리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+CONCEPT PHOTO #문세윤
+
+한해, 문세윤 ‘Love Again (feat. 제나 of RESCENE)’
+
+2026.11.23 6PM (KST) RELEASE
+
+#한해 #HANHAE
+#MoonSeYoon
+#제나 #ZENA
+#리센느 #RESCENE
+#LoveAgain
+#브랜뉴뮤직 #BRANDNEWMUSIC
+<p><a href="https://pbs.twimg.com/media/HXdo9mLbYAAve63.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdo9mLbYAAve63.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXdo_AWaIAAr335.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdo_AWaIAAr335.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXdpAZPbcAAcJ7a.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdpAZPbcAAcJ7a.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 2026 MAMA AWARDS 리센느 ×  엔하이픈 연합 실시간 투표 안내
+
+안녕하세요, 리센느 음원총공팀입니다.
+
+오늘(11/20) 오후 6시부터 진행되는 2026 MAMA AWARDS 생방송 중 FANS’ CHOICE OF THE YEAR(대상) 실시간 투표 ➡️엔하이픈 선택
+
+이번 연합 투표에도 리마인 여러분의 많은 참여 부탁드립니다!
+
+📌 투표 일정
+🗓 11월 20일(금) 오후 6시부터
+📱 Mnet Plus 앱 | MAMA 생방송 중 진행
+
+📌 투표 방법
+① Mnet Plus 실시간 투표 페이지 접속
+② ENHYPEN(엔하이픈) 선택
+③ 광고 시청 완료 후 투표 인증서 다운받기
+※ 세부 투표 방법 및 인증방법은 추후 다시 공지하겠습니다
+
+📌 유의사항
+• 1기기 1계정당 1표 참여 가능
+• 여러 기기 보유 시 기기별 투표 가능
+• 투표 완료 후 반드시 인증서 확인 (다운 혹은 캡쳐)
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 明日はいよいよMAMA AWARDS！🏆✨
+
+RESCENEのステージを最高のものにするために、みんなで掛け声を頑張りましょう！💐
+
+会場にいる方はもちろん、世界中から応援しているリマインの皆さんも、ぜひ一緒に声を届けましょう📣
+
+掛け声動画&画像はこちら⬇️
+https://rescene-fb.jp/chants.html
+
+RESCENEに最高の応援を届けられますように！🩷
+
+明日はみんなで盛り上げましょう！！🔥
+
+#RESCENE #리센느 #リセンヌ
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+공구 오늘 6시 마감입니다🤍
