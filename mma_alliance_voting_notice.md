@@ -3408,3 +3408,202 @@ RESCENEが米Billboardのグローバルチャート「Billboard Global 200」�
 <p><a href="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXURweVaQAAWgIZ.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR39JbQAAPv84.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
 <p><a href="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXUR52Fa4AAvk3U.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+[#2026MAMA] BEST OF NEXT🏆 RESCENE (리센느)
+
+Presenting the winner of the 2026 MAMA AWARDS.
+2026 MAMA AWARDS의 수상자를 소개합니다.
+
+MOVE THE STARS,
+A MUSIC INTERSTELLAR
+2026 MAMA AWARDS
+
+#MAMAAWARDS #2026MAMAAWARDS
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 [971회] 261121 음악중심 실시간 투표 안내 (방송 15시 30분 시작)
+
+━━━━━━━━━━━━━━
+- 이번 주는 사전 집계 점수가 박빙입니다!🚨
+-  실시간 투표 결과에 따라 1위가 결정되기 때문에 투표에 열심히 참여 해 주세요
+-  다계정 필수🔥🔥
+-  투표 시간이 짧으니 후보 발표 즉시 보유한 모든 계정으로 투표를 시작 해 주세요!(초반 화력 중요)
+- 문자투표 주변 홍보 필수 🔥🔥(예약문자 활용)
+
+━━━━━━━━━━━━━━
+
+✅비율 점수제 : 투표 점유율에 따라 점수를 가져가니 경쟁팀을 큰 차이로 이기는 것이 중요하고 설령 이기지 못할 경우에도 튜표율 최대한 따라가야 합니다🔥
+
+🗳 App live-Voting
+📅 생방송 중 시작 ~ 16:10
+
+📱 투표 앱 : 뮤빗 | Mubeat
+⚠️제한 투표 : 계정 당 5표 (하트비트 150개→생방송 투표권 5개 구매)
+
+📱 투표 앱 : 뮤니버스 | Muniverse 
+⚠️제한 투표 : 계정 당 5표 (1표 당 골드루미 60 또는 애드루미 50)
+
+━━━━━━━━━━━━━━
+
+📱 실시간문자투표 (100원)
+🗳 문자 #0505로 - 리센느 보내기 (오타 주의!)
+⚠️제한 투표 : 폰 번호 하나 당 1표 
+🚨 투표 시작 전 보내면 무효(15:45에 보내기)
+🚨 여러 번 보내면 무효
+
+━━━━━━━━━━━━━━
+
+✅ 앱 실시간 투표는 계정 당 5표 투표 가능
+: 뮤빗  -  필요재화 150 하트비트 → 스토어에서 생방송투표권 5회 구매
+✔️1500원 스타비트 구매 후 룰렛 → 하트비트로 환전후 구매 추천
+
+: 뮤니버스 - 필요재화 300 골드루미 또는 250 애드루미(혹은 섞어서 5표 분량 준비)
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+🏆 2026 MAMA AWARDS | BEST OF NEXT
+
+리센느가 2026 MAMA AWARDS에서 'BEST OF NEXT'를 수상했습니다! 🎉
+
+앞으로의 성장이 더욱 기대되는 아티스트에게 주어지는 특별상이기에, 이번 수상이 더욱 뜻깊게 다가옵니다
+
+첫 MAMA 무대에 선 리센느가 앞으로 펼쳐 나갈 수많은 날들을 함께 기대하고 응원해 주세요
+
+지금까지 쉼 없이 달려온 우리 다섯 멤버들과 언제나 곁을 지켜주신 리마인 여러분, 진심으로 축하하고 감사합니다 🤍
+
+리센느의 내일은 오늘보다 더 빛날 거예요
+
+#RESCENE #리센느 #2026MAMA #BESTOFNEXT
+<p><a href="https://pbs.twimg.com/media/HXkquX-asAApvu5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXkquX-asAApvu5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 11/21 쇼! 음악중심 실시간 문자투표 이벤트 안내✨
+
+11월 21일(토) MBC 쇼! 음악중심 실시간 문자투표 참여 독려를 위한 이벤트를 진행합니다
+
+📌 이벤트 안내
+- 참여 시간 : 11/21(토) 오후 3시 40분 ~ 생방송 투표 마감
+- 문자투표 : #0505 로 '리센느' 발송
+- 인증 마감 : 11/21(토) 오후 6시
+- 응모 폼 : https://forms.gle/EFmsUn6npYLNuq417
+
+🎁 이벤트 경품 (총 30명)
+- 뿌링클 + 콜라 : 5명
+- 굽네 오리지널 + 콜라 : 5명
+- 싸이버거 세트 : 10명
+- CU 5,000원 금액권 : 10명
+
+⚠️ 투표 시작 이전에 발송한 문자는 인정되지 않으니 반드시 생방송 투표 시작 공지를 확인해 주시기 바랍니다
+
+자세한 참여 방법 및 유의사항은 첨부된 이미지를 참고해 주세요
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXjiTCtbkAAQCC2.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXjiTCtbkAAQCC2.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXjiTm5aMAA08x-.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXjiTm5aMAA08x-.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 2026 MAMA (FANS’ CHOICE OF THE YEAR) 연합 투표 안내
+
+리마인님들!
+오늘 11월 20일 오후 6시부터 진행되는 MAMA AWARDS 생방송에서 ENHYPEN의 실시간 연합 투표가 있습니다!🗳️
+
+🏆 투표 부문
+
+🍀FANS’ CHOICE OF THE YEAR
+🍀엔하이픈(ENHYPEN)
+
+🗓️ 투표 기간
+11.20(금) 18:00(KST) 부터 🚨MAMA 생방송 실시간 투표🚨
+📱 투표 플랫폼 | Mnet Plus (엠넷플러스)
+
+🗳️투표 방법
+1️⃣Mnet Plus (엠넷플러스) 실시간 투표
+2️⃣엔하이픈(ENHYPEN) 투표
+
+🔗https://mnetplus.onelink.me/TRa8/ehzb36ve?custom_link_value=vote%2Ftemplates%2Fmama-fans-choice-vote-final%2F6ae98e36e656c6520a18a71f%3Furl_fallback_type%3Dupdate
+
+✔️인증 방법(다음 중 택 1)
+➖ 이 글의 댓글(멘션) #RESCENEXENHYPEN 해시태그 포함해서 인증샷 올리기 (댓글 1개에 인증샷 하나! 워터마크/낙관 필수)  
+➖ 아래 구글 폼에 인증샷 업로드
+🔗https://forms.gle/Z68XwX6iR7m99o2K8
+➖음원총공팀 채널로 인증샷 전송
+🔗 http://pf.kakao.com/_WxcxowX/chat
+
+이번 투표는 연합으로 진행되는 만큼, 리센느와 엔하이픈 모두에게 좋은 결과가 찾아올 수 있도록 리마인님들의 많은 관심과 참여 부탁드립니다🥹
+
+#리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+CONCEPT PHOTO #문세윤
+
+한해, 문세윤 ‘Love Again (feat. 제나 of RESCENE)’
+
+2026.11.23 6PM (KST) RELEASE
+
+#한해 #HANHAE
+#MoonSeYoon
+#제나 #ZENA
+#리센느 #RESCENE
+#LoveAgain
+#브랜뉴뮤직 #BRANDNEWMUSIC
+<p><a href="https://pbs.twimg.com/media/HXdo9mLbYAAve63.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdo9mLbYAAve63.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXdo_AWaIAAr335.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdo_AWaIAAr335.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXdpAZPbcAAcJ7a.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXdpAZPbcAAcJ7a.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 2026 MAMA AWARDS 리센느 ×  엔하이픈 연합 실시간 투표 안내
+
+안녕하세요, 리센느 음원총공팀입니다.
+
+오늘(11/20) 오후 6시부터 진행되는 2026 MAMA AWARDS 생방송 중 FANS’ CHOICE OF THE YEAR(대상) 실시간 투표 ➡️엔하이픈 선택
+
+이번 연합 투표에도 리마인 여러분의 많은 참여 부탁드립니다!
+
+📌 투표 일정
+🗓 11월 20일(금) 오후 6시부터
+📱 Mnet Plus 앱 | MAMA 생방송 중 진행
+
+📌 투표 방법
+① Mnet Plus 실시간 투표 페이지 접속
+② ENHYPEN(엔하이픈) 선택
+③ 광고 시청 완료 후 투표 인증서 다운받기
+※ 세부 투표 방법 및 인증방법은 추후 다시 공지하겠습니다
+
+📌 유의사항
+• 1기기 1계정당 1표 참여 가능
+• 여러 기기 보유 시 기기별 투표 가능
+• 투표 완료 후 반드시 인증서 확인 (다운 혹은 캡쳐)
+
+#RESCENE #리센느
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+📢 明日はいよいよMAMA AWARDS！🏆✨
+
+RESCENEのステージを最高のものにするために、みんなで掛け声を頑張りましょう！💐
+
+会場にいる方はもちろん、世界中から応援しているリマインの皆さんも、ぜひ一緒に声を届けましょう📣
+
+掛け声動画&画像はこちら⬇️
+https://rescene-fb.jp/chants.html
+
+RESCENEに最高の応援を届けられますように！🩷
+
+明日はみんなで盛り上げましょう！！🔥
+
+#RESCENE #리센느 #リセンヌ
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
+공구 오늘 6시 마감입니다🤍
