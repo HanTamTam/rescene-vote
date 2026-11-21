@@ -131,22 +131,39 @@ def upsert_vote_card(card_obj):
     new_notice = card_obj.get("notice", "")
     new_desc = card_obj.get("desc", "")
 
+    old_obj = None
+    try:
+        old_obj = json.loads(old_card_code.rstrip(",\n\r "))
+    except Exception:
+        old_obj = None
+
     has_diff = False
-    if new_end_date and f'endDate: "{new_end_date}"' not in old_card_code and f"endDate: '{new_end_date}'" not in old_card_code:
-        has_diff = True
-        print(f"⏰ [{card_id}] 마감일시 변동 감지 -> {new_end_date}")
-
-    if new_badge and f'badgeText: "{new_badge}"' not in old_card_code and f"badgeText: '{new_badge}'" not in old_card_code:
-        has_diff = True
-        print(f"🏷️ [{card_id}] 배지 문구 변동 감지 -> {new_badge}")
-
-    if new_notice and new_notice not in old_card_code:
-        has_diff = True
-        print(f"💡 [{card_id}] 투표 공지/팁 변동 감지")
-
-    if new_desc and new_desc not in old_card_code:
-        has_diff = True
-        print(f"📝 [{card_id}] 설명 문구 변동 감지")
+    if old_obj is not None:
+        if new_end_date and old_obj.get("endDate") != new_end_date:
+            has_diff = True
+            print(f"⏰ [{card_id}] 마감일시 변동 감지 -> {new_end_date}")
+        if new_badge and old_obj.get("badgeText") != new_badge:
+            has_diff = True
+            print(f"🏷️ [{card_id}] 배지 문구 변동 감지 -> {new_badge}")
+        if new_notice and old_obj.get("notice") != new_notice:
+            has_diff = True
+            print(f"💡 [{card_id}] 투표 공지/팁 변동 감지")
+        if new_desc and old_obj.get("desc") != new_desc:
+            has_diff = True
+            print(f"📝 [{card_id}] 설명 문구 변동 감지")
+    else:
+        if new_end_date and f'endDate: "{new_end_date}"' not in old_card_code and f'"endDate": "{new_end_date}"' not in old_card_code:
+            has_diff = True
+            print(f"⏰ [{card_id}] 마감일시 변동 감지 -> {new_end_date}")
+        if new_badge and f'badgeText: "{new_badge}"' not in old_card_code and f'"badgeText": "{new_badge}"' not in old_card_code:
+            has_diff = True
+            print(f"🏷️ [{card_id}] 배지 문구 변동 감지 -> {new_badge}")
+        if new_notice and new_notice not in old_card_code:
+            has_diff = True
+            print(f"💡 [{card_id}] 투표 공지/팁 변동 감지")
+        if new_desc and new_desc not in old_card_code:
+            has_diff = True
+            print(f"📝 [{card_id}] 설명 문구 변동 감지")
 
     if has_diff:
         card_js = "    " + json.dumps(card_obj, ensure_ascii=False, indent=6)[4:-1].strip()
@@ -158,6 +175,131 @@ def upsert_vote_card(card_obj):
 
     print(f"ℹ️ [{card_id}] 변동 사항 없음 (최신 상태 유지)")
     return False, "unchanged"
+
+def get_active_core_cards_summary():
+    """
+    현재 활성 상태인 1·2·3순위 핵심 카드(notice-* 제외) 요약을 추출하여 AI 자동 병합 컨텍스트로 제공합니다.
+    """
+    content = load_index_html()
+    m = re.search(r'const voteCardsData = (\[.*?\]);', content, re.DOTALL)
+    if not m:
+        return []
+    try:
+        cards = json.loads(m.group(1))
+    except Exception:
+        return []
+
+    now = datetime.now()
+    summary = []
+    for c in cards:
+        cid = c.get("id", "")
+        if cid.startswith("notice-") or c.get("name") == "총공 공지":
+            continue
+        try:
+            end_dt = datetime.fromisoformat(c.get("endDate", "2099-01-01T00:00:00"))
+            if end_dt < now:
+                continue
+        except Exception:
+            pass
+        picks = [p.get("name", "") for p in c.get("picks", []) if isinstance(p, dict) and p.get("name")]
+        summary.append({
+            "id": cid,
+            "name": c.get("name", ""),
+            "title": c.get("title", ""),
+            "endDate": c.get("endDate", ""),
+            "picks": picks,
+            "notice_preview": (c.get("notice", "") or "")[:150]
+        })
+    return summary
+
+def apply_card_patch(patch_obj):
+    """
+    기존 핵심 카드의 picks/actions는 손대지 않고, notice 끝에 추가 연합/이벤트 안내만 안전하게 병합(Append)합니다.
+    """
+    target_id = patch_obj.get("target_id", "").strip()
+    append_text = patch_obj.get("append_text", "").strip()
+    new_end_date = patch_obj.get("new_end_date", "").strip()
+    if not target_id or not append_text:
+        return False
+
+    content = load_index_html()
+    card_span = find_card_span(content, target_id)
+    if not card_span:
+        print(f"⚠️ [자동 병합 스킵] 대상 카드({target_id})를 찾을 수 없습니다.")
+        return False
+
+    start, end = card_span
+    old_card_code = content[start:end]
+    has_trailing_comma = old_card_code.rstrip().endswith(",")
+    try:
+        card_obj = json.loads(old_card_code.rstrip(",\n\r "))
+    except Exception as ex:
+        print(f"⚠️ [자동 병합 실패] 대상 카드({target_id}) JSON 파싱 오류: {ex}")
+        return False
+
+    existing_notice = card_obj.get("notice", "") or ""
+    plain_existing = re.sub(r'<[^>]+>', '', existing_notice)
+    plain_append = re.sub(r'<[^>]+>', '', append_text)
+    check_key = plain_append[:24].strip()
+    if check_key and check_key in plain_existing:
+        print(f"ℹ️ [자동 병합 스킵] [{target_id}] 이미 동일한 안내가 반영되어 있습니다.")
+        return False
+
+    card_obj["notice"] = f"{existing_notice}<br>{append_text}" if existing_notice else append_text
+    if new_end_date:
+        try:
+            if datetime.fromisoformat(new_end_date) > datetime.fromisoformat(card_obj.get("endDate", "2000-01-01T00:00:00")):
+                card_obj["endDate"] = new_end_date
+        except Exception:
+            pass
+
+    new_card_json = json.dumps(card_obj, ensure_ascii=False, indent=4)
+    indented_card = "\n".join("    " + line if idx > 0 else line for idx, line in enumerate(new_card_json.splitlines()))
+    if has_trailing_comma:
+        indented_card += ","
+
+    new_content = content[:start] + indented_card + content[end:]
+    save_index_html(new_content)
+    print(f"🤝 [자동 병합 완료] [{target_id}] 카드 notice에 신규 안내 추가 완료!")
+    return True
+
+def prune_expired_notices(hours=24):
+    """
+    마감 후 지정 시간(기본 24시간) 이상 지난 4순위 실시간 공지(notice-*)를 voteCardsData에서 자동 청소합니다.
+    """
+    content = load_index_html()
+    m = re.search(r'const voteCardsData = (\[.*?\]);', content, re.DOTALL)
+    if not m:
+        return False
+    try:
+        cards = json.loads(m.group(1))
+    except Exception as ex:
+        print(f"⚠️ [만료 공지 청소 스킵] voteCardsData 파싱 실패: {ex}")
+        return False
+
+    now = datetime.now()
+    kept = []
+    removed_ids = []
+    for c in cards:
+        cid = c.get("id", "")
+        if cid.startswith("notice-"):
+            try:
+                end_dt = datetime.fromisoformat(c.get("endDate", ""))
+                if (now - end_dt).total_seconds() > (hours * 3600):
+                    removed_ids.append(cid)
+                    continue
+            except Exception:
+                pass
+        kept.append(c)
+
+    if not removed_ids:
+        return False
+
+    new_cards_json = json.dumps(kept, ensure_ascii=False, indent=4)
+    new_content = content[:m.start()] + f"const voteCardsData = {new_cards_json};" + content[m.end():]
+    save_index_html(new_content)
+    print(f"🧹 [만료 공지 자동 청소] {len(removed_ids)}건 삭제 완료: {', '.join(removed_ids)}")
+    return True
 
 def get_x_feed_tweets():
     """
@@ -319,6 +461,27 @@ def parse_date_from_text(text, default_date_str=None):
         return default_date_str, "~" + default_date_str[5:10].replace("-", "/") + " " + default_date_str[11:16]
     return now.strftime("%Y-%m-%dT23:59:59"), f"~오늘 23:59"
 
+STRICT_BLACKLIST = [
+    "모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서",
+    "절실합니다", "도와주세요", "공동구매", "초동", "판매증명서", "당첨되신"
+]
+
+GUIDE_BLACKLIST = [
+    "음악나누기", "FLO 응원하기", "뮤빗/ 하이어", "뮤빗/하이어", "카카오뮤직",
+    "스트리밍을 가장 간편하게", "권장 스트리밍", "숏폼 제작", "틱톡 업로드",
+    "V컬러링", "멜론의 전당", "컴백 총공 일정표", "투표 통합 공지", "투표 TO DO"
+]
+
+def is_strict_blacklisted(tweet_text):
+    return any(b in tweet_text for b in STRICT_BLACKLIST)
+
+def is_duplicate_guide(tweet_text):
+    if any(g in tweet_text for g in GUIDE_BLACKLIST):
+        return True
+    if "뮤직웨이브" in tweet_text and "연합" not in tweet_text:
+        return True
+    return False
+
 # =====================================================================
 # 1계층: 정규식 고속 패스 (Rule-based Fast Path)
 # =====================================================================
@@ -419,19 +582,53 @@ def parse_rule_based_actions(tweet_text):
             ]
         })
 
+    # 4) 멜론 주간인기상 (주간 반복 투표 -> 기본 마감일 이번 주 일요일 23:59:59)
+    if "멜론" in tweet_text and ("주간인기상" in tweet_text or "주간 인기상" in tweet_text):
+        now = datetime.now()
+        days_until_sunday = (6 - now.weekday()) % 7
+        sunday_dt = (now + timedelta(days=days_until_sunday)).replace(hour=23, minute=59, second=59)
+        default_sunday = sunday_dt.strftime("%Y-%m-%dT23:59:59")
+        end_date, badge_deadline = parse_date_from_text(tweet_text, default_sunday)
+        cards.append({
+            "id": "melon-weekly-award",
+            "category": "direct",
+            "name": "멜론 주간인기상",
+            "theme": "melon",
+            "badgeText": f"🍈 멜론 주간인기상 ({badge_deadline})",
+            "title": "멜론 주간인기상 투표 : 리센느 'WITH'",
+            "desc": "멜론 앱/웹에서 <strong>매일 유료계정 3표 / 무료계정 1표</strong> 투표! (우측 하단 바로가기 → 주간인기상 → RESCENE)",
+            "startDate": min(now.strftime("%Y-%m-%dT00:00:00"), end_date),
+            "endDate": end_date,
+            "deadlineColor": "#15803d",
+            "notice": "⚠️ <strong>주의:</strong> 명의 당 1일 1회 투표 가능! 유료 이용권 계정이 있다면 <strong>반드시 유료 계정으로 먼저</strong> 투표해 주세요. (무료 계정 먼저 투표 시 당일 투표권 소진)",
+            "noticeColor": {
+                "bg": "rgba(16, 185, 129, 0.08)",
+                "border": "rgba(16, 185, 129, 0.4)",
+                "text": "#065f46"
+            },
+            "actions": [
+                {
+                    "type": "primary",
+                    "label": "🍈 멜론 주간인기상 투표 바로가기 ↗",
+                    "url": "https://www.melon.com/melonaward/weekAward.htm",
+                    "btnClass": "btn-melon"
+                }
+            ]
+        })
+
     return cards
 
 # =====================================================================
 # 2계층: AI 스마트 조립기 & 멀티모달 비전 (Gemini 1.5 Flash Vision)
 # =====================================================================
-def synthesize_card_with_ai(tweet_text, image_urls=None):
+def synthesize_card_with_ai(tweet_text, image_urls=None, active_cards_summary=None):
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not api_key:
-        return None
+        return "FAILED", None
 
     # 트윗 텍스트도 없고 이미지도 없으면 스킵
     if not tweet_text.strip() and not image_urls:
-        return None
+        return "REJECTED", None
 
     # 이미지 다운로드 및 Base64 인코딩 (최대 2장까지 멀티모달 분석)
     image_parts = []
@@ -453,6 +650,8 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
             except Exception as img_err:
                 print(f"⚠️ 이미지 다운로드 실패 ({img_u[:40]}...): {img_err}")
 
+    active_cards_json = json.dumps(active_cards_summary or [], ensure_ascii=False)
+
     prompt = f"""
 당신은 걸그룹 RESCENE(리센느) 음원총공팀 공식 트윗을 분석하여 대시보드 카드 JSON 객체로 변환하는 전문 AI 엔진입니다.
 제공된 트윗 본문 텍스트와 함께 첨부된 이미지(포스터, 카드뉴스, 시간표, 총공 안내문, 캡처 등)의 글씨(OCR) 및 시각 정보를 종합 분석하세요.
@@ -464,17 +663,28 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
 4. 이미 상단 배너에 있는 중복 가이드 (지니 음악나누기, FLO 응원하기, 카카오뮤직 등)
 5. 단순 멤버 친목 사진이나 팬덤 참여 액션이 필요 없는 일반 글
 
-[✅ 카드 생성 대상 및 수명(endDate) 산정 기준]:
-- 팬들이 직접 무료로 참여할 수 있는 실질적인 새 미션(멜론 댓글 총공, 방송사 라디오 신청 등)만 카드로 조립합니다.
+[🔄 기존 핵심 카드 자동 병합 (중간 연합 추가/이벤트 변동 시 최우선 적용)]:
+현재 대시보드에 등록된 활성 핵심 카드 목록:
+{active_cards_json}
+- 만약 이번 트윗이 위 활성 카드 중 하나에 대한 **추가 연합팀 확정, 티켓 이벤트, 투표 팁/유의사항 추가, 마감 연장** 공지라면 새 카드를 만들지 말고 아래 패치 JSON만 반환하세요:
+{{
+  "action": "append_notice",
+  "target_id": "위 목록의 기존 카드 id",
+  "append_text": "🤝 <strong>추가 안내:</strong> 핵심 요약 문구 (HTML <strong> 허용, 1~2줄 간결하게)",
+  "new_end_date": "마감일이 연장된 경우에만 YYYY-MM-DDTHH:mm:ss (아니면 빈 문자열)"
+}}
+
+[✅ 신규 카드 생성 대상 및 수명(endDate) 산정 기준]:
+- 위 기존 카드 업데이트가 아니고, 팬들이 직접 무료로 참여할 수 있는 실질적인 새 미션(멜론 댓글 총공, 방송사 라디오 신청, 신규 투표 등)만 새 카드로 조립합니다.
 - 수명(endDate):
   • 초단기 번개 공지(스밍 리셋, 참여 대기 등): 본문에 명시된 시간 또는 발행 2시간 뒤 만료
   • 활동기 상시 참여 공지(라디오 신청, 멜론 댓글 등): 2026-11-20T23:59:59
   • 일반 데일리 이벤트: 당일 23:59:59
 
-[JSON 스키마 규격]:
+[신규 카드 JSON 스키마 규격]:
 {{
   "id": "영문-하이픈-고유ID",
-  "name": "간이 명칭 (예: 총공 공지, 음원 공구, 라디오 신청 등)",
+  "name": "간이 명칭 (예: 총공 공지, 라디오 신청 등)",
   "theme": "inki|mama|melon|kb|kgma 중 택1 또는 빈문자열",
   "badgeText": "📢 배지 문구 (~마감일시)",
   "title": "카드 제목 (간결하고 명확하게)",
@@ -486,7 +696,7 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
     // 아래 액션 타입 중 문맥에 맞게 1~2개 구성:
     // 1) 링크 버튼: {{"type": "primary", "label": "버튼 라벨 ↗", "url": "URL"}}
     // 2) 원본 포스터 보기: {{"type": "custom", "label": "🖼️ 공지 안내 이미지 보기 ↗", "url": "이미지URL"}}
-    // 3) 해시태그/계좌 복사: {{"type": "copy", "label": "📋 필수 복사", "copyText": "#해시태그", "toast": "복사되었습니다!"}}
+    // 3) 해시태그 복사: {{"type": "copy", "label": "📋 필수 복사", "copyText": "#해시태그", "toast": "복사되었습니다!"}}
     // 4) 생방송 문자투표: {{"type": "sms", "label": "✉️ 문자투표", "number": "#0011", "body": "리센느"}}
   ]
 }}
@@ -494,7 +704,7 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
 [분석할 트윗 본문]:
 {tweet_text}
 
-반드시 마크다운 코드블록(```json ... ```) 또는 순수 JSON 문자열로만 응답하세요.
+반드시 마크다운 코드블록(```json ... ```), 순수 JSON 문자열, 또는 제외 대상인 경우 "null"로만 응답하세요.
 """
 
     parts = [{"text": prompt}] + image_parts
@@ -519,31 +729,30 @@ def synthesize_card_with_ai(tweet_text, image_urls=None):
                 clean_json = re.sub(r"^```(?:json)?", "", clean_json)
                 clean_json = re.sub(r"```$", "", clean_json).strip()
 
-            if clean_json == "null" or not clean_json.startswith("{"):
-                return None
+            if clean_json.lower() == "null" or clean_json == '"null"':
+                print(f"🚫 [AI 2계층 필터링] 제외 원칙에 따라 카드 생성 거절: {tweet_text[:30]}...")
+                return "REJECTED", None
+
+            if not clean_json.startswith("{"):
+                return "FAILED", None
 
             card_obj = json.loads(clean_json)
+            if card_obj.get("action") == "append_notice" and card_obj.get("target_id") and card_obj.get("append_text"):
+                print(f"🤝 [AI 2계층 자동 병합] 기존 카드({card_obj.get('target_id')}) 업데이트 패치 감지")
+                return "OK", card_obj
             if card_obj.get("id") and card_obj.get("title") and card_obj.get("actions"):
                 print(f"✨ [AI 2계층 멀티모달] 공지 카드 자율 조립 성공: {card_obj.get('title')}")
-                return card_obj
+                return "OK", card_obj
     except Exception as ex:
         print(f"⚠️ [AI 2계층 멀티모달] Gemini 호출 실패 (3계층으로 폴백): {ex}")
 
-    return None
+    return "FAILED", None
 
 # =====================================================================
 # 3계층: 만능 범용 레고 블록 (Universal Fail-safe Fallback)
 # =====================================================================
 def generate_fallback_card(tweet_text, image_urls=None):
-    # 🚫 수집 제외(블랙리스트) 필터링
-    # 1) 모금/계좌/기부, 2) 총공팀 내부 헬퍼 구인, 3) 단순 감정적 호소/독려글
-    blacklist = [
-        "모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서", "절실합니다", "도와주세요",
-        "음악나누기", "FLO 응원하기", "뮤빗/ 하이어", "뮤빗/하이어", "카카오뮤직", "스트리밍을 가장 간편하게",
-        "권장 스트리밍", "숏폼 제작", "틱톡 업로드", "V컬러링", "뮤직웨이브", "공동구매", "초동",
-        "멜론의 전당", "판매증명서", "컴백 총공 일정표", "투표 통합 공지", "투표 TO DO", "당첨되신"
-    ]
-    if any(b in tweet_text for b in blacklist):
+    if is_strict_blacklisted(tweet_text) or is_duplicate_guide(tweet_text):
         print(f"🚫 [필터링 제외] 모금/헬퍼/중복가이드/운영 공지 제외: {tweet_text[:30]}...")
         return None
     action_keywords = ["총공", "투표", "스밍", "다운", "해시태그", "인증", "신청", "1위", "생방", "가이드", "편성표"]
@@ -631,20 +840,36 @@ def generate_fallback_card(tweet_text, image_urls=None):
     return card
 
 # =====================================================================
-# 통합 파서 (1계층 -> 2계층(멀티모달) -> 3계층 하이브리드 파이프라인)
+# 통합 파서 (0계층 필터 -> 1계층 -> 2계층(멀티모달) -> 3계층 하이브리드 파이프라인)
 # =====================================================================
-def parse_x_tweet_for_actions(tweet_text, image_urls=None):
+def parse_x_tweet_for_actions(tweet_text, image_urls=None, active_cards_summary=None):
+    # 0계층: 엄격한 제외 대상(모금/헬퍼/공구 등) 최상단 선차단
+    if is_strict_blacklisted(tweet_text):
+        print(f"🚫 [0계층 차단] 모금/헬퍼/운영 공지 제외: {tweet_text[:30]}...")
+        return []
+
     # 1계층: 정규식 고속 매칭 시도
     rule_cards = parse_rule_based_actions(tweet_text)
     if rule_cards:
         return rule_cards
 
-    # 2계층: Gemini AI 기반 텍스트 + 이미지 멀티모달 카드 조립 시도
-    ai_card = synthesize_card_with_ai(tweet_text, image_urls=image_urls)
-    if ai_card:
-        return [ai_card]
+    # 중복 가이드 선차단 (1계층 핵심 투표 통과 후 검사)
+    if is_duplicate_guide(tweet_text):
+        print(f"🚫 [0계층 차단] 상단 배너 중복 가이드 제외: {tweet_text[:30]}...")
+        return []
 
-    # 3계층: 만능 범용 레고 블록(Fallback) 카드 생성
+    # 2계층: Gemini AI 기반 텍스트 + 이미지 멀티모달 카드 조립 또는 기존 카드 자동 병합 시도
+    ai_status, ai_result = synthesize_card_with_ai(
+        tweet_text,
+        image_urls=image_urls,
+        active_cards_summary=active_cards_summary
+    )
+    if ai_status == "REJECTED":
+        return []
+    if ai_status == "OK" and ai_result:
+        return [ai_result]
+
+    # 3계층: AI 장애/키 미설정 시에만 만능 범용 레고 블록(Fallback) 카드 생성
     fallback_card = generate_fallback_card(tweet_text, image_urls=image_urls)
     if fallback_card:
         return [fallback_card]
@@ -676,17 +901,21 @@ def main():
     raw_text = issue_body if issue_body and issue_body.strip() not in ["sync", "SYNC"] else ""
 
     modified = False
+    active_summary = get_active_core_cards_summary()
 
     # 1) 모바일 이슈 본문에 공지를 직접 붙여넣었을 경우
     if raw_text:
         print("📥 모바일에서 전달된 트윗/공지 텍스트를 분석합니다.")
-        # 텍스트 내 포함된 이미지 URL 추출
         extracted_imgs = re.findall(r'https?://[^\s]+\.(?:jpg|jpeg|png|webp)', raw_text, re.IGNORECASE)
-        cards = parse_x_tweet_for_actions(raw_text, image_urls=extracted_imgs)
-        for c in cards:
-            success, status = upsert_vote_card(c)
-            if success:
-                modified = True
+        items = parse_x_tweet_for_actions(raw_text, image_urls=extracted_imgs, active_cards_summary=active_summary)
+        for item in items:
+            if item.get("action") == "append_notice":
+                if apply_card_patch(item):
+                    modified = True
+            else:
+                success, status = upsert_vote_card(item)
+                if success:
+                    modified = True
 
         if log_notice_archive("모바일 수집 공지", raw_text, image_urls=extracted_imgs):
             modified = True
@@ -702,15 +931,23 @@ def main():
             for tw in tweets:
                 txt = tw.get("text", "")
                 imgs = tw.get("image_urls", [])
-                cards = parse_x_tweet_for_actions(txt, image_urls=imgs)
-                for c in cards:
-                    success, status = upsert_vote_card(c)
-                    if success:
-                        modified = True
+                items = parse_x_tweet_for_actions(txt, image_urls=imgs, active_cards_summary=active_summary)
+                for item in items:
+                    if item.get("action") == "append_notice":
+                        if apply_card_patch(item):
+                            modified = True
+                    else:
+                        success, status = upsert_vote_card(item)
+                        if success:
+                            modified = True
 
                 # 마크다운 아카이브 갱신
                 if log_notice_archive(f"X(@{TWITTER_USERNAME}) 트윗 피드", txt, image_urls=imgs):
                     modified = True
+
+    # 3) 마감 후 24시간 지난 만료 공지(notice-*) 자동 청소
+    if prune_expired_notices(hours=24):
+        modified = True
 
     if modified:
         print("✨ X(@ResceneStream) 피드에서 변동/신규 공지를 감지하여 대시보드에 성공적으로 반영했습니다! (PR 생성 예정)")
