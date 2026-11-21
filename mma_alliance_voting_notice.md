@@ -3607,3 +3607,31 @@ RESCENEに最高の応援を届けられますように！🩷
 
 ### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 03:27)
 공구 오늘 6시 마감입니다🤍
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 10:54)
+📢 11/22 인기가요 생방송시간 변경 공지
+
+생방송 시간이❗ 1시 55분 ❗으로 변경되었습니다
+
+원래 방송 시간 보다 앞당겨진 만큼 시간 잘 챙겨서 실시간 투표에 꼭 참여 해 주시기 바랍니다 🤍
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXozIc_awAA_CCU.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXozIc_awAA_CCU.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 10:54)
+투표 비율에 따라 점수가 정해지므로 
+마지막까지 한 표라도 더 넣어주세요!! 🙏🙏
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-21 10:54)
+오늘 음악중심 문자 투표하고 맛있는 간식의 행운을!💝
+
+투표는 3시 40분쯤에 열립니다
+예약문자발송도 가능하니 많은 참여 부탁드리겠습니다🔥
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXnzNw4aoAARAIW.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXnzNw4aoAARAIW.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
