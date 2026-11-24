@@ -3706,3 +3706,154 @@ RESCENEに最高の応援を届けられますように！🩷
 
 (시청자위원회 투표도 잊지마세요!)
 📢[971회] 음악중심 사전 투표 ➖앱 투표 📱 뮤니버스(Muniverse) 🗓️ ~ 11/19 (목) 11:00 (KST) 🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 애드루미 5) 🔗https://www.muniverse.io/votes/b7edd1ec-6f13-48ae-b585-08821aa9a1f4 📱 뮤빗(Mubeat) 🗓️ ~ 11/19 (목) 11:00 (KST) 🗳️ GLOBAL Pre-Voting (무제한 투표 : 1표 당 하트비트 3)
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+Love Again (feat. 제나 of RESCENE) - 한해, 문세윤 OUT NOW 
+
+Spotify 🔗 https://bit.ly/4thINEr
+Melon 🔗 https://bit.ly/4ALuyKH
+YouTube Music 🔗 https://bit.ly/3WUCWcd
+Genie 🔗 https://bit.ly/3VHPqDJ
+FLO 🔗 https://bit.ly/3VbYO22
+Bugs 🔗 http://bit.ly/4A0O7yu
+
+#ZENA #제나 #ゼナ
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXzG2FtbQAAWwfn.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXzG2FtbQAAWwfn.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+[🎬]
+
+한해, 문세윤 - Love Again (feat. 제나 of RESCENE)｜야외녹음실｜Beyond the Studio｜LIVE
+
+🔗 https://youtu.be/mXveasS7ZRY
+
+#RESCENE #리센느 #リセンヌ
+<p><a href="https://pbs.twimg.com/media/HXzho_mboAAH37s.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXzho_mboAAH37s.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+📢 음악중심 문자투표 이벤트 당첨자 발표 🎉
+
+음악중심 문자투표 이벤트에 참여해 주신 모든 리마인 여러분께 감사드립니다! 💗
+
+🎁 당첨자 명단은 아래와 같으며 개별 이메일로 상품을 발송하였습니다
+
+📩 메일이 확인되지 않는 경우 스팸메일함도 꼭 확인해 주시기 바랍니다
+
+상품의 기간연장 및 교환 환불은 불가하오니 꼭 기간 내에 등록하시고 사용 해 주시기 바랍니다!
+
+당첨되신 모든 분들 축하드리며, 
+리센느를 위해 소중한 한 표를 보내주신 모든 분들께 다시 한번 감사드립니다!
+<p><a href="https://pbs.twimg.com/media/HX0ZETTbsAAlfTE.png?name=orig"><img src="https://pbs.twimg.com/media/HX0ZETTbsAAlfTE.png?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+📢1334회 인기가요 사전 투표 시작
+
+📱 LinC | 링크
+
+📅 ~ 2026.11.27 23:59PM (KST)
+⚠️제한 투표 : 계정 당 매일 10표 투표(다계정 가능) 1표 당 팬포인트30 / 젬8 
+
+🏃🏻‍♀️투표하러가기
+https://napp.linc.fan/ZI4jEvev
+
+━━━━━━━━━━━━━━
+
+SBS 인기가요 사전투표 ⭕
+LiNC 컴백 스포트라이트 투표 ❌
+리센느 초동 앨범 서포트 투표❌
+
+━━━━━━━━━━━━━━
+
+✅재화 모으기 가이드 
+➖ TIN 앱 깔고 LinC와 동일한 계정으로 로그인 하면 두 앱의 재화가 공유됩니다
+
+· LinC 광고시청 하고 룰렛돌리기(1회 무료/ 광고보고 10회 추가, 쿨타임 10분)
+
+· TIN 광고시청 당 6 팬포인트 (일20회 한도, 쿨타임 1분)
+
+✔️ 5,500원으로 잼 구매하면 투표기간 올출 가능!
+✔️ 다계정 이용하면 더 많은 투표가 가능합니다
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXyC27mawAET322.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXyC27mawAET322.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+<p><a href="https://pbs.twimg.com/media/HXyC3NKaIAAwny5.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXyC3NKaIAAwny5.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+🪄 음악 소리를 듣고 찾아주는 - 샤잠
+
+📱샤잠 | Shazam
+✔️ 소리가 들려야 찾을 수 있음
+✔️ 아이폰 24시간 1회 / 안드 데이터 1시간 1회(데이터 삭제 필요)
+
+✨ 샤잠 차트 상위에 있을수록 글로벌 라디오 선곡확률 UP❗
+
+리센느 음악 감상하며 샤잠 찍고 글로벌 홍보해요🤍
+
+#RESCENE #리센느 #PULSE 
+#원이 #리브 #미나미 #메이 #제나
+<p><a href="https://pbs.twimg.com/media/HXyjC14a8AAWvTv.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXyjC14a8AAWvTv.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+#한해 #문세윤 #제나 의 'Love Again' 라이브를
+지금 바로 #야외녹음실 에서 감상하세요!🎄
+
+#BeyondtheStudio 👉 https://youtu.be/mXveasS7ZRY
+
+#HANHAE #MoonSeYoon #ZENA
+#리센느 #RESCENE #LoveAgain
+@Hanhae90 @RESCENEofficial
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+11월 3주차 ‘멜론 주간인기상’ 🏆
+RESCENE (리센느) - With
+두 번째 수상을 축하드립니다 🎀
+
+🔗이번 주도 수상 도전 
+https://kko.to/CaZsyJrAAT
+
+해시태그로 함께 축하해요!
+#RESCENE_주간인기상_수상
+
+@RESCENEofficial
+#RESCENE #리센느 #リセンヌ #With 
+#멜론 #Melon
+<p><a href="https://pbs.twimg.com/media/HXyYuYdaAAA4zLB.jpg?name=orig"><img src="https://pbs.twimg.com/media/HXyYuYdaAAA4zLB.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-24 06:22)
+📢 3주차 총공 활동 종료 및 향후 안내
+
+11월 3일 앨범 발매 이후 다양한 방면에서 음원총공팀과 함께해 주신 리마인 여러분께 진심으로 감사드립니다
+
+공식 음악방송 활동이 마무리된 쉽지 않은 상황에서도 리마인 여러분의 끊임없는 노력 덕분에 3주차 인기가요 1위라는 값진 성과를 거둘 수 있었습니다. 또한 지속적인 스트리밍을 통해 리센느의 곡들이 여러 음원 차트에서 좋은 순위를 이어가고 있습니다
+
+역주행 이후 첫 컴백인 만큼 부담도 컸을 멤버들에게, 리마인 여러분이 함께 만들어 낸 이번 성과는 무엇보다 큰 힘이 되었을 것이라 생각합니다
+
+음악방송 활동은 끝났지만, 우리의 활동까지 끝난 것은 아닙니다
+
+우리가 함께 쌓아가는 수치 하나하나가 리센느의 새로운 기록이 됩니다. '나 하나쯤은 괜찮겠지'라는 생각보다 '나의 작은 참여도 힘이 된다'는 마음으로 앞으로도 함께해 주시길 부탁드립니다
+
+음원 차트는 음악방송 활동이 종료된 이후에도 계속해서 집계됩니다. 그렇기에 지금까지 만들어 온 흐름을 이어가고, 리센느의 음악이 더 많은 사람에게 닿을 수 있도록 지속적인 스트리밍이 중요합니다
+
+다만 4주차부터는 운영 여건상 음원총공팀의 총공 규모가 축소될 예정입니다. 이에 따라 앞으로는 리마인 한 분 한 분의 자발적인 참여가 지금의 순위와 기록을 이어가는 데 더욱 큰 힘이 될 것입니다
+
+시간이 흐르고 새로운 곡들이 발매되면서 순위가 하락하는 것은 자연스러운 일입니다. 당장의 순위에 일희일비하기보다는 각자의 자리에서 할 수 있는 만큼 꾸준히 함께해 주셨으면 합니다
+
+지난 3주 동안 우리가 함께 만들어 낸 기록은 결코 당연한 결과가 아니었습니다. 그 모든 순간에는 각자의 자리에서 리센느를 위해 애써 주신 리마인 여러분의 시간과 정성이 있었습니다
+
+3주 동안 정말 고생 많으셨습니다
+
+음악방송의 마지막 무대가 리센느 음악의 마지막 페이지는 아니듯, 우리의 응원도 이곳에서 끝나지 않기를 바랍니다
+
+앞으로도 리센느의 음악이 오래도록 사랑받을 수 있도록 함께해 주세요! 💗
+
+#리센느 #RESCENE
