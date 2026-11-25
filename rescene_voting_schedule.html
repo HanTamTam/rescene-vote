@@ -1178,160 +1178,17 @@
     </div>
 
     <!-- 2. 📊 GANTT CHART TIMELINE -->
-    <div class="section-head">
+    <div class="section-head" id="gantt-section-head">
       <h2>📊 투표 일정 간트 차트 (Gantt)</h2>
-      <span>10월 중순 ~ 11월 중순</span>
+      <span id="gantt-range-label">실시간 일정 계산 중</span>
     </div>
 
-    <div class="gantt-card">
-      <div class="gantt-legend">
-        <div class="legend-item" data-name="KGMA" style="color:var(--text-muted);"><div class="legend-color" style="background:#a855f7; opacity:0.6;"></div> KGMA (종료)</div>
-        <div class="legend-item" data-name="MAMA"><div class="legend-color" style="background:#e11d48;"></div> MAMA 2차 본선 (~11/08)</div>
-        <div class="legend-item" data-name="MAMA 제로베이스원"><div class="legend-color" style="background:#2563eb;"></div> MAMA 제베원 (~11/08)</div>
-        <div class="legend-item" data-name="MMA GLOBAL TOP10"><div class="legend-color" style="background:#10b981;"></div> MMA GLOBAL TOP10 (~11/13)</div>
-        <div class="legend-item" data-name="카카오뱅크"><div class="legend-color" style="background:#fbbf24;"></div> 카뱅 특별상 (오늘마감)</div>
-        <div class="legend-item" data-name="AAA 이파리"><div class="legend-color" style="background:#06b6d4;"></div> AAA 이파리 (~11/04)</div>
-        <div class="legend-item" data-name="네이버 컴백 응원"><div class="legend-color" style="background:#03c75a;"></div> 네이버 응원 (~11/03)</div>
-        <div class="legend-item" data-name="음중 시청자위원회"><div class="legend-color" style="background:#059669;"></div> 음중 위원회 (~11/06)</div>
-        <div class="legend-item" data-name="퍼스트브랜드 대상"><div class="legend-color" style="background:#f59e0b;"></div> 퍼스트브랜드 (~11/15)</div>
-        <div class="legend-item" data-name="MMA 연합"><div class="legend-color" style="background:#6366f1;"></div> MMA 연합 (~11/13)</div>
-        <div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘</div>
-      </div>
-
-      <div class="gantt-track-list">
-        <!-- Row: 2027 퍼스트브랜드 대상 -->
-        <div class="gantt-row" data-name="퍼스트브랜드 대상" data-start="2026-11-02T00:00:00" data-end="2026-11-15T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">🏆 2027 퍼스트브랜드 대상</span>
-            <span class="gantt-row-dates">11/02 ~ 11/15</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar" style="left:50%; width:48%; background:linear-gradient(90deg, #f59e0b, #d97706); font-weight:800; color:#fff;">한국·인니·베트남 3개국 투표 (~11/15)</div>
-          </div>
-        </div>
-
-        <!-- Row: 음중 시청자위원회 -->
-        <div class="gantt-row" data-name="음중 시청자위원회" data-start="2026-11-01T00:00:00" data-end="2026-11-06T12:00:00">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">📢 음중 시청자 위원회 모집</span>
-            <span class="gantt-row-dates">11/01 ~ 11/06 12시</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar" style="left:52%; width:28%; background:linear-gradient(90deg, #059669, #047857); font-weight:800; color:#fff;">2천명 선발 모집 중 (~11/06)</div>
-          </div>
-        </div>
-        <!-- Row 0: KGMA -->
-        <div class="gantt-row" data-name="KGMA" data-start="2026-10-15T00:00:00" data-end="2026-10-20T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">🚨 KGMA Berriz</span>
-            <span class="gantt-row-dates">10/15 ~ 10/20</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line"></div>
-            <div class="gantt-bar bar-kgma">종료됨</div>
-          </div>
-        </div>
-
-        <!-- Row 1: MAMA 2차 -->
-        <div class="gantt-row" data-name="MAMA" data-start="2026-10-28T18:00:00" data-end="2026-11-08T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">🔴 MAMA 2차 본선 (앤더블 연합)</span>
-            <span class="gantt-row-dates">10/28 18시 ~ 11/08</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar bar-mama" style="left:44%; width:38%;">진행 중 (~11/08)</div>
-          </div>
-        </div>
-
-        <!-- Row: MAMA 제베원 연합 -->
-        <div class="gantt-row" data-name="MAMA 제로베이스원" data-start="2026-10-30T00:00:00" data-end="2026-11-08T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">✨ MAMA KCONERS 제베원 연합</span>
-            <span class="gantt-row-dates">10/30 ~ 11/08</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar" style="left:50%; width:32%; background:linear-gradient(90deg, #2563eb, #1d4ed8); font-weight:800; color:#fff;">제베원 투표 ↔ MMA 품앗이</div>
-          </div>
-        </div>
-
-        <!-- Row 2: MMA GLOBAL TOP10 & 연합 -->
-        <div class="gantt-row" data-name="MMA GLOBAL TOP10" data-start="2026-10-30T00:00:00" data-end="2026-11-13T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">🍈 MMA GLOBAL TOP10 (예측 19위)</span>
-            <span class="gantt-row-dates">10/30 ~ 11/13</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar bar-melon" style="left:50%; width:48%;">오늘 오픈! 화력 집중 (~11/13)</div>
-          </div>
-        </div>
-
-        <!-- Row 3: 카카오뱅크 모두의 스타상 -->
-        <div class="gantt-row" data-name="카카오뱅크" data-start="2026-10-15T00:00:00" data-end="2026-10-30T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">💛 카뱅 모두의 스타상 (오늘 마감)</span>
-            <span class="gantt-row-dates">10/15 ~ 10/30</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar bar-kb" style="width:50%;">🚨 오늘 밤 최종 마감 (~10/30)</div>
-          </div>
-        </div>
-
-        <!-- Row: AAA 이파리 연합 -->
-        <div class="gantt-row" data-name="AAA 이파리" data-start="2026-10-08T00:00:00" data-end="2026-11-04T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">✨ AAA 이파리 연합 (아챔)</span>
-            <span class="gantt-row-dates">10/08 ~ 11/04</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar bar-aaa" style="width:65%;">이세계아이돌 투표 (~11/04)</div>
-          </div>
-        </div>
-
-        <!-- Row: 네이버 컴백 스페셜 응원 -->
-        <div class="gantt-row" data-name="네이버 컴백 응원" data-start="2026-10-26T18:00:00" data-end="2026-11-03T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">💚 네이버 컴백 스페셜 응원</span>
-            <span class="gantt-row-dates">10/26 ~ 11/03</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar" style="left:39%; width:26%; background:linear-gradient(90deg, #03c75a, #029e46); font-weight:800; color:#fff;">매일 100회 응원 (~11/03)</div>
-          </div>
-        </div>
-
-        <!-- Row 4: MMA 부문별 연합 (알디원 & 코르티스) -->
-        <div class="gantt-row" data-name="MMA 연합" data-start="2026-10-30T00:00:00" data-end="2026-11-13T23:59:59">
-          <div class="gantt-row-info">
-            <span class="gantt-row-title">🏎️ MMA 부문별 연합 (신인: 알디원 / 베스트송: 코르티스)</span>
-            <span class="gantt-row-dates">10/30 ~ 11/13</span>
-          </div>
-          <div class="gantt-bar-wrap">
-            <div class="today-line" style="left:50%;"></div>
-            <div class="gantt-bar bar-mma-alliance" style="left:50%; width:48%;">품앗이 투표 진행 중 (~11/13)</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Timeline Axis Dates -->
-      <div class="timeline-axis">
-        <span>10/15</span>
-        <span style="color:#94a3b8;">10/20(종료)</span>
-        <span style="color:#94a3b8;">10/28(2차)</span>
-        <span style="color:#94a3b8;">10/29(1차끝)</span>
-        <span style="color:#ef4444; font-weight:800;">10/30(오늘/카뱅)</span>
-        <span style="color:#03c75a;">11/03</span>
-        <span style="color:#0891b2; font-weight:800;">11/04</span>
-        <span style="color:#e11d48; font-weight:800;">11/08</span>
-        <span style="color:#10b981; font-weight:800;">11/13</span>
-      </div>
+    <div class="gantt-card" id="gantt-card">
+      <div class="gantt-legend" id="gantt-legend"></div>
+      <div class="gantt-track-list" id="gantt-track-list"></div>
+      <div class="timeline-axis" id="gantt-timeline-axis"></div>
     </div>
+
     <!-- 4. 📊 WEEKLY MUSIC SHOW GANTT TABLE -->
     <div class="section-head">
       <h2>📺 주간 음악방송 간트 사이클</h2>
@@ -2666,6 +2523,129 @@
     dotEl.innerText = "●오늘";
   }
 
+  // 📊 투표 일정 간트 차트 완전 동적 렌더링 (voteCardsData 연동)
+  function renderGanttChart(now) {
+    const legendEl = document.getElementById('gantt-legend');
+    const listEl = document.getElementById('gantt-track-list');
+    const axisEl = document.getElementById('gantt-timeline-axis');
+    const rangeLabelEl = document.getElementById('gantt-range-label');
+    if (!legendEl || !listEl || !axisEl) return;
+
+    const themeColors = {
+      melon: { bg: 'linear-gradient(90deg, #10b981, #059669)', dot: '#10b981', text: '#ffffff' },
+      inki:  { bg: 'linear-gradient(90deg, #0284c7, #0369a1)', dot: '#0284c7', text: '#ffffff' },
+      mama:  { bg: 'linear-gradient(90deg, #f43f5e, #be123c)', dot: '#e11d48', text: '#ffffff' },
+      kb:    { bg: 'linear-gradient(90deg, #f59e0b, #d97706)', dot: '#f59e0b', text: '#ffffff' },
+      kgma:  { bg: 'linear-gradient(90deg, #a855f7, #7e22ce)', dot: '#9333ea', text: '#ffffff' },
+      zb1:   { bg: 'linear-gradient(90deg, #2563eb, #1d4ed8)', dot: '#2563eb', text: '#ffffff' },
+      aaa:   { bg: 'linear-gradient(90deg, #6366f1, #4338ca)', dot: '#6366f1', text: '#ffffff' },
+      naver: { bg: 'linear-gradient(90deg, #03c75a, #029e46)', dot: '#03c75a', text: '#ffffff' },
+      mbc:   { bg: 'linear-gradient(90deg, #059669, #047857)', dot: '#059669', text: '#ffffff' }
+    };
+
+    const ganttCards = voteCardsData
+      .filter(c => {
+        if (getCardCategoryRank(c) > 3) return false;
+        if (!c.endDate) return false;
+        const endDt = new Date(c.endDate);
+        return (now - endDt) <= (24 * 60 * 60 * 1000);
+      })
+      .sort((a, b) => new Date(a.endDate) - new Date(b.endDate));
+
+    if (ganttCards.length === 0) {
+      if (rangeLabelEl) rangeLabelEl.textContent = '일정 없음';
+      legendEl.innerHTML = '<div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘</div>';
+      listEl.innerHTML = '<div style="text-align:center; padding:16px 8px; font-size:12.5px; color:var(--text-muted); font-weight:600;">현재 진행 중인 투표 일정이 없습니다.</div>';
+      axisEl.innerHTML = '';
+      return;
+    }
+
+    const dayMs = 24 * 60 * 60 * 1000;
+    const nowDayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0).getTime();
+    const nowDayEnd = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59).getTime();
+
+    let minStart = Math.min(...ganttCards.map(c => new Date(c.startDate || now).getTime()));
+    let maxEnd = Math.max(...ganttCards.map(c => new Date(c.endDate).getTime()));
+
+    const windowStartMs = Math.min(nowDayStart - dayMs, Math.max(minStart, nowDayStart - 10 * dayMs));
+    const windowEndMs = Math.max(nowDayEnd + dayMs, maxEnd);
+    const totalMs = Math.max(dayMs, windowEndMs - windowStartMs);
+
+    const fmtMD = (ms) => {
+      const d = new Date(ms);
+      return `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
+    };
+
+    if (rangeLabelEl) {
+      rangeLabelEl.textContent = `${fmtMD(windowStartMs)} ~ ${fmtMD(windowEndMs)}`;
+    }
+
+    const todayPercent = Math.max(2, Math.min(98, ((now.getTime() - windowStartMs) / totalMs) * 100));
+
+    let legendHtml = '';
+    let rowsHtml = '';
+
+    ganttCards.forEach(c => {
+      const sDt = new Date(c.startDate || now);
+      const eDt = new Date(c.endDate);
+      const isEnded = now > eDt;
+      const isUpcoming = now < sDt;
+      const palette = themeColors[c.theme] || themeColors.aaa;
+
+      const msDiff = new Date(eDt.getFullYear(), eDt.getMonth(), eDt.getDate()).getTime() - nowDayStart;
+      const daysLeft = Math.round(msDiff / dayMs);
+      const isEndDay = (daysLeft === 0 && !isEnded);
+
+      let barLabel = '';
+      if (isEnded) {
+        barLabel = '종료됨';
+      } else if (isUpcoming) {
+        barLabel = '오픈 예정';
+      } else if (isEndDay) {
+        barLabel = `🚨 오늘 ${String(eDt.getHours()).padStart(2, '0')}:${String(eDt.getMinutes()).padStart(2, '0')} 마감!`;
+      } else if (daysLeft === 1) {
+        barLabel = '🚨 D-1 내일 마감';
+      } else {
+        barLabel = `D-${daysLeft} 진행 중 (~${fmtMD(eDt.getTime())})`;
+      }
+
+      const clampedStart = Math.max(sDt.getTime(), windowStartMs);
+      const leftPct = Math.max(0, Math.min(82, ((clampedStart - windowStartMs) / totalMs) * 100));
+      const rawWidth = ((eDt.getTime() - clampedStart) / totalMs) * 100;
+      const widthPct = Math.max(22, Math.min(100 - leftPct, rawWidth));
+
+      const shortName = c.name || c.title;
+      legendHtml += `<div class="legend-item" style="${isEnded ? 'opacity:0.5;' : ''}"><div class="legend-color" style="background:${isEnded ? '#94a3b8' : palette.dot};"></div> ${shortName}</div>`;
+
+      rowsHtml += `
+        <div class="gantt-row" style="${isEnded ? 'opacity:0.45;' : ''}">
+          <div class="gantt-row-info">
+            <span class="gantt-row-title" style="${isEnded ? 'text-decoration:line-through;' : ''}">${c.title}</span>
+            <span class="gantt-row-dates">${fmtMD(sDt.getTime())} ~ ${fmtMD(eDt.getTime())}</span>
+          </div>
+          <div class="gantt-bar-wrap">
+            <div class="today-line" style="left:${todayPercent.toFixed(1)}%;" title="오늘 (${fmtMD(now.getTime())})"></div>
+            <div class="gantt-bar" style="left:${leftPct.toFixed(1)}%; width:${widthPct.toFixed(1)}%; background:${isEnded ? '#94a3b8' : palette.bg}; color:${palette.text};">${barLabel}</div>
+          </div>
+        </div>
+      `;
+    });
+
+    legendHtml += `<div class="legend-item" style="color:#ef4444;"><span style="font-size:12px;">📍</span> 오늘 (${fmtMD(now.getTime())})</div>`;
+    legendEl.innerHTML = legendHtml;
+    listEl.innerHTML = rowsHtml;
+
+    let axisHtml = '';
+    const todayStr = fmtMD(now.getTime());
+    for (let i = 0; i <= 4; i++) {
+      const tickMs = windowStartMs + (totalMs * (i / 4));
+      const tickStr = fmtMD(tickMs);
+      const isTodayTick = (tickStr === todayStr);
+      axisHtml += `<span style="${isTodayTick ? 'color:#ef4444; font-weight:800;' : ''}">${tickStr}${isTodayTick ? '(오늘)' : ''}</span>`;
+    }
+    axisEl.innerHTML = axisHtml;
+  }
+
   // 🕒 전체 투표 카드/간트/퀵바 상태 관리자 (Show / Hide / Disabled / D-Day 실시간 자동 연산)
   function updateAllDynamicCardStates() {
     const now = new Date();
@@ -2746,80 +2726,8 @@
       }
     });
 
-    // 2) 간트 차트 (Gantt) 진행 바 및 D-Day 실시간 자동 동기화
-    const ganttStartDate = new Date("2026-10-15T00:00:00");
-    const ganttEndDate = new Date("2026-11-13T23:59:59");
-    const totalGanttMs = ganttEndDate - ganttStartDate;
-    const currentGanttMs = now - ganttStartDate;
-    const todayPercent = Math.max(2, Math.min(98, (currentGanttMs / totalGanttMs) * 100));
-
-    // 오늘 날짜 인디케이터(today-line) 위치 자동 슬라이딩
-    document.querySelectorAll('.today-line').forEach(line => {
-      line.style.left = `${todayPercent.toFixed(1)}%`;
-      line.title = `오늘 (${now.getMonth()+1}/${now.getDate()})`;
-    });
-
-    // 간트 각 행 상태 업데이트
-    document.querySelectorAll('.gantt-row[data-end]').forEach(row => {
-      const end = new Date(row.dataset.end);
-      const start = row.dataset.start ? new Date(row.dataset.start) : null;
-      const barEl = row.querySelector('.gantt-bar');
-      const titleEl = row.querySelector('.gantt-row-title');
-      const rowName = row.dataset.name;
-      const legendEl = rowName ? document.querySelector(`.gantt-legend .legend-item[data-name="${rowName}"]`) : null;
-
-      // 🚨 종료 후 24시간(1일)이 넘게 지난 항목은 간트 차트 및 범례에서 자동 숨김(제거) 처리
-      if (now > end) {
-        const diffMs = now - end;
-        const oneDayMs = 24 * 60 * 60 * 1000;
-        if (diffMs > oneDayMs) {
-          row.style.display = 'none';
-          if (legendEl) legendEl.style.display = 'none';
-          return;
-        }
-
-        row.style.display = '';
-        row.style.opacity = '0.45';
-        if (titleEl) titleEl.style.textDecoration = 'line-through';
-        if (barEl) {
-          barEl.textContent = '종료됨';
-          barEl.style.background = '#94a3b8';
-        }
-        if (legendEl) {
-          legendEl.style.display = '';
-          legendEl.style.opacity = '0.5';
-        }
-        return;
-      }
-
-      row.style.display = '';
-      if (legendEl) legendEl.style.display = '';
-
-      if (start && now < start) {
-        row.style.opacity = '0.75';
-        if (barEl) barEl.textContent = '오픈 예정';
-        return;
-      }
-
-      row.style.opacity = '1';
-      if (titleEl) titleEl.style.textDecoration = 'none';
-
-      const isEndDay = (end.getFullYear() === now.getFullYear() &&
-                        end.getMonth() === now.getMonth() &&
-                        end.getDate() === now.getDate());
-      const msDiff = (new Date(end).setHours(0,0,0,0)) - (new Date(now).setHours(0,0,0,0));
-      const daysLeft = Math.round(msDiff / (1000 * 60 * 60 * 24));
-
-      if (barEl) {
-        if (isEndDay) {
-          barEl.textContent = '오늘 마감!!';
-        } else if (daysLeft === 1) {
-          barEl.textContent = 'D-1 내일마감';
-        } else {
-          barEl.textContent = `D-${daysLeft} 진행 중`;
-        }
-      }
-    });
+    // 2) 간트 차트 (Gantt) voteCardsData 기반 완전 동적 렌더링
+    renderGanttChart(now);
 
     // 3) 하단 고정 퀵 액션 바 (bottom-nav) D-Day 실시간 갱신 & 마감 시 자동 숨김
     document.querySelectorAll('.bottom-nav .nav-btn[data-end]').forEach(btn => {
