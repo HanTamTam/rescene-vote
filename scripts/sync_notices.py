@@ -465,7 +465,7 @@ def parse_date_from_text(text, default_date_str=None):
 
 STRICT_BLACKLIST = [
     "모금", "계좌", "후원", "기부", "입금", "헬퍼", "일손", "아이디 회수", "회수하셔서",
-    "절실합니다", "도와주세요", "공동구매", "초동", "판매증명서", "당첨되신"
+    "절실합니다", "도와주세요", "공동구매", "초동", "판매증명서", "당첨되신", "CONCEPT PHOTO", "OUT NOW", "수상했습니다", "Beyond the Studio", "Animated MV"
 ]
 
 GUIDE_BLACKLIST = [
