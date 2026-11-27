@@ -3857,3 +3857,69 @@ https://kko.to/CaZsyJrAAT
 앞으로도 리센느의 음악이 오래도록 사랑받을 수 있도록 함께해 주세요! 💗
 
 #리센느 #RESCENE
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+ZENA HBD 📸🎂
+
+🔗 https://bit.ly/4l61mJK
+
+#HAPPY_ZENA_DAY
+#ZENA #제나 #ゼナ
+<p><a href="https://pbs.twimg.com/media/HYCTENYb0AAJRsO.jpg?name=orig"><img src="https://pbs.twimg.com/media/HYCTENYb0AAJRsO.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+HAPPY BIRTHDAY TO ZENA 💜🎉
+
+#HAPPY_ZENA_DAY
+#ZENA #제나 #ゼナ
+<p><a href="https://pbs.twimg.com/media/HYCPggXbsAAoGSk.jpg?name=orig"><img src="https://pbs.twimg.com/media/HYCPggXbsAAoGSk.jpg?name=orig" alt="공지 이미지" style="max-width:100%;" /></a></p>
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+아직 카카오뮤직 곡 구매/ 브이컬러링 구매 및 설정 안 하신 리마인분들은 꼭 참여 해 주세요🔥
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+✨ 헥스: 마녀왕국 [Hexed] OST
+
+🧙🏻‍♀️ Magic (From "Hexed"/Korean Single Version)-RESCENE (리센느)
+가 발매되었습니다!
+
+각 음원사이트 좋아요 / 댓글 / 평점 5점 부탁드리겠습니다💪🏻
+
+━━━━━━━━━━━━━━
+
+🍈https://kko.to/cbRAhiAk2k
+🧞‍♂️http://genie.co.kr/BC2O45
+🌊https://flomuz.io/s/b.P3U2e
+🍎https://music.apple.com/kr/album/magic-from-hexed-korean-single-version/6836555473?i=6836555476&ls
+💚https://open.spotify.com/track/5F4jHplEDoigl1aGuBQMCb?si=IQEY1WvqQIiYh5DqwEwhtA&utm_source=copy-link&sci=spotify%3Acard-config%3A6fcv0WGZhpbqDQrzJO8u90…
+
+#RESCENE #리센느
+#원이 #리브 #미나미 #메이 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+📢 뮤직웨이브 연합 스트리밍 안내
+
+🎀🐹🎀 Love Again (feat. 제나 of RESCENE)
+
+🗓 ~ 12/7 (월)
+🎼리센느 음원총공팀 뮤직웨이브
+23시, 00시 일 2회 재생
+
+🔗https://kko.to/V_GZZqv8SS
+
+음악을 사랑하는 리마인 여러분들의 많은 참여 부탁드립니다🙇🏻‍♂️
+
+곡 좋아요 / 매일 응원 댓글/ 평점5점 필수💚
+
+#RESCENE #리센느 #제나
+
+
+### 📢 [X(@ResceneStream) 트윗 피드] (2026-11-27 04:31)
+📢 경쟁 팀과의 점수 차가 클 것으로 예상되어 앱 사전투표는 자율 진행을 권장드립니다. 추후 카페에 업로드될 예측표를 참고 해 주세요.
+
+시청자위원회 투표는 무료이니만큼 꼭 참여 해 주세요!🙇🏻‍♂️
